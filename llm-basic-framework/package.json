@@ -1,0 +1,19 @@
+{
+  "name": "llm-basic-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node bin/analizer.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ollama": "^0.5.10",
+    "openai": "^4.73.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
