@@ -1,0 +1,17 @@
+{
+  "attackTargets": ["Підприємства", "Бухгалтери підприємств"],
+  "hackerGroups": ["UAC-0050"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "Державна податкова служба України", "relation": "target"},
+    {"name": "Банківські установи", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "qaz.im", "relation": "attacker"},
+    {"name": "qaz.is", "relation": "attacker"},
+    {"name": "qaz.su", "relation": "attacker"}
+  ]
+}

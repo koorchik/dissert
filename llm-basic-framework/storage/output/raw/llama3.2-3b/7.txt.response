@@ -1,0 +1,16 @@
+```json
+{
+  "attackTargets": ["військові системи", "смартфонів та планшетів військовослужбовців", "військових систем GRISELDA", "системи стеження 'Очі'"],
+  "hackerGroups": [],
+  "countries": [{"name": "Україна", "relation": "target"}],
+  "organizations": [
+    {"name": "ІКС 'Очі'", "relation": "target"},
+    {"name": "Міністерства оборони України", "relation": "target"},
+    {"name": "Збройних сил України", "relation": "target"},
+    {"name": "Google Cloud", "relation": "target"},
+    {"name": "Cloudflare", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": []
+}
+```

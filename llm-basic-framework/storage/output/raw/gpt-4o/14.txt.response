@@ -1,0 +1,12 @@
+```json
+{
+  "attackTargets": ["державних службовців", "військових", "представників оборонних підприємств"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}
+```

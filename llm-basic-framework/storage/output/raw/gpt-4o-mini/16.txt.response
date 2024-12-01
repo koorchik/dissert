@@ -1,0 +1,20 @@
+{
+  "attackTargets": ["українських організацій"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "США", "relation": "target"},
+    {"name": "Європа", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "SuperOps RMM", "relation": "target"},
+    {"name": "CSIRT-NBU", "relation": "attacker"},
+    {"name": "CERT-UA", "relation": "attacker"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "anotepad.com", "relation": "attacker"},
+    {"name": "*.superops.com", "relation": "target"},
+    {"name": "*.superops.ai", "relation": "target"}
+  ]
+}

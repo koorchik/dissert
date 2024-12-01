@@ -1,0 +1,24 @@
+```json
+{
+  "attackTargets": [
+    "українські науково-дослідні установи",
+    "одну з українських науково-дослідних установ"
+  ],
+  "hackerGroups": [
+    "UAC-0063",
+    "APT28",
+    "UAC-0001" 
+  ],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "Вірменія", "relation": "attacker"} ,
+    {"name": "Киргиз", "relation": "attacker"}
+
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {"name": "https://www.rejetto.com/hfs/", "relation": "target"}
+  ]
+}
+```

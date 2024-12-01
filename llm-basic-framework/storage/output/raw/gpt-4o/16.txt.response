@@ -1,0 +1,19 @@
+```json
+{
+  "attackTargets": ["українських організацій"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "Європа", "relation": "target"},
+    {"name": "США", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "CSIRT-NBU", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "*.superops.com", "relation": "target"},
+    {"name": "*.superops.ai", "relation": "target"}
+  ]
+}
+```

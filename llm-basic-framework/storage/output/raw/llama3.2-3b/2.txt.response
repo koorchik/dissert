@@ -1,0 +1,12 @@
+```json
+{
+  "attackTargets": [],
+  "hackerGroups": ["UAC-0001", "APT28"],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {"name": "mail.zhblz[.]com", "relation": "attacker"}
+  ]
+}
+```

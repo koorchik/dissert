@@ -1,0 +1,10 @@
+{
+  "attackTargets": ["Україна"],
+  "hackerGroups": ["UAC-0006"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

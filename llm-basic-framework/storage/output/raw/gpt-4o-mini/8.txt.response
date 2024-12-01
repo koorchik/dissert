@@ -1,0 +1,13 @@
+{
+  "attackTargets": ["державні організації України", "органи місцевого самоврядування України"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {"name": "github.com/Ylianst/MeshAgent", "relation": "attacker"},
+    {"name": "pCloud", "relation": "attacker"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Ukraine", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {"name": "cert.gov.ua", "relation": "target"}
+  ]
+}

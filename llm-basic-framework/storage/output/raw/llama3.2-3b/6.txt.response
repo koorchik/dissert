@@ -1,0 +1,12 @@
+```json
+{
+  "attackTargets": [],
+  "hackerGroups": ["UAC-0050", "Fire Cells Group", "UAC-0006"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}
+```

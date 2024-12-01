@@ -1,0 +1,12 @@
+```json
+{
+  "attackTargets": ["ОКІ", "ЕОМ", "ІКС", "тепло, водо та енерго постачання"],
+  "hackerGroups": ["Sandworm", "UAC-0133", "UAC-0002", "APT44"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}
+```

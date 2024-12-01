@@ -1,0 +1,12 @@
+```json
+{
+  "attackTargets": ["об'єкти критичної інфраструктури України", "підприємства галузі енергетики", "водо та теплопостачання об'єкти"],
+  "hackerGroups": ["UAC-0133", "Sandworm", "APT44", "UAC-0002"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}
+```

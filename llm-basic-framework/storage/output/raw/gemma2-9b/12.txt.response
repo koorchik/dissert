@@ -1,0 +1,12 @@
+```json
+{
+  "attackTargets": ["українські оборонні підприємства", "Сил оборони України", "ЕОМ співробітників оборонних підприємств"],
+  "hackerGroups": ["UAC-0180"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}
+```

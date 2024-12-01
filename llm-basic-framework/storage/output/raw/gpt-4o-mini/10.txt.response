@@ -1,0 +1,16 @@
+{
+  "attackTargets": [
+    "органи місцевого самоврядування України"
+  ],
+  "hackerGroups": [
+    "UAC-0057"
+  ],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "USAID/DAI", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": []
+}

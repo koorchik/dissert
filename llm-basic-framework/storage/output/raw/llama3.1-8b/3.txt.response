@@ -1,0 +1,18 @@
+{
+  "attackTargets": [],
+  "hackerGroups": ["HOMESTEEL"],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "Україна", "relation": "attacker"}
+  ],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "HostZealot", "relation": "attacker"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "едиск", "relation": "target"},
+    {"name": "Пароль.vbe", "relation": "attacker"},
+    {"name": "Python Software Foundation BaseHTTP 0.6", "relation": "attacker"}
+  ]
+}

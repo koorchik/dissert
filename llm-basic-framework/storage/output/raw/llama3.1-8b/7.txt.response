@@ -1,0 +1,19 @@
+{
+  "attackTargets": ["військові системи", "GRISELDA", "система стеження \"Очі\""],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "Україна", "relation": "attacker"}
+  ],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "ІКС \"Очі\"", "relation": "target"},
+    {"name": "Міністерство оборони України та Збройні сили України", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "signal.com", "relation": "attacker"},
+    {"name": "google.com", "relation": "attacker"},
+    {"name": "cloudflare.com", "relation": "attacker"}
+  ]
+}

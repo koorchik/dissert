@@ -1,0 +1,18 @@
+{
+  "attackTargets": ["українські науково-дослідні установи"],
+  "hackerGroups": ["UAC-0063", "APT28 (UAC-0001)"],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "Росія", "relation": "attacker"}
+  ],
+  "organizations": [
+    {"name": "українські науково-дослідні установи", "relation": "target"},
+    {"name": "Міністерство оборони Росії", "relation": "attacker"},
+    {"name": "Управління міжнародного військового співробітництва Міністерства оборони Киргизької Республіки", "relation": "attacker"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "rejetto.com", "relation": "target"},
+    {"name": "virustotal.com", "relation": "neutral"}
+  ]
+}

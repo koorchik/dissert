@@ -1,0 +1,14 @@
+```json
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "countries": [],
+  "organizations": [
+    {"name": "Резерв+", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "reserveplusbot", "relation": "target"}
+  ]
+}
+```

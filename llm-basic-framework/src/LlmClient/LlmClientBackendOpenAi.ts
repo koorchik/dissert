@@ -3,17 +3,17 @@ import { LlmBackendBase } from "./LlmClientBackendBase";
 
 export class LlmBackendOpenAi implements LlmBackendBase {
   #openAiClient: OpenAI;
-  #model: string;
+  model: string;
 
   constructor(args: { apiKey: string, model: string }) {
-    this.#model = args.model;
+    this.model = args.model;
     this.#openAiClient = new OpenAI({ apiKey: args.apiKey });
   }
 
   async send(instructions: string, text: string): Promise<string> {
     const chatCompletion = await this.#openAiClient.chat.completions.create({
       messages: [{ role: 'user', content: `${instructions}\n${text}` }],
-      model: this.#model
+      model: this.model
     });
 
     console.log(chatCompletion.choices[0].message.content);

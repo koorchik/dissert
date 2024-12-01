@@ -1,0 +1,13 @@
+{
+  "attackTargets": ["фіахівці проєктних офісів", "співробітники відповідних органів місцевого самоврядування України"],
+  "hackerGroups": ["UAC-0057"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "USAID/DAI", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": []
+}

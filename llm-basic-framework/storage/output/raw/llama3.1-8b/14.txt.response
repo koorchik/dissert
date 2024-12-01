@@ -1,0 +1,14 @@
+{
+  "attackTargets": ["державних службовців", "військових", "представників оборонних підприємств України"],
+  "hackerGroups": ["None"],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "None", "relation": "attacker"}
+  ],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "None", "relation": "attacker"}
+  ],
+  "individuals": ["None"],
+  "domains": ["signal.com" ]
+}

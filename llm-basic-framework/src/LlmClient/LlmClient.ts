@@ -12,6 +12,6 @@ export class LlmClient {
   }
 
   async send(instructions: string, text: string) {
-    await this.#backend.send(instructions, text);
+    return this.#backend.send(instructions, text);
   }
 }

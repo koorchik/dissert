@@ -1,0 +1,10 @@
+{
+  "attackTargets": ["українських підприємств", "фізичних осіб-підприємців"],
+  "hackerGroups": ["UAC-0050", "Fire Cells Group", "UAC-0006"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

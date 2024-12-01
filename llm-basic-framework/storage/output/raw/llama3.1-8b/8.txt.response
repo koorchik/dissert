@@ -1,0 +1,14 @@
+{
+  "attackTargets": ["Державні організації України"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "Україна", "relation": "attacker"}
+  ],
+  "organizations": [
+    {"name": "Служба безпеки України", "relation": "target"},
+    {"name": "Github", "relation": "attacker"}
+  ],
+  "individuals": [],
+  "domains": []
+}

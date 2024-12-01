@@ -1,0 +1,14 @@
+```json
+{
+  "attackTargets": ["фахівці проєктних офісів", "органи місцевого самоврядування України"],
+  "hackerGroups": ["UAC-0057"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "USAID/DAI", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": []
+}
+```

@@ -1,0 +1,21 @@
+{
+  "attackTargets": [
+    "урядові органи місцевого самоврядування України",
+    "оборонні відомства інших країни світу"
+  ],
+  "hackerGroups": ["UAC-0001", "APT28"],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "інша країна світу", "relation": "attacker"}
+  ],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "UAC-0001 (APT28)", "relation": "attacker"},
+    {"name": "Roundcube", "relation": "target"},
+    {"name": "METASPLOIT", "relation": "attacker"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "mail.zhblz[.]com", "relation": "attacker"}
+  ]
+}

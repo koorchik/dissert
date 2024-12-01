@@ -1,0 +1,13 @@
+```json
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "countries": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "CSIRT-NBU", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": []
+}
+```

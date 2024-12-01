@@ -1,0 +1,14 @@
+```json
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {"name": "https://petition.president.gov.ua/", "relation": "target"}
+  ]
+}
+```
