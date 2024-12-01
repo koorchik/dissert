@@ -2,23 +2,27 @@
 {
   "attackTargets": [
     "українські науково-дослідні установи",
-    "одну з українських науково-дослідних установ"
+    "науково-дослідна установа України" 
   ],
   "hackerGroups": [
     "UAC-0063",
-    "APT28",
-    "UAC-0001" 
+    "APT28"
   ],
   "countries": [
     {"name": "Україна", "relation": "target"},
     {"name": "Вірменія", "relation": "attacker"} ,
-    {"name": "Киргиз", "relation": "attacker"}
-
+    {"name": "Киргизія", "relation": "attacker"}
   ],
-  "organizations": [],
+  "organizations": [
+
+    {"name": "ГУ ГШ ЗС РФ", "relation": "attacker"},
+    {"name": "Міністерство оборони Республіки Вірменія", "relation": "target"}, 
+    {"name": "Управління міжнародного військового співробітництва Міністерства оборони Киргизької Республіки", "relation": "attacker"}
+  ],
   "individuals": [],
   "domains": [
-    {"name": "https://www.rejetto.com/hfs/", "relation": "target"}
+    {"name": "https://www.rejetto.com/hfs/", "relation": "attacker"}
+
   ]
 }
 ```

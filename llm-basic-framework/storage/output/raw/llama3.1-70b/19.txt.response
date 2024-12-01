@@ -1,0 +1,10 @@
+{
+      "attackTargets": ["Ukraine"],
+      "hackerGroups": ["Sandworm", "UAC-0133"],
+      "countries": [
+        {"name": "Україна", "relation": "target"}
+      ],
+      "organizations": [],
+      "individuals": [],
+      "domains": []
+    }

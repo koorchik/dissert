@@ -1,14 +1,19 @@
 ```json
 {
   "attackTargets": [
-    "бухгалтери підприємств",
-    "Державна податкова служба України"
+    "Державна податкова служба України",
+    "бухгалтери підприємств"
   ],
-  "hackerGroups": ["UAC-0050"],
+  "hackerGroups": [
+    "UAC-0050"
+  ],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "фінансові установи", "relation": "target"}
+  ],
   "individuals": [],
   "domains": [
     {"name": "qaz.im", "relation": "attacker"},

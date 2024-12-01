@@ -1,0 +1,41 @@
+This text describes a sophisticated cyber espionage campaign targeting Ukrainian military personnel and infrastructure. Let's break down the key points:
+
+**Campaign Name:** SickSync
+
+**Threat Actor:** Vermin, a previously inactive threat group known for its targeted attacks against Ukraine.
+
+**Objectives:**
+
+* **Data Exfiltration:** Stealing sensitive information such as documents, communications, and personal data from infected devices.
+* **Espionage:** Gathering intelligence on military operations, tactics, and personnel.
+
+**Methods:**
+
+* **FileGrabber:** Uses the `robocopy` command-line tool to copy specific file types (documents, spreadsheets, presentations, images, etc.) from user directories and cloud storage locations like OneDrive.
+* **Usb:** Targets removable USB drives, copying a wide range of file types including multimedia files.
+* **Social:** Steals authentication and configuration data from popular messaging apps like Telegram, Signal, Skype, and Element.
+* **Browsers:** Extracts login credentials, session data, browsing history, and other sensitive information from web browsers like Firefox, Chrome, Edge, and others.
+
+**Exfiltration Mechanism:**
+
+* The stolen data is copied to subfolders within the `%APPDATA%\sync\Slave_Sync\` directory.
+* SyncThing, a legitimate open-source file synchronization tool, is then used to transfer the data to a server controlled by the attackers.
+
+**Network Indicators:**
+
+* Peer-to-peer connections with *.syncthing.net domain are indicative of SyncThing activity and potential involvement in the SickSync campaign.
+
+**Recommendations for Mitigation:**
+
+
+* **Contact the Center for Cyber Security of the Armed Forces of Ukraine (CSOC) immediately:**
+    * Email: csoc@post.mil.gov.ua
+    * Signal: +380673321891
+* **Deploy appropriate security technologies on all devices.**
+* **Enable Syslog logging on network boundary devices to monitor and analyze network traffic for suspicious activity.**
+
+**Key Takeaways:**
+
+* SickSync is a serious threat targeting Ukrainian military personnel.
+* The attackers are using sophisticated techniques to steal sensitive data and avoid detection.
+* Prompt action and implementation of security measures are crucial to mitigating the risks posed by this campaign.

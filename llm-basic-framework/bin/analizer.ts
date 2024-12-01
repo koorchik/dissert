@@ -18,16 +18,16 @@ async function main() {
   const openAiBackend = new LlmBackendOpenAi({ model: 'gpt-4o', apiKey });
   
   // Ollama models: 
-  // llama3.1:70b
+  // llama3.1:70b - 24GB GPU (52% of model, 1-2 min per message).
   // llama3.1:8b - 8GB GPU (100% of model).
   // llama3.2:3b - 8GB GPU (100% of model)
-  // gemma2:27b - 8GB GPU (36% of model, 1-2 min per message),
+  // gemma2:27b - 8GB GPU (36% of model, 1-2 min per message), 24GB GPU (100% of model, 2-5 sec per message),
   // gemma2:9b - 8GB GPU (84% of model).
   // llama3.2:1b - 8GB GPU (100% of model). Unusable: hallucinates indivials heavily.
   // mistral:7b - 8GB GPU (100% of model).  Unusable: does not follow JSON structure.
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
-  const ollamaBackend = new LlmBackendOllama({ model: 'gemma2:27b' });
+  const ollamaBackend = new LlmBackendOllama({ model: 'llama3.1:70b' });
 
   const backend = ollamaBackend;
 

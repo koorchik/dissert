@@ -1,0 +1,22 @@
+{
+  "attackTargets": ["українські організації"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "Європа", "relation": "target"},
+    {"name": "США", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "CSIRT-NBU", "relation": "target"},
+    {"name": "Dropbox", "relation": "attacker"},
+    {"name": "anotepad.com", "relation": "attacker"},
+    {"name": "SuperOps", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "*.superops.com", "relation": "target"},
+    {"name": "*.superops.ai", "relation": "target"},
+    {"name": "Dropbox", "relation": "attacker"},
+    {"name": "anotepad.com", "relation": "attacker"}
+  ]
+}

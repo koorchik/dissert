@@ -1,0 +1,12 @@
+```json
+{
+"attackTargets": ["WhatsApp users"],
+"hackerGroups": [],
+"countries": [
+  {"name": "Ukraine", "relation": "target"}
+],
+"organizations": [],
+"individuals": [],
+"domains": []
+}
+```

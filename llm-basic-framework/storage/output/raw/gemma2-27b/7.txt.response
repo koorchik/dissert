@@ -1,0 +1,24 @@
+```json
+{
+  "attackTargets": [
+    "військові системи",
+    "GRISELDA (автоматизована система внесення, обробки та передачі інформації з використанням штучного інтелекту)",
+    "система стеження \"Очі\""
+  ],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "ІКС \"Очі\"", "relation": "target"},
+    {"name": "в/ч А0334", "relation": "target"},
+    {"name": "Міністерства оборони України", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "Signal", "relation": "attacker"},
+    {"name": "Google Drive", "relation": "attacker"}
+  ]
+}
+
+```

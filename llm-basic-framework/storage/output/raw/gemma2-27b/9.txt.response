@@ -1,0 +1,16 @@
+```json
+{
+  "attackTargets": [
+    "UKR.NET"
+  ],
+  "hackerGroups": [
+    "UAC-0102"
+  ],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}
+```

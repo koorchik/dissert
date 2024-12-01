@@ -1,0 +1,21 @@
+```json
+{
+  "attackTargets": [
+    "державні організації України",
+    "державних органів та органів місцевого самоврядування України"
+  ],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "Служба безпеки України", "relation": "target"},
+    {"name": "CERT-UA", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "github.com", "relation": "attacker"},
+    {"name": "pCloud", "relation": "unknown"}
+  ]
+}
+```

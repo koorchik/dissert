@@ -1,0 +1,13 @@
+{
+  "attackTargets": ["Резерв+"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "Резерв+", "relation": "target"},
+    {"name": "CERT-UA", "" : ""}
+  ],
+  "individuals": [],
+  "domains": ["@reserveplusbot"]
+}

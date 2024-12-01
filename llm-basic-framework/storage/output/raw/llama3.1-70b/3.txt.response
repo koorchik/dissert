@@ -1,0 +1,8 @@
+{
+"attackTargets": [],
+"hackerGroups": ["HOMESTEEL"],
+"countries": [{"name": "Україна", "relation": "target"}],
+"organizations": [{"name": "UAC", "relation": "target"}, {"name": "CERT-UA", "" : ""}, {"name": "HostZealot", "relation": "attacker"}, {"name": "Python Software Foundation", "relation": "attacker"}],
+"individuals": [],
+"domains": []
+}

@@ -1,0 +1,26 @@
+```json
+{
+  "attackTargets": [
+    "органи місцевого самоврядування",
+    "державна організація"
+  ],
+  "hackerGroups": [
+    "UAC-0001",
+    "APT28"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz[.]com",
+      "relation": "attacker"
+    }
+  ]
+}
+```

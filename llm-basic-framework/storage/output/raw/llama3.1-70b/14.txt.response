@@ -1,0 +1,10 @@
+{
+  "attackTargets": ["державних службовців", "військових", "представників оборонних підприємств України"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": ["cert.gov.ua"]
+}
