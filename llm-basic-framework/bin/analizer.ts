@@ -10,13 +10,16 @@ async function main() {
   const apiKey = process.env['OPENAI_API_KEY'];
   if (!apiKey) throw new Error('OPENAI_API_KEY env required');
 
+  // OpenAi models: 'gpt-4o', 'gpt-4o-mini'
   const openAiBackend = new LlmBackendOpenAi({ model: 'gpt-4o', apiKey });
-  const ollamaBackend = new LlmBackendOllama({ model: 'gemma2:27b' });
+  
+  // Ollama models: 'llama3.1:70b', 'llama3.2:3b', 'gemma2:27b', 'gemma2:8b'
+  const ollamaBackend = new LlmBackendOllama({ model: 'llama3.1:70b' });
 
   const analizer = new Analyzer({
     dataDir: './data/cert.gov.ua-news',
     llmClient: new LlmClient({
-      backend: openAiBackend
+      backend: ollamaBackend
     })
   })
   
