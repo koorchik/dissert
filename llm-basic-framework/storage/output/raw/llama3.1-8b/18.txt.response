@@ -8,6 +8,6 @@
   "individuals": [],
   "domains": [
     {"name": "petition.president.gov.ua", "relation": "target"},
-    {"name": "доміни які не вказані в повідомленні", "relation": "attacker"}
+    {"name": "https://petition.president.gov.ua/", "relation": "target"}
   ]
 }

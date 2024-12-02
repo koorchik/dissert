@@ -1,12 +1,18 @@
-```json
 {
-  "attackTargets": ["об'єкти критичної інфраструктури України", "підприємства галузі енергетики", "водо та теплопостачання об'єкти"],
-  "hackerGroups": ["UAC-0133", "Sandworm", "APT44", "UAC-0002"],
+  "attackTargets": [],
+  "hackerGroups": ["Sandworm/APT44"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "Russia", "relation": "attacker"},
+    {"name": "Unknown", "relation": "neutral"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"},
+    {"name": "Sandworm/APT44", "relation": "attacker"},
+    {"name": "Ukrainian Government", "relation": "target"}
+  ],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {"name": "queue.seed", "relation": "target"}
+  ]
 }
-```

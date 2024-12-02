@@ -1,19 +1,21 @@
-```json
 {
-  "attackTargets": ["ЕОМ українських організацій"],
-  "hackerGroups": ["UAC-0188"],
+  "attackTargets": [
+    "фінансових та страхових установ Європи",
+    "фінансових та страхових установ США"
+  ],
+  "hackerGroups": [],
   "countries": [
-    {"name": "Україна", "relation": "target"},
     {"name": "Європа", "relation": "target"},
     {"name": "США", "relation": "target"}
   ],
   "organizations": [
-    {"name": "CSIRT-NBU", "relation": "target"}
+    {"name": "CSIRT-NBU", "relation": "neutral"},
+    {"name": "CERT-UA", "relation": "neutral"},
+    {"name": "SuperOps RMM", "relation": "attacker"}
   ],
   "individuals": [],
   "domains": [
-    {"name": "*.superops.com", "relation": "target"},
-    {"name": "*.superops.ai", "relation": "target"}
+    {"name": "*.superops.com", "relation": "attacker"},
+    {"name": "*.superops.ai", "relation": "attacker"}
   ]
-}
-```
+} 

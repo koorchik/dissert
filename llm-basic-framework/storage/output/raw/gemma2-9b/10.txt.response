@@ -1,14 +1,14 @@
-```json
 {
-  "attackTargets": ["фахівці проєктних офісів", "органи місцевого самоврядування України"],
-  "hackerGroups": ["UAC-0057"],
-  "countries": [
-    {"name": "Україна", "relation": "target"}
-  ],
-  "organizations": [
-    {"name": "USAID/DAI", "relation": "target"}
-  ],
-  "individuals": [],
-  "domains": []
-}
-```
+      "attackTargets": [
+        "фахівці проєктних офісів",
+        "контрагенти з числа співробітників відповідних органів місцевого самоврядування України"
+      ],
+      "hackerGroups": ["UAC-0057"],
+      "countries": [],
+      "organizations": [
+        {"name": "USAID/DAI", "relation": "target"},
+        {"name": "HOVERLA", "relation": "target"}
+      ],
+      "individuals": [],
+      "domains": []
+    }  

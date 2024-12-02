@@ -1,12 +1,12 @@
-```json
 {
   "attackTargets": [],
   "hackerGroups": [],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Україна", "relation": "neutral"}
   ],
   "organizations": [],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {"name": "petition.president.gov.ua", "relation": "neutral"}
+  ]
 }
-```

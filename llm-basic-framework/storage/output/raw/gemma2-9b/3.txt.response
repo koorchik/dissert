@@ -1,10 +1,8 @@
-```json
 {
-  "attackTargets": [],
-  "hackerGroups": [],
-  "countries": [],
-  "organizations": [],
-  "individuals": [],
-  "domains": []
-}
-```
+      "attackTargets": [],
+      "hackerGroups": ["HOMESTEEL"],
+      "countries": [],
+      "organizations": [],
+      "individuals": [],
+      "domains": [{"name": "HostZealot", "relation": "attacker"}]
+    } 

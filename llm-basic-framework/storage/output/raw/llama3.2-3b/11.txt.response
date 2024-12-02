@@ -1,20 +1,27 @@
-```json
 {
-  "attackTargets": ["науково-дослідні установи України"],
-  "hackerGroups": ["UAC-0063", "APT28"],
+  "attackTargets": [
+    "науково-дослідні установи України",
+    "українські науково-dослідні установи"
+  ],
+  "hackerGroups": [
+    "UAC-0063",
+    "HATVIBE",
+    "CHERRYSPY",
+    "APT28",
+    "UAC-0001"
+  ],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "РФ", "relation": "attacker"},
-    {"name": "Вірменія", "relation": "target"},
-    {"name": "Киргизька Республіка", "relation": "target"}
+    {"name": "Вірменія", "relation": "attacker"},
+    {"name": "Киргизька Республіка", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": "Управління оборонної політики Міністерства оборони Республіки Вірменія", "relation": "target"},
-    {"name": "Управління міжнародного військового співробітництва Міністерства оборони Киргизької Республіки", "relation": "target"}
+    {"name": "Укрзагрозпровід", "relation": "neutral"},
+    {"name": "Міністерство оборони України", "relation": "target"},
+    {"name": "Республіка Киргизьція", "relation": "neutral"}
   ],
-  "individuals": [],
-  "domains": [
-    {"name": "https://www.rejetto.com/hfs/", "relation": "attacker"}
-  ]
+  "individuals": [
+    {"name": "", "relation": ""}
+  ],
+  "domains": []
 }
-```

@@ -1,12 +1,21 @@
-```json
 {
-  "attackTargets": [],
+  "attackTargets": [
+    "державні службовці",
+    "військові",
+    "представники оборонних підприємств України"
+  ],
   "hackerGroups": [],
   "countries": [
-    {"name": "Ukraine", "relation": "target"}
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {"name": "Unknown", "relation": "attacker"},
+    {"name": "Neutral", "relation": "neutral"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"}
+  ],
   "individuals": [],
   "domains": []
 }
-```

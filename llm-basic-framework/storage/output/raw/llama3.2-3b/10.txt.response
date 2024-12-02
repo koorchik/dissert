@@ -1,15 +1,20 @@
-```json
 {
   "attackTargets": [],
   "hackerGroups": ["UAC-0057"],
   "countries": [
-    {"name": "Ukraine", "relation": "target"}
+    {"name": " Ukraine", "relation": "target"},
+    {"name": " ", "relation": "attacker"}
   ],
   "organizations": [
-    {"name": "USAID", "relation": "target"},
-    {"name": "DAI", "relation": "target"}
+    {"name": " ", "relation": "target"},
+    {"name": " USAID/DAI ", "relation": "neutral"},
+    {"name": " ", "relation": "attacker"},
+    {"name": "organisations місцевого самоврядування України", "relation": "target"}
   ],
-  "individuals": [],
+  "individuals": [
+    {"name": "", "relation": "target"},
+    {"name": "", "relation": "attacker"},
+    {"name": "", "relation": "neutral"}
+  ],
   "domains": []
 }
-```

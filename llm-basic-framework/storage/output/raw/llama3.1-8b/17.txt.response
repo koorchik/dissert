@@ -2,9 +2,12 @@
   "attackTargets": ["Україна"],
   "hackerGroups": ["UAC-0006"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Україна", "relation": "target"},
+    {"name": "Невідомо", "relation": "attacker"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": []
 }

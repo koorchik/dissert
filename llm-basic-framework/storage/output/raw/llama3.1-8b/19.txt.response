@@ -1,14 +1,11 @@
 {
   "attackTargets": [" підприємства галузі енергетики, водо та теплопостачання (ОКІ)"],
-  "hackerGroups": ["Sandworm", "UAC-0133", "APT44"],
+  "hackerGroups": ["Sandworm", "UAC-0133", "UAC-0002", "APPT44"],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "Україна", "relation": "attacker"}
+    {"name": "None", "relation": "neutral"}
   ],
-  "organizations": [
-    {"name": "CERT-UA", "relation": "target"},
-    {"name": "Sandworm/APT44", "relation": "attacker"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": []
 }

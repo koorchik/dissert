@@ -1,12 +1,12 @@
-```json
 {
-  "attackTargets": [],
-  "hackerGroups": ["UAC-0050", "UAC-0006", "Fire Cells Group"],
-  "countries": [
-    {"name": "Україна", "relation": "target"}
-  ],
-  "organizations": [],
-  "individuals": [],
-  "domains": []
-}
-```
+      "attackTargets": ["українських підприємств", "фізичних осіб-підприємців"],
+      "hackerGroups": ["UAC-0050", "Fire Cells Group"],
+      "countries": [],
+      "organizations": [
+        {"name": "CERT-UA", "relation": "neutral"}
+      ],
+      "individuals": [],
+      "domains": []
+    } 
+
+

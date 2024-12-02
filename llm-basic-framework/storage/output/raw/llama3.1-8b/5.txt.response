@@ -5,8 +5,8 @@
     {"name": "Україна", "relation": "target"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "target"},
-    {"name": "Microsoft Defender", "relation": "target"}
+    {"name": "CERT-UA", "relation": "neutral"},
+    {"name": "Microsoft Defender", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": [

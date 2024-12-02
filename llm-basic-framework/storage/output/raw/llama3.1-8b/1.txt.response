@@ -1,12 +1,13 @@
 {
-  "attackTargets": ["Підприємства", "Бухгалтери підприємств"],
+  "attackTargets": ["Україна", "Підприємства України"],
   "hackerGroups": ["UAC-0050"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Україна", "relation": "target"},
+    {"name": "Північний Кіпр" , "relation":"neutral"}
   ],
   "organizations": [
     {"name": "Державна податкова служба України", "relation": "target"},
-    {"name": "Банківські установи", "relation": "target"}
+    {"name": "CERT-UA", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": [

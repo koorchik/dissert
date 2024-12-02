@@ -1,16 +1,41 @@
-```json
-{
-  "attackTargets": ["Сили оборони України"],
-  "hackerGroups": ["UAC-0020", "Vermin"],
-  "countries": [
-    {"name": "Україна", "relation": "target"}
-  ],
-  "organizations": [
-    {"name": "Центр кібербезпеки ЗСУ", "relation": "target"}
-  ],
-  "individuals": [],
-  "domains": [
-    {"name": "*.syncthing.net", "relation": "attacker"}
-  ]
-}
-```
+The document describes a cybersecurity incident involving the UAC-0020 (Vermin) hacking group targeting Ukrainian Armed Forces (UAF).
+
+**Here's a breakdown:**
+
+* **Target:**  Ukrainian Armed Forces
+* **Actors:** UAC-0020 (Vermin), a previously active group with ties to Russian-occupied Luhansk
+* **Campaign Name:** "SickSync" 
+
+**Tactics, Techniques and Procedures (TTPs):**
+
+1. **Spear Phishing Email:**  An email containing a malicious archive ("turrel.fop.volchok.rar") disguised as legitimate content was sent to targets.
+
+2. **Exploitation of Legitimate Software:**
+    * The archive contained a file named "sync.exe", which presented as a legitimate SyncThing installation but also bundled malware (SPECTR). 
+    * SyncThing is used for file synchronization, and the attackers exploited its peer-to-peer functionality to exfiltrate stolen data.
+
+3. **SPECTR Malware:** This malicious software suite includes functionalities like:
+    * **SpecMon:** Loads additional malware modules.
+    * **Screengrabber:** Captures screenshots of specific applications frequently used for sensitive communication or document editing.
+    * **FileGrabber:** Steals files from various user folders and removable devices, targeting common file types (.doc, .pdf, .jpg, etc.).
+    * **Usb:** Similar to FileGrabber but focuses on data extracted from USB drives.
+    * **Social:** Extracts authentication data from messaging apps like Telegram, Signal, and Skype.
+    * **Browsers:** Steals browsing history, cookies, and login information from various web browsers.
+
+4. **Exfiltration:** Stolen data is moved to temporary folders within the SyncThing directory, then transferred to the attacker's system via the peer-to-peer connection.
+
+**Indicators of Compromise (IOCs):**
+
+* Domain: *.syncthing.net
+
+
+**Recommendations:**
+
+* UAF personnel should immediately contact the Center for Cybersecurity of the Armed Forces of Ukraine for guidance and security solutions.
+* Implement robust endpoint protection measures, including antivirus software and regular updates. 
+* Educate users about phishing risks and best practices for identifying malicious emails.
+* Configure firewalls and intrusion detection systems to monitor network traffic for suspicious activity.
+
+**Overall:** The "SickSync" campaign highlights the increasing sophistication of cyberattacks targeting critical infrastructure and national security.
+
+

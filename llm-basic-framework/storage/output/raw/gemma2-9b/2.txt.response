@@ -1,14 +1,25 @@
-```json
 {
-  "attackTargets": [],
-  "hackerGroups": ["UAC-0001 (APT28)"],
-  "countries": [
-    {"name": "Україна", "relation": "target"}
-  ],
-  "organizations": [],
-  "individuals": [],
-  "domains": [
-    {"name": "mail.zhblz[.]com", "relation": "attacker"}
-  ]
-}
-```
+      "attackTargets": [
+        "organ of local self-governance",
+        "governmental body",
+        "defensive agency",
+        "other country's defense department"
+      ],
+      "hackerGroups": ["UAC-0001 (APT28)"],
+      "countries": [
+        {"name": "Ukraine", "relation": "target"},
+        {"name": "Russia", "relation": "attacker"}
+      ],
+      "organizations": [
+        {"name": "CERT-UA", "relation": "neutral"},
+        {"name": "Google", "relation": "neutral"},
+        {"name": "Roundcube", "relation": "neutral"},
+        {"name": "Microsoft", "relation": "neutral"}
+      ],
+      "individuals": [],
+      "domains": [
+        {"name": "mail.zhblz[.]com", "relation": "attacker"}
+      ]
+    } 
+
+

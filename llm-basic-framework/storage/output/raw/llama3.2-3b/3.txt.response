@@ -1,10 +1,11 @@
-```json
 {
   "attackTargets": [],
-  "hackerGroups": [],
-  "countries": [],
+  "hackerGroups": ["HOMESTEEL"],
+  "countries": [
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "United States", "relation": "attacker"}
+  ],
   "organizations": [],
   "individuals": [],
   "domains": []
 }
-```

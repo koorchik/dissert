@@ -1,12 +1,17 @@
-```json
 {
-  "attackTargets": ["українських оборонних підприємств", "Сил оборони України"],
-  "hackerGroups": ["UAC-0180"],
-  "countries": [
-    {"name": "Україна", "relation": "target"}
+  "attackTargets": [
+    "українські оборонні підприємства",
+    "Силі оборони України"
   ],
-  "organizations": [],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": " none ", "relation": "neutral"}
+  ],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "none"},
+    {"name": "ukrainian defense enterprises", "relation": "target"}
+  ],
   "individuals": [],
   "domains": []
 }
-```

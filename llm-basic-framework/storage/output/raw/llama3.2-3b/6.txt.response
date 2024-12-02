@@ -1,12 +1,19 @@
-```json
 {
   "attackTargets": [],
-  "hackerGroups": ["UAC-0050", "Fire Cells Group", "UAC-0006"],
+  "hackerGroups": ["UAC-0050", "Fire Cells Group"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "Unknown", "relation": "attacker"}
   ],
-  "organizations": [],
-  "individuals": [],
+  "organizations": [
+    {"name": "Unknown", "relation": "target"},
+    {"name": "UAC-0050", "relation": "attacker"},
+    {"name": "TEKTONITRMS", "relation": "neutral"},
+    {"name": "REMCOs", "relation": "neutral"}
+  ],
+  "individuals": [
+    {"name": "Unknown", "relation": "target"},
+    {"name": "UAC-0006", "relation": "attacker"}
+  ],
   "domains": []
 }
-```

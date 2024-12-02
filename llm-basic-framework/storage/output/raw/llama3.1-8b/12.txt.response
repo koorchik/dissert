@@ -1,11 +1,14 @@
 {
   "attackTargets": ["оборонні підприємства"],
-  "hackerGroups": ["UAC-0180"],
+  "hackerGroups": ["Угрупування UAC-0180", "Hacker Group ACROBAIT (C)"],
   "countries": [
     {"name": "Україна", "relation": "target"},
     {"name": "Україна", "relation": "attacker"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "Сили оборони України", "relation": "target"},
+    {"name": "оборонні підприємства", "relation": "target"}
+  ],
   "individuals": [],
   "domains": []
 }

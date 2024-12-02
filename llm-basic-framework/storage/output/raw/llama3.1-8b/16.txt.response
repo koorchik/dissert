@@ -3,15 +3,12 @@
   "hackerGroups": [],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "США", "relation": "attacker"},
-    {"name": "Європа", "relation": "attacker"}
+    {"name": "Невідомо/міжнародно", "relation": "neutral"}
   ],
-  "organizations": [
-    {"name": "SuperOps RMM", "relation": "attacker"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "*.superops.com", "relation": "target"},
-    {"name": "*.superops.ai", "relation": "target"}
+    {"name": "*.superops.com", "relation": "attacker"},
+    {"name": "*.superops.ai", "relation": "attacker"}
   ]
 }

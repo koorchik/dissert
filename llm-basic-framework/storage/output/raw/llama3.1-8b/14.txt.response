@@ -1,14 +1,13 @@
 {
   "attackTargets": ["державних службовців", "військових", "представників оборонних підприємств України"],
-  "hackerGroups": ["None"],
+  "hackerGroups": [],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "None", "relation": "attacker"}
+    {"name": "Україна", "relation": "target"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "target"},
-    {"name": "None", "relation": "attacker"}
+    {"name": "CERT-UA", "relation": "neutral"},
+    {"name": " Signal", "relation": "attacker"}
   ],
-  "individuals": ["None"],
-  "domains": ["signal.com" ]
+  "individuals": [],
+  "domains": []
 }

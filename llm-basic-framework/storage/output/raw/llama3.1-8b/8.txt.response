@@ -1,13 +1,14 @@
 {
-  "attackTargets": ["Державні організації України"],
+  "attackTargets": ["Україна", "деяви державних органів та органів місцевого самоврядування України"],
   "hackerGroups": [],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "Україна", "relation": "attacker"}
+    {"name": "Росія", "relation": "neutral"}
   ],
   "organizations": [
     {"name": "Служба безпеки України", "relation": "target"},
-    {"name": "Github", "relation": "attacker"}
+    {"name": "CERT-UA", "relation": "neutral"},
+    {"name": "Github", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": []

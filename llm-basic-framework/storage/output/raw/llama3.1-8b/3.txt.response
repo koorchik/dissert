@@ -1,9 +1,9 @@
 {
-  "attackTargets": [],
-  "hackerGroups": ["HOMESTEEL"],
+  "attackTargets": ["Ukraine"],
+  "hackerGroups": [],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "Україна", "relation": "attacker"}
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "United States", "relation": "neutral"}
   ],
   "organizations": [
     {"name": "CERT-UA", "relation": "target"},
@@ -11,8 +11,7 @@
   ],
   "individuals": [],
   "domains": [
-    {"name": "едиск", "relation": "target"},
-    {"name": "Пароль.vbe", "relation": "attacker"},
-    {"name": "Python Software Foundation BaseHTTP 0.6", "relation": "attacker"}
+    {"name": "edisk.com", "relation": "attacker"},
+    {"name": "hostzealot.net", "relation": "attacker"}
   ]
 }

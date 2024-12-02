@@ -1,21 +1,11 @@
 {
-  "attackTargets": [
-    "урядові органи влади України",
-    "підприємства основних галузей промисловості",
-    "військові формування"
-  ],
+  "attackTargets": ["органи влади", "підприємства основних галузей промисловості", "військові формування"],
   "hackerGroups": [],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "США", "relation": "attacker"},
-    {"name": "Мексика", "relation": "attacker"},
-    {"name": "Китай", "relation": "attacker"}
+    {"name": "США", "relation": "neutral"}
   ],
   "organizations": [],
   "individuals": [],
-  "domains": [
-    {"name": "amazon.com", "relation": "target"},
-    {"name": "microsoft.com", "relation": "target"},
-    {"name": "example.com", "relation": "attacker"} // домен не вказаний, але передбачається, що він належить зловмисникам
-  ]
+  "domains": []
 }

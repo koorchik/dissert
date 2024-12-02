@@ -1,12 +1,18 @@
-```json
 {
   "attackTargets": [],
-  "hackerGroups": [],
+  "hackerGroups": ["Нет данных"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Україна", "relation": "target"},
+    {"name": "USA", "relation": "attacker"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "ЦER-UA", "relation": "neutral"}
+  ],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {"name": "україна.gov.ua", "relation": "target"},
+    {"name": "amazon.com", "relation": "attacker"},
+    {"name": "microsoft.com", "relation": "attacker"},
+    {"name": "google.com", "relation": "neutral"}
+  ]
 }
-```

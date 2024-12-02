@@ -1,12 +1,20 @@
-```json
 {
   "attackTargets": [],
-  "hackerGroups": ["UAC-0001", "APT28"],
-  "countries": [],
-  "organizations": [],
+  "hackerGroups": ["UAC-0001 (APT28)"],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "USA", "relation": "attacker"},
+    {"name": "Other country", "relation": "neutral"}
+  ],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "UAC-0001 (APT28)", "relation": "attacker"},
+    {"name": "State organization", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": [
-    {"name": "mail.zhblz[.]com", "relation": "attacker"}
+    {"name": "mail.zhblz[.]com", "relation": "target"},
+    {"name": "mail.zhblz[.]com", "relation": "attacker"},
+    {"name": " Zhblz[.]com", "relation": "neutral"}
   ]
 }
-```

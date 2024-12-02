@@ -44,7 +44,7 @@ async function main() {
     location: vertexAiLocation
   });
 
-  const backend = vertexAiBackend;
+  const backend = ollamaBackend;
 
   const analizer = new Analyzer({
     dataDir: './storage/data/cert.gov.ua-news',

@@ -1,15 +1,13 @@
 {
-  "attackTargets": ["українських підприємств", "фізичних осіб-підприємців"],
-  "hackerGroups": ["UAC-0050", "Fire Cells Group"],
-  "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "Україна", "relation": "attacker"}
-  ],
-  "organizations": [
-    {"name": "CERT-UA", "relation": "target"},
-    {"name": "UAC-0050", "relation": "attacker"},
-    {"name": "Fire Cells Group", "relation": "attacker"}
-  ],
-  "individuals": [],
-  "domains": []
+    "attackTargets": ["українські підприємства", "фізичні особи-підприємці"],
+    "hackerGroups": ["UAC-0050", "Fire Cells Group"],
+    "countries": [
+        {"name": "Україна", "relation": "target"},
+        {"name": "Невідомо", "relation": "attacker"}
+    ],
+    "organizations": [
+        {"name": "CERT-UA", "relation": "neutral"}
+    ],
+    "individuals": [],
+    "domains": []
 }
