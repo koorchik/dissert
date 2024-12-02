@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 import { LlmBackendBase } from "./LlmClientBackendBase";
 
-export class LlmBackendOpenAi implements LlmBackendBase {
+export class LlmClientBackendOpenAi implements LlmBackendBase {
   #openAiClient: OpenAI;
   model: string;
 

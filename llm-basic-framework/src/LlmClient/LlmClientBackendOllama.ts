@@ -1,7 +1,7 @@
 import ollama from 'ollama'
 import { LlmBackendBase } from "./LlmClientBackendBase";
 
-export class LlmBackendOllama implements LlmBackendBase {
+export class LlmClientBackendOllama implements LlmBackendBase {
   model: string;
   constructor(args: { model: string }) {
     this.model = args.model;
