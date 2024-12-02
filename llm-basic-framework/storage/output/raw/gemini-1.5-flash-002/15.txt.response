@@ -1,0 +1,29 @@
+```json
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "CERT-UA",
+      "relation": "neutral"
+    },
+    {
+      "name": "CSIRT-NBU",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "cert.gov.ua",
+      "relation": "neutral"
+    }
+  ]
+}
+```

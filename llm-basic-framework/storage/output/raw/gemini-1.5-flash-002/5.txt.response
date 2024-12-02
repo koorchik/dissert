@@ -1,0 +1,20 @@
+```json
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Резерв+",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}
+```

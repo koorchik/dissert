@@ -1,0 +1,18 @@
+```json
+{
+  "attackTargets": ["Сили оборони України", "ЗСУ"],
+  "hackerGroups": ["UAC-0020 (Vermin)"],
+  "countries": [
+    {"name": "Україна", "relation": "target"},
+    {"name": "Росія", "relation": "attacker"}
+  ],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"},
+    {"name": "Центр кібербезпеки ЗСУ (ЦКБ)", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "*.syncthing.net", "relation": "attacker"}
+  ]
+}
+```

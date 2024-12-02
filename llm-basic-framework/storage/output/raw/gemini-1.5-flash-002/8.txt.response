@@ -1,0 +1,16 @@
+```json
+{
+  "attackTargets": ["державних організацій України", "державних органів та органів місцевого самоврядування України"],
+  "hackerGroups": [],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "Служба безпеки України", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "github.com", "relation": "neutral"}
+  ]
+}
+```
