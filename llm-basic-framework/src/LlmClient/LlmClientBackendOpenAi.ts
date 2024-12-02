@@ -12,7 +12,10 @@ export class LlmBackendOpenAi implements LlmBackendBase {
 
   async send(instructions: string, text: string): Promise<string> {
     const chatCompletion = await this.#openAiClient.chat.completions.create({
-      messages: [{ role: 'user', content: `${instructions}\n${text}` }],
+      messages: [
+        { role: 'system', content: instructions },
+        { role: 'user', content: text }
+      ],
       model: this.model
     });
 

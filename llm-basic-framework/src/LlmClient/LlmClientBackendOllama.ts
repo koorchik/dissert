@@ -10,7 +10,9 @@ export class LlmBackendOllama implements LlmBackendBase {
   async send(instructions: string, text: string): Promise<string> {
     const response = await ollama.chat({
       model: this.model,
-      messages: [{ role: 'user', content: `${instructions}\n${text}` }],
+      messages: [
+        { role: 'system', content: instructions }, 
+        { role: 'user', content: text }],
     });
 
     console.log(response.message.content)
