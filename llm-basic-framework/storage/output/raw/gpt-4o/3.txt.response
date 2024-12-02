@@ -1,11 +1,9 @@
 ```json
 {
-  "attackTargets": ["Україна"],
+  "attackTargets": [],
   "hackerGroups": [],
-  "countries": [
-    {"name": "Україна", "relation": "target"}
-  ],
-  "organizations": [],
+  "countries": [],
+  "organizations": [{"name": "CERT-UA", "relation": "neutral"}],
   "individuals": [],
   "domains": []
 }

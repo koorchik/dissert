@@ -1,6 +1,6 @@
 ```json
 {
-  "attackTargets": [],
+  "attackTargets": ["підприємств"],
   "hackerGroups": ["UAC-0006"],
   "countries": [
     {"name": "Україна", "relation": "target"}

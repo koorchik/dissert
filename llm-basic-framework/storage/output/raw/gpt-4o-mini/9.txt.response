@@ -4,9 +4,7 @@
   "countries": [
     {"name": "Ukraine", "relation": "target"}
   ],
-  "organizations": [
-    {"name": "Ukrainian Government", "relation": "target"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": [
     {"name": "ukr.net", "relation": "target"}

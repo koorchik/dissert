@@ -4,8 +4,7 @@
   "hackerGroups": [],
   "countries": [],
   "organizations": [
-    {"name": "CERT-UA", "relation": "target"},
-    {"name": "CSIRT-NBU", "relation": "target"}
+    {"name": "CSIRT-NBU", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": []

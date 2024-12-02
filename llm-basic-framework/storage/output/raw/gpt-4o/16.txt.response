@@ -1,19 +1,21 @@
 ```json
 {
-  "attackTargets": ["українських організацій"],
-  "hackerGroups": [],
+  "attackTargets": ["українські організації", "фінансові установи Європи", "страхові установи США"],
+  "hackerGroups": ["UAC-0188"],
   "countries": [
     {"name": "Україна", "relation": "target"},
     {"name": "Європа", "relation": "target"},
     {"name": "США", "relation": "target"}
   ],
   "organizations": [
-    {"name": "CSIRT-NBU", "relation": "target"}
+    {"name": "CSIRT-NBU", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": [
-    {"name": "*.superops.com", "relation": "target"},
-    {"name": "*.superops.ai", "relation": "target"}
+    {"name": "*.superops.com", "relation": "neutral"},
+    {"name": "*.superops.ai", "relation": "neutral"},
+    {"name": "anotepad.com", "relation": "neutral"},
+    {"name": "Dropbox", "relation": "neutral"}
   ]
 }
 ```

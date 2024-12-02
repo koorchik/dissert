@@ -4,9 +4,11 @@
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": [
-    {"name": "cert.gov.ua", "relation": "target"}
+    {"name": "cert.gov.ua", "relation": "neutral"}
   ]
 }

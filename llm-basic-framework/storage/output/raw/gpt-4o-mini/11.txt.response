@@ -4,15 +4,16 @@
   "countries": [
     {"name": "Україна", "relation": "target"},
     {"name": "Росія", "relation": "attacker"},
-    {"name": "Вірменія", "relation": "attacker"},
-    {"name": "Киргизька Республіка", "relation": "attacker"}
+    {"name": "Вірменія", "relation": "neutral"},
+    {"name": "Киргизька Республіка", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": "Управління оборонної політики Міністерства оборони Республіки Вірменія", "relation": "attacker"},
-    {"name": "Управління міжнародного військового співробітництва Міністерства оборони Киргизької Республіки", "relation": "attacker"}
+    {"name": "ГУ ГШ ЗС РФ", "relation": "attacker"},
+    {"name": "Міністерство оборони Республіки Вірменія", "relation": "neutral"},
+    {"name": "Міністерство оборони Киргизької Республіки", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": [
-    {"name": "rejetto.com", "relation": "attacker"}
+    {"name": "rejetto.com", "relation": "neutral"}
   ]
 }

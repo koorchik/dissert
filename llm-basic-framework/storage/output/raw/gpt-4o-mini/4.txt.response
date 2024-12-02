@@ -8,7 +8,9 @@
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": []
 }

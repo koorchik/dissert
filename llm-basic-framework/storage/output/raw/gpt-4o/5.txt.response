@@ -1,11 +1,11 @@
 ```json
 {
-  "attackTargets": [],
+  "attackTargets": ["Резерв+"],
   "hackerGroups": [],
-  "countries": [],
-  "organizations": [
-    {"name": "Резерв+", "relation": "target"}
+  "countries": [
+    {"name": "Україна", "relation": "target"}
   ],
+  "organizations": [],
   "individuals": [],
   "domains": [
     {"name": "reserveplusbot", "relation": "attacker"}

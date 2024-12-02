@@ -1,18 +1,17 @@
 ```json
 {
-  "attackTargets": ["державні організації України"],
+  "attackTargets": ["державні організації України", "державні органи та органи місцевого самоврядування України"],
   "hackerGroups": [],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "target"},
-    {"name": "Служба безпеки України", "relation": "target"}
+    {"name": "Служба безпеки України", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": [
-    {"name": "github.com", "relation": "attacker"},
-    {"name": "pCloud", "relation": "attacker"}
+    {"name": "github.com/Ylianst/MeshAgent", "relation": "neutral"},
+    {"name": "pCloud", "relation": "neutral"}
   ]
 }
 ```

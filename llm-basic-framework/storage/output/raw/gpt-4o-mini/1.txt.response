@@ -1,5 +1,5 @@
 {
-  "attackTargets": ["Державна податкова служба України"],
+  "attackTargets": ["Державна податкова служба України", "облікові системи підприємств"],
   "hackerGroups": ["UAC-0050"],
   "countries": [
     {"name": "Україна", "relation": "target"}
@@ -7,8 +7,8 @@
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "qaz.im", "relation": "attacker"},
-    {"name": "qaz.is", "relation": "attacker"},
-    {"name": "qaz.su", "relation": "attacker"}
+    {"name": "qaz.im", "relation": "neutral"},
+    {"name": "qaz.is", "relation": "neutral"},
+    {"name": "qaz.su", "relation": "neutral"}
   ]
 }

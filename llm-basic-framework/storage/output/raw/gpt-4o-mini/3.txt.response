@@ -7,6 +7,6 @@
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "HostZealot", "relation": "attacker"}
+    {"name": "HostZealot", "relation": "neutral"}
   ]
 }

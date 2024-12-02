@@ -27,9 +27,9 @@ async function main() {
   // mistral:7b - 8GB GPU (100% of model).  Unusable: does not follow JSON structure.
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
-  const ollamaBackend = new LlmBackendOllama({ model: 'llama3.1:70b' });
+  const ollamaBackend = new LlmBackendOllama({ model: 'llama3.1:8b' });
 
-  const backend = ollamaBackend;
+  const backend = openAiBackend;
 
   const analizer = new Analyzer({
     dataDir: './storage/data/cert.gov.ua-news',

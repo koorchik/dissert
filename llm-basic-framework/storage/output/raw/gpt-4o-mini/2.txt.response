@@ -1,13 +1,15 @@
 {
-  "attackTargets": ["державна організація"],
-  "hackerGroups": ["UAC-0001", "APT28"],
+  "attackTargets": ["органи місцевого самоврядування", "державна організація"],
+  "hackerGroups": ["UAC-0001 (APT28)"],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "інші країни світу", "relation": "attacker"}
+    {"name": "інші країни світу", "relation": "neutral"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": [
-    {"name": "mail.zhblz.com", "relation": "attacker"}
+    {"name": "mail.zhblz[.]com", "relation": "attacker"}
   ]
 }

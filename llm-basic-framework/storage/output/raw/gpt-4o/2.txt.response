@@ -1,10 +1,14 @@
 ```json
 {
-  "attackTargets": [],
+  "attackTargets": ["органи місцевого самоврядування", "державна організація", "оборонні відомства інших країни світу"],
   "hackerGroups": ["UAC-0001 (APT28)"],
-  "countries": [{"name": "Ukraine", "relation": "target"}],
-  "organizations": [],
+  "countries": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"}
+  ],
   "individuals": [],
-  "domains": [{"name": "mail.zhblz[.]com", "relation": "attacker"}]
+  "domains": [
+    {"name": "mail.zhblz[.]com", "relation": "attacker"}
+  ]
 }
 ```

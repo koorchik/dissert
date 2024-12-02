@@ -6,7 +6,5 @@
   ],
   "organizations": [],
   "individuals": [],
-  "domains": [
-    {"name": "cert.gov.ua", "relation": "target"}
-  ]
+  "domains": []
 }
