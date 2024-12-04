@@ -37,15 +37,17 @@ export class Analyzer {
       Sensitive data includes: 
       1. Attack Targets: Names of attack targets (e.g., infrastructure objects, enterprises, government institutions).
       2. Hacker Groups: Names of groups or associations that may be involved in the attack.
-      3. Countries: Countries related to the events. Indicate whether they are related to the target or the attacker or neutral.
-      4. Organizations: Organizations related to the events. Indicate whether they are related to the target or the attacker or neutral. 
-      6. Individuals: Names of individuals connected with the incident. Indicate whether they are related to the target or the attacker or neutral.
-      7. Domains: Internet domain names connected with the incident. Indicate whether they are controlled by the target or the attacker or neutral.
+      3. Applications: Names of software or applications used in the attack.
+      4. Countries: Countries related to the events. Indicate whether they are related to the target or the attacker or neutral.
+      5. Organizations: Organizations related to the events. Indicate whether they are related to the target or the attacker or neutral. 
+      6. Individuals: Names of individuals related to the incident. Indicate whether they are related to the target or the attacker or neutral.
+      7. Domains: Internet domain names related to the incident. Indicate whether they are controlled by the target or the attacker or neutral.
 
       Please return the extracted information in the exact JSON format specified below and nothing else: 
      {
       "attackTargets": ["Attack Target 1", "Attack Target 2"],
       "hackerGroups": ["Hacker Group 1", "Hacker Group 2"],
+      "applications": ["Software or Application 1", "Software or Application 2"],
       "countries": [
         {"name": "Country 1", "relation": "target"},
         {"name": "Country 2", "relation": "attacker"},
@@ -67,13 +69,15 @@ export class Analyzer {
         {"name": "domain2", "relation": "neutral"}
       ]
     }
-      
-      - Each key should have an array of strings. 
-      - If there are no mentions for a category, return an empty array for that category. 
-      - Do not include any additional text or explanation.
-      - Do not return info about CERT-UA 
+    
+    - Categories "attackTargets", "hackerGroups", "applications" should contain array of strings
+    - Categories "countries", "organizations", "individuals", "domains" should contain objects with "name" and "relation" properties.
+    - Do normalization of all names.
+    - If there are no mentions for a category, return an empty array for that category. 
+    - Do not include any additional text or explanation.
+    - Do not return info about CERT-UA 
 
-      Read text carefully and extract all required information. 
+    Start extracting information:
     `
     console.time('LLM PROCESSING');
     const result = await this.#llmClient.send(
