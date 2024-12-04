@@ -72,7 +72,6 @@ export class Analyzer {
     
     - Categories "attackTargets", "hackerGroups", "applications" should contain array of strings
     - Categories "countries", "organizations", "individuals", "domains" should contain objects with "name" and "relation" properties.
-    - Do normalization of all names.
     - If there are no mentions for a category, return an empty array for that category. 
     - Do not include any additional text or explanation.
     - Do not return info about CERT-UA 
