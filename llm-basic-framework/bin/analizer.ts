@@ -34,17 +34,18 @@ async function main() {
   // mistral:7b - 8GB GPU (100% of model).  Unusable: does not follow JSON structure.
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
-  const ollamaBackend = new LlmClientBackendOllama({ model: 'llama3.1:8b' });
+  const ollamaBackend = new LlmClientBackendOllama({ model: 'gemma2:9b' });
 
   // VertexAi models:
   // gemini-1.5-flash-002
+  // gemini-1.5-pro-002
   const vertexAiBackend = new LlmClientBackendVertexAi({
-    model: 'gemini-1.5-flash-002',
+    model: 'gemini-1.5-pro-002',
     project: vertexAiProject,
     location: vertexAiLocation
   });
 
-  const backend = ollamaBackend;
+  const backend = vertexAiBackend;
 
   const analizer = new Analyzer({
     dataDir: './storage/data/cert.gov.ua-news',
