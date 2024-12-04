@@ -1,6 +1,7 @@
 {
-  "attackTargets": ["Державна податкова служба України", "облікові системи підприємств"],
+  "attackTargets": ["Державна податкова служба України"],
   "hackerGroups": ["UAC-0050"],
+  "applications": ["LITEMANAGER"],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],

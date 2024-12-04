@@ -1,6 +1,7 @@
 {
-  "attackTargets": ["органи місцевого самоврядування України", "фахівці проєктних офісів"],
+  "attackTargets": ["органи місцевого самоврядування України"],
   "hackerGroups": ["UAC-0057"],
+  "applications": ["PICASSOLOADER", "Cobalt Strike Beacon"],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],

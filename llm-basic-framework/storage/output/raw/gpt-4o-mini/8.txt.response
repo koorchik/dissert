@@ -1,10 +1,14 @@
 {
-  "attackTargets": ["державні організації України", "органи місцевого самоврядування України"],
-  "hackerGroups": ["ANONVNC", "MESHAGENT"],
+  "attackTargets": ["Державні організації України"],
+  "hackerGroups": [],
+  "applications": ["ANONVNC", "MESHAGENT"],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "Служба безпеки України", "relation": "neutral"},
+    {"name": "CERT-UA", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": [
     {"name": "github.com", "relation": "neutral"},

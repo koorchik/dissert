@@ -1,6 +1,7 @@
 {
   "attackTargets": ["UKR.NET"],
   "hackerGroups": ["UAC-0102"],
+  "applications": ["HTML"],
   "countries": [
     {"name": "Ukraine", "relation": "target"}
   ],

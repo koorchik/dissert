@@ -1,13 +1,13 @@
 {
-  "attackTargets": ["WhatsApp", "офіційна вебсторінка 'Електронних петицій'"],
+  "attackTargets": ["WhatsApp", "Електронні петиції"],
   "hackerGroups": [],
+  "applications": ["WhatsApp"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Ukraine", "relation": "target"}
   ],
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "petition.president.gov.ua", "relation": "target"},
-    {"name": "незазначені доменні імена", "relation": "attacker"}
+    {"name": "petition.president.gov.ua", "relation": "target"}
   ]
 }

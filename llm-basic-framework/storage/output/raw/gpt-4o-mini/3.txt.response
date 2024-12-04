@@ -1,6 +1,7 @@
 {
   "attackTargets": ["Україна"],
   "hackerGroups": [],
+  "applications": ["HOMESTEEL"],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],

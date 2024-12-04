@@ -5,11 +5,16 @@
     "військові формування"
   ],
   "hackerGroups": [],
+  "applications": [
+    "RDP",
+    "amazon",
+    "microsoft"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "україна", "relation": "target"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "neutral"}
+    {"name": "урядова команда реагування на комп'ютерні надзвичайні події україни", "relation": "target"}
   ],
   "individuals": [],
   "domains": []

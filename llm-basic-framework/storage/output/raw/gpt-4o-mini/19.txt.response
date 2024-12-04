@@ -1,6 +1,7 @@
 {
-  "attackTargets": ["об'єкти критичної інфраструктури України", "підприємства галузі енергетики", "водопостачання", "теплопостачання"],
-  "hackerGroups": ["Sandworm", "UAC-0133"],
+  "attackTargets": ["об'єкти критичної інфраструктури України", "підприємства галузі енергетики", "водо та теплопостачання"],
+  "hackerGroups": ["Sandworm", "UAC-0133", "UAC-0002"],
+  "applications": ["QUEUESEED", "LOADGRIP", "BIASBOAT", "GOSSIPFLOW", "WEEVELY", "REGEORG.NEO", "PIVOTNACCI", "SDELETE"],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],
