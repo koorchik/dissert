@@ -1,0 +1,16 @@
+```json
+{
+  "attackTargets": ["оборонних підприємств", "Сил оборони України"],
+  "hackerGroups": ["UAC-0180"],
+  "applications": ["GLUEEGG", "DROPCLUE", "ATERA", "curl.exe", "ACROBAIT", "ROSEBLOOM", "ROSETHORN"],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}
+```

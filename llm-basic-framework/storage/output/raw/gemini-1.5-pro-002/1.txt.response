@@ -1,0 +1,19 @@
+```json
+{
+  "attackTargets": [],
+  "hackerGroups": ["UAC-0050"],
+  "applications": ["LITEMANAGER"],
+  "countries": [
+    {"name": "Ukraine", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "Державна податкова служба України", "relation": "neutral"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "qaz.im", "relation": "attacker"},
+    {"name": "qaz.is", "relation": "attacker"},
+    {"name": "qaz.su", "relation": "attacker"}
+  ]
+}
+```

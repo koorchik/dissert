@@ -1,0 +1,18 @@
+```json
+{
+  "attackTargets": ["Сили оборони України", "ЗСУ"],
+  "hackerGroups": ["UAC-0020", "Vermin"],
+  "applications": ["SPECTR", "SyncThing", "InnoSetup", "Telegram", "Signal", "Skype", "Element", "Firefox", "Edge", "Chrome", "Chromium", "Opera", "Amigo", "Orbitum", "Yandex", "Comodo", "Maxthon3", "Brave-Browser", "1C:Enterprise"],
+  "countries": [
+    {"name": "Україна", "relation": "target"}
+  ],
+  "organizations": [
+    {"name": "Урядова команда реагування на комп'ютерні надзвичайні події України CERT-UA", "relation": "neutral"},
+    {"name": "Центр кібербезпеки ЗСУ", "relation": "target"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "*.syncthing.net", "relation": "attacker"}
+  ]
+}
+```
