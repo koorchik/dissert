@@ -6,12 +6,13 @@
     "військові формування"
   ],
   "hackerGroups": [],
+  "applications": ["rdp", "mstsc.exe"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "україна", "relation": "target"}
   ],
   "organizations": [
-    {"name": "Amazon", "relation": "neutral"},
-    {"name": "Microsoft", "relation": "neutral"}
+    {"name": "amazon", "relation": "neutral"},
+    {"name": "microsoft", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": []

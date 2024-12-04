@@ -1,9 +1,10 @@
 ```json
 {
-  "attackTargets": ["підприємств"],
-  "hackerGroups": ["UAC-0006"],
+  "attackTargets": [],
+  "hackerGroups": ["uac-0006"],
+  "applications": ["smokeloader", "taleshot", "rms", "microsoft access", "powershell"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "україна", "relation": "target"}
   ],
   "organizations": [],
   "individuals": [],

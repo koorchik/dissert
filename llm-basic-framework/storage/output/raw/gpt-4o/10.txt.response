@@ -1,11 +1,15 @@
 ```json
 {
-  "attackTargets": ["органи місцевого самоврядування України", "проєкт USAID/DAI HOVERLA"],
+  "attackTargets": ["Local government bodies of Ukraine", "Project offices specialists"],
   "hackerGroups": ["UAC-0057"],
+  "applications": ["PicassoLoader", "Cobalt Strike Beacon"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Ukraine", "relation": "target"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "USAID", "relation": "neutral"},
+    {"name": "DAI", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": []
 }

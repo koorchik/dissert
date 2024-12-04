@@ -2,9 +2,10 @@
 {
   "attackTargets": [],
   "hackerGroups": [],
+  "applications": ["homesteel", "vbs-script", "powershell", "python", "BaseHTTP"],
   "countries": [],
-  "organizations": [{"name": "CERT-UA", "relation": "neutral"}],
+  "organizations": [],
   "individuals": [],
-  "domains": []
+  "domains": [{"name": "edisk", "relation": "neutral"}]
 }
 ```

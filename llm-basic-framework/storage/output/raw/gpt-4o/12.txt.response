@@ -2,6 +2,7 @@
 {
   "attackTargets": ["українські оборонні підприємства", "Сили оборони України"],
   "hackerGroups": ["UAC-0180"],
+  "applications": ["GLUEEGG", "DROPCLUE", "ATERA", "curl.exe"],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],

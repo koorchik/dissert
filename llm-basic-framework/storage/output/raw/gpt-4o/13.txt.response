@@ -2,15 +2,17 @@
 {
   "attackTargets": ["Сили оборони України"],
   "hackerGroups": ["UAC-0020 (Vermin)"],
+  "applications": ["SPECTR", "SyncThing", "robocopy.exe"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Україна", "relation": "target"},
+    {"name": "Луганськ", "relation": "attacker"}
   ],
   "organizations": [
-    {"name": "Центр кібербезпеки ЗСУ (ЦКБ)", "relation": "neutral"}
+    {"name": "Центр кібербезпеки ЗСУ", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": [
-    {"name": "*.syncthing.net", "relation": "neutral"}
+    {"name": "*.syncthing.net", "relation": "attacker"}
   ]
 }
 ```

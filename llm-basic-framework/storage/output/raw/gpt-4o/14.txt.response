@@ -1,9 +1,10 @@
 ```json
 {
-  "attackTargets": ["державні службовці", "військові", "представники оборонних підприємств України"],
+  "attackTargets": ["державні службовці України", "військові України", "оборонні підприємства України"],
   "hackerGroups": [],
+  "applications": ["DarkCrystal RAT", "Signal"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "україна", "relation": "target"}
   ],
   "organizations": [],
   "individuals": [],

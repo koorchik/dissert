@@ -1,10 +1,11 @@
 ```json
 {
   "attackTargets": ["науково-дослідні установи України"],
-  "hackerGroups": ["UAC-0063", "APT28"],
+  "hackerGroups": ["UAC-0063", "APT28", "UAC-0001"],
+  "applications": ["HATVIBE", "CHERRYSPY", "CVE-2024-23692", "HFS HTTP File Server"],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "Росія", "relation": "attacker"},
+    {"name": "Російська Федерація", "relation": "attacker"},
     {"name": "Вірменія", "relation": "neutral"},
     {"name": "Киргизька Республіка", "relation": "neutral"}
   ],

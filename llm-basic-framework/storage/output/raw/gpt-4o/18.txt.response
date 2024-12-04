@@ -2,11 +2,14 @@
 {
   "attackTargets": ["WhatsApp"],
   "hackerGroups": [],
+  "applications": ["WhatsApp"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Ukraine", "relation": "target"}
   ],
   "organizations": [],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {"name": "petition.president.gov.ua", "relation": "neutral"}
+  ]
 }
 ```
