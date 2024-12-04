@@ -2,6 +2,7 @@
 {
   "attackTargets": [],
   "hackerGroups": [],
+  "applications": ["Telegram", "Microsoft Defender", "PowerShell"],
   "countries": [
     {
       "name": "Ukraine",

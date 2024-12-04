@@ -1,18 +1,44 @@
 ```json
 {
-  "attackTargets": ["українських організацій", "фінансових та страхових установ Європи і США"],
+  "attackTargets": [
+    "Українські організації",
+    "Фінансові та страхові установи Європи і США"
+  ],
   "hackerGroups": [],
+  "applications": [
+    "SuperOps RMM",
+    "PyInstaller",
+    "Сапер (Minesweeper)"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "США", "relation": "target"},
-    {"name": "Європа", "relation": "target"}
+    {
+      "name": "Україна",
+      "relation": "target"
+    },
+    {
+      "name": "США",
+      "relation": "target"
+    },
+    {
+      "name": "Європа",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "*.superops.com", "relation": "attacker"},
-    {"name": "*.superops.ai", "relation": "attacker"},
-    {"name": "anotepad.com", "relation": "attacker"}
+    {
+      "name": "superops.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "superops.ai",
+      "relation": "attacker"
+    },
+    {
+      "name": "anotepad.com",
+      "relation": "attacker"
+    }
   ]
 }
 ```

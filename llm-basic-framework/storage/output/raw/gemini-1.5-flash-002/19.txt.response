@@ -1,13 +1,28 @@
 ```json
 {
   "attackTargets": [
-    "інформаційно-комунікаційних систем (ІКС) близько двадцяти підприємств галузі енергетики, водо та теплопостачання (ОКІ) у десяти регіонах України"
+    "підприємств галузі енергетики, водо та теплопостачання"
   ],
   "hackerGroups": [
     "Sandworm",
     "UAC-0133",
     "UAC-0002",
     "APT44"
+  ],
+  "applications": [
+    "QUEUESEED",
+    "KNUCKLETOUCH",
+    "ICYWELL",
+    "WRONGSENS",
+    "KAPEKA",
+    "LOADGRIP",
+    "BIASBOAT",
+    "WEEVELY",
+    "REGEORG.NEO",
+    "PIVOTNACCI",
+    "GOSSIPFLOW",
+    "SDELETE",
+    "PHP"
   ],
   "countries": [
     {

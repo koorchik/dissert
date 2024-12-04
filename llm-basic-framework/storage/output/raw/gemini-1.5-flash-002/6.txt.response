@@ -1,9 +1,29 @@
 ```json
 {
-  "attackTargets": ["українських підприємств", "фізичних осіб-підприємців", "фінансових установ"],
-  "hackerGroups": ["UAC-0050", "UAC-0006", "Fire Cells Group"],
+  "attackTargets": [
+    "Українські підприємства",
+    "Фізичні особи-підприємці"
+  ],
+  "hackerGroups": [
+    "UAC-0050",
+    "Fire Cells Group",
+    "UAC-0006"
+  ],
+  "applications": [
+    "REMCOS",
+    "TEKTONITRMS",
+    "MEDUZASTEALER",
+    "LUMMASTEALER",
+    "XENORAT",
+    "SECTOPRAT",
+    "MARSSTEALER",
+    "DARKTRACKRAT"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],

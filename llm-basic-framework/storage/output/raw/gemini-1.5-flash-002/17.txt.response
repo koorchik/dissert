@@ -2,6 +2,7 @@
 {
   "attackTargets": [],
   "hackerGroups": ["UAC-0006"],
+  "applications": ["SMOKELOADER", "TALESHOT", "RMS", "PowerShell", "Microsoft Access"],
   "countries": [
     {"name": "Ukraine", "relation": "target"}
   ],

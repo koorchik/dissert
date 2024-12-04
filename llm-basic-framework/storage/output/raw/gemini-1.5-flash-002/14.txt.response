@@ -1,9 +1,24 @@
 ```json
 {
-  "attackTargets": ["державних службовців", "військових", "представників оборонних підприємств України"],
+  "attackTargets": [
+    "Державні службовці",
+    "Військові",
+    "Представники оборонних підприємств України"
+  ],
   "hackerGroups": [],
+  "applications": [
+    "DarkCrystal RAT",
+    "Signal",
+    "RARSFX",
+    "VBE",
+    "BAT",
+    "EXE"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],

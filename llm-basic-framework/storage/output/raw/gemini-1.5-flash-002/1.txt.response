@@ -1,16 +1,40 @@
 ```json
 {
-  "attackTargets": ["Державна податкова служба України", "підприємств"],
-  "hackerGroups": ["UAC-0050"],
+  "attackTargets": [
+    "Державна податкова служба України",
+    "підприємств"
+  ],
+  "hackerGroups": [
+    "UAC-0050"
+  ],
+  "applications": [
+    "LITEMANAGER"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "qaz.im", "relation": "attacker"},
-    {"name": "qaz.is", "relation": "attacker"},
-    {"name": "qaz.su", "relation": "attacker"}
+    {
+      "name": "qaz.im",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "attacker"
+    },
+    {
+      "name": "dps_tax_gov_ua_0739220983.rar",
+      "relation": "attacker"
+    }
   ]
 }
 ```

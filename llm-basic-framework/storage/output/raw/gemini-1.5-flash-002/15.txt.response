@@ -1,7 +1,14 @@
 ```json
 {
-  "attackTargets": [],
+  "attackTargets": [
+    "Telegram",
+    "WhatsApp"
+  ],
   "hackerGroups": [],
+  "applications": [
+    "Telegram",
+    "WhatsApp"
+  ],
   "countries": [
     {
       "name": "Ukraine",
@@ -19,11 +26,6 @@
     }
   ],
   "individuals": [],
-  "domains": [
-    {
-      "name": "cert.gov.ua",
-      "relation": "neutral"
-    }
-  ]
+  "domains": []
 }
 ```

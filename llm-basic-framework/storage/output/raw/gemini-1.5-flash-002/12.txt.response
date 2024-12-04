@@ -1,9 +1,26 @@
 ```json
 {
-  "attackTargets": ["оборонних підприємств", "Сил оборони України"],
-  "hackerGroups": ["UAC-0180"],
+  "attackTargets": [
+    "Оборонні підприємства",
+    "Сили оборони України"
+  ],
+  "hackerGroups": [
+    "UAC-0180"
+  ],
+  "applications": [
+    "GLUEEGG",
+    "DROPCLUE",
+    "ATERA",
+    "adobe_acrobat_fonts_pack.exe",
+    "UA-2024-07-04-010019-a-open.pdf",
+    "font-pack-pdf-windows-64-bit",
+    "curl.exe"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],

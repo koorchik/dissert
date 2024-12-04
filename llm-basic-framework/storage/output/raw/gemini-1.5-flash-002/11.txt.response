@@ -1,11 +1,17 @@
 ```json
 {
   "attackTargets": [
-    "одна з українських науково-дослідних установ"
+    "Науково-дослідні установи України"
   ],
   "hackerGroups": [
     "UAC-0063",
     "APT28 (UAC-0001)"
+  ],
+  "applications": [
+    "HATVIBE",
+    "CHERRYSPY",
+    "HFS HTTP File Server",
+    "Python"
   ],
   "countries": [
     {
@@ -40,11 +46,6 @@
     }
   ],
   "individuals": [],
-  "domains": [
-    {
-      "name": "rejetto.com",
-      "relation": "neutral"
-    }
-  ]
+  "domains": []
 }
 ```
