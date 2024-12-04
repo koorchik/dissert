@@ -1,11 +1,22 @@
 {
-  "attackTargets": [" підприємства галузі енергетики, водо та теплопостачання (ОКІ)"],
-  "hackerGroups": ["Sandworm", "UAC-0133", "UAC-0002", "APPT44"],
-  "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "None", "relation": "neutral"}
-  ],
-  "organizations": [],
-  "individuals": [],
-  "domains": []
+    "attackTargets": [
+        "предприятиям галузі енергетики",
+        "підприємствами області водо та теплопостачання (ОКІ)",
+        "об’єкти водопостачання"
+    ],
+    "hackerGroups": ["Sandworm", "UAC-0133"],
+    "applications": [
+        "LOADGRIP",
+        "BIASBOAT",
+        "QUEUESEED",
+        "KNUCKLETOUCH",
+        "ICYWELL",
+        "WRONGSENS",
+        "KAPEKA",
+        "GOSSIPFLOW"
+    ],
+    "countries": [],
+    "organizations": [],
+    "individuals": [],
+    "domains": []
 }

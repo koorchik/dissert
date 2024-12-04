@@ -1,12 +1,16 @@
 {
-  "attackTargets": ["науково-дослідні установи України"],
+  "attackTargets": ["наукові дослідні установи України"],
   "hackerGroups": ["UAC-0063", "APT28 (UAC-0001)"],
+  "applications": ["HATVIBE", "CHERRYSPY", "Python", "HFS HTTP File Server", "mshta.exe"],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "Вірменія", "relation": "attacker"},
-    {"name": "Киргизька Республіка", "relation": "neutral"}
+    {"name": "Вірменія", "relation": "neutral"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "Управління міжнародного військового співробітництва Міністерства оборони Киргизької Республіки", "relation": "neutral"},
+    {"name": "Міністерство оборони Республіки Вірменія", "relation": "neutral"},
+    {"name": "ГУ ГШ ЗС РФ", "relation": "attacker"}
+  ],
   "individuals": [],
   "domains": []
 }

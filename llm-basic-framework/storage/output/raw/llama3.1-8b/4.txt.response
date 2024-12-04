@@ -1,11 +1,15 @@
 {
-  "attackTargets": ["органи влади", "підприємства основних галузей промисловості", "військові формування"],
+  "attackTargets": [],
   "hackerGroups": [],
+  "applications": ["RDP"],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "США", "relation": "neutral"}
+    {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"},
+    {"name": "Amazon", "relation": "neutral"},
+    {"name": "Microsoft", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": []
 }

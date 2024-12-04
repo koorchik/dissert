@@ -1,17 +1,17 @@
 {
-  "attackTargets": ["органи місцевого самоврядування України"],
-  "hackerGroups": ["Угруповання UAC-0001 (APT28)"],
+  "attackTargets": ["органи місцевого самоврядування України", "оборонні відомства інших країн світу"],
+  "hackerGroups": ["UAC-0001 (APT28)"],
+  "applications": ["PowerShell", "HTA-файл browser.hta", "METASPLOIT"],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "інша країна світу", "relation": "neutral"}
+    {"name": "інші країни світу", "relation": "neutral"}
   ],
   "organizations": [
     {"name": "CERT-UA", "relation": "neutral"},
-    {"name": "управляюча інфраструктура (скомпрометований сервер)", "relation": "attacker"},
-    {"name": "державна організація України", "relation": "target"}
+    {"name": "Урядова команда реагування на комп'ютерні надзвичайні події України", "relation": "target"}
   ],
   "individuals": [],
   "domains": [
-    {"name": "mail.zhblz.com", "relation": "attacker"}
+    {"name": "mail.zhblz[.]com", "relation": "attacker"}
   ]
 }

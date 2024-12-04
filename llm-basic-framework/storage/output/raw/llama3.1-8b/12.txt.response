@@ -1,13 +1,10 @@
 {
-  "attackTargets": ["оборонні підприємства"],
-  "hackerGroups": ["Угрупування UAC-0180", "Hacker Group ACROBAIT (C)"],
-  "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "Україна", "relation": "attacker"}
-  ],
+  "attackTargets": ["оборонні підприємства", "Сил оборони України"],
+  "hackerGroups": ["UAC-0180"],
+  "applications": ["adobe_acrobat_fonts_pack.exe", "DROPCLUE", "GLUEEGG", "ATERA", "curl.exe"],
+  "countries": [],
   "organizations": [
-    {"name": "Сили оборони України", "relation": "target"},
-    {"name": "оборонні підприємства", "relation": "target"}
+    {"name": "CERT-UA", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": []

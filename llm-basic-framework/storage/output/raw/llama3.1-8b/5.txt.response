@@ -1,15 +1,17 @@
 {
   "attackTargets": ["Резерв+"],
   "hackerGroups": [],
+  "applications": [
+    "Telegram",
+    "installer.exe",
+    "install.exe"
+  ],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "neutral"},
-    {"name": "Microsoft Defender", "relation": "neutral"}
+    {"name": "CERT-UA", "relation": "target"}
   ],
   "individuals": [],
-  "domains": [
-    {"name": "@reserveplusbot", "relation": "attacker"}
-  ]
+  "domains": []
 }

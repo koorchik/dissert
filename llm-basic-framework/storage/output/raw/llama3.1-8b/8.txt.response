@@ -1,14 +1,13 @@
 {
-  "attackTargets": ["Україна", "деяви державних органів та органів місцевого самоврядування України"],
+  "attackTargets": ["Урядові організації України", "Органи місцевого самоврядування України"],
   "hackerGroups": [],
+  "applications": ["ANONVNC (MESHAGENT)", "Scan_docs#40562153.msi"],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "Росія", "relation": "neutral"}
+    {"name": "Україна", "relation": "target"}
   ],
   "organizations": [
-    {"name": "Служба безпеки України", "relation": "target"},
-    {"name": "CERT-UA", "relation": "neutral"},
-    {"name": "Github", "relation": "neutral"}
+    {"name": "Служба безпеки України", "relation": "neutral"},
+    {"name": "CERT-UA", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": []

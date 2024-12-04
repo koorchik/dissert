@@ -1,14 +1,13 @@
 {
   "attackTargets": ["UKR.NET"],
   "hackerGroups": ["UAC-0102"],
+  "applications": ["HTML-файл", "сервіс UKR.NET"],
   "countries": [
-    {"name": "Ukraine", "relation": "target"},
-    {"name": "Ukraine", "relation": "attacker"}
+    {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "UKR.NET", "relation": "target"}
+  ],
   "individuals": [],
-  "domains": [
-    {"name": "UKR.NET", "relation": "target"},
-    {"name": "UAC-0102", "relation": "attacker"}
-  ]
+  "domains": []
 }

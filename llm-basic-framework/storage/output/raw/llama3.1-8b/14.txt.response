@@ -1,13 +1,11 @@
 {
   "attackTargets": ["державних службовців", "військових", "представників оборонних підприємств України"],
   "hackerGroups": [],
+  "applications": ["DarkCrystal RAT", "Signal"],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [
-    {"name": "CERT-UA", "relation": "neutral"},
-    {"name": " Signal", "relation": "attacker"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": []
 }

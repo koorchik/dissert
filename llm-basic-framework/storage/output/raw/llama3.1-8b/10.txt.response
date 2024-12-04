@@ -1,6 +1,7 @@
 {
-  "attackTargets": ["UAC-0057", "фахівці проєктних офісів"],
+  "attackTargets": ["Українських фахівців проєктних офісів", "співробітників органів місцевого самоврядування України"],
   "hackerGroups": ["UAC-0057"],
+  "applications": ["Cobalt Strike Beacon"],
   "countries": [
     {"name": "Україна", "relation": "target"}
   ],

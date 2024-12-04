@@ -1,13 +1,11 @@
 {
-  "attackTargets": ["Україна"],
+  "attackTargets": ["Ukraine"],
   "hackerGroups": ["UAC-0006"],
+  "applications": ["SMOKELOADER", "PowerShell", "TALESHOT", "RMS"],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "Невідомо", "relation": "attacker"}
+    {"name": "Ukraine", "relation": "target"}
   ],
-  "organizations": [
-    {"name": "CERT-UA", "relation": "neutral"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": []
 }

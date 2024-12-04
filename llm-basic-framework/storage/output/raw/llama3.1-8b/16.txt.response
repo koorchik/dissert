@@ -1,9 +1,10 @@
 {
-  "attackTargets": ["українські організації"],
+  "attackTargets": ["Суперопс RMM", "українські організації"],
   "hackerGroups": [],
+  "applications": ["SuperOps RMM", "Dropbox", "PyInstaller", "Python", "Minesweeper", "Anotepad.com", "MSI-файл"],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": "Невідомо/міжнародно", "relation": "neutral"}
+    {"name": "Німеччина", "relation": "neutral"}
   ],
   "organizations": [],
   "individuals": [],

@@ -1,14 +1,11 @@
 {
-  "attackTargets": ["Україна", "Підприємства України"],
+  "attackTargets": ["Україна"],
   "hackerGroups": ["UAC-0050"],
+  "applications": ["LITEMANAGER"],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "Північний Кіпр" , "relation":"neutral"}
+    {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [
-    {"name": "Державна податкова служба України", "relation": "target"},
-    {"name": "CERT-UA", "relation": "neutral"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": [
     {"name": "qaz.im", "relation": "attacker"},

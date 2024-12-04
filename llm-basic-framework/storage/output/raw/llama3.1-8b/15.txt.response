@@ -1,14 +1,12 @@
 {
-  "attackTargets": ["mesenджери", "Telegram", "WhatsApp"],
+  "attackTargets": [],
   "hackerGroups": [],
+  "applications": ["Telegram", "WhatsApp"],
   "countries": [
     {"name": "Україна", "relation": "target"},
     {"name": "Україна", "relation": "attacker"}
   ],
-  "organizations": [
-    {"name": "CERT-UA", "relation": "neutral"},
-    {"name": "CSIRT-NBU", "relation": "neutral"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": []
 }

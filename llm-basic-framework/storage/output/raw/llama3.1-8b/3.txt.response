@@ -1,17 +1,11 @@
 {
-  "attackTargets": ["Ukraine"],
+  "attackTargets": ["eDisk"],
   "hackerGroups": [],
+  "applications": ["HOMESTEEL", "PowerShell"],
   "countries": [
-    {"name": "Ukraine", "relation": "target"},
-    {"name": "United States", "relation": "neutral"}
+    {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [
-    {"name": "CERT-UA", "relation": "target"},
-    {"name": "HostZealot", "relation": "attacker"}
-  ],
+  "organizations": [],
   "individuals": [],
-  "domains": [
-    {"name": "edisk.com", "relation": "attacker"},
-    {"name": "hostzealot.net", "relation": "attacker"}
-  ]
+  "domains": []
 }

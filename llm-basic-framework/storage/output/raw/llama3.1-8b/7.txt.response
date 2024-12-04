@@ -1,17 +1,20 @@
 {
-  "attackTargets": ["військові системи"],
+  "attackTargets": ["військові системи", "GRISELDA", "система стеження \"Очі\""],
   "hackerGroups": [],
+  "applications": ["HYDRA", "GRISELDA", "Очі"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Україна", "relation": "target"},
+    {"name": "не вказано", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "neutral"},
-    {"name": "ІКС «Очі»", "relation": "target"},
-    {"name": "Міністерство оборони України та Збройні сили України MILCERT", "relation": "neutral"}
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "ІКС \"Очі\"", "relation": "target"},
+    {"name": "Міністерство оборони України та Збройні сили України MILCERT", "relation": "target"}
   ],
   "individuals": [],
   "domains": [
     {"name": "signal.com", "relation": "attacker"},
-    {"name": "drive.google.com", "relation": "attacker"}
+    {"name": "google.com", "relation": "neutral"},
+    {"name": "cloudflare.com", "relation": "neutral"}
   ]
 }
