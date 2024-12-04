@@ -1,18 +1,21 @@
 {
-  "attackTargets": [],
-  "hackerGroups": ["Sandworm/APT44"],
+  "attackTargets": ["Генералізація кібератак на критичні мережі України"],
+  "hackerGroups": ["Sandworm"],
+  "applications": ["LOADGRIP", "BIASBOAT", "QUEUESEED", "GOSSIPFLOW"],
   "countries": [
-    {"name": "Ukraine", "relation": "target"},
-    {"name": "Russia", "relation": "attacker"},
-    {"name": "Unknown", "relation": "neutral"}
+    {"name": "Україна", "relation": "target"},
+    {"name": "Росія", "relation": "attacker"},
+    {"name": "Хорватія", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "neutral"},
-    {"name": "Sandworm/APT44", "relation": "attacker"},
-    {"name": "Ukrainian Government", "relation": "target"}
+    {"name": "CERT-UA", "relation": "target"},
+    {"name": "Постачальник СПЗ", "relation": "attacker"},
+    {"name": "Організація України", "relation": "neutral"}
   ],
-  "individuals": [],
+  "individuals": [
+    {"name": "Виконувачи змови", "relation": "target"}
+  ],
   "domains": [
-    {"name": "queue.seed", "relation": "target"}
+    {"name": "СПЗ постачальника", "relation": "attacker"}
   ]
 }

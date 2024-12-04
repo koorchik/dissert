@@ -1,16 +1,16 @@
 {
   "attackTargets": [
-    "українські оборонні підприємства",
-    "Силі оборони України"
+    "оборонні підприємства України"
   ],
   "hackerGroups": [],
+  "applications": ["GLUEEGG", "DROPCLUE", "ACROBAIT", "ROSEBLOOM", "ROSETHORN"],
   "countries": [
     {"name": "Україна", "relation": "target"},
-    {"name": " none ", "relation": "neutral"}
+    {"name": "США", "relation": "attacker"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "none"},
-    {"name": "ukrainian defense enterprises", "relation": "target"}
+    {"name": "CERT-UA", "relation": "neutral"},
+    {"name": "Сил оборони України", "relation": "target"}
   ],
   "individuals": [],
   "domains": []

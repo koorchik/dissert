@@ -1,18 +1,12 @@
 {
   "attackTargets": [],
-  "hackerGroups": ["Нет данных"],
+  "hackerGroups": ["ShPZ"],
+  "applications": ["Remote Desktop Protocol", "mstsc.exe"],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "USA", "relation": "attacker"}
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "Russia", "relation": "attacker"}
   ],
-  "organizations": [
-    {"name": "ЦER-UA", "relation": "neutral"}
-  ],
+  "organizations": [],
   "individuals": [],
-  "domains": [
-    {"name": "україна.gov.ua", "relation": "target"},
-    {"name": "amazon.com", "relation": "attacker"},
-    {"name": "microsoft.com", "relation": "attacker"},
-    {"name": "google.com", "relation": "neutral"}
-  ]
+  "domains": []
 }

@@ -1,17 +1,25 @@
 {
   "attackTargets": [],
   "hackerGroups": ["UAC-0050"],
+  "applications": ["LITEMANAGER", "MSI-paketu програми для віддаленого управління"],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "Russia", "relation": "attacker"},
+    {"name": "Neutral", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": "Державна податкова служба України", "relation": "target"},
-    {"name": "CERT-UA", "relation": "attacker"}
+    {"name": " CERT-UA ", "relation": "target"},
+    {"name": "Financial Institution", "relation": "attacker"},
+    {"name": "Banking System", "relation": "neutral"}
   ],
-  "individuals": [],
+  "individuals": [
+    {"name": "", "relation": "target"},
+    {"name": "LITEMANAGER creator", "relation": "attacker"},
+    {"name": "", "relation": "neutral"}
+  ],
   "domains": [
-    {"name": "qaz.im", "relation": "neutral"},
-    {"name": "qaz.is", "relation": "neutral"},
-    {"name": "qaz.su", "relation": "neutral"}
+    {"name": "qaz.im", "relation": "target"},
+    {"name": "qaz.is", "relation": "target"},
+    {"name": "qaz.su", "relation": "attacker"}
   ]
 }

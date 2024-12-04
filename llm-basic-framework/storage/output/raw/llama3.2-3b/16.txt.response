@@ -1,19 +1,22 @@
 {
   "attackTargets": [],
   "hackerGroups": [],
+  "applications": ["SuperOps RMM", "PyInstaller"],
   "countries": [
     {"name": "Ukraine", "relation": "target"},
-    {"name": "USA", "relation": "neutral"},
+    {"name": "United States", "relation": "neutral"},
     {"name": "Europe", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": "SuperOps RMM", "relation": "attacker"},
-    {"name": "CSIRT-NBU", "relation": "neutral"},
-    {"name": "CERT-UA", "relation": "ne neutral"}
+    {"name": "NBU", "relation": "target"},
+    {"name": "CERT-UA", "relation": "attacker"},
+    {"name": "Financial Institutions", "relation": "neutral"},
+    {"name": "Insurance Companies", "relation": "neutral"}
   ],
   "individuals": [],
   "domains": [
     {"name": "superops.com", "relation": "target"},
+    {"name": "superops.ai", "relation": "target"},
     {"name": "anotepad.com", "relation": "attacker"}
   ]
 }

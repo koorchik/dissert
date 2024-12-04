@@ -1,14 +1,17 @@
 {
-    "attackTargets": [],
-    "hackerGroups": ["Ylianst"],
-    "countries": [
-        {"name": "Ukraine", "relation": "target"},
-        {"name": "Unknown", "relation": "neutral"}
-    ],
-    "organizations": [
-        {"name": "Government of Ukraine", "relation": "target"},
-        {"name": "pCloud", "relation": "neutral"}
-    ],
-    "individuals": [],
-    "domains": []
+  "attackTargets": [],
+  "hackerGroups": ["Ylianst", "автор"],
+  "applications": [
+    "ANONVNC",
+    "MESHAGENT"
+  ],
+  "countries": [
+    {"name": "Україна", "relation": "neutral"}
+  ],
+  "organizations": [
+    {"name": "Рада національної безпеки України", "relation": "target"},
+    {"name": "Служба Безпіці Ukraine", "relation": "attacker"}
+  ],
+  "individuals": [],
+  "domains": []
 }

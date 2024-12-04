@@ -1,12 +1,21 @@
 {
   "attackTargets": [],
   "hackerGroups": [],
+  "applications": [],
   "countries": [
-    {"name": "Україна", "relation": "neutral"}
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "Russia", "relation": "attacker"},
+    {"name": "European Union", "relation": "neutral"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "President of Ukraine", "relation": "target"},
+    {"name": "Russian Government", "relation": "attacker"},
+    {"name": "EU Commission", "relation": "neutral"}
+  ],
   "individuals": [],
   "domains": [
-    {"name": "petition.president.gov.ua", "relation": "neutral"}
+    {"name": "petition.president.gov.ua", "relation": "target"},
+    {"name": "cert.gov.ua", "relation": "attacker"},
+    {"name": "whatsapp.com", "relation": "neutral"}
   ]
 }

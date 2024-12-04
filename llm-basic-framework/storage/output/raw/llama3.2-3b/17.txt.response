@@ -1,14 +1,13 @@
 {
   "attackTargets": [],
   "hackerGroups": ["UAC-0006"],
+  "applications": ["SMOKELOADER", "TALESHOT", "PowerShell"],
   "countries": [
-    {"name": "", "relation": ""}
+    {"name": "", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": "", "relation": ""}
+    {"name": "", "relation": "neutral"}
   ],
-  "individuals": [
-    {"name": "", "relation": ""}
-  ],
+  "individuals": [],
   "domains": []
 }

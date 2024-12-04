@@ -5,17 +5,11 @@
     "представники оборонних підприємств України"
   ],
   "hackerGroups": [],
+  "applications": ["DarkCrystal RAT", "Signal"],
   "countries": [
-    {
-      "name": "Ukraine",
-      "relation": "target"
-    },
-    {"name": "Unknown", "relation": "attacker"},
-    {"name": "Neutral", "relation": "neutral"}
+    {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [
-    {"name": "CERT-UA", "relation": "target"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": []
 }

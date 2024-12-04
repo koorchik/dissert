@@ -1,20 +1,17 @@
 {
-  "attackTargets": [],
-  "hackerGroups": ["UAC-0057"],
+  "attackTargets": ["Фахові проектирне офіс", "Соєдставники projects department"],
+  "hackerGroups": [],
+  "applications": [],
   "countries": [
-    {"name": " Ukraine", "relation": "target"},
-    {"name": " ", "relation": "attacker"}
+    {"name": "Україна", "relation": "target"},
+    {"name": "США", "relation": "neutral"},
+    {"name": "Данія", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": " ", "relation": "target"},
-    {"name": " USAID/DAI ", "relation": "neutral"},
-    {"name": " ", "relation": "attacker"},
-    {"name": "organisations місцевого самоврядування України", "relation": "target"}
+    {"name": "USAID/DAI", "relation": "target"},
+    {"name": "Регіон України", "relation": "target"},
+    {"name": "Міськвидомство України", "relation": "neutral"}
   ],
-  "individuals": [
-    {"name": "", "relation": "target"},
-    {"name": "", "relation": "attacker"},
-    {"name": "", "relation": "neutral"}
-  ],
+  "individuals": [],
   "domains": []
 }

@@ -1,15 +1,15 @@
 {
   "attackTargets": [],
-  "hackerGroups": ["UAC-0102"],
+  "hackerGroups": [],
+  "applications": [],
   "countries": [
-    {"name": "UKR", "relation": "target"}
+    {"name": "", "relation": ""}
   ],
   "organizations": [
-    {"name": "UKR.NET", "relation": "target"},
-    {"name": "CERT-UA", "relation": "neutral"}
+    {"name": "", "relation": ""}
   ],
-  "individuals": [],
-  "domains": [
-    {"name": "ukr.net", "relation": "neutral"}
-  ]
+  "individuals": [
+    {"name": "", "relation": ""}
+  ],
+  "domains": []
 }

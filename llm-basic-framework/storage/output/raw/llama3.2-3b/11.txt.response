@@ -1,27 +1,62 @@
 {
   "attackTargets": [
-    "науково-дослідні установи України",
-    "українські науково-dослідні установи"
+    "науково-дослідні установи України"
   ],
   "hackerGroups": [
     "UAC-0063",
+    "APT28 (UAC-0001)"
+  ],
+  "applications": [
     "HATVIBE",
     "CHERRYSPY",
-    "APT28",
-    "UAC-0001"
+    "HFS HTTP File Server"
   ],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "Вірменія", "relation": "attacker"},
-    {"name": "Киргизька Республіка", "relation": "neutral"}
+    {
+      "name": "Україна",
+      "relation": "target"
+    },
+    {
+      "name": "Росія",
+      "relation": "attacker"
+    },
+    {
+      "name": "Вірменія",
+      "relation": "neutral"
+    }
   ],
   "organizations": [
-    {"name": "Укрзагрозпровід", "relation": "neutral"},
-    {"name": "Міністерство оборони України", "relation": "target"},
-    {"name": "Республіка Киргизьція", "relation": "neutral"}
+    {
+      "name": "Українська наукова Дослідна Інститута",
+      "relation": "target"
+    },
+    {
+      "name": "ГУ ГШ ЗС РФ",
+      "relation": "attacker"
+    },
+    {
+      "name": "Міністерство Оборони Республіки Вірменія",
+      "relation": "neutral"
+    }
   ],
   "individuals": [
-    {"name": "", "relation": ""}
+    {
+      "name": "",
+      "relation": "target"
+    },
+    {
+      "name": "виконувач командування",
+      "relation": "attacker"
+    },
+    {
+      "name": "представник Міністерства Оборони Республіки Вірменія",
+      "relation": "neutral"
+    }
   ],
-  "domains": []
+  "domains": [
+    {
+      "name": "rejetto.com",
+      "relation": "neutral"
+    }
+  ]
 }

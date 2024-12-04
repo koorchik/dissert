@@ -1,15 +1,11 @@
 {
   "attackTargets": [],
   "hackerGroups": [],
+  "applications": [],
   "countries": [
-    {"name": "Ukraine", "relation": "target"},
-    {"name": "Unknown", "relation": "attacker"}
+    {"name": "Україна", "relation": "target"}
   ],
-  "organizations": [
-    {"name": "Unknown", "relation": "target"}
-  ],
-  "individuals": [
-    {"name": "Unknown", "relation": "attacker"}
-  ],
+  "organizations": [],
+  "individuals": [],
   "domains": []
 }

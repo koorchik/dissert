@@ -1,11 +1,18 @@
 {
   "attackTargets": [],
-  "hackerGroups": ["HOMESTEEL"],
+  "hackerGroups": [],
+  "applications": ["VBS", "PowerShell"],
   "countries": [
     {"name": "Ukraine", "relation": "target"},
-    {"name": "United States", "relation": "attacker"}
+    {"name": "Unknown/Neutral", "relation": "attacker"}
   ],
-  "organizations": [],
+  "organizations": [
+    {"name": "CERT-UA", "relation": "neutral"}
+  ],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {"name": "HostZealot", "relation": "neutral"},
+    {"name": "", "relation": "target"},
+    {"name": "", "relation": "attacker"}
+  ]
 }

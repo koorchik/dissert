@@ -1,20 +1,17 @@
 {
   "attackTargets": [],
-  "hackerGroups": ["UAC-0001 (APT28)"],
+  "hackerGroups": ["UAC-0001"],
+  "applications": [
+    "PowerShell"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "USA", "relation": "attacker"},
-    {"name": "Other country", "relation": "neutral"}
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "Country of the attacker", "relation": "attacker"},
+    {"name": "Neutral country", "relation": "neutral"}
   ],
   "organizations": [
-    {"name": "CERT-UA", "relation": "target"},
-    {"name": "UAC-0001 (APT28)", "relation": "attacker"},
-    {"name": "State organization", "relation": "neutral"}
+    {"name": "CERT-UA", "relation": "neutral"}
   ],
   "individuals": [],
-  "domains": [
-    {"name": "mail.zhblz[.]com", "relation": "target"},
-    {"name": "mail.zhblz[.]com", "relation": "attacker"},
-    {"name": " Zhblz[.]com", "relation": "neutral"}
-  ]
+  "domains": []
 }

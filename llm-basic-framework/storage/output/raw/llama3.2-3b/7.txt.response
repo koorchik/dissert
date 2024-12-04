@@ -1,17 +1,60 @@
 {
   "attackTargets": [],
-  "hackerGroups": ["групи зловмисників"],
+  "hackerGroups": [
+    {
+      "name": "ГРІЗЕЛДА"
+    }
+  ],
+  "applications": [
+    {
+      "name": "GRISELDA",
+      "name-normalized": "GRISELDA"
+    },
+    {
+      "name": "ГР ІЗЕЛДА"
+    },
+    {
+      "name": "HYDRA",
+      "name-normalized": "HYDRA"
+    }
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "нідерланди", "relation": "attacker"}
+    {
+      "name": "Україна",
+      "relation": "target"
+    },
+    {
+      "name": "Росія",
+      "relation": "attacker"
+    },
+    {
+      "name": "USA",
+      "relation": "neutral"
+    }
   ],
   "organizations": [
-    {"name": "міністрація оборони України", "relation": "target"},
-    {"name": "Google Cloud", "relation": "neutral"}
+    {
+      "name": "Украверхопідроба",
+      "relation": "target"
+    },
+    {
+      "name": "ГРІЗЕЛДА",
+      "relation": "attacker"
+    },
+    {
+      "name": "Google Cloud",
+      "relation": "neutral"
+    }
   ],
   "individuals": [],
   "domains": [
-    {"name": "drive.google.com", "relation": "target"},
-    {"name": "cloudflare.com", "relation": "attacker"}
+    {
+      "name": "drive.google.com",
+      "relation": "target"
+    },
+    {
+      "name": "signal.org",
+      "relation": "attacker"
+    }
   ]
 }
