@@ -1,18 +1,17 @@
-```json
 {
-"attackTargets": ["науково-дослідні установи України", "українських науково-дослідних установ"],
-"hackerGroups": ["UAC-0063", "APT28 (UAC-0001)"],
-"countries": [
+      "attackTargets": ["науково-дослідні установи України"],
+      "hackerGroups": ["UAC-0063", "APT28"],
+      "applications": ["HATVIBE", "CHERRYSPY", "HFS HTTP File Server", "docx", "python"],
+      "countries": [
+        {"name": "Україна", "relation": "target"},
         {"name": "Вірменія", "relation": "neutral"},
-        {"name": "Киргизької Республіки", "relation": "neutral"},
-        {"name": "Російська Федерація", "relation": "attacker"} 
+        {"name": "Киргизстан", "relation": "neutral"},
+        {"name": "Росія", "relation": "attacker"}
       ],
-"organizations": [
+      "organizations": [
         {"name": "Управління оборонної політики Міністерства оборони Республіки Вірменія", "relation": "neutral"},
-        {"name": "Управління міжнародного військового співробітництва Міністерства оборони Киргизької Республіки", "relation": "neutral"},
-        {"name": "HFS HTTP File Server", "relation": "target"}
+        {"name": "Управління міжнародного військового співробітництва Міністерства оборони Киргизької Республіки", "relation": "neutral"}
       ],
-"individuals": [],
-"domains": []
-}
-```
+      "individuals": [],
+      "domains": []
+    }  

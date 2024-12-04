@@ -1,21 +1,25 @@
 {
-  "attackTargets": [
-    "фінансових та страхових установ Європи",
-    "фінансових та страхових установ США"
-  ],
-  "hackerGroups": [],
-  "countries": [
-    {"name": "Європа", "relation": "target"},
-    {"name": "США", "relation": "target"}
-  ],
-  "organizations": [
-    {"name": "CSIRT-NBU", "relation": "neutral"},
-    {"name": "CERT-UA", "relation": "neutral"},
-    {"name": "SuperOps RMM", "relation": "attacker"}
-  ],
-  "individuals": [],
-  "domains": [
-    {"name": "*.superops.com", "relation": "attacker"},
-    {"name": "*.superops.ai", "relation": "attacker"}
-  ]
-} 
+      "attackTargets": [
+        "financial institutions",
+        "insurance companies"
+      ],
+      "hackerGroups": [],
+      "applications": ["SuperOps RMM", "Python Minesweeper"],
+      "countries": [
+        {"name": "europe", "relation": "target"},
+        {"name": "united states", "relation": "target"}
+      ],
+      "organizations": [
+        {"name": "csIRT-NBU", "relation": "target"},
+        {"name": "CERT-UA", "relation": "target"},
+        {"name": "anotepad.com", "relation": "neutral"}
+      ],
+      "individuals": [],
+      "domains": [
+        {"name": "superops.com", "relation": "attacker"},
+        {"name": "superops.ai", "relation": "attacker"}
+      ]
+    } 
+
+
+

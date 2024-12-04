@@ -1,12 +1,16 @@
 {
-  "attackTargets": [
-    "державних службовців",
-    "військових",
-    "представників оборонних підприємств України"
-  ],
-  "hackerGroups": [],
-  "countries": [],
-  "organizations": [],
-  "individuals": [],
-  "domains": []
-}
+      "attackTargets": [
+        "українські державні службовці",
+        "українські військові",
+        "українські оборонні підприємства"
+      ],
+      "hackerGroups": [],
+      "applications": [
+        "DarkCrystal RAT",
+        "Signal"
+      ],
+      "countries": [],
+      "organizations": [],
+      "individuals": [],
+      "domains": []
+    }  

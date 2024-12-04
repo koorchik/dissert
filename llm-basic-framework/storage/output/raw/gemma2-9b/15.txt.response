@@ -4,8 +4,14 @@
         "WhatsApp"
       ],
       "hackerGroups": [],
+      "applications": [],
       "countries": [],
-      "organizations": [],
+      "organizations": [
+        {"name": "CERT-UA", "relation": "target"},
+        {"name": "CSIRT-NBU", "relation": "neutral"}
+      ],
       "individuals": [],
       "domains": []
     } 
+
+

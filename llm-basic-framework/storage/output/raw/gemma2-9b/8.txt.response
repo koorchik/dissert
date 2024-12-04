@@ -1,19 +1,23 @@
 {
-"attackTargets": [
-"Служба безпеки України",
-"державних органів",
-"органів місцевого самоврядування України"
-],
-"hackerGroups": [],
-"countries": [
-{"name": "Ukraine", "relation": "target"}
-],
-"organizations": [],
-"individuals": [],
-"domains": [
-{"name": "pCloud", "relation": "neutral"},
-{"name": "Github", "relation": "neutral"}
-]
-} 
-
-
+      "attackTargets": [
+        "Державні організації України",
+        "Орган місцевого самоврядування України"
+      ],
+      "hackerGroups": [
+        "ANONVNC"
+      ],
+      "applications": [
+        "ANONVNC (MESHAGENT)",
+        "MSI-файл",
+        "MESHAGENT"
+      ],
+      "countries": [
+        {"name": "Україна", "relation": "target"}
+      ],
+      "organizations": [],
+      "individuals": [],
+      "domains": [
+        {"name": "pCloud", "relation": "neutral"},
+        {"name": "Github", "relation": "neutral"}
+      ]
+    } 

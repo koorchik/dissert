@@ -1,16 +1,9 @@
-```json
 {
-  "attackTargets": [
-    "UKR.NET"
-  ],
-  "hackerGroups": [
-    "UAC-0102"
-  ],
-  "countries": [],
-  "organizations": [
-    {"name": "UKR.NET", "relation": "target"}
-  ],
-  "individuals": [],
-  "domains": []
-}
-```
+      "attackTargets": ["UKR.NET"],
+      "hackerGroups": ["UAC-0102"],
+      "applications": [],
+      "countries": [],
+      "organizations": [],
+      "individuals": [],
+      "domains": []
+    } 

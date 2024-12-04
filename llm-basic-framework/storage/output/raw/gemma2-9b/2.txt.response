@@ -1,25 +1,21 @@
 {
       "attackTargets": [
-        "organ of local self-governance",
-        "governmental body",
-        "defensive agency",
-        "other country's defense department"
+        "Орган місцевого самоврядування",
+        "Державна організація",
+        "Оборонні відомства інших країн світу"
       ],
-      "hackerGroups": ["UAC-0001 (APT28)"],
-      "countries": [
-        {"name": "Ukraine", "relation": "target"},
-        {"name": "Russia", "relation": "attacker"}
-      ],
+      "hackerGroups": [ "UAC-0001 (APT28)"],
+      "applications": [ "PowerShell", "HTA", "SSH", "METASPLOIT", "Chrome", "Edge", "Opera", "Firefox", "Roundcube"],
+      "countries": [],
       "organizations": [
-        {"name": "CERT-UA", "relation": "neutral"},
-        {"name": "Google", "relation": "neutral"},
-        {"name": "Roundcube", "relation": "neutral"},
-        {"name": "Microsoft", "relation": "neutral"}
+        {"name": "CERT-UA", "relation": "target"},
+        {"name": "Google", "relation": "neutral"}
       ],
       "individuals": [],
       "domains": [
-        {"name": "mail.zhblz[.]com", "relation": "attacker"}
+        {"name": "mail.zhblz[.]com", "relation": "attacker"},
+        {"name": "google[.]com", "relation": "neutral"} 
       ]
-    } 
+    }
 
 

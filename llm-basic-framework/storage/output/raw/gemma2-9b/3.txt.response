@@ -1,8 +1,16 @@
 {
-      "attackTargets": [],
-      "hackerGroups": ["HOMESTEEL"],
-      "countries": [],
-      "organizations": [],
-      "individuals": [],
-      "domains": [{"name": "HostZealot", "relation": "attacker"}]
-    } 
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "HOMESTEEL",
+    "eDisk",
+    "VBS-скрипт",
+    "PowerShell"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+} 
+
+

@@ -1,19 +1,35 @@
 {
-      "attackTargets": [
-        "об'єкти критичної інфраструктури України",
-        "підприємства галузі енергетики, водо та теплопостачання (ОКІ)",
-        "10 регіонах України"
-      ],
-      "hackerGroups": ["UAC-0133 (Sandworm)", "UAC-0002 (Sandworm/APT44)"],
-      "countries": [
-        {"name": "Україна", "relation": "target"}
-      ],
-      "organizations": [
-        {"name": "CERT-UA", "relation": "neutral"},
-        {"name": "QUEUESEED (KNUCKLETOUCH, ICYWELL, WRONGSENS, KAPEKA)", "relation": "attacker"},
-        {"name": "LOADGRIP", "relation": "attacker"},
-        {"name": "BIASBOAT", "relation": "attacker"}
-      ],
-      "individuals": [],
-      "domains": []
-    } 
+  "attackTargets": [
+    "infrastructure objects",
+    "energy industry",
+    "water supply and sanitation industry"
+  ],
+  "hackerGroups": [
+    "Sandworm",
+    "UAC-0133",
+    "APT44"
+  ],
+  "applications": [
+    "LOADGRIP",
+    "BIASBOAT",
+    "QUEUESEED",
+    "KNUCKLETOUCH",
+    "ICYWELL",
+    "WRONGSENS",
+    "KAPEKA",
+    "WEEVELY",
+    "REGEORG.NEO",
+    "PIVOTNACCI",
+    "GOSSIPFLOW",
+    "SDELETE"
+  ],
+  "countries": [
+    {"name": "Ukraine", "relation": "target"},
+    {"name": "Russia", "relation": "attacker"} 
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+} 
+
+

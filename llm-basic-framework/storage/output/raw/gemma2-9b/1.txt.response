@@ -1,15 +1,40 @@
 {
-      "attackTargets": [
-        "Державна податкова служба України",
-        "підприємства"
-      ],
-      "hackerGroups": ["UAC-0050"],
-      "countries": [],
-      "organizations": [],
-      "individuals": [],
-      "domains": [
-        {"name": "qaz.im", "relation": "attacker"},
-        {"name": "qaz.is", "relation": "attacker"},
-        {"name": "qaz.su", "relation": "attacker"}
-      ]
-    } 
+  "attackTargets": [
+    "Державна податкова служба України"
+  ],
+  "hackerGroups": [
+    "UAC-0050"
+  ],
+  "applications": [
+    "LITEMANAGER",
+    "Microsoft Office Suite"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "CERT-UA",
+      "relation": "target"
+    },
+    {
+      "name": "Державна податкова служба України",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "qaz.im",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "attacker"
+    }
+  ]
+} 
+
+

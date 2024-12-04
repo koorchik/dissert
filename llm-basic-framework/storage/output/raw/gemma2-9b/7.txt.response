@@ -1,15 +1,25 @@
 {
-      "attackTargets": [ "GRISELDA", "system \"OCHI\""],
-      "hackerGroups": [],
-      "countries": [],
-      "organizations": [
-        {"name": "MILCERT", "relation": "target"},
-        {"name": "ЦРК", "relation": "target"},
-        {"name": "ЦІРОТ", "relation": "target"},
-        {"name": "ЦМТР", "relation": "target"},
-        {"name": "Google Cloud", "relation": "neutral"},
-        {"name": "Cloudflare", "relation": "neutral"}
-      ],
-      "individuals": [],
-      "domains": []
-    }  
+  "attackTargets": [
+    "ІКС \"Очі\"",
+    "GRISELDA"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Signal",
+    "HYDRA",
+    "Очі"
+  ],
+  "countries": [],
+  "organizations": [
+    {"name": "MILCERT", "relation": "target"},
+    {"name": "ЦРК", "relation": "target"},
+    {"name": "ЦІРОТ", "relation": "target"},
+    {"name": "ЦМТР", "relation": "target"},
+    {"name": "Google Cloud", "relation": "neutral"},
+    {"name": "Cloudflare", "relation": "neutral"}
+  ],
+  "individuals": [],
+  "domains": [
+    {"name": "google.com", "relation": "neutral"}
+  ]
+} 

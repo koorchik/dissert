@@ -1,14 +1,19 @@
+```json
 {
       "attackTargets": [
-        "фахівці проєктних офісів",
-        "контрагенти з числа співробітників відповідних органів місцевого самоврядування України"
+        " USAID/DAI HOVERLA",
+        "Organi of local self-government"
       ],
-      "hackerGroups": ["UAC-0057"],
+      "hackerGroups": [
+        "UAC-0057"
+      ],
+      "applications": [
+        "PICASSOLOADER",
+        "Cobalt Strike Beacon"
+      ],
       "countries": [],
-      "organizations": [
-        {"name": "USAID/DAI", "relation": "target"},
-        {"name": "HOVERLA", "relation": "target"}
-      ],
+      "organizations": [],
       "individuals": [],
       "domains": []
-    }  
+    }
+```
