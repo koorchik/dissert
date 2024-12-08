@@ -1,15 +1,31 @@
-```json
 {
-  "attackTargets": ["органи місцевого самоврядування", "оборонні відомства інших країни світу"],
-  "hackerGroups": ["APT28"],
-  "applications": ["reCAPTCHA", "SSH", "METASPLOIT", "Chrome", "Edge", "Opera", "Firefox", "Roundcube", "SystemHealthChek", "ManageSiev"],
-  "countries": [
-    {"name": "Ukraine", "relation": "target"}
+  "attackTargets": [
+    "органи місцевого самоврядування",
+    "державна організація"
   ],
+  "hackerGroups": [
+    "uac-0001",
+    "apt28"
+  ],
+  "applications": [
+    "unrecaptcha",
+    "ssh",
+    "chrome",
+    "edge",
+    "opera",
+    "firefox",
+    "metasploit",
+    "roundcube",
+    "systemhealthchek",
+    "managesiev"
+  ],
+  "countries": [],
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "zhblz.com", "relation": "attacker"}
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    }
   ]
 }
-```

@@ -1,11 +1,23 @@
-```json
 {
   "attackTargets": [],
   "hackerGroups": [],
-  "applications": ["homesteel", "vbs-script", "powershell", "python", "BaseHTTP"],
-  "countries": [],
+  "applications": [
+    "homesteel",
+    "edisk",
+    "powershell"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
   "organizations": [],
   "individuals": [],
-  "domains": [{"name": "edisk", "relation": "neutral"}]
+  "domains": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    }
+  ]
 }
-```

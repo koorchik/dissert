@@ -1,20 +1,43 @@
-```json
 {
-  "attackTargets": ["військові системи", "мобільні пристрої військовослужбовців"],
+  "attackTargets": [
+    "військові системи",
+    "смартфони та планшети військовослужбовців"
+  ],
   "hackerGroups": [],
-  "applications": ["Signal", "GRISELDA", "Очі", "HYDRA"],
+  "applications": [
+    "signal",
+    "griselda",
+    "очі",
+    "hydra"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [
-    {"name": "міністерство оборони україни", "relation": "neutral"},
-    {"name": "збройні сили україни", "relation": "neutral"},
-    {"name": "google cloud", "relation": "neutral"},
-    {"name": "cloudflare", "relation": "neutral"}
+    {
+      "name": "milcert",
+      "relation": "neutral"
+    },
+    {
+      "name": "збройні сили україни",
+      "relation": "neutral"
+    },
+    {
+      "name": "міністерство оборони україни",
+      "relation": "neutral"
+    },
+    {
+      "name": "google cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare",
+      "relation": "neutral"
+    }
   ],
   "individuals": [],
-  "domains": [
-    {"name": "Google Drive", "relation": "neutral"}
-  ]
+  "domains": []
 }
-```

@@ -1,13 +1,17 @@
-```json
 {
-  "attackTargets": [],
+  "attackTargets": [
+    "telegram",
+    "whatsapp"
+  ],
   "hackerGroups": [],
-  "applications": ["telegram", "whatsapp"],
+  "applications": [],
   "countries": [],
   "organizations": [
-    {"name": "csirt-nbu", "relation": "neutral"}
+    {
+      "name": "csirt-nbu",
+      "relation": "neutral"
+    }
   ],
   "individuals": [],
-  "domains": [],
+  "domains": []
 }
-```

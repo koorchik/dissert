@@ -1,13 +1,31 @@
-```json
 {
-  "attackTargets": ["інформаційно-комунікаційних систем", "підприємств галузі енергетики", "об'єкти водопостачання", "інфраструктурним об'єктам України"],
-  "hackerGroups": ["Sandworm", "UAC-0133", "UAC-0002", "APT44"],
-  "applications": ["QUEUESEED", "LOADGRIP", "BIASBOAT", "WEEVELY", "REGEORG.NEO", "PIVOTNACCI", "GOSSIPFLOW", "SDELETE"],
+  "attackTargets": [
+    "інфраструктурні об'єкти україни",
+    "підприємства галузі енергетики, водо та теплопостачання"
+  ],
+  "hackerGroups": [
+    "sandworm",
+    "uac-0133",
+    "uac-0002",
+    "apt44"
+  ],
+  "applications": [
+    "queueseed",
+    "loadgrip",
+    "biasboat",
+    "weevely",
+    "regeorg.neo",
+    "pivotnacci",
+    "gossipflow",
+    "sdelete"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": []
 }
-```

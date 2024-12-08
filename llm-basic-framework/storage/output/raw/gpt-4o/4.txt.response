@@ -1,20 +1,16 @@
-```json
 {
-  "attackTargets": [
-    "органи державної влади",
-    "підприємства основних галузей промисловості",
-    "військові формування"
-  ],
+  "attackTargets": [],
   "hackerGroups": [],
-  "applications": ["rdp", "mstsc.exe"],
+  "applications": [
+    "mstsc.exe"
+  ],
   "countries": [
-    {"name": "україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
-  "organizations": [
-    {"name": "amazon", "relation": "neutral"},
-    {"name": "microsoft", "relation": "neutral"}
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": []
 }
-```

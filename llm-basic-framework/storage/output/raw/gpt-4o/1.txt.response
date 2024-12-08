@@ -1,17 +1,38 @@
-```json
 {
-  "attackTargets": ["Підприємства"],
-  "hackerGroups": ["UAC-0050"],
-  "applications": ["LITEMANAGER"],
+  "attackTargets": [
+    "державна податкова служба україни",
+    "підприємства"
+  ],
+  "hackerGroups": [
+    "uac-0050"
+  ],
+  "applications": [
+    "litemanager"
+  ],
   "countries": [],
   "organizations": [
-    {"name": "Державна податкова служба України", "relation": "target"}
+    {
+      "name": "державна податкова служба україни",
+      "relation": "target"
+    },
+    {
+      "name": "фінансові установи",
+      "relation": "neutral"
+    }
   ],
   "individuals": [],
   "domains": [
-    {"name": "qaz.im", "relation": "attacker"},
-    {"name": "qaz.is", "relation": "attacker"},
-    {"name": "qaz.su", "relation": "attacker"}
+    {
+      "name": "qaz.im",
+      "relation": "neutral"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "neutral"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "neutral"
+    }
   ]
 }
-```

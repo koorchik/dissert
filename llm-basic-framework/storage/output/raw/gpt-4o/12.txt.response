@@ -1,13 +1,23 @@
-```json
 {
-  "attackTargets": ["українські оборонні підприємства", "Сили оборони України"],
-  "hackerGroups": ["UAC-0180"],
-  "applications": ["GLUEEGG", "DROPCLUE", "ATERA", "curl.exe"],
+  "attackTargets": [
+    "українські оборонні підприємства",
+    "сили оборони україни"
+  ],
+  "hackerGroups": [
+    "uac-0180"
+  ],
+  "applications": [
+    "glueegg",
+    "dropclue",
+    "atera"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": []
 }
-```
