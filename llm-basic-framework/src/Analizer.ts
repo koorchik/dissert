@@ -1,5 +1,6 @@
 import fs from 'fs/promises';
 import type { LlmClient } from './LlmClient/LlmClient';
+import { extractAndParseJson, normalizeRawData, NormalizedData } from './utils/validationUtils';
 
 interface AnalyzerParams {
   dataDir: string;
@@ -24,12 +25,12 @@ export class Analyzer {
       // const file = '11.txt';
       const content = await fs.readFile(`${this.#dataDir}/${file}`);
       const response = await this.#sendToLlm(content.toString())
-      await this.#saveResponse(file, response);
+      await this.#saveResponse(file, JSON.stringify(response, undefined, 2));
       // break;
     }
   }
 
-  async #sendToLlm(text: string) {
+  async #sendToLlm(text: string): Promise<NormalizedData | {}> {
     const instructions = `
       You are a highly skilled data extraction expert specializing in identifying and extracting 
       sensitive information from text. Your task is to analyze the provided text and extract any data that 
@@ -85,7 +86,17 @@ export class Analyzer {
     );
     console.timeEnd('LLM PROCESSING');
 
-    return result;
+    console.time('EXTRACT_JSON');
+    const rawData = extractAndParseJson(result);
+    console.timeEnd('EXTRACT_JSON');
+
+    if (!rawData) return {};
+
+    console.time('NORMALIZE_DATA');
+    const normalizedData = normalizeRawData(rawData);
+    console.timeEnd('NORMALIZE_DATA');
+
+    return normalizedData || {};
   }
 
   async #saveResponse(originalFile: string, text: string) {

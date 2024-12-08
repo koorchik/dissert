@@ -1,4 +1,4 @@
-import ollama from 'ollama'
+import ollama from 'ollama';
 import { LlmBackendBase } from "./LlmClientBackendBase";
 
 export class LlmClientBackendOllama implements LlmBackendBase {

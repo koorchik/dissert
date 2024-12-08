@@ -45,12 +45,12 @@ async function main() {
     location: vertexAiLocation
   });
 
-  const backend = vertexAiBackend;
+  const backend = openAiBackend;
 
   const analizer = new Analyzer({
     dataDir: './storage/data/cert.gov.ua-news',
     outputDir: `./storage/output/raw/${backend.model.replace(/:/g, '-')}`,
-    llmClient: new LlmClient({ backend })
+    llmClient: new LlmClient({ backend }),
   })
 
   analizer.run();
