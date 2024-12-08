@@ -1,62 +1,55 @@
-```json
 {
   "attackTargets": [
-    "Сили оборони України"
+    "сили оборони україни",
+    "ікс зсу"
   ],
   "hackerGroups": [
-    "UAC-0020",
-    "Vermin"
+    "uac-0020 (vermin)"
   ],
   "applications": [
-    "SPECTR",
-    "SyncThing",
-    "InnoSetup",
+    "spectr",
+    "syncthing",
+    "innosetup",
     "robocopy.exe",
-    "Telegram",
-    "Signal",
-    "Skype",
-    "Element",
-    "Firefox",
-    "Edge",
-    "Chrome",
-    "Opera",
-    "Amigo",
-    "Orbitum",
-    "Yandex",
-    "Comodo",
-    "Maxthon3",
-    "Brave-Browser"
+    "telegram",
+    "signal",
+    "skype",
+    "element",
+    "firefox",
+    "edge",
+    "chrome",
+    "chromium",
+    "google",
+    "google(x86)",
+    "opera software",
+    "amigo",
+    "orbitum",
+    "yandex",
+    "comodo",
+    "maxthon3",
+    "brave-browser"
   ],
   "countries": [
     {
-      "name": "Україна",
+      "name": "україна",
       "relation": "target"
     },
     {
-      "name": "Луганськ",
+      "name": "росія",
       "relation": "attacker"
     }
   ],
   "organizations": [
     {
-      "name": "Сили оборони України",
+      "name": "центр кібербезпеки зсу (цкб)",
       "relation": "target"
-    },
-    {
-      "name": "Центр кібербезпеки ЗСУ",
-      "relation": "target"
-    },
-    {
-      "name": "CERT-UA",
-      "relation": "neutral"
     }
   ],
   "individuals": [],
   "domains": [
     {
-      "name": "syncthing.net",
+      "name": "*.syncthing.net",
       "relation": "neutral"
     }
   ]
 }
-```

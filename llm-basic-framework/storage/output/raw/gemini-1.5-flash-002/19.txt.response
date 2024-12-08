@@ -1,32 +1,25 @@
-```json
 {
   "attackTargets": [
-    "підприємств галузі енергетики, водо та теплопостачання"
+    "інформаційно-комунікаційних систем (ікс) близько двадцяти підприємств галузі енергетики, водо та теплопостачання (окі) у десяти регіонах україни"
   ],
   "hackerGroups": [
-    "Sandworm",
-    "UAC-0133",
-    "UAC-0002",
-    "APT44"
+    "sandworm",
+    "uac-0133",
+    "uac-0002 (sandworm/apt44)"
   ],
   "applications": [
-    "QUEUESEED",
-    "KNUCKLETOUCH",
-    "ICYWELL",
-    "WRONGSENS",
-    "KAPEKA",
-    "LOADGRIP",
-    "BIASBOAT",
-    "WEEVELY",
-    "REGEORG.NEO",
-    "PIVOTNACCI",
-    "GOSSIPFLOW",
-    "SDELETE",
-    "PHP"
+    "queueseed (knuckletouch, icywell, wrongsens, kapeka)",
+    "loadgrip",
+    "biasboat",
+    "php-вебшелл weevely",
+    "php-тунель regeorg.neo",
+    "pivotnacci",
+    "gossipflow",
+    "sdelete"
   ],
   "countries": [
     {
-      "name": "Україна",
+      "name": "україна",
       "relation": "target"
     }
   ],
@@ -34,4 +27,3 @@
   "individuals": [],
   "domains": []
 }
-```

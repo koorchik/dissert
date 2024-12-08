@@ -1,13 +1,22 @@
-```json
 {
   "attackTargets": [],
-  "hackerGroups": ["UAC-0006"],
-  "applications": ["SMOKELOADER", "TALESHOT", "RMS", "PowerShell", "Microsoft Access"],
+  "hackerGroups": [
+    "uac-0006"
+  ],
+  "applications": [
+    "smokeloader",
+    "taleshot",
+    "rms",
+    "microsoft access",
+    "powershell"
+  ],
   "countries": [
-    {"name": "Ukraine", "relation": "target"}
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": []
 }
-```

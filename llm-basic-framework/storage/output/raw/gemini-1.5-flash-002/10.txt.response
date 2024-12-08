@@ -1,24 +1,27 @@
-```json
 {
   "attackTargets": [
-    "Фахівці проєктних офісів",
-    "Співробітники відповідних органів місцевого самоврядування України"
+    "фахівці проєктних офісів",
+    "їхні \"контрагенти\" з числа співробітників відповідних органів місцевого самоврядування україни"
   ],
-  "hackerGroups": ["UAC-0057"],
-  "applications": ["PICASSOLOADER", "Cobalt Strike Beacon"],
+  "hackerGroups": [
+    "uac-0057"
+  ],
+  "applications": [
+    "picassoloader",
+    "cobalt strike beacon"
+  ],
   "countries": [
     {
-      "name": "Україна",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "USAID/DAI",
-      "relation": "neutral"
+      "name": "usaid/dai",
+      "relation": "target"
     }
   ],
   "individuals": [],
   "domains": []
 }
-```

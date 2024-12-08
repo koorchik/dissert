@@ -1,31 +1,26 @@
-```json
 {
-  "attackTargets": [
-    "Telegram",
-    "WhatsApp"
-  ],
+  "attackTargets": [],
   "hackerGroups": [],
   "applications": [
-    "Telegram",
-    "WhatsApp"
+    "telegram",
+    "whatsapp"
   ],
   "countries": [
     {
-      "name": "Ukraine",
+      "name": "ukraine",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "CERT-UA",
+      "name": "cert-ua",
       "relation": "neutral"
     },
     {
-      "name": "CSIRT-NBU",
+      "name": "csirt-nbu",
       "relation": "neutral"
     }
   ],
   "individuals": [],
   "domains": []
 }
-```

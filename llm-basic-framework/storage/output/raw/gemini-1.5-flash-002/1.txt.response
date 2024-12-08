@@ -1,22 +1,26 @@
-```json
 {
   "attackTargets": [
-    "Державна податкова служба України",
     "підприємств"
   ],
   "hackerGroups": [
-    "UAC-0050"
+    "uac-0050"
   ],
   "applications": [
-    "LITEMANAGER"
+    "litemanager",
+    "msi-пакет"
   ],
   "countries": [
     {
-      "name": "Україна",
+      "name": "україна",
       "relation": "target"
     }
   ],
-  "organizations": [],
+  "organizations": [
+    {
+      "name": "державна податкова служба україни",
+      "relation": "target"
+    }
+  ],
   "individuals": [],
   "domains": [
     {
@@ -37,4 +41,3 @@
     }
   ]
 }
-```

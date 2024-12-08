@@ -1,21 +1,23 @@
-```json
 {
   "attackTargets": [],
   "hackerGroups": [],
-  "applications": ["Telegram", "Microsoft Defender", "PowerShell"],
+  "applications": [
+    "telegram",
+    "microsoft defender",
+    "powershell"
+  ],
   "countries": [
     {
-      "name": "Ukraine",
+      "name": "ukraine",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "Резерв+",
+      "name": "резерв+",
       "relation": "target"
     }
   ],
   "individuals": [],
   "domains": []
 }
-```

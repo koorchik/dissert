@@ -1,11 +1,15 @@
-```json
 {
   "attackTargets": [],
-  "hackerGroups": ["UAC-0218"],
-  "applications": ["HOMESTEEL", "PowerShell", "Python"],
+  "hackerGroups": [
+    "uac-0218"
+  ],
+  "applications": [
+    "homesteel",
+    "powershell",
+    "python"
+  ],
   "countries": [],
   "organizations": [],
   "individuals": [],
   "domains": []
 }
-```

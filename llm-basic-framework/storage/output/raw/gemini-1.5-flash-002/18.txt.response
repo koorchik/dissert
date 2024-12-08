@@ -1,15 +1,14 @@
-```json
 {
   "attackTargets": [
-    "WhatsApp users"
+    "whatsapp accounts"
   ],
   "hackerGroups": [],
   "applications": [
-    "WhatsApp"
+    "whatsapp"
   ],
   "countries": [
     {
-      "name": "Ukraine",
+      "name": "ukraine",
       "relation": "target"
     }
   ],
@@ -18,8 +17,11 @@
   "domains": [
     {
       "name": "petition.president.gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "https://cert.gov.ua/article/6278274",
       "relation": "neutral"
     }
   ]
 }
-```

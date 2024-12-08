@@ -1,20 +1,36 @@
-```json
 {
   "attackTargets": [
     "органи місцевого самоврядування",
     "державна організація",
-    "оборонним відомствам"
+    "оборонним відомствам інших країни світу"
   ],
-  "hackerGroups": ["UAC-0001", "APT28"],
-  "applications": ["PowerShell", "SSH", "METASPLOIT", "Roundcube", "Google таблиця", "ManageSiev", "browser.hta", "Browser.ps1"],
+  "hackerGroups": [
+    "uac-0001 (apt28)"
+  ],
+  "applications": [
+    "powershell",
+    "ssh",
+    "metasploit",
+    "roundcube",
+    "google таблицю",
+    "managesiev",
+    "chrome",
+    "edge",
+    "opera",
+    "firefox"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "інших країни світу", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "mail.zhblz[.]com", "relation": "attacker"}
+    {
+      "name": "mail.zhblz[.]com",
+      "relation": "attacker"
+    }
   ]
 }
-```

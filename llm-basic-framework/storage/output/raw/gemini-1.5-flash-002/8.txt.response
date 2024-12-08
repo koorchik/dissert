@@ -1,25 +1,23 @@
-```json
 {
   "attackTargets": [
-    "Державних організацій України",
-    "органи місцевого самоврядування України",
-    "комп'ютерів"
+    "державних організацій україни",
+    "державних органів та органів місцевого самоврядування україни"
   ],
   "hackerGroups": [],
   "applications": [
-    "ANONVNC (MESHAGENT)",
-    "MESHAGENT",
-    "Scan_docs#40562153.msi"
+    "anonvnc (meshagent)",
+    "meshagent",
+    "scan_docs#40562153.msi"
   ],
   "countries": [
     {
-      "name": "Україна",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "Служба безпеки України",
+      "name": "служба безпеки україни",
       "relation": "target"
     }
   ],
@@ -30,9 +28,8 @@
       "relation": "neutral"
     },
     {
-      "name": "pcloud.com",
+      "name": "pcloud",
       "relation": "attacker"
     }
   ]
 }
-```
