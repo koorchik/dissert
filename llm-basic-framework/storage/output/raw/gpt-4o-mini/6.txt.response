@@ -1,9 +1,28 @@
 {
-  "attackTargets": ["українські підприємства", "фізичні особи-підприємці"],
-  "hackerGroups": ["UAC-0050", "Fire Cells Group", "UAC-0006"],
-  "applications": ["REMCOS", "TEKTONITRMS", "MEDUZASTEALER", "LUMMASTEALER", "XENORAT", "SECTOPRAT", "MARSSTEALER", "DARKTRACKRAT"],
+  "attackTargets": [
+    "українські підприємства",
+    "фізичні особи-підприємці"
+  ],
+  "hackerGroups": [
+    "uac-0050",
+    "fire cells group",
+    "uac-0006"
+  ],
+  "applications": [
+    "remcos",
+    "tektonitrms",
+    "meduzastealer",
+    "lummastealer",
+    "xenorat",
+    "sectoprat",
+    "marsstealer",
+    "darktrackrat"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],

@@ -1,18 +1,35 @@
 {
-  "attackTargets": ["ЕОМ українських організацій"],
+  "attackTargets": [
+    "українські організації"
+  ],
   "hackerGroups": [],
-  "applications": ["SuperOps RMM", "PyInstaller", "Minesweeper"],
+  "applications": [
+    "superops rmm"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "США", "relation": "neutral"},
-    {"name": "Європа", "relation": "neutral"}
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "сша",
+      "relation": "neutral"
+    },
+    {
+      "name": "європа",
+      "relation": "neutral"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "dropbox.com", "relation": "neutral"},
-    {"name": "anotepad.com", "relation": "neutral"},
-    {"name": "*.superops.com", "relation": "target"},
-    {"name": "*.superops.ai", "relation": "target"}
+    {
+      "name": "*.superops.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "*.superops.ai",
+      "relation": "attacker"
+    }
   ]
 }

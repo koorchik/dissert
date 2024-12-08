@@ -1,15 +1,33 @@
 {
-  "attackTargets": ["Державна податкова служба України"],
-  "hackerGroups": ["UAC-0050"],
-  "applications": ["LITEMANAGER"],
+  "attackTargets": [
+    "державна податкова служба україни"
+  ],
+  "hackerGroups": [
+    "uac-0050"
+  ],
+  "applications": [
+    "litemanager"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "qaz.im", "relation": "neutral"},
-    {"name": "qaz.is", "relation": "neutral"},
-    {"name": "qaz.su", "relation": "neutral"}
+    {
+      "name": "qaz.im",
+      "relation": "neutral"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "neutral"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "neutral"
+    }
   ]
 }

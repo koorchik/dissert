@@ -1,13 +1,25 @@
 {
-  "attackTargets": ["Резерв+"],
+  "attackTargets": [
+    "резерв+"
+  ],
   "hackerGroups": [],
-  "applications": ["MEDUZASTEALER", "Microsoft Defender"],
+  "applications": [
+    "meduzastealer",
+    "microsoft defender",
+    "powershell"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],
   "domains": [
-    {"name": "reserveplusbot", "relation": "neutral"}
+    {
+      "name": "@reserveplusbot",
+      "relation": "neutral"
+    }
   ]
 }

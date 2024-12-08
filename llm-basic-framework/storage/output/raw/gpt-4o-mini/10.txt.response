@@ -1,13 +1,30 @@
 {
-  "attackTargets": ["органи місцевого самоврядування України"],
-  "hackerGroups": ["UAC-0057"],
-  "applications": ["PICASSOLOADER", "Cobalt Strike Beacon"],
+  "attackTargets": [
+    "фахівці проєктних офісів",
+    "співробітники відповідних органів місцевого самоврядування україни"
+  ],
+  "hackerGroups": [
+    "uac-0057"
+  ],
+  "applications": [
+    "picassoloader",
+    "cobalt strike beacon"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [
-    {"name": "USAID", "relation": "neutral"},
-    {"name": "DAI", "relation": "neutral"}
+    {
+      "name": "usaid",
+      "relation": "neutral"
+    },
+    {
+      "name": "dai",
+      "relation": "neutral"
+    }
   ],
   "individuals": [],
   "domains": []

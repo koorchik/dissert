@@ -6,15 +6,20 @@
   ],
   "hackerGroups": [],
   "applications": [
-    "RDP",
-    "amazon",
-    "microsoft"
+    "rdp",
+    "mstsc.exe"
   ],
   "countries": [
-    {"name": "україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [
-    {"name": "урядова команда реагування на комп'ютерні надзвичайні події україни", "relation": "target"}
+    {
+      "name": "cert-ua",
+      "relation": "target"
+    }
   ],
   "individuals": [],
   "domains": []

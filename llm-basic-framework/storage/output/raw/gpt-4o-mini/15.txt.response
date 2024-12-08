@@ -1,9 +1,15 @@
 {
   "attackTargets": [],
   "hackerGroups": [],
-  "applications": ["Telegram", "WhatsApp"],
+  "applications": [
+    "telegram",
+    "whatsapp"
+  ],
   "countries": [
-    {"name": "Ukraine", "relation": "neutral"}
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
   ],
   "organizations": [],
   "individuals": [],

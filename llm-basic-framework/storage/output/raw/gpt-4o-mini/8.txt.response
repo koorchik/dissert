@@ -1,17 +1,38 @@
 {
-  "attackTargets": ["Державні організації України"],
+  "attackTargets": [
+    "державні організації україни",
+    "органи місцевого самоврядування україни"
+  ],
   "hackerGroups": [],
-  "applications": ["ANONVNC", "MESHAGENT"],
+  "applications": [
+    "anonvnc",
+    "meshagent"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"}
+    {
+      "name": "україна",
+      "relation": "target"
+    }
   ],
   "organizations": [
-    {"name": "Служба безпеки України", "relation": "neutral"},
-    {"name": "CERT-UA", "relation": "neutral"}
+    {
+      "name": "служба безпеки україни",
+      "relation": "neutral"
+    },
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    }
   ],
   "individuals": [],
   "domains": [
-    {"name": "github.com", "relation": "neutral"},
-    {"name": "pCloud", "relation": "neutral"}
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "pcloud",
+      "relation": "neutral"
+    }
   ]
 }

@@ -1,19 +1,49 @@
 {
-  "attackTargets": ["науково-дослідні установи України"],
-  "hackerGroups": ["UAC-0063", "APT28"],
-  "applications": ["HATVIBE", "CHERRYSPY", "HFS HTTP File Server"],
+  "attackTargets": [
+    "науково-дослідні установи україни"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28"
+  ],
+  "applications": [
+    "hatvibe",
+    "cherryspy",
+    "hfs http file server"
+  ],
   "countries": [
-    {"name": "Україна", "relation": "target"},
-    {"name": "Росія", "relation": "attacker"},
-    {"name": "Вірменія", "relation": "neutral"},
-    {"name": "Киргизстан", "relation": "neutral"}
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "вірменія",
+      "relation": "neutral"
+    },
+    {
+      "name": "киргизька республіка",
+      "relation": "neutral"
+    },
+    {
+      "name": "російська федерація",
+      "relation": "attacker"
+    }
   ],
   "organizations": [
-    {"name": "Управління оборонної політики Міністерства оборони Республіки Вірменія", "relation": "neutral"},
-    {"name": "Управління міжнародного військового співробітництва Міністерства оборони Киргизької Республіки", "relation": "neutral"}
+    {
+      "name": "управління оборонної політики міністерства оборони республіки вірменія",
+      "relation": "neutral"
+    },
+    {
+      "name": "управління міжнародного військового співробітництва міністерства оборони киргизької республіки",
+      "relation": "neutral"
+    }
   ],
   "individuals": [],
   "domains": [
-    {"name": "rejetto.com", "relation": "neutral"}
+    {
+      "name": "rejetto.com",
+      "relation": "neutral"
+    }
   ]
 }

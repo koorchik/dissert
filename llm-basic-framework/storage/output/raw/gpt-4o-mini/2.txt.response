@@ -1,13 +1,38 @@
 {
-  "attackTargets": ["органи місцевого самоврядування", "державна організація"],
-  "hackerGroups": ["UAC-0001", "APT28"],
-  "applications": ["PowerShell", "METASPLOIT", "Roundcube"],
-  "countries": [
-    {"name": "Україна", "relation": "target"}
+  "attackTargets": [
+    "органи місцевого самоврядування",
+    "державна організація"
   ],
-  "organizations": [],
+  "hackerGroups": [
+    "uac-0001",
+    "apt28"
+  ],
+  "applications": [
+    "powershell",
+    "metasploit",
+    "roundcube"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "інші країни світу",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    }
+  ],
   "individuals": [],
   "domains": [
-    {"name": "mail.zhblz.com", "relation": "attacker"}
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    }
   ]
 }
