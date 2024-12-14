@@ -1,4 +1,5 @@
-import RJSON from 'relaxed-json';
+import { jsonrepair } from 'jsonrepair'
+
 import LIVR from 'livr';
 LIVR.Validator.defaultAutoTrim(true);
 
@@ -14,20 +15,20 @@ const validator = new LIVR.Validator({
   }],
   organizations: [{ default: [[]] }, {
     listOfObjects: [{
-      name: ['required', 'string', 'toLc'],
-      relation: ['required', 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
+      name: ['string', 'toLc'],
+      relation: [{ default: 'neutral' }, 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
     }]
   }],
   individuals: [{ default: [[]] }, {
     listOfObjects: [{
-      name: ['required', 'string', 'toLc'],
-      relation: ['required', 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
+      name: ['string', 'toLc'],
+      relation: [{ default: 'neutral' }, 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
     }]
   }],
   domains: [{ default: [[]] }, {
     listOfObjects: [{
-      name: ['required', 'string', 'toLc'],
-      relation: ['required', 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
+      name: ['string', 'toLc'],
+      relation: [{ default: 'neutral' }, 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
     }]
   }],
 });
@@ -65,19 +66,25 @@ export function extractAndParseJson(text: string): RawData | undefined {
   if (!matched) return;
 
   try {
-    return RJSON.parse(matched[0]);
+    const repaired = jsonrepair(matched[0]);
+    return JSON.parse(repaired);
   } catch (error) {
     return;
   }
 }
 
-
-
 export function normalizeRawData(data: { [key: string]: string }): NormalizedData | undefined {
   const validData = validator.validate(data);
+  console.log(data);
   if (!validData) {
+    console.log({ERROR: validator.getErrors()});
     return;
   }
+
+  validData.individuals = validData.individuals.filter((item: {name: string}) => item.name);
+  validData.countries = validData.countries.filter((item: {name: string}) => item.name);
+  validData.domains = validData.domains.filter((item: {name: string}) => item.name);
+  validData.organizations = validData.organizations.filter((item: {name: string}) => item.name);
 
   return validData as NormalizedData;
 }

@@ -22,7 +22,7 @@ async function main() {
   // gpt-4o-mini
   // o1-preview - slow, expensive, for reasoning.
   // o1-mini - slow, expensive, for reasoning.
-  const openAiBackend = new LlmClientBackendOpenAi({ model: 'gpt-4o', apiKey: openAiApiKey });
+  const openAiBackend = new LlmClientBackendOpenAi({ model: 'gpt-4o-mini', apiKey: openAiApiKey });
 
   // Ollama models: 
   // llama3.1:70b - 24GB GPU (52% of model, 1-2 min per message).
@@ -30,22 +30,23 @@ async function main() {
   // llama3.2:3b - 8GB GPU (100% of model)
   // gemma2:27b - 8GB GPU (36% of model, 1-2 min per message), 24GB GPU (100% of model, 2-5 sec per message),
   // gemma2:9b - 8GB GPU (84% of model).
-  // llama3.2:1b - 8GB GPU (100% of model). Unusable: hallucinates indivials heavily.
+  // llama3.2:1b - 8GB GPU (100% of model). Unusable: hallucinates individuals heavily.
   // mistral:7b - 8GB GPU (100% of model).  Unusable: does not follow JSON structure.
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
-  const ollamaBackend = new LlmClientBackendOllama({ model: 'gemma2:9b' });
+  const ollamaBackend = new LlmClientBackendOllama({ model: 'llama3.2:3b' });
 
   // VertexAi models:
   // gemini-1.5-flash-002
   // gemini-1.5-pro-002
+  // gemini-flash-experimental
   const vertexAiBackend = new LlmClientBackendVertexAi({
-    model: 'gemini-1.5-pro-002',
+    model: 'gemini-flash-experimental',
     project: vertexAiProject,
     location: vertexAiLocation
   });
 
-  const backend = openAiBackend;
+  const backend = vertexAiBackend;
 
   const analizer = new Analyzer({
     dataDir: './storage/data/cert.gov.ua-news',

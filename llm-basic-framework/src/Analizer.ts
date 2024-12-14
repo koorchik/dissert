@@ -23,8 +23,11 @@ export class Analyzer {
     const files = await fs.readdir(this.#dataDir);
     for (const file of files) {
       // const file = '11.txt';
+
+      console.log(`FILE=${file}`);
       const content = await fs.readFile(`${this.#dataDir}/${file}`);
-      const response = await this.#sendToLlm(content.toString())
+      const response = await this.#sendToLlm(content.toString());
+      // console.log({JSON: JSON.stringify(response, undefined, 2)});
       await this.#saveResponse(file, JSON.stringify(response, undefined, 2));
       // break;
     }
@@ -87,6 +90,7 @@ export class Analyzer {
     console.timeEnd('LLM PROCESSING');
 
     console.time('EXTRACT_JSON');
+    // TODO: check if result contains JSON
     const rawData = extractAndParseJson(result);
     console.timeEnd('EXTRACT_JSON');
 
@@ -95,7 +99,7 @@ export class Analyzer {
     console.time('NORMALIZE_DATA');
     const normalizedData = normalizeRawData(rawData);
     console.timeEnd('NORMALIZE_DATA');
-
+    if (!normalizedData) {};
     return normalizedData || {};
   }
 
