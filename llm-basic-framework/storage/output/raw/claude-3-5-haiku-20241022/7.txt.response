@@ -1,0 +1,46 @@
+{
+  "attackTargets": [
+    "military systems",
+    "military mobile devices",
+    "griselda system",
+    "eyes (очі) system"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "signal",
+    "griselda",
+    "eyes (очі)",
+    "hydra"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ministry of defense of ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "armed forces of ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "google cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "google.com",
+      "relation": "neutral"
+    }
+  ]
+}

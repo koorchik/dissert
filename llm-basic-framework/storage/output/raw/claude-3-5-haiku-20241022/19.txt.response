@@ -1,0 +1,32 @@
+{
+  "attackTargets": [
+    "critical infrastructure objects",
+    "energy sector enterprises",
+    "water supply enterprises",
+    "heat supply enterprises"
+  ],
+  "hackerGroups": [
+    "uac-0133",
+    "sandworm",
+    "apt44"
+  ],
+  "applications": [
+    "queueseed",
+    "loadgrip",
+    "biasboat",
+    "weevely",
+    "regeorg.neo",
+    "pivotnacci",
+    "gossipflow",
+    "sdelete"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

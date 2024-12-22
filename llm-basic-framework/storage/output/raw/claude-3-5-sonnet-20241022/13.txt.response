@@ -1,0 +1,54 @@
+{
+  "attackTargets": [
+    "сили оборони україни",
+    "ікс зсу"
+  ],
+  "hackerGroups": [
+    "uac-0020",
+    "vermin"
+  ],
+  "applications": [
+    "spectr",
+    "syncthing",
+    "innosetup",
+    "specmon",
+    "pluginloader.dll",
+    "screengrabber",
+    "filegrabber",
+    "robocopy.exe",
+    "telegram",
+    "signal",
+    "skype",
+    "element",
+    "firefox",
+    "edge",
+    "chrome"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "зсу",
+      "relation": "target"
+    },
+    {
+      "name": "центр кібербезпеки зсу",
+      "relation": "target"
+    },
+    {
+      "name": "силові відомства тимчасово окупованого луганська",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "syncthing.net",
+      "relation": "attacker"
+    }
+  ]
+}

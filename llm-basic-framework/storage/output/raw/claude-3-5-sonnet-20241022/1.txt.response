@@ -1,0 +1,44 @@
+{
+  "attackTargets": [
+    "ukrainian enterprises",
+    "accountants' computers",
+    "remote banking systems"
+  ],
+  "hackerGroups": [
+    "uac-0050"
+  ],
+  "applications": [
+    "litemanager"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "state tax service of ukraine",
+      "relation": "neutral"
+    },
+    {
+      "name": "banking institutions",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "qaz.im",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "attacker"
+    }
+  ]
+}

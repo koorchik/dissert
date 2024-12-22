@@ -1,0 +1,46 @@
+{
+  "attackTargets": [
+    "сили оборони україни"
+  ],
+  "hackerGroups": [
+    "uac-0020",
+    "vermin"
+  ],
+  "applications": [
+    "spectr",
+    "syncthing",
+    "sync.exe",
+    "screengrabber",
+    "filegrabber",
+    "usb",
+    "social",
+    "browsers"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "луганськ",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "центр кібербезпеки зсу",
+      "relation": "target"
+    },
+    {
+      "name": "cert-ua",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "syncthing.net",
+      "relation": "neutral"
+    }
+  ]
+}

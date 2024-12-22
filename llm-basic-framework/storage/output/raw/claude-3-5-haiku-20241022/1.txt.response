@@ -1,0 +1,44 @@
+{
+  "attackTargets": [
+    "державна податкова служба україни",
+    "бухгалтери підприємств"
+  ],
+  "hackerGroups": [
+    "uac-0050"
+  ],
+  "applications": [
+    "litemanager",
+    "системи дистанційного банківського обслуговування"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "державна податкова служба",
+      "relation": "target"
+    },
+    {
+      "name": "банківські установи",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "qaz.im",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "attacker"
+    }
+  ]
+}

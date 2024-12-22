@@ -1,0 +1,45 @@
+{
+  "attackTargets": [
+    "ukrainian research institution"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28"
+  ],
+  "applications": [
+    "hatvibe",
+    "cherryspy",
+    "hfs http file server",
+    "python"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "armenia",
+      "relation": "neutral"
+    },
+    {
+      "name": "kyrgyzstan",
+      "relation": "neutral"
+    },
+    {
+      "name": "russia",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ministry of defense of armenia",
+      "relation": "neutral"
+    },
+    {
+      "name": "ministry of defense of kyrgyzstan",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

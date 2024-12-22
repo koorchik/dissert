@@ -1,0 +1,33 @@
+{
+  "attackTargets": [
+    "local self-government bodies"
+  ],
+  "hackerGroups": [
+    "uac-0001",
+    "apt28"
+  ],
+  "applications": [
+    "chrome",
+    "edge",
+    "opera",
+    "firefox",
+    "metasploit",
+    "powershell",
+    "ssh",
+    "roundcube"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "state organization",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz[.]com",
+      "relation": "attacker"
+    }
+  ]
+}

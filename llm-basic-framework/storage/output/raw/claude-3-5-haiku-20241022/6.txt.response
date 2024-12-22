@@ -1,0 +1,30 @@
+{
+  "attackTargets": [
+    "ukrainian enterprises",
+    "individual entrepreneurs"
+  ],
+  "hackerGroups": [
+    "uac-0050",
+    "uac-0006",
+    "fire cells group"
+  ],
+  "applications": [
+    "remcos",
+    "tektonitrms",
+    "meduzastealer",
+    "lummastealer",
+    "xenorat",
+    "sectoprat",
+    "marsstealer",
+    "darktrackrat"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

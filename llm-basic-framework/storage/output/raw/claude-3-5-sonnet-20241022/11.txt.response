@@ -1,0 +1,57 @@
+{
+  "attackTargets": [
+    "ukrainian research institutions",
+    "defense policy department of the ministry of defense of the republic of armenia"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28",
+    "uac-0001"
+  ],
+  "applications": [
+    "hatvibe",
+    "cherryspy",
+    "hfs http file server",
+    "python",
+    "mshta.exe"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "russia",
+      "relation": "attacker"
+    },
+    {
+      "name": "armenia",
+      "relation": "target"
+    },
+    {
+      "name": "kyrgyzstan",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "general staff of the russian armed forces",
+      "relation": "attacker"
+    },
+    {
+      "name": "ministry of defense of the republic of armenia",
+      "relation": "target"
+    },
+    {
+      "name": "ministry of defense of the kyrgyz republic",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "rejetto.com",
+      "relation": "neutral"
+    }
+  ]
+}

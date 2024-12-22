@@ -1,0 +1,27 @@
+{
+  "attackTargets": [
+    "ukrainian defense enterprises",
+    "defense forces of ukraine"
+  ],
+  "hackerGroups": [
+    "uac-0180"
+  ],
+  "applications": [
+    "glueegg",
+    "dropclue",
+    "atera",
+    "curl.exe",
+    "acrobait",
+    "rosebloom",
+    "rosethorn"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

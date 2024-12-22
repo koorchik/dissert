@@ -1,0 +1,27 @@
+{
+  "attackTargets": [
+    "органи державної влади",
+    "підприємства основних галузей промисловості",
+    "військові формування"
+  ],
+  "hackerGroups": [
+    "uac-0215"
+  ],
+  "applications": [
+    "mstsc.exe",
+    "rdp"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "amazon",
+      "relation": "neutral"
+    },
+    {
+      "name": "microsoft",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

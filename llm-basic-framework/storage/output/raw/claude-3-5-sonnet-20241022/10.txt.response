@@ -1,0 +1,31 @@
+{
+  "attackTargets": [
+    "органи місцевого самоврядування україни",
+    "проєктні офіси"
+  ],
+  "hackerGroups": [
+    "uac-0057"
+  ],
+  "applications": [
+    "picassoloader",
+    "cobalt strike beacon"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "usaid",
+      "relation": "neutral"
+    },
+    {
+      "name": "dai",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

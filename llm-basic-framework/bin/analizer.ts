@@ -5,17 +5,21 @@ import { Analyzer } from '../src/Analizer';
 import { LlmClient } from '../src/LlmClient/LlmClient';
 import { LlmClientBackendOpenAi } from '../src/LlmClient/LlmClientBackendOpenAi';
 import { LlmClientBackendOllama } from '../src/LlmClient/LlmClientBackendOllama';
-import { LlmClientBackendVertexAi } from '../src/LlmClient/LlmClientBackendVertexAi';
+// import { LlmClientBackendVertexAi } from '../src/LlmClient/LlmClientBackendVertexAi';
+import { LlmClientBackendAnthropic } from '../src/LlmClient/LlmClientBackendAnthropic';
 
 async function main() {
   const openAiApiKey = process.env['OPENAI_API_KEY'];
   if (!openAiApiKey) throw new Error('OPENAI_API_KEY env required');
 
-  const vertexAiProject = process.env['VERTEXAI_PROJECT'];
-  if (!vertexAiProject) throw new Error('VERTEXAI_PROJECT env required');
+  const antrophicApiKey = process.env['ANTHROPIC_API_KEY'];
+  if (!antrophicApiKey) throw new Error('ANTHROPIC_API_KEY env required');
 
-  const vertexAiLocation = process.env['VERTEXAI_LOCATION'];
-  if (!vertexAiLocation) throw new Error('VERTEXAI_LOCATION env required');
+  // const vertexAiProject = process.env['VERTEXAI_PROJECT'];
+  // if (!vertexAiProject) throw new Error('VERTEXAI_PROJECT env required');
+
+  // const vertexAiLocation = process.env['VERTEXAI_LOCATION'];
+  // if (!vertexAiLocation) throw new Error('VERTEXAI_LOCATION env required');
 
   // OpenAi models: 
   // gpt-4o
@@ -40,13 +44,22 @@ async function main() {
   // gemini-1.5-flash-002
   // gemini-1.5-pro-002
   // gemini-flash-experimental
-  const vertexAiBackend = new LlmClientBackendVertexAi({
-    model: 'gemini-flash-experimental',
-    project: vertexAiProject,
-    location: vertexAiLocation
+  // const vertexAiBackend = new LlmClientBackendVertexAi({
+  //   model: 'gemini-flash-experimental',
+  //   project: vertexAiProject,
+  //   location: vertexAiLocation
+  // });
+
+
+  // Anthropic models:
+  // claude-3-5-sonnet-20241022
+  // claude-3-5-haiku-20241022
+  const anthropicBackend = new LlmClientBackendAnthropic({
+    model: 'claude-3-5-haiku-20241022',
+    apiKey: antrophicApiKey
   });
 
-  const backend = vertexAiBackend;
+  const backend = anthropicBackend;
 
   const analizer = new Analyzer({
     dataDir: './storage/data/cert.gov.ua-news',

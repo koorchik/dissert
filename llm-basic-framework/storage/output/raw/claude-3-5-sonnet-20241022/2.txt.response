@@ -1,0 +1,37 @@
+{
+  "attackTargets": [
+    "органи місцевого самоврядування",
+    "державна організація",
+    "оборонні відомства"
+  ],
+  "hackerGroups": [
+    "uac-0001",
+    "apt28"
+  ],
+  "applications": [
+    "powershell",
+    "recaptcha",
+    "chrome",
+    "edge",
+    "opera",
+    "firefox",
+    "ssh",
+    "metasploit",
+    "roundcube",
+    "managesiev"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    }
+  ]
+}
