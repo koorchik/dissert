@@ -1,0 +1,35 @@
+{
+  "attackTargets": [
+    "ukr.net"
+  ],
+  "hackerGroups": [
+    "uac-0102"
+  ],
+  "applications": [
+    "html-файл",
+    "публічні поштові сервіси"
+  ],
+  "countries": [
+    {
+      "name": "ukr",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "ukronet.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "public email services",
+      "relation": "attacker"
+    }
+  ]
+}

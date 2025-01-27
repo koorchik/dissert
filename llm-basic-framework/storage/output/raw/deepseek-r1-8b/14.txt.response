@@ -1,0 +1,44 @@
+{
+  "attackTargets": [
+    "state employees",
+    "military personnel",
+    "defense enterprises"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "darkcrystal rat",
+    "signal"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "government entities",
+      "relation": "target"
+    },
+    {
+      "name": "defense industry organizations",
+      "relation": "target"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "individual related to the attacker's contacts",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "signal",
+      "relation": "attacker"
+    },
+    {
+      "name": "other communication platforms",
+      "relation": "attacker"
+    }
+  ]
+}

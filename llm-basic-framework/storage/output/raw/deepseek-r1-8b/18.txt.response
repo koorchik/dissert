@@ -1,0 +1,32 @@
+{
+  "attackTargets": [
+    "whatsapp users"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "whatsapp"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "petition.president.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "cert.gov.ua",
+      "relation": "neutral"
+    }
+  ]
+}

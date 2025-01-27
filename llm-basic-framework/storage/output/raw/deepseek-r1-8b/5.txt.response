@@ -1,0 +1,41 @@
+{
+  "attackTargets": [
+    "individuals targeted by telegram bot"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "meduzastealer"
+  ],
+  "countries": [
+    {
+      "name": "neutral",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "target"
+    },
+    {
+      "name": "резерв+",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "individuals targeted by telegram bot",
+      "relation": "target"
+    },
+    {
+      "name": "attackers (no specific individuals mentioned)",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "@reserveplusbot",
+      "relation": "attacker"
+    }
+  ]
+}

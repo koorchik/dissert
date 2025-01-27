@@ -1,0 +1,57 @@
+{
+  "attackTargets": [
+    "науково-дослідні установи україни"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28 (uac-0001)"
+  ],
+  "applications": [
+    "hatvibe",
+    "cherryspy"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "вірменія",
+      "relation": "attacker"
+    },
+    {
+      "name": "киргизька республіка",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "науково-дослідні установи україни",
+      "relation": "target"
+    },
+    {
+      "name": "управління міжнародного військового співробітництва міністерства оборони республіки вірменія",
+      "relation": "attacker"
+    },
+    {
+      "name": "міністерство оборони киргизької республіки",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "застарілі",
+      "relation": "target"
+    }
+  ],
+  "domains": [
+    {
+      "name": "c:programdatapython",
+      "relation": "attacker"
+    },
+    {
+      "name": "домен з макросом docx",
+      "relation": "attacker"
+    }
+  ]
+}

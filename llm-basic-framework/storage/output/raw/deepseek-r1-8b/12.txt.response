@@ -1,0 +1,36 @@
+{
+  "attackTargets": [
+    "оборонних підприємств"
+  ],
+  "hackerGroups": [
+    "uac-0180"
+  ],
+  "applications": [
+    "glueegg",
+    "dropclue",
+    "atera"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "obоронних підприємств",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "ua-2024-07-04-010019-a-open.pdf",
+      "relation": "attacker"
+    },
+    {
+      "name": "font-pack-pdf-windows-64-bit",
+      "relation": "attacker"
+    }
+  ]
+}

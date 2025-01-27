@@ -1,0 +1,81 @@
+{
+  "attackTargets": [
+    "financial institutions",
+    "enterprises",
+    "physical persons - entrepreneurs"
+  ],
+  "hackerGroups": [
+    "uac-0050",
+    "uac-0006"
+  ],
+  "applications": [
+    "remcos",
+    "tektonitrms",
+    "meduzastealer",
+    "lummastealer",
+    "xenorat",
+    "sectoprat",
+    "marsstealer",
+    "darktrackrat"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "unknown",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "financial institutions",
+      "relation": "neutral"
+    },
+    {
+      "name": "enterprises",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "compromised individuals - bank employees",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [
+    {
+      "name": "remcos.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "tektonitrms.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "meduzastealer.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "lummastealer.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "xenorat.biz",
+      "relation": "attacker"
+    },
+    {
+      "name": "sectoprat.info",
+      "relation": "attacker"
+    },
+    {
+      "name": "marsstealer.tech",
+      "relation": "attacker"
+    },
+    {
+      "name": "darktrackrat.io",
+      "relation": "attacker"
+    }
+  ]
+}
