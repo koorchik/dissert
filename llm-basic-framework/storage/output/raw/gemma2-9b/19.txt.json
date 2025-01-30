@@ -1,0 +1,34 @@
+{
+  "attackTargets": [
+    "інформаційно-комунікаційні системи (ікс)",
+    "підприємства галузі енергетики, водо та теплопостачання (окі)",
+    "еом (ос linux)",
+    "асутп",
+    "сервери з спз постачальників",
+    "мережі підприємств",
+    "об'єкти тепло, водо та енерго постачання",
+    "інфраструктурні об'єкти україни"
+  ],
+  "hackerGroups": [
+    "sandworm",
+    "uac-0133",
+    "uac-0002 (sandworm/apt44)"
+  ],
+  "applications": [
+    "loadgrip",
+    "biasboat",
+    "queueseed",
+    "knuckletouch",
+    "weevely",
+    "regeorg.neo",
+    "pivotnacci",
+    "gossipflow",
+    "sdelete",
+    "php-вебшелл weevely",
+    "php-тунель regeorg.neo або pivotnacci"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

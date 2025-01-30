@@ -1,0 +1,35 @@
+{
+  "attackTargets": [
+    "українські організації"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "superops rmm"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "сша",
+      "relation": "neutral"
+    },
+    {
+      "name": "європа",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.superops.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "*.superops.ai",
+      "relation": "attacker"
+    }
+  ]
+}

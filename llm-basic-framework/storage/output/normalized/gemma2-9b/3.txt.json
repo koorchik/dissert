@@ -1,0 +1,25 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "homesteel"
+  ],
+  "applications": [
+    "edisk",
+    "vbs-скрипт",
+    "powershell"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    }
+  ]
+}

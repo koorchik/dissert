@@ -11,6 +11,7 @@
   "description": "",
   "dependencies": {
     "@google-cloud/vertexai": "^1.9.0",
+    "countries-list": "^3.1.1",
     "dotenv": "^16.4.5",
     "install": "^0.13.0",
     "jsonrepair": "^3.11.1",

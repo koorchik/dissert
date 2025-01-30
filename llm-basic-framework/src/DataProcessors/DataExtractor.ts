@@ -1,0 +1,117 @@
+import fs from 'fs/promises';
+import {existsSync} from 'fs';
+import type { LlmClient } from '../LlmClient/LlmClient';
+import { extractAndParseJson, normalizeRawData, NormalizedData } from '../utils/validationUtils';
+
+interface Params {
+  inputDir: string;
+  outputDir: string;
+  llmClient: LlmClient
+}
+
+export class DataExtractor {
+  #inputDir: string;
+  #outputDir: string;
+  #llmClient: LlmClient;
+
+  constructor(params: Params) {
+    this.#inputDir = params.inputDir;
+    this.#outputDir = params.outputDir;
+    this.#llmClient = params.llmClient;
+  }
+
+  async run() {
+    if (!existsSync(this.#outputDir)) {
+      await fs.mkdir(this.#outputDir, { recursive: true });
+    }
+
+    const files = await fs.readdir(this.#inputDir);
+
+    for (const file of files) {
+      // const file = '19.txt';
+
+      console.log(`FILE=${file}`);
+      const content = await fs.readFile(`${this.#inputDir}/${file}`);
+      const response = await this.#sendToLlm(content.toString());
+      // console.log({JSON: JSON.stringify(response, undefined, 2)});
+      await this.#saveResponse(file, JSON.stringify(response, undefined, 2));
+      // break;
+    }
+  }
+
+  async #sendToLlm(text: string): Promise<NormalizedData | {}> {
+    const instructions = `
+      You are a highly skilled data extraction expert specializing in identifying and extracting 
+      sensitive information from text. Your task is to analyze the provided text and extract any data that 
+      falls under the specified sensitive categories. Text is about cyber incidents.  
+      Sensitive data includes: 
+      1. Attack Targets: Names of attack targets (e.g., infrastructure objects, enterprises, government institutions).
+      2. Hacker Groups: Names of groups or associations that may be involved in the attack.
+      3. Applications: Names of software or applications used in the attack.
+      4. Countries: Countries related to the events. Indicate whether they are related to the "target" or the "attacker" or "neutral".
+      5. Organizations: Organizations related to the events. Indicate whether they are related to the "target" or the "attacker" or "neutral". 
+      6. Individuals: Names of individuals related to the incident. Indicate whether they are related to the "target" or the "attacker" or "neutral".
+      7. Domains: Internet domain names related to the incident. Indicate whether they are controlled by the "target" or the "attacker" or "neutral".
+
+      Please return the extracted information in the exact JSON format specified below and nothing else: 
+     {
+      "attackTargets": ["Attack Target 1", "Attack Target 2"],
+      "hackerGroups": ["Hacker Group 1", "Hacker Group 2"],
+      "applications": ["Software or Application 1", "Software or Application 2"],
+      "countries": [
+        {"name": "Country 1", "relation": "target"},
+        {"name": "Country 2", "relation": "attacker"},
+        {"name": "Country 3", "relation": "neutral"}
+      ],
+      "organizations": [
+        {"name": "Organization 1", "relation": "target"},
+        {"name": "Organization 2", "relation": "attacker"},
+        {"name": "Organization 3", "relation": "neutral"}
+      ],
+      "individuals": [
+        {"name": "Individual 1", "relation": "target"},
+        {"name": "Individual 2", "relation": "attacker"},
+        {"name": "Individual 3", "relation": "neutral"}
+      ],
+      "domains": [
+        {"name": "domain1", "relation": "target"},
+        {"name": "domain2", "relation": "attacker"},
+        {"name": "domain2", "relation": "neutral"}
+      ]
+    }
+    
+    - Categories "attackTargets", "hackerGroups", "applications" should contain array of strings
+    - Categories "countries", "organizations", "individuals", "domains" should contain objects with "name" and "relation" properties.
+    - If there are no mentions for a category, return an empty array for that category. 
+    - Do not include any additional text or explanation.
+    - Do not return info about CERT-UA 
+    - IMPORTANT: Output JSON as described
+
+    Start extracting information:
+    `
+    console.time('LLM PROCESSING');
+    const result = await this.#llmClient.send(
+      instructions,
+      text
+    );
+    console.timeEnd('LLM PROCESSING');
+
+    console.time('EXTRACT_JSON');
+    // TODO: check if result contains JSON
+    const rawData = extractAndParseJson(result);
+    console.timeEnd('EXTRACT_JSON');
+
+    if (!rawData) return {};
+
+    console.time('NORMALIZE_DATA');
+    const normalizedData = normalizeRawData(rawData);
+    console.timeEnd('NORMALIZE_DATA');
+    if (!normalizedData) {};
+    return normalizedData || {};
+  }
+
+  async #saveResponse(originalFile: string, text: string) {
+    const rawResultFile = `${this.#outputDir}/${originalFile}.json`;
+    await fs.writeFile(rawResultFile, text);
+  }
+}

@@ -19,7 +19,6 @@ export class LlmClientBackendOpenAi implements LlmBackendBase {
       model: this.model
     });
 
-    console.log(chatCompletion.choices[0].message.content);
     return chatCompletion.choices[0].message.content || '';
   }
 }

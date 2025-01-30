@@ -1,0 +1,23 @@
+{
+  "attackTargets": [
+    "українські оборонні підприємства",
+    "сили оборони україни"
+  ],
+  "hackerGroups": [
+    "uac-0180"
+  ],
+  "applications": [
+    "glueegg",
+    "dropclue",
+    "atera"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

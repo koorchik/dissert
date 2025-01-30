@@ -1,0 +1,37 @@
+{
+  "attackTargets": [
+    "військові системи"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "griselda",
+    "очі",
+    "hydra"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "міністерство оборони україни",
+      "relation": "target"
+    },
+    {
+      "name": "збройні сили україни",
+      "relation": "target"
+    },
+    {
+      "name": "google cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

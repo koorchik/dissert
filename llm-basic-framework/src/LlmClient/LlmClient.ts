@@ -14,4 +14,8 @@ export class LlmClient {
   async send(instructions: string, text: string) {
     return this.#backend.send(instructions, text);
   }
+
+  get modelName() {
+    return this.#backend.model
+  }
 }

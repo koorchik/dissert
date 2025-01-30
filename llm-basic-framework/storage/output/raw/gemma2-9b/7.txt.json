@@ -1,0 +1,50 @@
+{
+  "attackTargets": [
+    "ікс \"очі\"",
+    "griselda",
+    "система \"очі\""
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "signal",
+    "hydra",
+    "google drive"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "урядова команда реагування на комп'ютерні надзвичайні події україни cert-ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "ікс \"очі\"",
+      "relation": "target"
+    },
+    {
+      "name": "milcert",
+      "relation": "neutral"
+    },
+    {
+      "name": "црк",
+      "relation": "neutral"
+    },
+    {
+      "name": "цірот",
+      "relation": "neutral"
+    },
+    {
+      "name": "цмтр",
+      "relation": "neutral"
+    },
+    {
+      "name": "google cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

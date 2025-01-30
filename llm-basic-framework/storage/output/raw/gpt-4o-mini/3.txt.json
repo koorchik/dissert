@@ -1,0 +1,26 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "homesteel"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "hostzealot",
+      "relation": "neutral"
+    }
+  ]
+}

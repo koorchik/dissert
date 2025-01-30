@@ -1,0 +1,24 @@
+{
+  "attackTargets": [
+    "whatsapp",
+    "електронні петиції"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "whatsapp"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "petition.president.gov.ua",
+      "relation": "target"
+    }
+  ]
+}

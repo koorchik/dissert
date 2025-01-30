@@ -1,0 +1,39 @@
+{
+  "attackTargets": [
+    "сили оборони україни"
+  ],
+  "hackerGroups": [
+    "uac-0020 (vermin)"
+  ],
+  "applications": [
+    "spectr",
+    "syncthing"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "луганська",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "центр кібербезпеки зсу",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.syncthing.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "csoc@post.mil.gov.ua",
+      "relation": "neutral"
+    }
+  ]
+}

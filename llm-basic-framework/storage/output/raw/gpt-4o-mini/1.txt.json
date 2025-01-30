@@ -1,0 +1,33 @@
+{
+  "attackTargets": [
+    "державна податкова служба україни"
+  ],
+  "hackerGroups": [
+    "uac-0050"
+  ],
+  "applications": [
+    "litemanager"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "qaz.im",
+      "relation": "neutral"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "neutral"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "neutral"
+    }
+  ]
+}

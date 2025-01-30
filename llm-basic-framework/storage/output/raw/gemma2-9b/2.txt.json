@@ -1,0 +1,47 @@
+{
+  "attackTargets": [
+    "organ of local self-governance",
+    "governmental institutions"
+  ],
+  "hackerGroups": [
+    "uac-0001 (apt28)"
+  ],
+  "applications": [
+    "powershell",
+    "hta-file browser.hta",
+    "powershell-script browser.ps1",
+    "metasploit",
+    "chrome",
+    "edge",
+    "opera",
+    "firefox",
+    "roundcube",
+    "systemhealthchek (plugin managesiev)"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "target"
+    },
+    {
+      "name": "organ of local self-governance",
+      "relation": "target"
+    },
+    {
+      "name": "defense agency of other countries",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz[.]com",
+      "relation": "attacker"
+    },
+    {
+      "name": "203.161.50[.]145",
+      "relation": "attacker"
+    }
+  ]
+}

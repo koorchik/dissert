@@ -1,0 +1,33 @@
+{
+  "attackTargets": [
+    "фінансових та страхових установ європи",
+    "фінансових та страхових установ сша"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "superops rmm",
+    "python"
+  ],
+  "countries": [
+    {
+      "name": "європи",
+      "relation": "target"
+    },
+    {
+      "name": "сша",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.superops.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "*.superops.ai",
+      "relation": "neutral"
+    }
+  ]
+}
