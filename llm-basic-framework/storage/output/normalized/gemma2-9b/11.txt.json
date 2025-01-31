@@ -15,15 +15,18 @@
   "countries": [
     {
       "name": "україна",
-      "relation": "target"
+      "relation": "target",
+      "code": "UA"
     },
     {
       "name": "вірменія",
-      "relation": "neutral"
+      "relation": "neutral",
+      "code": "AM"
     },
     {
       "name": "киргизька республіка",
-      "relation": "neutral"
+      "relation": "neutral",
+      "code": "KG"
     }
   ],
   "organizations": [

@@ -11,11 +11,13 @@
   "countries": [
     {
       "name": "європи",
-      "relation": "target"
+      "relation": "target",
+      "code": "AT"
     },
     {
       "name": "сша",
-      "relation": "target"
+      "relation": "target",
+      "code": "US"
     }
   ],
   "organizations": [],

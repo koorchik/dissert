@@ -15,11 +15,13 @@
   "countries": [
     {
       "name": "україна",
-      "relation": "target"
+      "relation": "target",
+      "code": "UA"
     },
     {
       "name": "інші країни світу",
-      "relation": "neutral"
+      "relation": "neutral",
+      "code": ""
     }
   ],
   "organizations": [

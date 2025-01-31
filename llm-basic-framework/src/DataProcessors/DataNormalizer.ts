@@ -41,13 +41,14 @@ export class DataNormalizer {
     for (const country of data.countries) {
       if (!country.name) continue;
       const countryCode = await this.#countryNameNormalizer.normalizeCountry(country.name);
-      console.log(country.name, countryCode);
+      country.code = countryCode;
     }
+
     return data;
   }
 
-  async #saveResponse(originalFile: string, text: string) {
+  async #saveResponse(originalFile: string, content: string) {
     const rawResultFile = `${this.#outputDir}/${originalFile}`;
-    await fs.writeFile(rawResultFile, text);
+    await fs.writeFile(rawResultFile, content);
   }
 }

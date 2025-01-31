@@ -45,7 +45,8 @@ export interface NormalizedData {
   applications: [];
   countries: Array<{
     name: string;
-    relation: Relation
+    relation: Relation;
+    code?: string; // Quick fix for the country code
   }>;
   organizations: Array<{
     name: string;

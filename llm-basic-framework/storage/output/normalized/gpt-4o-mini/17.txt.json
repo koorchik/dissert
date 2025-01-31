@@ -13,7 +13,8 @@
   "countries": [
     {
       "name": "ukraine",
-      "relation": "target"
+      "relation": "target",
+      "code": "UA"
     }
   ],
   "organizations": [],

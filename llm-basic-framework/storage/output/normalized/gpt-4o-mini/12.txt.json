@@ -14,7 +14,8 @@
   "countries": [
     {
       "name": "україна",
-      "relation": "target"
+      "relation": "target",
+      "code": "UA"
     }
   ],
   "organizations": [],

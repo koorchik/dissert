@@ -9,15 +9,18 @@
   "countries": [
     {
       "name": "україна",
-      "relation": "target"
+      "relation": "target",
+      "code": "UA"
     },
     {
       "name": "сша",
-      "relation": "neutral"
+      "relation": "neutral",
+      "code": "US"
     },
     {
       "name": "європа",
-      "relation": "neutral"
+      "relation": "neutral",
+      "code": ""
     }
   ],
   "organizations": [],

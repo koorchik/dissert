@@ -12,11 +12,13 @@
   "countries": [
     {
       "name": "україна",
-      "relation": "target"
+      "relation": "target",
+      "code": "UA"
     },
     {
       "name": "луганська",
-      "relation": "neutral"
+      "relation": "neutral",
+      "code": "UA"
     }
   ],
   "organizations": [

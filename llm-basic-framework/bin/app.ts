@@ -103,7 +103,7 @@ function makeLlmClient() {
     location: vertexAiLocation
   });
 
-  return new LlmClient({ backend: ollamaBackend });
+  return new LlmClient({ backend: openAiBackend });
 }
 
 
