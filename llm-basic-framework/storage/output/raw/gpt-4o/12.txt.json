@@ -1,6 +1,6 @@
 {
   "attackTargets": [
-    "українські оборонні підприємства",
+    "оборонні підприємства",
     "сили оборони україни"
   ],
   "hackerGroups": [
@@ -9,7 +9,8 @@
   "applications": [
     "glueegg",
     "dropclue",
-    "atera"
+    "atera",
+    "curl.exe"
   ],
   "countries": [
     {

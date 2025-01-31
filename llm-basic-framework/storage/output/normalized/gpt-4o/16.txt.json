@@ -1,0 +1,41 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "uac-0188"
+  ],
+  "applications": [
+    "superops rmm",
+    "pyinstaller",
+    "minesweeper"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "european countries",
+      "relation": "neutral",
+      "code": "EU"
+    },
+    {
+      "name": "usa",
+      "relation": "neutral",
+      "code": "US"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.superops.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "*.superops.ai",
+      "relation": "neutral"
+    }
+  ],
+  "enrichedAttackTargets": []
+}

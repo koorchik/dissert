@@ -20,10 +20,5 @@
     }
   ],
   "individuals": [],
-  "domains": [
-    {
-      "name": "github.com",
-      "relation": "neutral"
-    }
-  ]
+  "domains": []
 }

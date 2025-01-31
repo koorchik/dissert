@@ -1,0 +1,88 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8" />
+      <title>t-SNE Visualization</title>
+      <!-- Load Chart.js and DataLabels plugin from CDN -->
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    </head>
+    <body>
+      <canvas id="chartCanvas" width="800" height="600"></canvas>
+    
+      <script>
+        // t-SNE data from Node, embedded as JSON
+        const tsneData = [{"name":"бухгалтери підприємств","x":0.533805820147899,"y":-0.3863343565692435},{"name":"науково-дослідні установи україни","x":0.7235393076196095,"y":0.4966652274412929},{"name":"оборонні підприємства","x":-0.29544515862587717,"y":0.09398530023657971},{"name":"сили оборони україни","x":-0.11175850643550181,"y":-0.12088009370123594},{"name":"сили оборони україни","x":-0.574321001521489,"y":0.2674019032585155},{"name":"державних службовців","x":0.8906758184537169,"y":0.14805335016133803},{"name":"військових","x":0.39104851086834125,"y":0.35171695624301674},{"name":"представників оборонних підприємств україни","x":-0.9407541750466897,"y":-0.6999549340335953},{"name":"telegram","x":-0.3160960216205557,"y":0.48999526102671476},{"name":"whatsapp","x":-0.03987143804000023,"y":0.3052487159375826},{"name":"автоматизовані робочі місця бухгалтерів","x":0.18842945607729,"y":0.5624514952850362},{"name":"інфраструктура україни","x":-1,"y":-0.37676267334193514},{"name":"підприємства галузі енергетики","x":-0.7389846092806485,"y":0.021636150852928658},{"name":"водо та теплопостачання","x":0.4371258618394153,"y":0.1430835705979076},{"name":"об'єкти водопостачання","x":-0.1653927112161811,"y":-0.6043978398442931},{"name":"місцевого самоврядування","x":0.541517200215882,"y":-0.06047936809207721},{"name":"державна організація","x":0.7604399840116464,"y":1},{"name":"оборонні відомства","x":0.8503778865151836,"y":-0.19625752239554997},{"name":"українських підприємств","x":0.23300974687850043,"y":-0.17029708427210882},{"name":"фізичних осіб-підприємців","x":-0.21816803381123462,"y":-0.34818455941258936},{"name":"griselda","x":0.0868109396446903,"y":0.07931065507672344},{"name":"система стеження 'очі'","x":-0.48633110070255636,"y":-0.15030384649648829},{"name":"державні організації україни","x":-0.5993515409845199,"y":-0.3917856628454816},{"name":"ukr.net","x":0.15252647168982492,"y":-0.41320793760472513}];
+    
+        // We'll register the DataLabels plugin so Chart.js can use it
+        window.addEventListener('DOMContentLoaded', () => {
+          Chart.register(ChatGPTChartHelpers.chartjsPluginDatalabels);
+    
+          // Or if the plugin is globally available, you can do:
+          // Chart.register(ChartDataLabels);
+    
+          // Build the dataset
+          const scatterData = {
+            datasets: [
+              {
+                label: 't-SNE Visualization',
+                data: tsneData, // each { x, y, name }
+                backgroundColor: 'rgba(255, 99, 132, 0.8)',
+              }
+            ]
+          };
+    
+          // Set up the config, enabling the datalabels plugin
+          const config = {
+            type: 'scatter',
+            data: scatterData,
+            options: {
+              plugins: {
+                datalabels: {
+                  // The 'value' argument has { x, y, name }
+                  formatter: (value) => value.name,
+                  align: 'top',
+                  anchor: 'end',
+                  color: '#000',
+                  font: {
+                    size: 12,
+                  }
+                }
+              },
+              scales: {
+                x: {
+                  type: 'linear',
+                  position: 'bottom',
+                  title: {
+                    display: true,
+                    text: 't-SNE X'
+                  }
+                },
+                y: {
+                  type: 'linear',
+                  title: {
+                    display: true,
+                    text: 't-SNE Y'
+                  }
+                }
+              }
+            }
+          };
+    
+          // Create the chart
+          const ctx = document.getElementById('chartCanvas').getContext('2d');
+          new Chart(ctx, config);
+        });
+    
+        // Workaround: "chartjs-plugin-datalabels" is loaded as a UMD script.
+        // In some Chart.js versions, you might reference it like:
+          Chart.register(ChartDataLabels);
+        // For this snippet, we'll attach it to a global variable so we can register it.
+        window.ChatGPTChartHelpers = {
+          chartjsPluginDatalabels: this['chartjs-plugin-datalabels'] || {}
+        };
+      </script>
+    </body>
+    </html>
+    

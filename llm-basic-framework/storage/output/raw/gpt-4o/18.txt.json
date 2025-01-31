@@ -6,16 +6,11 @@
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [],
   "individuals": [],
-  "domains": [
-    {
-      "name": "https://petition.president.gov.ua/",
-      "relation": "neutral"
-    }
-  ]
+  "domains": []
 }

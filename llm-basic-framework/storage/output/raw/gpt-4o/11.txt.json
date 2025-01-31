@@ -9,12 +9,17 @@
   "applications": [
     "hatvibe",
     "cherryspy",
+    "python",
     "hfs http file server"
   ],
   "countries": [
     {
       "name": "україна",
       "relation": "target"
+    },
+    {
+      "name": "росія",
+      "relation": "attacker"
     },
     {
       "name": "вірменія",
@@ -31,7 +36,7 @@
       "relation": "attacker"
     },
     {
-      "name": "управління оборонної політики міністерства оборони республіки вірменія",
+      "name": "міністерство оборони республіки вірменія",
       "relation": "neutral"
     },
     {
@@ -42,7 +47,7 @@
   "individuals": [],
   "domains": [
     {
-      "name": "rejetto.com",
+      "name": "rejetto.com/hfs",
       "relation": "neutral"
     }
   ]

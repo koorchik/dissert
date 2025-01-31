@@ -2,12 +2,18 @@
   "attackTargets": [],
   "hackerGroups": [],
   "applications": [
+    "amazon",
+    "microsoft",
     "mstsc.exe"
   ],
   "countries": [
     {
       "name": "україна",
       "relation": "target"
+    },
+    {
+      "name": "інші країни",
+      "relation": "neutral"
     }
   ],
   "organizations": [],

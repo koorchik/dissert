@@ -14,5 +14,10 @@
   ],
   "organizations": [],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {
+      "name": "ukr.net",
+      "relation": "neutral"
+    }
+  ]
 }

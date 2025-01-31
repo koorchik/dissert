@@ -1,14 +1,16 @@
 {
   "attackTargets": [
-    "органи місцевого самоврядування",
-    "державна організація"
+    "місцевого самоврядування",
+    "державна організація",
+    "оборонні відомства"
   ],
   "hackerGroups": [
     "uac-0001",
     "apt28"
   ],
   "applications": [
-    "unrecaptcha",
+    "powershell",
+    "recaptcha",
     "ssh",
     "chrome",
     "edge",
@@ -16,11 +18,15 @@
     "firefox",
     "metasploit",
     "roundcube",
-    "systemhealthchek",
     "managesiev"
   ],
   "countries": [],
-  "organizations": [],
+  "organizations": [
+    {
+      "name": "державна організація",
+      "relation": "target"
+    }
+  ],
   "individuals": [],
   "domains": [
     {

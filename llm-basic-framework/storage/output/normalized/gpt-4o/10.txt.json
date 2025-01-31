@@ -1,0 +1,26 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "uac-0057"
+  ],
+  "applications": [
+    "picassoloader",
+    "cobalt strike beacon"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "usaid/dai",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "enrichedAttackTargets": []
+}

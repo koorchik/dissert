@@ -3,6 +3,7 @@ dotenv.config();
 
 import { DataExtractor } from '../src/DataProcessors/DataExtractor';
 import { DataNormalizer } from '../src/DataProcessors/DataNormalizer';
+import { DataAnalyzer } from '../src/DataProcessors/DataAnalyzer';
 import { LlmClient } from '../src/LlmClient/LlmClient';
 import { LlmClientBackendOpenAi } from '../src/LlmClient/LlmClientBackendOpenAi';
 import { LlmClientBackendOllama } from '../src/LlmClient/LlmClientBackendOllama';
@@ -29,9 +30,14 @@ async function main() {
   const dataNormalizer = new DataNormalizer({ 
     inputDir: `./storage/output/raw/${llmClient.modelName.replace(/:/g, '-')}`, 
     outputDir: `./storage/output/normalized/${llmClient.modelName.replace(/:/g, '-')}`, 
-    countryNameNormalizer: new CountryNameNormalizer({llmClient})
+    countryNameNormalizer: new CountryNameNormalizer({llmClient}),
+    embeddingsClient
   });
 
+  const dataAnalyzer = new DataAnalyzer({
+    inputDir: `./storage/output/normalized/${llmClient.modelName.replace(/:/g, '-')}`,
+    outputDir: `./storage/output/analyzed/${llmClient.modelName.replace(/:/g, '-')}`
+  });
 
   const flowManager = new FlowManager({
     steps: [
@@ -44,18 +50,22 @@ async function main() {
         run: async () => dataNormalizer.run()
       },
       {
-        name: 'normalizer',
-        run: async () => {
-          // console.log('normalized', await normalizer.normalizeCountry('Україна'));
-          // console.log('normalized', await normalizer.normalizeAttackTarget('оборонним відомствам інших країни світу'));
-          const embedding = await embeddingsClient.embed("оборонним відомствам інших країни світу");
-          console.log(embedding);
-        }
-      }
+        name: 'dataAnalyzer',
+        run: async () => dataAnalyzer.run()
+      },
+      // {
+      //   name: 'normalizer',
+      //   run: async () => {
+      //     // console.log('normalized', await normalizer.normalizeCountry('Україна'));
+      //     // console.log('normalized', await normalizer.normalizeAttackTarget('оборонним відомствам інших країни світу'));
+      //     const embedding = await embeddingsClient.embed("оборонним відомствам інших країни світу");
+      //     console.log(embedding);
+      //   }
+      // }
     ]
    });
 
-   await flowManager.runStep('dataNormalizer');
+   await flowManager.runStep('dataAnalyzer');
   //  flowManager.runAllSteps();
 }
 
@@ -76,7 +86,7 @@ function makeLlmClient() {
   // gpt-4o-mini
   // o1-preview - slow, expensive, for reasoning.
   // o1-mini - slow, expensive, for reasoning.
-  const openAiBackend = new LlmClientBackendOpenAi({ model: 'gpt-4o-mini', apiKey: openAiApiKey });
+  const openAiBackend = new LlmClientBackendOpenAi({ model: 'gpt-4o', apiKey: openAiApiKey });
 
   // Ollama models: 
   // llama3.1:70b - 24GB GPU (52% of model, 1-2 min per message).

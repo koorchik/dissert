@@ -2,16 +2,11 @@
   "attackTargets": [],
   "hackerGroups": [],
   "applications": [
-    "homesteel",
-    "edisk",
-    "powershell"
+    "vbs script",
+    "powershell",
+    "python software foundation basehttp 0.6"
   ],
-  "countries": [
-    {
-      "name": "україна",
-      "relation": "target"
-    }
-  ],
+  "countries": [],
   "organizations": [],
   "individuals": [],
   "domains": [

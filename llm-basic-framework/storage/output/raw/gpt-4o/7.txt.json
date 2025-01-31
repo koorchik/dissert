@@ -1,13 +1,11 @@
 {
   "attackTargets": [
-    "військові системи",
-    "смартфони та планшети військовослужбовців"
+    "griselda",
+    "система стеження 'очі'"
   ],
   "hackerGroups": [],
   "applications": [
     "signal",
-    "griselda",
-    "очі",
     "hydra"
   ],
   "countries": [
@@ -18,16 +16,16 @@
   ],
   "organizations": [
     {
-      "name": "milcert",
-      "relation": "neutral"
-    },
-    {
-      "name": "збройні сили україни",
+      "name": "ікс 'очі'",
       "relation": "neutral"
     },
     {
       "name": "міністерство оборони україни",
-      "relation": "neutral"
+      "relation": "target"
+    },
+    {
+      "name": "збройні сили україни",
+      "relation": "target"
     },
     {
       "name": "google cloud",

@@ -4,12 +4,15 @@
     "whatsapp"
   ],
   "hackerGroups": [],
-  "applications": [],
+  "applications": [
+    "telegram",
+    "whatsapp"
+  ],
   "countries": [],
   "organizations": [
     {
-      "name": "csirt-nbu",
-      "relation": "neutral"
+      "name": "ukrainian government",
+      "relation": "target"
     }
   ],
   "individuals": [],

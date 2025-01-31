@@ -23,5 +23,6 @@
       "name": "hostzealot",
       "relation": "neutral"
     }
-  ]
+  ],
+  "enrichedAttackTargets": []
 }

@@ -1,7 +1,6 @@
 {
   "attackTargets": [
-    "державна податкова служба україни",
-    "підприємства"
+    "бухгалтери підприємств"
   ],
   "hackerGroups": [
     "uac-0050"
@@ -14,25 +13,21 @@
     {
       "name": "державна податкова служба україни",
       "relation": "target"
-    },
-    {
-      "name": "фінансові установи",
-      "relation": "neutral"
     }
   ],
   "individuals": [],
   "domains": [
     {
       "name": "qaz.im",
-      "relation": "neutral"
+      "relation": "attacker"
     },
     {
       "name": "qaz.is",
-      "relation": "neutral"
+      "relation": "attacker"
     },
     {
       "name": "qaz.su",
-      "relation": "neutral"
+      "relation": "attacker"
     }
   ]
 }

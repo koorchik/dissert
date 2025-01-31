@@ -41,6 +41,10 @@ type Relation = 'attacker' | 'target' | 'neutral';
 
 export interface NormalizedData {
   attackTargets: string[];
+  enrichedAttackTargets?: Array<{
+    name: string;
+    embedding: number[]
+  }>;
   hackerGroups: string[];
   applications: [];
   countries: Array<{
