@@ -1,7 +1,7 @@
 {
   "attackTargets": [
-    "проєктні офіси",
-    "органи місцевого самоврядування україни"
+    "проєкт usaid/dai \"hoverla\"",
+    "органи місцевого самоврядування"
   ],
   "hackerGroups": [
     "uac-0057"
@@ -12,13 +12,17 @@
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "usaid/dai \"hoverla\"",
+      "name": "usaid",
+      "relation": "target"
+    },
+    {
+      "name": "dai",
       "relation": "target"
     }
   ],

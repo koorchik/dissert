@@ -10,7 +10,7 @@
     "hatvibe",
     "cherryspy",
     "hfs http file server",
-    "python"
+    "python-interpreter"
   ],
   "countries": [
     {

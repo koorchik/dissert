@@ -7,7 +7,7 @@
   ],
   "applications": [
     "whatsapp",
-    "електронні петиції"
+    "electronic petitions"
   ],
   "countries": [
     {
@@ -15,16 +15,17 @@
       "relation": "target"
     }
   ],
-  "organizations": [],
+  "organizations": [
+    {
+      "name": "electronic petitions",
+      "relation": "target"
+    }
+  ],
   "individuals": [],
   "domains": [
     {
       "name": "petition.president.gov.ua",
       "relation": "neutral"
-    },
-    {
-      "name": "18 unnamed domains",
-      "relation": "attacker"
     }
   ]
 }

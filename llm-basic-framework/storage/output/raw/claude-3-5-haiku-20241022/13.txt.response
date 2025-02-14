@@ -10,11 +10,7 @@
     "spectr",
     "syncthing",
     "sync.exe",
-    "screengrabber",
-    "filegrabber",
-    "usb",
-    "social",
-    "browsers"
+    "innosetup"
   ],
   "countries": [
     {
@@ -32,7 +28,7 @@
       "relation": "target"
     },
     {
-      "name": "cert-ua",
+      "name": "зсу",
       "relation": "target"
     }
   ],

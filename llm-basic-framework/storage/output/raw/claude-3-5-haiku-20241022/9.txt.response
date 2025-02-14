@@ -1,12 +1,13 @@
 {
   "attackTargets": [
-    "ukr.net"
+    "ukr.net users"
   ],
   "hackerGroups": [
     "uac-0102"
   ],
   "applications": [
-    "html"
+    "html",
+    "email services"
   ],
   "countries": [
     {

@@ -1,25 +1,25 @@
 {
   "attackTargets": [
-    "local self-government bodies"
+    "органи місцевого самоврядування"
   ],
   "hackerGroups": [
     "uac-0001",
     "apt28"
   ],
   "applications": [
+    "powershell",
     "chrome",
     "edge",
     "opera",
     "firefox",
     "metasploit",
-    "powershell",
-    "ssh",
-    "roundcube"
+    "roundcube",
+    "ssh"
   ],
   "countries": [],
   "organizations": [
     {
-      "name": "state organization",
+      "name": "державна організація",
       "relation": "target"
     }
   ],
@@ -27,6 +27,10 @@
   "domains": [
     {
       "name": "mail.zhblz[.]com",
+      "relation": "attacker"
+    },
+    {
+      "name": "203.161.50[.]145",
       "relation": "attacker"
     }
   ]

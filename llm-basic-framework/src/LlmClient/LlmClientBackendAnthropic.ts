@@ -14,7 +14,7 @@ export class LlmClientBackendAnthropic implements LlmBackendBase {
     const message = await this.#client.messages.create({
       model: this.model,
       max_tokens: 1000,
-      temperature: 0,
+      temperature: 1,
       system: instructions,
       messages: [{
         "role": "user",

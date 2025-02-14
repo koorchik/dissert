@@ -1,12 +1,15 @@
 {
-  "attackTargets": [],
+  "attackTargets": [
+    "edisk"
+  ],
   "hackerGroups": [
     "uac-0218"
   ],
   "applications": [
     "homesteel",
-    "edisk",
-    "powershell"
+    "powershell",
+    "python software foundation basehttp 0.6",
+    "vbs-скрипт"
   ],
   "countries": [
     {
@@ -17,10 +20,6 @@
   "organizations": [
     {
       "name": "hostzealot",
-      "relation": "neutral"
-    },
-    {
-      "name": "python software foundation",
       "relation": "neutral"
     }
   ],

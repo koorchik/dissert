@@ -39,7 +39,7 @@
   "individuals": [],
   "domains": [
     {
-      "name": "google.com",
+      "name": "google.drive",
       "relation": "neutral"
     }
   ]

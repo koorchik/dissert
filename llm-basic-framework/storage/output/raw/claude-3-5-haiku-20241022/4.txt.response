@@ -9,19 +9,15 @@
   ],
   "applications": [
     "mstsc.exe",
-    "rdp"
+    "rdp (remote desktop protocol)"
   ],
-  "countries": [],
-  "organizations": [
+  "countries": [
     {
-      "name": "amazon",
-      "relation": "neutral"
-    },
-    {
-      "name": "microsoft",
-      "relation": "neutral"
+      "name": "україна",
+      "relation": "target"
     }
   ],
+  "organizations": [],
   "individuals": [],
   "domains": []
 }

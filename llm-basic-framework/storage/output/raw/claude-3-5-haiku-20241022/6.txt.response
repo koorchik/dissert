@@ -1,12 +1,12 @@
 {
   "attackTargets": [
-    "ukrainian enterprises",
-    "individual entrepreneurs"
+    "українські підприємства",
+    "фізичні особи-підприємці"
   ],
   "hackerGroups": [
     "uac-0050",
-    "uac-0006",
-    "fire cells group"
+    "fire cells group",
+    "uac-0006"
   ],
   "applications": [
     "remcos",
@@ -20,7 +20,7 @@
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],

@@ -1,16 +1,12 @@
 {
-  "attackTargets": [
-    "автоматизовані робочі місця бухгалтерів",
-    "комп'ютери"
-  ],
+  "attackTargets": [],
   "hackerGroups": [
     "uac-0006"
   ],
   "applications": [
     "smokeloader",
     "taleshot",
-    "rms",
-    "microsoft access"
+    "rms"
   ],
   "countries": [
     {

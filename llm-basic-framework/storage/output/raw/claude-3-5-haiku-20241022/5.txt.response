@@ -6,8 +6,7 @@
   "applications": [
     "meduzastealer",
     "microsoft defender",
-    "powershell",
-    "telegram"
+    "powershell"
   ],
   "countries": [
     {
@@ -17,8 +16,8 @@
   ],
   "organizations": [
     {
-      "name": "cert-ua",
-      "relation": "neutral"
+      "name": "резерв+",
+      "relation": "target"
     }
   ],
   "individuals": [],
