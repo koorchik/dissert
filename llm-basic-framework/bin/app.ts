@@ -1,58 +1,69 @@
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 dotenv.config();
 
-import { DataExtractor } from '../src/DataProcessors/DataExtractor';
-import { DataNormalizer } from '../src/DataProcessors/DataNormalizer';
-import { DataAnalyzer } from '../src/DataProcessors/DataAnalyzer';
-import { LlmClient } from '../src/LlmClient/LlmClient';
-import { LlmClientBackendOpenAi } from '../src/LlmClient/LlmClientBackendOpenAi';
-import { LlmClientBackendOllama } from '../src/LlmClient/LlmClientBackendOllama';
-import { LlmClientBackendVertexAi } from '../src/LlmClient/LlmClientBackendVertexAi';
-import { EmbeddingsClient } from '../src/EmbeddingsClient/EmbeddingsClient';
-import { EmbeddingsBackendOllama } from '../src/EmbeddingsClient/EmbeddingsBackendOllama';
-import { EmbeddingsBackendOpenAi } from '../src/EmbeddingsClient/EmbeddingsBackendOpenAi';
-import { EmbeddingsBackendVertexAi } from '../src/EmbeddingsClient/EmbeddingsBackendVertexAi';
+import { DataExtractor } from "../src/DataProcessors/DataExtractor";
+import { DataNormalizer } from "../src/DataProcessors/DataNormalizer";
+import { DataAnalyzer } from "../src/DataProcessors/DataAnalyzer";
+import { LlmClient } from "../src/LlmClient/LlmClient";
+import { LlmClientBackendOpenAi } from "../src/LlmClient/LlmClientBackendOpenAi";
+import { LlmClientBackendOllama } from "../src/LlmClient/LlmClientBackendOllama";
+import { LlmClientBackendVertexAi } from "../src/LlmClient/LlmClientBackendVertexAi";
+import { LlmClientBackendAnthropic } from "../src/LlmClient/LlmClientBackendAnthropic";
 
-import { CountryNameNormalizer } from '../src/CountryNameNormalizer/CountryNameNormalizer';
+import { EmbeddingsClient } from "../src/EmbeddingsClient/EmbeddingsClient";
+import { EmbeddingsBackendOllama } from "../src/EmbeddingsClient/EmbeddingsBackendOllama";
+import { EmbeddingsBackendOpenAi } from "../src/EmbeddingsClient/EmbeddingsBackendOpenAi";
+import { EmbeddingsBackendVertexAi } from "../src/EmbeddingsClient/EmbeddingsBackendVertexAi";
 
-import { FlowManager } from '../src/FlowManager/FlowManager';
+import { CountryNameNormalizer } from "../src/CountryNameNormalizer/CountryNameNormalizer";
+
+import { FlowManager } from "../src/FlowManager/FlowManager";
 
 async function main() {
   const llmClient = makeLlmClient();
   const embeddingsClient = makeEmbeddingsClient();
 
   const dataExtractor = new DataExtractor({
-    inputDir: './storage/data/cert.gov.ua-news',
-    outputDir: `./storage/output/raw/${llmClient.modelName.replace(/:/g, '-')}`,
-    llmClient,
+    inputDir: "./storage/data/cert.gov.ua-news",
+    outputDir: `./storage/output/raw/${llmClient.modelName.replace(/:/g, "-")}`,
+    llmClient
   });
 
-  const dataNormalizer = new DataNormalizer({ 
-    inputDir: `./storage/output/raw/${llmClient.modelName.replace(/:/g, '-')}`, 
-    outputDir: `./storage/output/normalized/${llmClient.modelName.replace(/:/g, '-')}`, 
-    countryNameNormalizer: new CountryNameNormalizer({llmClient}),
+  const dataNormalizer = new DataNormalizer({
+    inputDir: `./storage/output/raw/${llmClient.modelName.replace(/:/g, "-")}`,
+    outputDir: `./storage/output/normalized/${llmClient.modelName.replace(
+      /:/g,
+      "-"
+    )}`,
+    countryNameNormalizer: new CountryNameNormalizer({ llmClient }),
     embeddingsClient
   });
 
   const dataAnalyzer = new DataAnalyzer({
-    inputDir: `./storage/output/normalized/${llmClient.modelName.replace(/:/g, '-')}`,
-    outputDir: `./storage/output/analyzed/${llmClient.modelName.replace(/:/g, '-')}`
+    inputDir: `./storage/output/normalized/${llmClient.modelName.replace(
+      /:/g,
+      "-"
+    )}`,
+    outputDir: `./storage/output/analyzed/${llmClient.modelName.replace(
+      /:/g,
+      "-"
+    )}`
   });
 
   const flowManager = new FlowManager({
     steps: [
       {
-        name: 'dataExtractor',
+        name: "dataExtractor",
         run: () => dataExtractor.run()
       },
       {
-        name: 'dataNormalizer',
+        name: "dataNormalizer",
         run: async () => dataNormalizer.run()
       },
       {
-        name: 'dataAnalyzer',
+        name: "dataAnalyzer",
         run: async () => dataAnalyzer.run()
-      },
+      }
       // {
       //   name: 'normalizer',
       //   run: async () => {
@@ -63,37 +74,43 @@ async function main() {
       //   }
       // }
     ]
-   });
+  });
 
-   await flowManager.runStep('dataAnalyzer');
+  await flowManager.runStep("dataExtractor");
   //  flowManager.runAllSteps();
 }
 
 main();
 
 function makeLlmClient() {
-  const openAiApiKey = process.env['OPENAI_API_KEY'];
-  if (!openAiApiKey) throw new Error('OPENAI_API_KEY env required');
+  const openAiApiKey = process.env["OPENAI_API_KEY"];
+  if (!openAiApiKey) throw new Error("OPENAI_API_KEY env required");
 
-  const vertexAiProject = process.env['VERTEXAI_PROJECT'];
-  if (!vertexAiProject) throw new Error('VERTEXAI_PROJECT env required');
+  const vertexAiProject = process.env["VERTEXAI_PROJECT"];
+  if (!vertexAiProject) throw new Error("VERTEXAI_PROJECT env required");
 
-  const vertexAiLocation = process.env['VERTEXAI_LOCATION'];
-  if (!vertexAiLocation) throw new Error('VERTEXAI_LOCATION env required');
+  const vertexAiLocation = process.env["VERTEXAI_LOCATION"];
+  if (!vertexAiLocation) throw new Error("VERTEXAI_LOCATION env required");
 
-  // OpenAi models: 
+  const antrophicApiKey = process.env["ANTHROPIC_API_KEY"];
+  if (!antrophicApiKey) throw new Error("ANTHROPIC_API_KEY env required");
+
+  // OpenAi models:
   // gpt-4o
   // gpt-4o-mini
   // o1-preview - slow, expensive, for reasoning.
   // o1-mini - slow, expensive, for reasoning.
-  const openAiBackend = new LlmClientBackendOpenAi({ model: 'gpt-4o', apiKey: openAiApiKey });
+  const openAiBackend = new LlmClientBackendOpenAi({
+    model: "gpt-4o",
+    apiKey: openAiApiKey
+  });
 
-  // Ollama models: 
+  // Ollama models:
   // llama3.1:70b - 24GB GPU (52% of model, 1-2 min per message).
   // llama3.1:8b - 8GB GPU (100% of model).
   // llama3.2:3b - 8GB GPU (100% of model)
-  // deepseek-r1:8b - 8GB GPU (100% of model, 15-25 seconds per message because of reasoning) 
-  // deepseek-r1:7b - 8GB GPU (100% of model, 15-25 seconds per message because of reasoning) 
+  // deepseek-r1:8b - 8GB GPU (100% of model, 15-25 seconds per message because of reasoning)
+  // deepseek-r1:7b - 8GB GPU (100% of model, 15-25 seconds per message because of reasoning)
   // deepseek-r1:1.5b - does not work at all (possibly Ukrainian language is not handled correctly in inputs)
   // gemma2:27b - 8GB GPU (36% of model, 1-2 min per message), 24GB GPU (100% of model, 2-5 sec per message),
   // gemma2:9b - 8GB GPU (84% of model).
@@ -101,47 +118,59 @@ function makeLlmClient() {
   // mistral:7b - 8GB GPU (100% of model).  Unusable: does not follow JSON structure.
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
-  const ollamaBackend = new LlmClientBackendOllama({ model: 'gemma2:9b' });
+  const ollamaBackend = new LlmClientBackendOllama({ model: "gemma2:9b" });
 
   // VertexAi models:
   // gemini-1.5-flash-002
   // gemini-1.5-pro-002
   // gemini-flash-experimental
   const vertexAiBackend = new LlmClientBackendVertexAi({
-    model: 'gemini-flash-experimental',
+    model: "gemini-flash-experimental",
     project: vertexAiProject,
     location: vertexAiLocation
+  });
+
+  // Anthropic models:
+  // claude-3-5-sonnet-20241022
+  // claude-3-5-haiku-20241022
+  const anthropicBackend = new LlmClientBackendAnthropic({
+    model: "claude-3-5-haiku-20241022",
+    apiKey: antrophicApiKey
   });
 
   return new LlmClient({ backend: openAiBackend });
 }
 
-
 function makeEmbeddingsClient() {
-  const openAiApiKey = process.env['OPENAI_API_KEY'];
-  if (!openAiApiKey) throw new Error('OPENAI_API_KEY env required');
+  const openAiApiKey = process.env["OPENAI_API_KEY"];
+  if (!openAiApiKey) throw new Error("OPENAI_API_KEY env required");
 
-  const vertexAiProject = process.env['VERTEXAI_PROJECT'];
-  if (!vertexAiProject) throw new Error('VERTEXAI_PROJECT env required');
+  const vertexAiProject = process.env["VERTEXAI_PROJECT"];
+  if (!vertexAiProject) throw new Error("VERTEXAI_PROJECT env required");
 
-  const vertexAiLocation = process.env['VERTEXAI_LOCATION'];
-  if (!vertexAiLocation) throw new Error('VERTEXAI_LOCATION env required');
+  const vertexAiLocation = process.env["VERTEXAI_LOCATION"];
+  if (!vertexAiLocation) throw new Error("VERTEXAI_LOCATION env required");
 
-  // OpenAi models: 
+  // OpenAi models:
   // text-embedding-3-small
-  const openAiBackend = new EmbeddingsBackendOpenAi({ model: 'text-embedding-3-small', apiKey: openAiApiKey });
+  const openAiBackend = new EmbeddingsBackendOpenAi({
+    model: "text-embedding-3-small",
+    apiKey: openAiApiKey
+  });
 
-  // Ollama models: 
+  // Ollama models:
   // nomic-embed-text
-  const ollamaBackend = new EmbeddingsBackendOllama({ model: 'nomic-embed-text' });
+  const ollamaBackend = new EmbeddingsBackendOllama({
+    model: "nomic-embed-text"
+  });
 
   // VertexAi models:
   // textembedding-gecko-multilingual@001
   const vertexAiBackend = new EmbeddingsBackendVertexAi({
-    model: 'textembedding-gecko-multilingual@001',
+    model: "textembedding-gecko-multilingual@001",
     project: vertexAiProject,
     location: vertexAiLocation
   });
 
-  return new EmbeddingsClient({ backend: openAiBackend});
+  return new EmbeddingsClient({ backend: openAiBackend });
 }
