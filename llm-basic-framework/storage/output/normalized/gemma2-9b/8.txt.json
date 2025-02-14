@@ -1,0 +1,31 @@
+{
+  "attackTargets": [
+    "урядові організації україни",
+    "органами місцевого самоврядування україни",
+    "державні органи україни"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "anonvnc (meshagent)",
+    "scan_docs#40562153.msi"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "pcloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "github",
+      "relation": "neutral"
+    }
+  ]
+}

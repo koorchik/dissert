@@ -1,0 +1,24 @@
+{
+  "attackTargets": [
+    "українських підприємств та фізичних осіб-підприємців",
+    "комп'ютерів бухгалтерів"
+  ],
+  "hackerGroups": [
+    "uac-0050",
+    "fire cells group"
+  ],
+  "applications": [
+    "remcos",
+    "tektonitrms",
+    "meduzastealer",
+    "lummastealer",
+    "xenorat",
+    "sectoprat",
+    "marsstealer",
+    "darktrackrat"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

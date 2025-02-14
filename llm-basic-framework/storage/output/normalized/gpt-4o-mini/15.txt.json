@@ -1,0 +1,19 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "telegram",
+    "whatsapp"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [],
+  "enrichedAttackTargets": []
+}

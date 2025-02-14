@@ -1,0 +1,57 @@
+{
+  "attackTargets": [
+    "government institution 1",
+    "government institution 2"
+  ],
+  "hackerGroups": [
+    "uac-0001 (apt28)"
+  ],
+  "applications": [
+    "powershell",
+    "google table"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "друга країна",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "government organization 1",
+      "relation": "target"
+    },
+    {
+      "name": "government organization 2",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "individual 1",
+      "relation": "neutral"
+    },
+    {
+      "name": "individual 2",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "mail.zhblz[.]com",
+      "relation": "target"
+    },
+    {
+      "name": "browser.hta",
+      "relation": "attacker"
+    },
+    {
+      "name": "domain2",
+      "relation": "neutral"
+    }
+  ]
+}

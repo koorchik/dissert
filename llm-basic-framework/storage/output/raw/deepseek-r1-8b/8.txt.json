@@ -1,0 +1,24 @@
+{
+  "attackTargets": [
+    "державних організацій україни"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "msi-файл",
+    "anonvnc"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "державні організації україни",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -1,0 +1,25 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "amazon",
+    "microsoft",
+    "mstsc.exe"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "інші країни",
+      "relation": "neutral",
+      "code": "UA"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [],
+  "enrichedAttackTargets": []
+}

@@ -15,7 +15,6 @@ export class LlmClientBackendOllama implements LlmBackendBase {
         { role: 'user', content: text }],
     });
 
-    console.log(response.message.content)
     return response.message.content;
   }
 }

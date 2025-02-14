@@ -1,0 +1,19 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "vbs script",
+    "powershell",
+    "python software foundation basehttp 0.6"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    }
+  ],
+  "enrichedAttackTargets": []
+}

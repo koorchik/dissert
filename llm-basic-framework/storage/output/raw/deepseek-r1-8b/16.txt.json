@@ -1,0 +1,33 @@
+{
+  "attackTargets": [
+    "attack target 1",
+    "attack target 2"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "superops rmm"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "organization 1",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.superops.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "*.superops.ai",
+      "relation": "attacker"
+    }
+  ]
+}

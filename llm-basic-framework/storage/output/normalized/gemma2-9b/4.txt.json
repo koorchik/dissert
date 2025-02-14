@@ -1,0 +1,16 @@
+{
+  "attackTargets": [
+    "organ of state power",
+    "enterprises",
+    "military formations"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "rdp",
+    "mstsc.exe"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

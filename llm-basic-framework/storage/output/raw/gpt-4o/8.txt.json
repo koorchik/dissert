@@ -1,0 +1,24 @@
+{
+  "attackTargets": [
+    "державні організації україни"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "anonvnc",
+    "meshagent"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "служба безпеки україни",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node bin/analizer.ts",
+    "start": "ts-node bin/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -12,16 +12,20 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.33.1",
     "@google-cloud/vertexai": "^1.9.0",
+    "countries-list": "^3.1.1",
     "dotenv": "^16.4.5",
     "install": "^0.13.0",
     "jsonrepair": "^3.11.1",
     "livr": "^2.7.1",
+    "ml-pca": "^4.1.1",
     "npm": "^10.9.1",
     "ollama": "^0.5.10",
     "openai": "^4.73.1",
     "relaxed-json": "^1.0.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.2"
+    "tsne-js": "^1.0.3",
+    "typescript": "^5.7.2",
+    "umap-js": "^1.4.0"
   },
   "devDependencies": {
     "@types/relaxed-json": "^1.0.4"

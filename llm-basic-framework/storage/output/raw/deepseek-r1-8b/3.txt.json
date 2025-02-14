@@ -1,0 +1,37 @@
+{
+  "attackTargets": [
+    "%userprofile%"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "homesteel",
+    "пароль.vbe"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "unknown",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [],
+  "individuals": [
+    {
+      "name": "%userprofile%",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    },
+    {
+      "name": "python软件基金ेशन basehttp 0.6",
+      "relation": "neutral"
+    }
+  ]
+}

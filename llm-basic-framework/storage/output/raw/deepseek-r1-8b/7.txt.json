@@ -1,0 +1,37 @@
+{
+  "attackTargets": [
+    "військові системи"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "griselda",
+    "очі"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "міністерство оборони україни та збройних сил україни milcert",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "domain1",
+      "relation": "neutral"
+    },
+    {
+      "name": "domain2",
+      "relation": "attacker"
+    }
+  ]
+}

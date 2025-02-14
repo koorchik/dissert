@@ -1,0 +1,54 @@
+{
+  "attackTargets": [
+    "науково-дослідні установи україни"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28"
+  ],
+  "applications": [
+    "hatvibe",
+    "cherryspy",
+    "python",
+    "hfs http file server"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "росія",
+      "relation": "attacker"
+    },
+    {
+      "name": "вірменія",
+      "relation": "neutral"
+    },
+    {
+      "name": "киргизька республіка",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "гу гш зс рф",
+      "relation": "attacker"
+    },
+    {
+      "name": "міністерство оборони республіки вірменія",
+      "relation": "neutral"
+    },
+    {
+      "name": "управління міжнародного військового співробітництва міністерства оборони киргизької республіки",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "rejetto.com/hfs",
+      "relation": "neutral"
+    }
+  ]
+}

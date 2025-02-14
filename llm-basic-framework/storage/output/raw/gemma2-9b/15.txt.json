@@ -1,0 +1,21 @@
+{
+  "attackTargets": [
+    "telegram",
+    "whatsapp"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "target"
+    },
+    {
+      "name": "csirt-nbu",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -1,0 +1,40 @@
+{
+  "attackTargets": [
+    "enterprise 1"
+  ],
+  "hackerGroups": [
+    "uac-0006"
+  ],
+  "applications": [
+    "smokeloader",
+    "taleshot",
+    "rms"
+  ],
+  "countries": [
+    {
+      "name": "country 1",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": ".zip",
+      "relation": "neutral"
+    },
+    {
+      "name": ".img",
+      "relation": "neutral"
+    },
+    {
+      "name": ".accdb",
+      "relation": "neutral"
+    }
+  ]
+}

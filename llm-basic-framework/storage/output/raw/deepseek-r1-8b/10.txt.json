@@ -1,0 +1,40 @@
+{
+  "attackTargets": [
+    "specialists of project offices",
+    "contractors of local governance bodies"
+  ],
+  "hackerGroups": [
+    "uac-0057"
+  ],
+  "applications": [
+    "picassoloader",
+    "cobalt strike beacon"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "проєкт usaid/dai 'hoverла'",
+      "relation": "target"
+    },
+    {
+      "name": "locальні органи місцевого самоврядування",
+      "relation": "target"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "спільробітники проектних офісів",
+      "relation": "target"
+    },
+    {
+      "name": "заступники з числа співробітників відповідних органів місцевого самоврядування",
+      "relation": "target"
+    }
+  ],
+  "domains": []
+}

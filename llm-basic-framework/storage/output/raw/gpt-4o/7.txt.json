@@ -1,0 +1,41 @@
+{
+  "attackTargets": [
+    "griselda",
+    "система стеження 'очі'"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "signal",
+    "hydra"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ікс 'очі'",
+      "relation": "neutral"
+    },
+    {
+      "name": "міністерство оборони україни",
+      "relation": "target"
+    },
+    {
+      "name": "збройні сили україни",
+      "relation": "target"
+    },
+    {
+      "name": "google cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}
