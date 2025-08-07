@@ -1,0 +1,26 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "sandworm",
+    "uac-0133"
+  ],
+  "applications": [
+    "loadgrip",
+    "biasboat",
+    "queueseed",
+    "gossipflow",
+    "sdelete",
+    "weevely",
+    "regeorg.neo",
+    "pivotnacci"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

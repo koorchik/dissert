@@ -1,0 +1,45 @@
+{
+  "attackTargets": [
+    "local self-government bodies of ukraine",
+    "government organizations in ukraine",
+    "defence ministries of other countries"
+  ],
+  "hackerGroups": [
+    "uac-0001",
+    "apt28"
+  ],
+  "applications": [
+    "powershell",
+    "hta",
+    "browser.ps1",
+    "metasploit",
+    "ssh",
+    "recaptcha",
+    "roundcube",
+    "systemhealthchek plugin",
+    "managesiev plugin"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ukrainian local self-government bodies",
+      "relation": "target"
+    },
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    }
+  ]
+}

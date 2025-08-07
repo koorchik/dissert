@@ -1,17 +1,23 @@
 {
-  "attackTargets": [
-    "державна податкова служба україни",
-    "підприємства"
-  ],
+  "attackTargets": [],
   "hackerGroups": [
     "uac-0050"
   ],
   "applications": [
-    "litemanager",
-    "sfx-файл"
+    "litemanager"
   ],
-  "countries": [],
-  "organizations": [],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "державна податкова служба україни",
+      "relation": "target"
+    }
+  ],
   "individuals": [],
   "domains": [
     {

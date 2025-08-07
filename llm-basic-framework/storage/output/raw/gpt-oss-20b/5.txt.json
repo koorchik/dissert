@@ -1,0 +1,28 @@
+{
+  "attackTargets": [
+    "telegram recipients"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "telegram",
+    "powershell",
+    "microsoft defender",
+    "meduzastealer",
+    "installer.exe",
+    "install.exe"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "резерв+",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

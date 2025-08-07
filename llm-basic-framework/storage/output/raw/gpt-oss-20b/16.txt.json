@@ -1,0 +1,49 @@
+{
+  "attackTargets": [
+    "ukrainian organizations",
+    "european financial institutions",
+    "u.s. financial institutions"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "superops rmm",
+    "dropbox",
+    "pyinstaller",
+    "minesweeper"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "united states",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "csirt-nbu",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "superops.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "superops.ai",
+      "relation": "attacker"
+    },
+    {
+      "name": "anotepad.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "dropbox.com",
+      "relation": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "uac-0006"
+  ],
+  "applications": [
+    "smokeloader",
+    "taleshot",
+    "rms",
+    "powershell",
+    "microsoft access"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

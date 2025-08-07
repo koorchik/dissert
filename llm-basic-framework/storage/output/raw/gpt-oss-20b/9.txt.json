@@ -1,0 +1,25 @@
+{
+  "attackTargets": [
+    "ukr.net"
+  ],
+  "hackerGroups": [
+    "uac-0102"
+  ],
+  "applications": [
+    "html file"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

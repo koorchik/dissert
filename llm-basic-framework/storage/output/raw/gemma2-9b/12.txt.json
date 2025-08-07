@@ -1,7 +1,7 @@
 {
   "attackTargets": [
-    "українських оборонних підприємств",
-    "сил оборони україни"
+    "оборонні підприємства",
+    "сили оборони україни"
   ],
   "hackerGroups": [
     "uac-0180"
@@ -13,7 +13,8 @@
     "adobe_acrobat_fonts_pack.exe",
     "ua-2024-07-04-010019-a-open.pdf",
     "font-pack-pdf-windows-64-bit",
-    "curl.exe"
+    "curl.exe",
+    "msi-файлу легітимної програми для віддаленого управління еом"
   ],
   "countries": [],
   "organizations": [],

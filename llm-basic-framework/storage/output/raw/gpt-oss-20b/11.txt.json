@@ -1,0 +1,58 @@
+{
+  "attackTargets": [
+    "українські науково-дослідні установи",
+    "управління оборонної політики міністерства оборони республіки вірменія"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28 (uac-0001)"
+  ],
+  "applications": [
+    "hatvibe",
+    "cherryspy",
+    "hfs http file server"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "армянська республіка",
+      "relation": "target"
+    },
+    {
+      "name": "киргизька республіка",
+      "relation": "target"
+    },
+    {
+      "name": "росія",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "українські науково-дослідні установи",
+      "relation": "target"
+    },
+    {
+      "name": "міністерство оборони республіки вірменія",
+      "relation": "target"
+    },
+    {
+      "name": "міністерство оборони киргизької республіки",
+      "relation": "target"
+    },
+    {
+      "name": "гу гш зс рф",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "rejetto.com",
+      "relation": "neutral"
+    }
+  ]
+}

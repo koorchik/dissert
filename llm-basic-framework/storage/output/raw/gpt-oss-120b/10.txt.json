@@ -1,0 +1,28 @@
+{
+  "attackTargets": [
+    "ukrainian local government officials",
+    "project office specialists"
+  ],
+  "hackerGroups": [
+    "uac-0057"
+  ],
+  "applications": [
+    "picassoloader",
+    "cobalt strike beacon",
+    "microsoft excel"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "usaid/dai \"hoverla\"",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -1,0 +1,18 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "meduzastealer",
+    "powershell",
+    "telegram"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "reserve+",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -1,0 +1,40 @@
+{
+  "attackTargets": [
+    "griselda",
+    "system \"очі\""
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "hydra"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ministry of defense of ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "armed forces of ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "google cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare",
+      "relation": "neutral"
+    },
+    {
+      "name": "signal",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

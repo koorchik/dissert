@@ -1,0 +1,45 @@
+{
+  "attackTargets": [
+    "ukrainian organizations' computers"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "superops rmm",
+    "pyinstaller"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "united states",
+      "relation": "neutral"
+    },
+    {
+      "name": "europe",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "csirt-nbu",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "superops.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "superops.ai",
+      "relation": "attacker"
+    },
+    {
+      "name": "anotepad.com",
+      "relation": "attacker"
+    }
+  ]
+}

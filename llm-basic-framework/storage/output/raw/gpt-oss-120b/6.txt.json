@@ -1,0 +1,41 @@
+{
+  "attackTargets": [
+    "accountants' computers",
+    "ukrainian enterprises",
+    "individual entrepreneurs",
+    "financial institutions"
+  ],
+  "hackerGroups": [
+    "uac-0050",
+    "uac-0006",
+    "fire cells group"
+  ],
+  "applications": [
+    "remcos",
+    "tektonitrms",
+    "meduzastealer",
+    "lummastealer",
+    "xenorat",
+    "sectoprat",
+    "marsstealer",
+    "darktrackrat"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ukrainian enterprises",
+      "relation": "target"
+    },
+    {
+      "name": "financial institutions",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -1,0 +1,38 @@
+{
+  "attackTargets": [
+    "ukrainian government organizations",
+    "ukrainian local government bodies"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "anonvnc (meshagent)",
+    "meshagent"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "security service of ukraine",
+      "relation": "neutral"
+    },
+    {
+      "name": "pcloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "github",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "attackTargets": [
+    "telegram accounts",
+    "whatsapp accounts"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "telegram",
+    "whatsapp"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "csirt-nbu",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

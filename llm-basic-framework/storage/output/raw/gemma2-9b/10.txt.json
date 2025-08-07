@@ -1,5 +1,7 @@
 {
   "attackTargets": [
+    "проєкт usaid/dai \"hoverla\"",
+    "органів місцевого самоврядування україни",
     "фахівці проєктних офісів",
     "контрагенти з числа співробітників відповідних органів місцевого самоврядування україни"
   ],
@@ -10,24 +12,11 @@
     "picassoloader",
     "cobalt strike beacon"
   ],
-  "countries": [
-    {
-      "name": "ukraine",
-      "relation": "target"
-    }
-  ],
+  "countries": [],
   "organizations": [
     {
       "name": "usaid/dai",
-      "relation": "neutral"
-    },
-    {
-      "name": "hoverla",
-      "relation": "neutral"
-    },
-    {
-      "name": "cert-ua",
-      "relation": "neutral"
+      "relation": "target"
     }
   ],
   "individuals": [],

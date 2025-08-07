@@ -1,0 +1,21 @@
+{
+  "attackTargets": [
+    "ukrainian government agencies",
+    "major industrial enterprises",
+    "military formations"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "mstsc.exe",
+    "remote desktop protocol (rdp)"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}
