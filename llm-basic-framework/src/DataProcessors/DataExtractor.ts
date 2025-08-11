@@ -30,7 +30,7 @@ export class DataExtractor {
     for (const file of files) {
       // const file = '19.txt';
 
-      console.log(`FILE=${file}`);
+      console.log(`IN FILE=${this.#inputDir}/${file}`);
       const content = await fs.readFile(`${this.#inputDir}/${file}`);
       const response = await this.#sendToLlm(content.toString());
       // console.log({JSON: JSON.stringify(response, undefined, 2)});
@@ -112,6 +112,7 @@ export class DataExtractor {
 
   async #saveResponse(originalFile: string, text: string) {
     const rawResultFile = `${this.#outputDir}/${originalFile}.json`;
+    console.log(`OUT FILE=${rawResultFile}`);
     await fs.writeFile(rawResultFile, text);
   }
 }

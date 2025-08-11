@@ -31,7 +31,7 @@ export class DataNormalizer {
 
     const files = await fs.readdir(this.#inputDir);
     for (const file of files) {
-      console.log(`FILE=${file}`);
+      console.log(`IN FILE=${this.#inputDir}/${file}`);
       const content = await fs.readFile(`${this.#inputDir}/${file}`);
       const data = JSON.parse(content.toString()) as NormalizedData;
       const response = await this.#normalizeAndEnrich(data);
@@ -68,6 +68,7 @@ export class DataNormalizer {
 
   async #saveResponse(originalFile: string, content: string) {
     const rawResultFile = `${this.#outputDir}/${originalFile}`;
+    console.log(`OUT FILE=${rawResultFile}`);
     await fs.writeFile(rawResultFile, content);
   }
 }
