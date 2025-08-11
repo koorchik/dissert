@@ -1,5 +1,8 @@
 {
-  "attackTargets": [],
+  "attackTargets": [
+    "accounting workstations",
+    "remote banking services"
+  ],
   "hackerGroups": [
     "uac-0006"
   ],
@@ -9,7 +12,12 @@
     "rms",
     "powershell"
   ],
-  "countries": [],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
   "organizations": [],
   "individuals": [],
   "domains": []

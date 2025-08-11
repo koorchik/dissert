@@ -1,8 +1,9 @@
 {
   "attackTargets": [
     "ukrainian government agencies",
-    "major industrial enterprises",
-    "military formations"
+    "major industry enterprises",
+    "military formations",
+    "victim computers"
   ],
   "hackerGroups": [],
   "applications": [

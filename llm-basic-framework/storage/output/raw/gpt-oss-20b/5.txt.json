@@ -1,15 +1,14 @@
 {
   "attackTargets": [
-    "telegram recipients"
+    "резерв+"
   ],
   "hackerGroups": [],
   "applications": [
-    "telegram",
-    "powershell",
-    "microsoft defender",
-    "meduzastealer",
+    "reservplus.zip",
     "installer.exe",
-    "install.exe"
+    "install.exe",
+    "meduzastealer",
+    "powershell"
   ],
   "countries": [
     {

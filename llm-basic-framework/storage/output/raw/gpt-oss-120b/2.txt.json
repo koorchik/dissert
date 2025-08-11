@@ -1,8 +1,8 @@
 {
   "attackTargets": [
-    "органи місцевого самоврядування україни",
-    "державна організація україни",
-    "оборонні відомства інших країн"
+    "органи місцевого самоврядування",
+    "державна організація",
+    "оборонні відомства інших країн світу"
   ],
   "hackerGroups": [
     "uac-0001 (apt28)"
@@ -12,6 +12,7 @@
     "hta",
     "ssh",
     "metasploit",
+    "browser.ps1",
     "chrome",
     "edge",
     "opera",
@@ -19,11 +20,28 @@
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],
-  "organizations": [],
+  "organizations": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "державна організація",
+      "relation": "target"
+    },
+    {
+      "name": "оборонні відомства інших країн світу",
+      "relation": "target"
+    }
+  ],
   "individuals": [],
   "domains": [
     {

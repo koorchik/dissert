@@ -1,7 +1,7 @@
 {
   "attackTargets": [
-    "українські оборонні підприємства",
-    "сили оборони україни"
+    "ukrainian defense enterprises",
+    "ukrainian armed forces"
   ],
   "hackerGroups": [
     "uac-0180"
@@ -17,7 +17,7 @@
   ],
   "countries": [
     {
-      "name": "україна",
+      "name": "ukraine",
       "relation": "target"
     }
   ],

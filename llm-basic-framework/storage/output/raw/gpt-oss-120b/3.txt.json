@@ -1,12 +1,11 @@
 {
-  "attackTargets": [
-    "user profile directories"
-  ],
+  "attackTargets": [],
   "hackerGroups": [],
   "applications": [
     "vbs",
     "powershell",
-    "python"
+    "python",
+    "basehttp 0.6"
   ],
   "countries": [
     {
@@ -17,6 +16,10 @@
   "organizations": [
     {
       "name": "hostzealot",
+      "relation": "neutral"
+    },
+    {
+      "name": "python software foundation",
       "relation": "neutral"
     }
   ],

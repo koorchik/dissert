@@ -1,11 +1,15 @@
 {
   "attackTargets": [
-    "ukrainian organizations' computers"
+    "ukrainian organizations",
+    "european financial and insurance institutions",
+    "united states financial and insurance institutions"
   ],
   "hackerGroups": [],
   "applications": [
     "superops rmm",
-    "pyinstaller"
+    "pyinstaller",
+    "dropbox",
+    "anotepad.com"
   ],
   "countries": [
     {
@@ -14,16 +18,24 @@
     },
     {
       "name": "united states",
-      "relation": "neutral"
-    },
-    {
-      "name": "europe",
-      "relation": "neutral"
+      "relation": "target"
     }
   ],
   "organizations": [
     {
       "name": "csirt-nbu",
+      "relation": "neutral"
+    },
+    {
+      "name": "superops",
+      "relation": "neutral"
+    },
+    {
+      "name": "dropbox",
+      "relation": "neutral"
+    },
+    {
+      "name": "anotepad.com",
       "relation": "neutral"
     }
   ],
@@ -38,8 +50,12 @@
       "relation": "attacker"
     },
     {
+      "name": "dropbox.com",
+      "relation": "neutral"
+    },
+    {
       "name": "anotepad.com",
-      "relation": "attacker"
+      "relation": "neutral"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "attackTargets": [],
+  "attackTargets": [
+    "бухгалтерії підприємств"
+  ],
   "hackerGroups": [
     "uac-0050"
   ],
@@ -8,13 +10,17 @@
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [
     {
       "name": "державна податкова служба україни",
+      "relation": "target"
+    },
+    {
+      "name": "фінансові установи",
       "relation": "target"
     }
   ],

@@ -1,13 +1,35 @@
 {
-  "attackTargets": [],
+  "attackTargets": [
+    "uac-0218"
+  ],
   "hackerGroups": [],
   "applications": [
     "homesteel",
-    "пароль.vbe",
-    "powershell script"
+    "vbs script (пароль.vbe)",
+    "powershell",
+    "python"
   ],
-  "countries": [],
-  "organizations": [],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    }
+  ],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {
+      "name": "edisk",
+      "relation": "attacker"
+    },
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    }
+  ]
 }

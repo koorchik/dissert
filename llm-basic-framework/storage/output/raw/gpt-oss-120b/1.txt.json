@@ -1,8 +1,7 @@
 {
   "attackTargets": [
-    "enterprise accounting systems",
     "бухгалтери підприємств",
-    "banking systems"
+    "підприємства"
   ],
   "hackerGroups": [
     "uac-0050"
@@ -16,16 +15,7 @@
       "relation": "target"
     }
   ],
-  "organizations": [
-    {
-      "name": "державна податкова служба україни",
-      "relation": "neutral"
-    },
-    {
-      "name": "банківські установи",
-      "relation": "target"
-    }
-  ],
+  "organizations": [],
   "individuals": [],
   "domains": [
     {

@@ -6,20 +6,28 @@
     "uac-0102"
   ],
   "applications": [
-    "html file"
+    "ukr.net"
   ],
-  "countries": [
-    {
-      "name": "ukraine",
-      "relation": "target"
-    }
-  ],
+  "countries": [],
   "organizations": [
     {
       "name": "ukr.net",
       "relation": "target"
+    },
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
     }
   ],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    },
+    {
+      "name": "cert.gov.ua",
+      "relation": "neutral"
+    }
+  ]
 }

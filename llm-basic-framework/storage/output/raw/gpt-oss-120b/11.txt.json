@@ -4,13 +4,13 @@
   ],
   "hackerGroups": [
     "uac-0063",
-    "apt28 (uac-0001)"
+    "apt28"
   ],
   "applications": [
     "hatvibe",
     "cherryspy",
     "python interpreter",
-    "mshta.exe"
+    "hfs http file server"
   ],
   "countries": [
     {
@@ -32,7 +32,7 @@
   ],
   "organizations": [
     {
-      "name": "gu gsh zs rf",
+      "name": "гу гш зс рф",
       "relation": "attacker"
     },
     {

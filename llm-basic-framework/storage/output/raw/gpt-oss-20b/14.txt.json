@@ -1,13 +1,13 @@
 {
   "attackTargets": [
-    "government employees",
+    "state officials",
     "military personnel",
-    "defense enterprise representatives"
+    "representatives of defense enterprises"
   ],
   "hackerGroups": [],
   "applications": [
     "darkcrystal rat",
-    "signal"
+    "signal messenger"
   ],
   "countries": [
     {
@@ -15,7 +15,12 @@
       "relation": "target"
     }
   ],
-  "organizations": [],
+  "organizations": [
+    {
+      "name": "ukrainian defense enterprises",
+      "relation": "target"
+    }
+  ],
   "individuals": [],
   "domains": []
 }

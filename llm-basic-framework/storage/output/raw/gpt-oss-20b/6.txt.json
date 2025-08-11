@@ -1,12 +1,13 @@
 {
   "attackTargets": [
+    "accountants' computers",
     "ukrainian enterprises",
-    "individual entrepreneurs"
+    "ukrainian individual entrepreneurs",
+    "ukrainian banking systems"
   ],
   "hackerGroups": [
     "uac-0050",
-    "uac-0006",
-    "fire cells group"
+    "uac-0006"
   ],
   "applications": [
     "remcos",
@@ -24,7 +25,12 @@
       "relation": "target"
     }
   ],
-  "organizations": [],
+  "organizations": [
+    {
+      "name": "fire cells group",
+      "relation": "attacker"
+    }
+  ],
   "individuals": [],
   "domains": []
 }

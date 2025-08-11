@@ -1,10 +1,12 @@
 {
   "attackTargets": [
     "griselda",
-    "system \"очі\""
+    "очі"
   ],
   "hackerGroups": [],
   "applications": [
+    "signal",
+    "google drive",
     "hydra"
   ],
   "countries": [
@@ -23,6 +25,10 @@
       "relation": "target"
     },
     {
+      "name": "milcert",
+      "relation": "target"
+    },
+    {
       "name": "google cloud",
       "relation": "neutral"
     },
@@ -31,8 +37,8 @@
       "relation": "neutral"
     },
     {
-      "name": "signal",
-      "relation": "neutral"
+      "name": "ікс \"очі\"",
+      "relation": "target"
     }
   ],
   "individuals": [],

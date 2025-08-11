@@ -1,20 +1,35 @@
 {
   "attackTargets": [
-    "telegram accounts",
-    "whatsapp accounts"
+    "telegram",
+    "whatsapp"
   ],
   "hackerGroups": [],
   "applications": [
     "telegram",
-    "whatsapp"
+    "whatsapp",
+    "sms"
   ],
-  "countries": [],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
   "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    },
     {
       "name": "csirt-nbu",
       "relation": "neutral"
     }
   ],
   "individuals": [],
-  "domains": []
+  "domains": [
+    {
+      "name": "cert.gov.ua",
+      "relation": "neutral"
+    }
+  ]
 }

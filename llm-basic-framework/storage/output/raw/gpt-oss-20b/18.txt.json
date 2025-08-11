@@ -8,7 +8,7 @@
   ],
   "countries": [
     {
-      "name": "україна",
+      "name": "ukraine",
       "relation": "target"
     }
   ],
@@ -17,7 +17,7 @@
   "domains": [
     {
       "name": "petition.president.gov.ua",
-      "relation": "neutral"
+      "relation": "target"
     }
   ]
 }

@@ -13,18 +13,14 @@
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "збройні сили україни",
-      "relation": "target"
-    },
-    {
       "name": "центр кібербезпеки зсу",
-      "relation": "neutral"
+      "relation": "target"
     }
   ],
   "individuals": [],
@@ -32,10 +28,6 @@
     {
       "name": "syncthing.net",
       "relation": "neutral"
-    },
-    {
-      "name": "post.mil.gov.ua",
-      "relation": "target"
     }
   ]
 }

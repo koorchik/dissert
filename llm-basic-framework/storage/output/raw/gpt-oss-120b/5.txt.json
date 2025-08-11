@@ -4,13 +4,14 @@
   "applications": [
     "meduzastealer",
     "powershell",
-    "telegram"
+    "telegram",
+    "microsoft defender"
   ],
   "countries": [],
   "organizations": [
     {
-      "name": "reserve+",
-      "relation": "attacker"
+      "name": "резерв+",
+      "relation": "target"
     }
   ],
   "individuals": [],

@@ -1,26 +1,29 @@
 {
   "attackTargets": [
-    "ukrainian local government officials",
-    "project office specialists"
+    "органи місцевого самоврядування україни",
+    "фахівці проектних офісів"
   ],
   "hackerGroups": [
     "uac-0057"
   ],
   "applications": [
     "picassoloader",
-    "cobalt strike beacon",
-    "microsoft excel"
+    "cobalt strike beacon"
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "usaid/dai \"hoverla\"",
-      "relation": "neutral"
+      "name": "usaid/dai",
+      "relation": "target"
+    },
+    {
+      "name": "органи місцевого самоврядування україни",
+      "relation": "target"
     }
   ],
   "individuals": [],

@@ -1,5 +1,9 @@
 {
-  "attackTargets": [],
+  "attackTargets": [
+    "комп'ютери",
+    "система дистанційного банківського обслуговування",
+    "підприємства"
+  ],
   "hackerGroups": [
     "uac-0006"
   ],
@@ -10,18 +14,8 @@
     "powershell",
     "microsoft access"
   ],
-  "countries": [
-    {
-      "name": "ukraine",
-      "relation": "target"
-    }
-  ],
-  "organizations": [
-    {
-      "name": "cert-ua",
-      "relation": "neutral"
-    }
-  ],
+  "countries": [],
+  "organizations": [],
   "individuals": [],
   "domains": []
 }

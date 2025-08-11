@@ -1,7 +1,7 @@
 {
   "attackTargets": [
-    "ukrainian government organizations",
-    "ukrainian local government bodies"
+    "ukrainian government agencies",
+    "ukrainian local self-government bodies"
   ],
   "hackerGroups": [],
   "applications": [
@@ -15,10 +15,6 @@
     }
   ],
   "organizations": [
-    {
-      "name": "security service of ukraine",
-      "relation": "neutral"
-    },
     {
       "name": "pcloud",
       "relation": "neutral"

@@ -1,6 +1,7 @@
 {
   "attackTargets": [
-    "ukrainian defense enterprises"
+    "українські оборонні підприємства",
+    "сили оборони україни"
   ],
   "hackerGroups": [
     "uac-0180"
@@ -10,22 +11,22 @@
     "dropclue",
     "atera",
     "adobe_acrobat_fonts_pack.exe",
-    "curl.exe",
-    "font-pack-pdf-windows-64-bit"
+    "font-pack-pdf-windows-64-bit",
+    "curl.exe"
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "ukrainian defense enterprises",
+      "name": "українські оборонні підприємства",
       "relation": "target"
     },
     {
-      "name": "sili obrony ukrainy",
+      "name": "сили оборони україни",
       "relation": "target"
     }
   ],

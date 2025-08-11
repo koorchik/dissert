@@ -8,16 +8,13 @@
   "applications": [
     "spectr",
     "syncthing",
-    "innosetup"
+    "innosetup",
+    "robocopy"
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
-    },
-    {
-      "name": "russia",
-      "relation": "attacker"
     }
   ],
   "organizations": [
@@ -38,7 +35,7 @@
     },
     {
       "name": "post.mil.gov.ua",
-      "relation": "neutral"
+      "relation": "target"
     }
   ]
 }

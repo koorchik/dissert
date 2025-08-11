@@ -1,36 +1,31 @@
 {
   "attackTargets": [
     "griselda",
-    "очі",
-    "мобільні пристрої військовослужбовців"
+    "очі"
   ],
   "hackerGroups": [],
   "applications": [
-    "griselda",
-    "очі",
-    "hydra"
+    "signal",
+    "hydra",
+    "google drive"
   ],
   "countries": [
     {
-      "name": "україна",
+      "name": "ukraine",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "міноборони україни",
+      "name": "icu 'очі'",
       "relation": "target"
     },
     {
-      "name": "збройні сили україни",
+      "name": "міноборщ україни",
       "relation": "target"
     },
     {
-      "name": "milcert",
-      "relation": "target"
-    },
-    {
-      "name": "ics \"очі\"",
+      "name": "збройні сили україни milcert",
       "relation": "target"
     },
     {

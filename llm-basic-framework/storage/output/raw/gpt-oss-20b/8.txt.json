@@ -1,31 +1,32 @@
 {
   "attackTargets": [
-    "ukrainian government agencies",
-    "local self-government bodies in ukraine"
+    "українські державні органи",
+    "органи місцевого самоврядування україни"
   ],
   "hackerGroups": [],
   "applications": [
-    "anonvnc (meshagent)",
-    "meshagent"
+    "anonvnc",
+    "meshagent",
+    "msi"
   ],
   "countries": [
     {
-      "name": "ukraine",
+      "name": "україна",
       "relation": "target"
     }
   ],
   "organizations": [
     {
-      "name": "security service of ukraine (sbu)",
+      "name": "служба безпеки україни",
       "relation": "target"
     },
     {
-      "name": "cert-ua",
-      "relation": "neutral"
+      "name": "українські державні органи",
+      "relation": "target"
     },
     {
-      "name": "pcloud",
-      "relation": "attacker"
+      "name": "органи місцевого самоврядування україни",
+      "relation": "target"
     }
   ],
   "individuals": [],
@@ -33,10 +34,6 @@
     {
       "name": "github.com",
       "relation": "neutral"
-    },
-    {
-      "name": "pcloud.com",
-      "relation": "attacker"
     }
   ]
 }
