@@ -76,7 +76,7 @@ async function main() {
     ]
   });
 
-  await flowManager.runStep("dataExtractor");
+  await flowManager.runStep("dataNormalizer");
   //  flowManager.runAllSteps();
 }
 
@@ -94,6 +94,8 @@ function makeLlmClient() {
 
   const antrophicApiKey = process.env["ANTHROPIC_API_KEY"];
   if (!antrophicApiKey) throw new Error("ANTHROPIC_API_KEY env required");
+
+  const ollamaApiKey = process.env["OLLAMA_API_KEY"];
 
   // OpenAi models:
   // gpt-4o
@@ -118,7 +120,7 @@ function makeLlmClient() {
   // mistral:7b - 8GB GPU (100% of model).  Unusable: does not follow JSON structure.
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
-  const ollamaBackend = new LlmClientBackendOllama({ model: "gemma2:9b" });
+  const ollamaBackend = new LlmClientBackendOllama({ model: "gpt-oss:20b", apiKey: ollamaApiKey });
 
   // VertexAi models:
   // gemini-1.5-flash-002
@@ -138,7 +140,7 @@ function makeLlmClient() {
     apiKey: antrophicApiKey
   });
 
-  return new LlmClient({ backend: openAiBackend });
+  return new LlmClient({ backend: ollamaBackend });
 }
 
 function makeEmbeddingsClient() {
@@ -172,5 +174,5 @@ function makeEmbeddingsClient() {
     location: vertexAiLocation
   });
 
-  return new EmbeddingsClient({ backend: openAiBackend });
+  return new EmbeddingsClient({ backend: ollamaBackend });
 }
