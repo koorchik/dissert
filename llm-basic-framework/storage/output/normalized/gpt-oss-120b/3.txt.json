@@ -1,0 +1,30 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "vbs",
+    "powershell",
+    "python",
+    "basehttp 0.6"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "hostzealot",
+      "relation": "neutral"
+    },
+    {
+      "name": "python software foundation",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "enrichedAttackTargets": []
+}

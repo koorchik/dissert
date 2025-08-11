@@ -1,0 +1,20 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "meduzastealer",
+    "powershell",
+    "telegram",
+    "microsoft defender"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "резерв+",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "enrichedAttackTargets": []
+}
