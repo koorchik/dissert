@@ -1,0 +1,15 @@
+{
+  "name": "cert-gov-ua-fetcher",
+  "version": "1.0.0",
+  "description": "Fetcher for cert.gov.ua articles",
+  "main": "fetcher.js",
+  "scripts": {
+    "start": "node fetcher.js"
+  },
+  "keywords": ["cert", "ukraine", "fetcher"],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

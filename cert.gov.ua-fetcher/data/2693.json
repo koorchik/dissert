@@ -1,0 +1,55 @@
+{
+  "id": 2693,
+  "title": "Фішингова розсилка на тему виборів",
+  "description": "<p>За інформацією&nbsp;OptiData, 28.03.2019&nbsp;проводилась&nbsp;цільова фішингова атака від імені Центру соціальних та маркетингових досліджень (SOCIS). В якості приманки використовується \"інформаційні матеріали\" про соціально-політичну ситуацію в Україні</p>",
+  "text": "<p>За інформацією&nbsp;<a href=\"https://www.facebook.com/Optidata.com.ua/?__tn__=K-R&amp;eid=ARBaXWS6ZruDTWcWcw6k4Vgw9LAqoGCdx3xKL2MC7zM_c36p_WfYkl1K5BZdEeRZy8LY8XNr1N8gGSp3&amp;fref=mentions&amp;__xts__%5B0%5D=68.ARCAy7u6IfQrprRASXM4j4sESktgi54bqF3mhR09bnHWb--txKcGMR7zs1wAJxNdO16CXVlpl_b4p7XTAdQrPosPyIHH7gfMLOElOk-flds12U9IN2qbR93ER7a5hSgmT91Ap5jRSGKeeUV5Mupix-F3re6JPOLwOcITnZn7k47TvY7xlTPxLwXsFBf_WUqmVxmBznfCZW4hzSrFsefkRwmH7MigIU3thOdgrKoM57sCQ-vkcGj34pr3PbZFn05yRWSRlTuCh6QHFIgrWmisD1eOibkYN-O37vMKkICUFnY2uQwam3qhBEgFTCrb4YV4c2rJ-yc6w8GGUNdqT9FfS7qwcqnMyGy8PL6Q6ljM2UnLr1ODIsDF5RC-cPcvU8K-zmMr2WookVqFMJsEYRHmsGq6nb48XievPsamP87ZQAgexwnAYQJIs_wacOlgEG8zheiWr4e1YOD4MC41YjiYfBzxMS-eFGwDtBkyns4wgp7l7jnf7tkcSQ\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">OptiData</a>,&nbsp;28.03.2019&nbsp;проводилась якісна цільова фішингова атака від імені Центру соціальних та маркетингових досліджень (SOCIS). В якості приманки використовується \"інформаційні матеріали\" про соціально-політичну ситуацію в Україні.</p><p>Джерело:&nbsp;<a href=\"https://www.facebook.com/Optidata.com.ua/posts/998540040353301\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://www.facebook.com/Optidata.com.ua/posts/998540040353301</a></p><p><br></p><p>Додатково рекомендуємо:</p><ul><li>Бути особливо обережними з відкриттям вкладень до електронної пошти від невідомих осіб. Сьогодні найактуальнішим засобом розсилання шкідливого програмного забезпечення є електронна пошта.</li><li>Користуватися&nbsp;<a href=\"https://support.office.com/ru-ru/article/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5-%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B9-office-%D0%B2-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%BC-%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%D0%B5-%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%B5-%D1%81-windows-dedf944a-5f4b-4afb-a453-528af4f7ac72\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">безпечним режимом</a>&nbsp;при відкритті файлів з електронної пошти та завантажених з Інтернету;</li><li>Вчасно та систематично оновлювати операційну систему та MS Office.</li></ul>",
+  "image": "https://cert.gov.ua/img/articles/2693/51.jpg",
+  "previous": {
+    "id": 2695,
+    "name": "Зараз в Україні активно розповсюджується шкідливе програмне забезпечення, яке використовує WinRAR exploit (#CVE-2018-20250)."
+  },
+  "next": {
+    "id": 2660,
+    "name": "Нові спроби використання вразливості 2017 року Microsoft Office"
+  },
+  "articles": [
+    {
+      "id": 6280183,
+      "date": "24.07.2024",
+      "title": "Кібератаки UAC-0102 з метою викрадення автентифікаційних даних облікових записів користувачів UKR.NET (CERT-UA#10381)",
+      "tags": []
+    },
+    {
+      "id": 6279491,
+      "date": "30.05.2024",
+      "title": "Тематика голосування в месенджерах - новий спосіб викрадення акаунтів набирає обертів (CERT-UA#9688)",
+      "tags": []
+    },
+    {
+      "id": 6278735,
+      "date": "20.04.2024",
+      "title": "Викрадення акаунту WhatsApp під виглядом голосування за електронні петиції (CERT-UA#9565)",
+      "tags": []
+    },
+    {
+      "id": 6276894,
+      "date": "28.12.2023",
+      "title": "APT28: від первинного ураження до створення загроз для контролеру домену за годину (CERT-UA#8399)",
+      "tags": []
+    },
+    {
+      "id": 6276799,
+      "date": "19.12.2023",
+      "title": "Modus operandi UAC-0177 (JokerDPR) на прикладі однієї з кібератак (CERT-UA#8290)",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "Phishing"
+    }
+  ],
+  "date": "30.03.2019",
+  "langId": null
+}
