@@ -1,0 +1,41 @@
+{
+  "attackTargets": [
+    "користувачі ukr.net",
+    "державні органи україни",
+    "українські підприємства та організації",
+    "військовослужбовці"
+  ],
+  "hackerGroups": [
+    "uac-0102"
+  ],
+  "applications": [
+    "ukr.net"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    },
+    {
+      "name": "державні органи україни",
+      "relation": "target"
+    },
+    {
+      "name": "українські підприємства та організації",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    }
+  ]
+}

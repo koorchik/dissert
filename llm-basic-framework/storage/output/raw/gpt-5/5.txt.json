@@ -1,0 +1,29 @@
+{
+  "attackTargets": [
+    "резерв+"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "telegram",
+    "meduzastealer",
+    "powershell",
+    "microsoft defender",
+    "reservplus.zip",
+    "installer.exe",
+    "install.exe"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "резерв+",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

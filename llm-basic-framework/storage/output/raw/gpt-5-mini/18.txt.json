@@ -1,0 +1,33 @@
+{
+  "attackTargets": [
+    "облікові записи whatsapp",
+    "офіційна сторінка електронних петицій (electronic petitions)"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "whatsapp"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "electronic petitions (petition.president.gov.ua)",
+      "relation": "target"
+    },
+    {
+      "name": "whatsapp",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "petition.president.gov.ua",
+      "relation": "target"
+    }
+  ]
+}

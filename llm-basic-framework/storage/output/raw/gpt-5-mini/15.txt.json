@@ -1,0 +1,28 @@
+{
+  "attackTargets": [
+    "облікові записи месенджерів",
+    "акаунти telegram",
+    "акаунти whatsapp",
+    "контакти користувачів"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "telegram",
+    "whatsapp",
+    "sms"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "csirt-nbu",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -1,0 +1,71 @@
+{
+  "attackTargets": [
+    "ukrainian research institutions"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28",
+    "uac-0001"
+  ],
+  "applications": [
+    "hatvibe",
+    "cherryspy",
+    "hfs http file server",
+    "mshta.exe",
+    "python interpreter",
+    "pyarmor",
+    "hta",
+    "microsoft word (docx macros)"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "russia",
+      "relation": "attacker"
+    },
+    {
+      "name": "armenia",
+      "relation": "neutral"
+    },
+    {
+      "name": "kyrgyzstan",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "гу гш зс рф",
+      "relation": "attacker"
+    },
+    {
+      "name": "управління оборонної політики міністерства оборони республіки вірменія",
+      "relation": "neutral"
+    },
+    {
+      "name": "управління міжнародного військового співробітництва міністерства оборони киргизької республіки",
+      "relation": "neutral"
+    },
+    {
+      "name": "virustotal",
+      "relation": "neutral"
+    },
+    {
+      "name": "rejetto",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "rejetto.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    }
+  ]
+}

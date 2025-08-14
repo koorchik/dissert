@@ -1,0 +1,57 @@
+{
+  "attackTargets": [
+    "griselda (автоматизована система внесення, обробки та передачі інформації з використанням штучного інтелекту)",
+    "система стеження 'очі'",
+    "військові системи"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "hydra"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "збройні сили україни",
+      "relation": "target"
+    },
+    {
+      "name": "міністерство оборони україни",
+      "relation": "target"
+    },
+    {
+      "name": "milcert",
+      "relation": "target"
+    },
+    {
+      "name": "црк",
+      "relation": "target"
+    },
+    {
+      "name": "цірот",
+      "relation": "target"
+    },
+    {
+      "name": "цмтр",
+      "relation": "target"
+    },
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "ікс 'очі'",
+      "relation": "neutral"
+    },
+    {
+      "name": "в/ч а0334",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

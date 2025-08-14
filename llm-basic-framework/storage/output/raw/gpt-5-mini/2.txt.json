@@ -1,0 +1,60 @@
+{
+  "attackTargets": [
+    "local self-government bodies",
+    "state government organization",
+    "defense ministries of other countries"
+  ],
+  "hackerGroups": [
+    "uac-0001 (apt28)"
+  ],
+  "applications": [
+    "powershell",
+    "hta (browser.hta)",
+    "browser.ps1",
+    "ssh",
+    "metasploit",
+    "roundcube",
+    "recaptcha (imitated)",
+    "chrome",
+    "edge",
+    "opera",
+    "firefox",
+    "managesiev (plugin)",
+    "systemhealthchek (filter)"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "local self-government bodies",
+      "relation": "target"
+    },
+    {
+      "name": "state government organization",
+      "relation": "target"
+    },
+    {
+      "name": "defense ministries of other countries",
+      "relation": "target"
+    },
+    {
+      "name": "google",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz[.]com",
+      "relation": "attacker"
+    },
+    {
+      "name": "203.161.50[.]145",
+      "relation": "attacker"
+    }
+  ]
+}

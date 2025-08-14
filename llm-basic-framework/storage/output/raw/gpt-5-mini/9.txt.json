@@ -1,0 +1,38 @@
+{
+  "attackTargets": [
+    "ukr.net user accounts",
+    "employees of ukrainian government bodies",
+    "military personnel (ukraine)",
+    "ukrainian enterprises and organizations",
+    "users of public email services"
+  ],
+  "hackerGroups": [
+    "uac-0102"
+  ],
+  "applications": [
+    "html file",
+    "archive (zip)",
+    "phishing web page imitating ukr.net",
+    "public email services",
+    "email attachments"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    }
+  ]
+}

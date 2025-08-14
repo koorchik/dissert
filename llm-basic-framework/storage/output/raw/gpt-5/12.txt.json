@@ -1,0 +1,35 @@
+{
+  "attackTargets": [
+    "оборонні підприємства україни",
+    "сили оборони україни"
+  ],
+  "hackerGroups": [
+    "uac-0180"
+  ],
+  "applications": [
+    "glueegg",
+    "dropclue",
+    "atera",
+    "curl.exe",
+    "acrobait",
+    "rosebloom",
+    "rosethorn",
+    "adobe_acrobat_fonts_pack.exe",
+    "font-pack-pdf-windows-64-bit",
+    "ua-2024-07-04-010019-a-open.pdf"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "сили оборони україни",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

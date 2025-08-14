@@ -1,0 +1,34 @@
+{
+  "attackTargets": [
+    "бухгалтери підприємств",
+    "системи дистанційного банківського обслуговування"
+  ],
+  "hackerGroups": [
+    "uac-0050"
+  ],
+  "applications": [
+    "litemanager"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "qaz.im",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "attacker"
+    }
+  ]
+}

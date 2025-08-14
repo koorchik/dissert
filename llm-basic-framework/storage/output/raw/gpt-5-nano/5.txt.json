@@ -1,0 +1,27 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "telegram",
+    "meduzastealer",
+    "powershell"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "резерв+",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

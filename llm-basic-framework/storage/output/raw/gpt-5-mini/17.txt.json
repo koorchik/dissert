@@ -1,0 +1,26 @@
+{
+  "attackTargets": [
+    "automated workplaces of accountants",
+    "remote banking service systems",
+    "end-user computers"
+  ],
+  "hackerGroups": [
+    "uac-0006"
+  ],
+  "applications": [
+    "smokeloader",
+    "taleshot",
+    "rms",
+    "microsoft access",
+    "powershell"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

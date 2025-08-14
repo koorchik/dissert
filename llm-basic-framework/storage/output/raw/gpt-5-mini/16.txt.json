@@ -1,0 +1,62 @@
+{
+  "attackTargets": [
+    "еом українських організацій",
+    "фінансові та страхові установи європи і сша"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "superops rmm",
+    "pyinstaller",
+    "python",
+    "сапер (minesweeper)",
+    "dropbox",
+    "anotepad (anotepad.com)"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "united states",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "csirt-nbu",
+      "relation": "neutral"
+    },
+    {
+      "name": "superops",
+      "relation": "neutral"
+    },
+    {
+      "name": "dropbox",
+      "relation": "neutral"
+    },
+    {
+      "name": "anotepad",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.superops.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "*.superops.ai",
+      "relation": "neutral"
+    },
+    {
+      "name": "dropbox.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "anotepad.com",
+      "relation": "neutral"
+    }
+  ]
+}

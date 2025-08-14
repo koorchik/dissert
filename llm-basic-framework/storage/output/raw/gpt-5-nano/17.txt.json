@@ -1,0 +1,23 @@
+{
+  "attackTargets": [
+    "підприємства",
+    "робочі місця бухгалтерів"
+  ],
+  "hackerGroups": [
+    "uac-0006"
+  ],
+  "applications": [
+    "smokeloader",
+    "taleshot",
+    "rms"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

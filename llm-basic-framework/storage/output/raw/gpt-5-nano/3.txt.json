@@ -1,0 +1,28 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "homesteel",
+    "vbscript (пароль.vbe)",
+    "powershell",
+    "python (basehttp 0.6)"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    },
+    {
+      "name": "python software foundation",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -1,0 +1,71 @@
+{
+  "attackTargets": [
+    "науково-дослідні установи україни"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28",
+    "uac-0001"
+  ],
+  "applications": [
+    "hatvibe",
+    "cherryspy",
+    "hfs http file server",
+    "python",
+    "mshta.exe",
+    "pyarmor",
+    "cve-2024-23692",
+    "recordsservice"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "російська федерація",
+      "relation": "attacker"
+    },
+    {
+      "name": "вірменія",
+      "relation": "neutral"
+    },
+    {
+      "name": "киргизька республіка",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "гу гш зс рф",
+      "relation": "attacker"
+    },
+    {
+      "name": "міністерство оборони республіки вірменія",
+      "relation": "neutral"
+    },
+    {
+      "name": "управління оборонної політики міністерства оборони республіки вірменія",
+      "relation": "neutral"
+    },
+    {
+      "name": "міністерство оборони киргизької республіки",
+      "relation": "neutral"
+    },
+    {
+      "name": "управління міжнародного військового співробітництва міністерства оборони киргизької республіки",
+      "relation": "neutral"
+    },
+    {
+      "name": "virustotal",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "rejetto.com",
+      "relation": "neutral"
+    }
+  ]
+}

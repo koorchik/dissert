@@ -1,0 +1,30 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "uac-0218"
+  ],
+  "applications": [
+    "homesteel",
+    "edisk",
+    "powershell",
+    "python software foundation basehttp 0.6"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    },
+    {
+      "name": "python software foundation",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

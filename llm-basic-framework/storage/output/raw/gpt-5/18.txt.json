@@ -1,0 +1,30 @@
+{
+  "attackTargets": [
+    "облікові записи whatsapp"
+  ],
+  "hackerGroups": [
+    "uac-0195"
+  ],
+  "applications": [
+    "whatsapp"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "офіс президента україни",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "petition.president.gov.ua",
+      "relation": "target"
+    }
+  ]
+}

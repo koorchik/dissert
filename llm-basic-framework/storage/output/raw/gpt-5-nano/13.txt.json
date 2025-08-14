@@ -1,0 +1,31 @@
+{
+  "attackTargets": [
+    "сили оборони україни"
+  ],
+  "hackerGroups": [
+    "uac-0020 (vermin)"
+  ],
+  "applications": [
+    "spectr",
+    "syncthing"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "центр кібербезпеки зсу (цкб)",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "syncthing.net",
+      "relation": "neutral"
+    }
+  ]
+}

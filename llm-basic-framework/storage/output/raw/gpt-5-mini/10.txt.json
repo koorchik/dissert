@@ -1,0 +1,40 @@
+{
+  "attackTargets": [
+    "фахівці проєктних офісів",
+    "співробітники органів місцевого самоврядування україни"
+  ],
+  "hackerGroups": [
+    "uac-0057"
+  ],
+  "applications": [
+    "picassoloader",
+    "cobalt strike beacon",
+    "microsoft excel (макроси)"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "сполучені штати",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "органи місцевого самоврядування україни",
+      "relation": "target"
+    },
+    {
+      "name": "usaid/dai \"hoverla\"",
+      "relation": "neutral"
+    },
+    {
+      "name": "проектні офіси",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

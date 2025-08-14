@@ -1,0 +1,64 @@
+{
+  "attackTargets": [
+    "військові системи",
+    "griselda",
+    "система \"очі\"",
+    "мобільні пристрої військовослужбовців"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "hydra",
+    "signal",
+    "google drive"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ікс \"очі\"",
+      "relation": "target"
+    },
+    {
+      "name": "в/ч а0334",
+      "relation": "target"
+    },
+    {
+      "name": "міністерство оборони україни",
+      "relation": "target"
+    },
+    {
+      "name": "збройні сили україни",
+      "relation": "target"
+    },
+    {
+      "name": "milcert",
+      "relation": "target"
+    },
+    {
+      "name": "црк",
+      "relation": "target"
+    },
+    {
+      "name": "цірот",
+      "relation": "target"
+    },
+    {
+      "name": "цмтр",
+      "relation": "target"
+    },
+    {
+      "name": "google cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

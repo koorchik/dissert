@@ -1,0 +1,47 @@
+{
+  "attackTargets": [
+    "українські підприємства",
+    "фізичні особи-підприємці",
+    "комп'ютери бухгалтерів",
+    "банківські рахунки клієнтів",
+    "системи дистанційного банківського обслуговування",
+    "будівлі (повідомлення про мінування/погрози)"
+  ],
+  "hackerGroups": [
+    "uac-0050",
+    "uac-0006",
+    "fire cells group"
+  ],
+  "applications": [
+    "remcos",
+    "tektonitrms",
+    "meduzastealer",
+    "lummastealer",
+    "xenorat",
+    "sectoprat",
+    "marsstealer",
+    "darktrackrat"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "українські підприємства",
+      "relation": "target"
+    },
+    {
+      "name": "фінансові установи",
+      "relation": "target"
+    },
+    {
+      "name": "fire cells group",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

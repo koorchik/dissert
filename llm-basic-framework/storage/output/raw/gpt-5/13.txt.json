@@ -1,0 +1,49 @@
+{
+  "attackTargets": [
+    "сили оборони україни"
+  ],
+  "hackerGroups": [
+    "uac-0020 (vermin)"
+  ],
+  "applications": [
+    "spectr",
+    "syncthing",
+    "innosetup",
+    "robocopy.exe"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "сили оборони україни",
+      "relation": "target"
+    },
+    {
+      "name": "збройні сили україни (зсу)",
+      "relation": "target"
+    },
+    {
+      "name": "центр кібербезпеки зсу (цкб)",
+      "relation": "neutral"
+    },
+    {
+      "name": "силові відомства тимчасово окупованого луганська",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "syncthing.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "post.mil.gov.ua",
+      "relation": "target"
+    }
+  ]
+}

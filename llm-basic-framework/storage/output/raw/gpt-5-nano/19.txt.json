@@ -1,0 +1,29 @@
+{
+  "attackTargets": [
+    "підприємства галузі енергетики, водо та теплопостачання (окі) в україні"
+  ],
+  "hackerGroups": [
+    "sandworm",
+    "uac-0133",
+    "uac-0002"
+  ],
+  "applications": [
+    "loadgrip",
+    "biasboat",
+    "queueseed",
+    "gossipflow",
+    "weevely",
+    "regeorg.neo",
+    "pivotnacci",
+    "sdelete"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

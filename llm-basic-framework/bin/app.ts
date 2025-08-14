@@ -76,7 +76,7 @@ async function main() {
     ]
   });
 
-  await flowManager.runStep("dataNormalizer");
+  await flowManager.runStep("dataExtractor");
   //  flowManager.runAllSteps();
 }
 
@@ -102,8 +102,11 @@ function makeLlmClient() {
   // gpt-4o-mini
   // o1-preview - slow, expensive, for reasoning.
   // o1-mini - slow, expensive, for reasoning.
+  // gpt-5 (25 sec per message)
+  // gpt-5-mini (25 sec per message)
+  // gpt-5-nano (25 sec per message)
   const openAiBackend = new LlmClientBackendOpenAi({
-    model: "gpt-4o",
+    model: "gpt-5-mini",
     apiKey: openAiApiKey
   });
 
@@ -120,7 +123,10 @@ function makeLlmClient() {
   // mistral:7b - 8GB GPU (100% of model).  Unusable: does not follow JSON structure.
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
-  const ollamaBackend = new LlmClientBackendOllama({ model: "gpt-oss:20b", apiKey: ollamaApiKey });
+  const ollamaBackend = new LlmClientBackendOllama({
+    model: "gpt-oss:20b",
+    apiKey: ollamaApiKey
+  });
 
   // VertexAi models:
   // gemini-1.5-flash-002
@@ -140,7 +146,7 @@ function makeLlmClient() {
     apiKey: antrophicApiKey
   });
 
-  return new LlmClient({ backend: ollamaBackend });
+  return new LlmClient({ backend: openAiBackend });
 }
 
 function makeEmbeddingsClient() {

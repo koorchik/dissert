@@ -1,0 +1,33 @@
+{
+  "attackTargets": [
+    "органи місцевого самоврядування"
+  ],
+  "hackerGroups": [
+    "uac-0001 (apt28)"
+  ],
+  "applications": [
+    "powershell",
+    "browser.hta",
+    "browser.ps1",
+    "ssh",
+    "metasploit",
+    "chrome",
+    "edge",
+    "opera",
+    "firefox"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    }
+  ]
+}
