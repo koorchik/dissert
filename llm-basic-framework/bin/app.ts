@@ -142,9 +142,11 @@ function makeLlmClient() {
   // gemma3:27b 24GB GPU (100% of model, 4-8 seconds per message).
   // gemma3:4b 24GB GPU (100% of model, 2-4 seconds per message).
   // gemma3:1b Unusable: copies some data from example
+  // gpt-oss:120b
+  // gpt-oss:20b
 
   const ollamaBackend = new LlmClientBackendOllama({
-    model: "gpt-oss:120b",
+    model: "gpt-oss:20b",
     apiKey: ollamaApiKey
   });
 

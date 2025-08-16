@@ -1,0 +1,48 @@
+{
+  "attackTargets": [
+    "local self-government email accounts",
+    "state organization email accounts"
+  ],
+  "hackerGroups": [
+    "UAC-0001 (APT28)"
+  ],
+  "applications": [
+    "PowerShell",
+    "HTA",
+    "Browser.ps1",
+    "SSH",
+    "METASPLOIT",
+    "Roundcube"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Local Self-Government",
+      "relation": "target"
+    },
+    {
+      "name": "State Organization",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "docs.google.com.spreadsheets.d.1ip6eeakdebmwteh36vana4hu-glaeksstsht-boujdk.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "doc.gmail.com.gyehddhrggdii323sdhnshiswh2udhqjwdhhfjcjeuejcj.zhblz.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "25.10.2024",
+    "id": 6281123,
+    "title": "Кібератака UAC-0001 (APT28): PowerShell-команда в буфері обміну як \"точка входу\" (CERT-UA#11689)"
+  }
+}

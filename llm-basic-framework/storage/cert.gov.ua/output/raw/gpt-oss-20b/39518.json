@@ -1,0 +1,48 @@
+{
+  "attackTargets": [
+    "Ukrainian energy sector infrastructure",
+    "high voltage electric substations",
+    "electronic computing machines (Windows)",
+    "Linux-based server equipment",
+    "active network equipment"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "INDUSTROYER2",
+    "CADDYWIPER",
+    "ARGUEPATCH",
+    "TAILJUMP",
+    "ORCSHRED",
+    "SOLOSHRED",
+    "AWFULSHRED",
+    "POWERGAP",
+    "Impacket"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Energy sector of Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    },
+    {
+      "name": "ESET",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "12.04.2022",
+    "id": 39518,
+    "title": "Кібератака групи Sandworm (UAC-0082) на об’єкти енергетики України з використанням шкідливих програм INDUSTROYER2 та CADDYWIPER (CERT-UA#4435)"
+  }
+}

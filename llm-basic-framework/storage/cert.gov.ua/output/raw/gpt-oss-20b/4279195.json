@@ -1,0 +1,62 @@
+{
+  "attackTargets": [
+    "Municipal enterprise"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Microsoft Office 2019",
+    "BitTorrent",
+    "DarkCrystal RAT",
+    "DWAgent",
+    "Python",
+    "Windows Update.exe",
+    "KMSAuto"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "DWService",
+      "relation": "attacker"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    },
+    {
+      "name": "GitHub",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "toloka.to",
+      "relation": "attacker"
+    },
+    {
+      "name": "dwservice.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "bt.toloka.tv",
+      "relation": "attacker"
+    },
+    {
+      "name": "bt.hurtom.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "toloka.tv",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "03.04.2023",
+    "id": 4279195,
+    "title": "Використання неліцензійних програм Microsoft Office як вектор первинної компрометації ІКС (CERT-UA#6322)"
+  }
+}

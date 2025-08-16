@@ -1,0 +1,56 @@
+{
+  "attackTargets": [
+    "органи юстиції України",
+    "органи нотаріату України"
+  ],
+  "hackerGroups": [
+    "BlackNotary"
+  ],
+  "applications": [
+    "BAT",
+    "CMD",
+    "PowerShell",
+    "ScrubCrypt",
+    "AsyncRAT"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [
+    {
+      "name": "riuscos88@gmail.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "amandarecz75@gmail.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "barno2715@gmail.com",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [
+    {
+      "name": "minijusfil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "filetransrediremin.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barnsertr.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "28.08.2023",
+    "id": 5628441,
+    "title": "UAC-0173: органи юстиції та нотаріат \"під прицілом\" (CERT-UA#7372)"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "attackTargets": [
+    "Thunderbird",
+    "Firefox ESR",
+    "Firefox",
+    "Firefox iOS",
+    "VMware ESXi",
+    "VMware Workstation Pro",
+    "VMware Fusion Pro",
+    "VMRC",
+    "VMware Horizon",
+    "Apple iOS",
+    "macOS",
+    "tvOS",
+    "watchOS",
+    "Chrome",
+    "Cisco IOS",
+    "Cisco IOS XE"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Thunderbird",
+    "Firefox ESR",
+    "Firefox",
+    "Firefox iOS",
+    "VMware ESXi",
+    "VMware Workstation Pro",
+    "VMware Fusion Pro",
+    "VMRC",
+    "VMware Horizon",
+    "Apple iOS",
+    "macOS",
+    "tvOS",
+    "watchOS",
+    "Chrome",
+    "Cisco IOS",
+    "Cisco IOS XE"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Mozilla Foundation",
+      "relation": "target"
+    },
+    {
+      "name": "VMware",
+      "relation": "target"
+    },
+    {
+      "name": "Apple Inc.",
+      "relation": "target"
+    },
+    {
+      "name": "Google Inc.",
+      "relation": "target"
+    },
+    {
+      "name": "Cisco Systems",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mozilla.org",
+      "relation": "target"
+    },
+    {
+      "name": "vmware.com",
+      "relation": "target"
+    },
+    {
+      "name": "support.apple.com",
+      "relation": "target"
+    },
+    {
+      "name": "chromereleases.googleblog.com",
+      "relation": "target"
+    },
+    {
+      "name": "tools.cisco.com",
+      "relation": "target"
+    }
+  ],
+  "metadata": {
+    "date": "05.06.2020",
+    "id": 2496,
+    "title": "Mozilla, VMWare, Apple, Chrome та Cisco випустили оновлення безпеки"
+  }
+}

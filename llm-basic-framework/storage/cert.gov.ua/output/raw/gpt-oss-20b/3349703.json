@@ -1,0 +1,58 @@
+{
+  "attackTargets": [
+    "Міністерство оборони України",
+    "ISTAR ОУВ \"Запоріжжя\"",
+    "DELTA system"
+  ],
+  "hackerGroups": [
+    "Hexactor"
+  ],
+  "applications": [
+    "VMProtect",
+    "RomCom",
+    "FateGrab",
+    "StealDeal",
+    "certificates_rootCA.exe",
+    "ais.exe"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Міністерство оборони України",
+      "relation": "target"
+    },
+    {
+      "name": "ISTAR ОУВ \"Запоріжжя\"",
+      "relation": "target"
+    },
+    {
+      "name": "Great C Technologies Inc",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "delta.mil.gov.ua.delta-storages.com",
+      "relation": "target"
+    },
+    {
+      "name": "delta-storages.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "hexactor.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "18.12.2022",
+    "id": 3349703,
+    "title": "Кібератака на користувачів системи DELTA з використанням шкідливих програм RomCom/FateGrab/StealDeal (CERT-UA#5709)"
+  }
+}

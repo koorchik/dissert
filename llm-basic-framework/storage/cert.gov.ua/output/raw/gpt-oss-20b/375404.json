@@ -1,0 +1,55 @@
+{
+  "attackTargets": [
+    "Russian enterprises in scientific-technical sector",
+    "Russian aviation enterprises",
+    "Russian state bodies"
+  ],
+  "hackerGroups": [
+    "TontoTeam (UAC-0018)"
+  ],
+  "applications": [
+    "RoyalRoad builder",
+    "Bisonal",
+    "QuickMute"
+  ],
+  "countries": [
+    {
+      "name": "Russia",
+      "relation": "target"
+    },
+    {
+      "name": "China",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Russian enterprises in scientific-technical sector",
+      "relation": "target"
+    },
+    {
+      "name": "Russian aviation enterprises",
+      "relation": "target"
+    },
+    {
+      "name": "Russian state bodies",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "supportteam.lingrevelat.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "lingrevelat.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "22.06.2022",
+    "id": 375404,
+    "title": "Кібератаки груп, асоційованих з Китаєм, у відношенні російських науково-технічних підприємств та державних органів (CERT-UA#4860)"
+  }
+}

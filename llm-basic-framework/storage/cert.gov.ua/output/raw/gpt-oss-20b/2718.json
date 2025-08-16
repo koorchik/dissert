@@ -1,0 +1,82 @@
+{
+  "attackTargets": [
+    "ТОВ Технік",
+    "Спец Строй Монтаж"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "sysm.exe",
+    "Propagate",
+    "Sonoko",
+    "зг. дог рах. фак 708.js"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ТОВ Технік",
+      "relation": "target"
+    },
+    {
+      "name": "Спец Строй Монтаж",
+      "relation": "target"
+    },
+    {
+      "name": "UKRTEL",
+      "relation": "target"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Бородавко Александр Владимирович",
+      "relation": "target"
+    },
+    {
+      "name": "Филипова Алла",
+      "relation": "target"
+    }
+  ],
+  "domains": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "target"
+    },
+    {
+      "name": "zp.ukrtel.net",
+      "relation": "target"
+    },
+    {
+      "name": "sm.ukrtel.net",
+      "relation": "target"
+    },
+    {
+      "name": "www.virustotal.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "15.11.2018",
+    "id": 2718,
+    "title": "Розсилка шкідливого програмного забезпечення бекдор-завантажувача Sonoko/Propagate "
+  }
+}

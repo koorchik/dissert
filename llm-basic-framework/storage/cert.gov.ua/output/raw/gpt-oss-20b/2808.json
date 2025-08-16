@@ -1,0 +1,45 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "Internet Explorer",
+    "Microsoft Edge",
+    "Microsoft Windows",
+    "Microsoft Office",
+    "Microsoft Office Services",
+    "Microsoft Office Web Apps",
+    "ChakraCore",
+    "Adobe Flash Player",
+    ".NET Framework",
+    "Microsoft Exchange Server",
+    "Windows Host Compute Service Shim",
+    "Win32k"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "portal.msrc.microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cve.mitre.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "www.catalog.update.microsoft.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "11.05.2018",
+    "id": 2724,
+    "title": "Microsoft випустила оновлення, які усувають велику кількість вразливостей."
+  }
+}

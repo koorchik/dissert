@@ -1,0 +1,37 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "UAC-0057",
+    "unc1151",
+    "GhostWriter"
+  ],
+  "applications": [
+    "VBScript",
+    "Cobalt Strike Beacon",
+    "inject.exe",
+    "Skype.exe",
+    "SFX-archive"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "dhdhk0k34.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ao3.hmgo[.]pw",
+      "relation": "attacker"
+    },
+    {
+      "name": "hmgo[.]pw",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "23.03.2022",
+    "id": 38155,
+    "title": "Кібератака на державні організації України з використанням шкідливої програми Cobalt Strike Beacon (CERT-UA#4227)"
+  }
+}

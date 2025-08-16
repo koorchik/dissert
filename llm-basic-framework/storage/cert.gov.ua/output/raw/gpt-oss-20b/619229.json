@@ -1,0 +1,43 @@
+{
+  "attackTargets": [
+    "Спеціалізована прокуратура",
+    "Оборонна сфера"
+  ],
+  "hackerGroups": [
+    "UAC-0056"
+  ],
+  "applications": [
+    "Microsoft Office Excel",
+    "write.exe",
+    "PowerShell",
+    "Cobalt Strike Beacon"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Спеціалізована прокуратура",
+      "relation": "target"
+    },
+    {
+      "name": "Оборонна сфера",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "skreatortemp.site",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "06.07.2022",
+    "id": 619229,
+    "title": "Кібератака UAC-0056 на державні організації України з використанням Cobalt Strike Beacon (CERT-UA#4914)"
+  }
+}
