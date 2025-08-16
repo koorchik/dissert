@@ -123,8 +123,9 @@ function makeLlmClient() {
   // mistral:7b - 8GB GPU (100% of model).  Unusable: does not follow JSON structure.
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
+  // gemma3:270m - Unusable: cannot extract any data
   const ollamaBackend = new LlmClientBackendOllama({
-    model: "gpt-oss:20b",
+    model: "gemma3:27b",
     apiKey: ollamaApiKey
   });
 
@@ -146,7 +147,7 @@ function makeLlmClient() {
     apiKey: antrophicApiKey
   });
 
-  return new LlmClient({ backend: openAiBackend });
+  return new LlmClient({ backend: ollamaBackend });
 }
 
 function makeEmbeddingsClient() {

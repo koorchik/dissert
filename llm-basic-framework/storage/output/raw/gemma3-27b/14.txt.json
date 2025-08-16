@@ -1,0 +1,28 @@
+{
+  "attackTargets": [
+    "державні службовці",
+    "військові",
+    "представники оборонних підприємств україни"
+  ],
+  "hackerGroups": [
+    "uac-0200"
+  ],
+  "applications": [
+    "signal",
+    "darkcrystal rat"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "cert.gov.ua",
+      "relation": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "uac-0218"
+  ],
+  "applications": [
+    "edisk",
+    "rar",
+    "microsoft word",
+    "microsoft excel",
+    "python",
+    "powershell"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "hostzealot",
+      "relation": "neutral"
+    },
+    {
+      "name": "python software foundation",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

@@ -1,0 +1,34 @@
+{
+  "attackTargets": [
+    "об'єкти критичної інфраструктури україни",
+    "підприємства галузі енергетики",
+    "підприємства водопостачання",
+    "підприємства теплопостачання",
+    "об'єкти тепло, водо та енерго постачання"
+  ],
+  "hackerGroups": [
+    "sandworm",
+    "uac-0133",
+    "uac-0002",
+    "apt44"
+  ],
+  "applications": [
+    "queueseed",
+    "loadgrip",
+    "biasboat",
+    "gossipflow",
+    "weevely",
+    "regeorg.neo",
+    "pivotnacci",
+    "sdelete"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

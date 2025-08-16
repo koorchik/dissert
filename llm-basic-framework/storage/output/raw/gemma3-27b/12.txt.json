@@ -1,0 +1,29 @@
+{
+  "attackTargets": [
+    "ukrainian defense enterprises",
+    "employees of defense enterprises",
+    "forces of defence of ukraine"
+  ],
+  "hackerGroups": [
+    "uac-0180"
+  ],
+  "applications": [
+    "adobe_acrobat_fonts_pack.exe",
+    "curl.exe",
+    "atera"
+  ],
+  "countries": [
+    {
+      "name": "ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

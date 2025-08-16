@@ -1,0 +1,43 @@
+{
+  "attackTargets": [
+    "фінансові установи європи",
+    "страхові установи європи",
+    "страхові установи сша",
+    "фінансові установи сша"
+  ],
+  "hackerGroups": [
+    "uac-0188"
+  ],
+  "applications": [
+    "superops rmm",
+    "minesweeper",
+    "python",
+    "pyinstaller"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "європа",
+      "relation": "target"
+    },
+    {
+      "name": "сша",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.superops.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "*.superops.ai",
+      "relation": "neutral"
+    }
+  ]
+}

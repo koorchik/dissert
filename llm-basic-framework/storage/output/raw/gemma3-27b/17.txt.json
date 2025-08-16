@@ -1,0 +1,17 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "uac-0006"
+  ],
+  "applications": [
+    "smokeloader",
+    "taleshot",
+    "rms",
+    "microsoft access",
+    "powershell"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

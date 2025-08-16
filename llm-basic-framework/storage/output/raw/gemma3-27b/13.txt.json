@@ -1,0 +1,64 @@
+{
+  "attackTargets": [
+    "сили оборони україни",
+    "зсу",
+    "ікс зсу"
+  ],
+  "hackerGroups": [
+    "uac-0020 (vermin)"
+  ],
+  "applications": [
+    "syncthing",
+    "spectr",
+    "rarsfx",
+    "innosetup",
+    "robocopy.exe",
+    "syslog",
+    "telegram",
+    "signal",
+    "skype",
+    "element",
+    "firefox",
+    "edge",
+    "chrome",
+    "chromium",
+    "opera software",
+    "amigo",
+    "orbitum",
+    "yandex",
+    "comodo",
+    "maxthon3",
+    "brave-browser",
+    "faststone",
+    "foxit",
+    "pdf24 reader",
+    "anydesk"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "луганськ",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "центр кібербезпеки зсу",
+      "relation": "neutral"
+    },
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.syncthing.net",
+      "relation": "neutral"
+    }
+  ]
+}

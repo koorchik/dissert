@@ -1,0 +1,65 @@
+{
+  "attackTargets": [
+    "військові системи",
+    "смартфони",
+    "планшети",
+    "griselda",
+    "система стеження \"очі\""
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "signal",
+    "griselda",
+    "http cookie",
+    "java"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "google cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare",
+      "relation": "neutral"
+    },
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "ікс \"очі\"",
+      "relation": "target"
+    },
+    {
+      "name": "в/ч а0334",
+      "relation": "target"
+    },
+    {
+      "name": "міністерство оборони україни",
+      "relation": "target"
+    },
+    {
+      "name": "збройні сили україни",
+      "relation": "target"
+    },
+    {
+      "name": "milcert",
+      "relation": "target"
+    },
+    {
+      "name": "црк",
+      "relation": "target"
+    },
+    {
+      "name": "цірот",
+      "relation": "target"
+    },
+    {
+      "name": "цмтр",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}
