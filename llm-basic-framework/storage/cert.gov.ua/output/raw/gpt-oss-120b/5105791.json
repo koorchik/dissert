@@ -1,0 +1,99 @@
+{
+  "attackTargets": [
+    "Embassy of the Islamic Republic of Iran in Tirana, Republic of Albania"
+  ],
+  "hackerGroups": [
+    "APT28"
+  ],
+  "applications": [
+    "Ubiquiti EdgeOS",
+    "HTML phishing pages",
+    "Yahoo.com (spoofed)",
+    "UKR.NET (spoofed)"
+  ],
+  "countries": [
+    {
+      "name": "Iran",
+      "relation": "target"
+    },
+    {
+      "name": "Albania",
+      "relation": "target"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Embassy of the Islamic Republic of Iran in Tirana",
+      "relation": "target"
+    },
+    {
+      "name": "Ubiquiti",
+      "relation": "neutral"
+    },
+    {
+      "name": "Yahoo.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "UKR.NET",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "iri_1357@yahoo.com",
+      "relation": "target"
+    }
+  ],
+  "domains": [
+    {
+      "name": "robot-876.frge.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "setnewcreds.ukr.net.frge.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "setnewcred.ukr.net.frge.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "mail-gov-ua.frge.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "_.ukr.net.frge.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukr.net.frge.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "net.frge.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "frge.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "eopkne8kapj01xi.m.pipedream.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "eos93vb2cwsu3xf.m.pipedream.net",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "08.07.2023",
+    "id": 5105791,
+    "title": "Фішингові атаки групи APT28 (UAC-0028) з метою отримання автентифікаційних даних до публічних поштових сервісів (CERT-UA#6975)"
+  }
+}

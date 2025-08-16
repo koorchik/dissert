@@ -4,24 +4,24 @@ import LIVR from 'livr';
 LIVR.Validator.defaultAutoTrim(true);
 
 const validator = new LIVR.Validator({
-  attackTargets: [{ default: [[]] }, { listOf: ['string', 'toLc'] }],
-  hackerGroups: [{ default: [[]] }, { listOf: ['string', 'toLc'] }],
-  applications: [{ default: [[]] }, { listOf: ['string', 'toLc'] }],
+  attackTargets: [{ default: [[]] }, { listOf: ['string'] }],
+  hackerGroups: [{ default: [[]] }, { listOf: ['string'] }],
+  applications: [{ default: [[]] }, { listOf: ['string'] }],
   countries: [{ default: [[]] }, {
     listOfObjects: [{
-      name: ['required', 'string', 'toLc'],
+      name: ['required', 'string'],
       relation: ['required', 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
     }]
   }],
   organizations: [{ default: [[]] }, {
     listOfObjects: [{
-      name: ['string', 'toLc'],
+      name: ['string'],
       relation: [{ default: 'neutral' }, 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
     }]
   }],
   individuals: [{ default: [[]] }, {
     listOfObjects: [{
-      name: ['string', 'toLc'],
+      name: ['string'],
       relation: [{ default: 'neutral' }, 'string', { oneOf: ['attacker', 'neutral', 'target'] }]
     }]
   }],

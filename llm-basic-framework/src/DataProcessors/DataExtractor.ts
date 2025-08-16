@@ -1,23 +1,41 @@
-import fs from 'fs/promises';
-import {existsSync} from 'fs';
-import type { LlmClient } from '../LlmClient/LlmClient';
-import { extractAndParseJson, normalizeRawData, NormalizedData } from '../utils/validationUtils';
+import fs from "fs/promises";
+import { existsSync } from "fs";
+import type { LlmClient } from "../LlmClient/LlmClient";
+import {
+  extractAndParseJson,
+  normalizeRawData,
+  NormalizedData
+} from "../utils/validationUtils";
+
+type Preprocessor = (
+  content: string
+) => Promise<{ text: string; metadata: Record<string, string | number> }>;
 
 interface Params {
   inputDir: string;
   outputDir: string;
-  llmClient: LlmClient
+  llmClient: LlmClient;
+  preprocessor?: Preprocessor;
 }
 
 export class DataExtractor {
   #inputDir: string;
   #outputDir: string;
   #llmClient: LlmClient;
+  #preprocessor: Preprocessor = (content: string) =>
+    Promise.resolve({
+      text: content,
+      metadata: {}
+    });
 
   constructor(params: Params) {
     this.#inputDir = params.inputDir;
     this.#outputDir = params.outputDir;
     this.#llmClient = params.llmClient;
+
+    if (params.preprocessor) {
+      this.#preprocessor = params.preprocessor;
+    }
   }
 
   async run() {
@@ -28,13 +46,26 @@ export class DataExtractor {
     const files = await fs.readdir(this.#inputDir);
 
     for (const file of files) {
-      // const file = '19.txt';
+      // if (file !== "6281123.json") {
+      //   continue;
+      // }
 
       console.log(`IN FILE=${this.#inputDir}/${file}`);
       const content = await fs.readFile(`${this.#inputDir}/${file}`);
-      const response = await this.#sendToLlm(content.toString());
-      // console.log({JSON: JSON.stringify(response, undefined, 2)});
-      await this.#saveResponse(file, JSON.stringify(response, undefined, 2));
+      const data = await this.#preprocessor(content.toString());
+      const response = await this.#sendToLlm(data.text);
+
+      await this.#saveResponse(
+        file,
+        JSON.stringify(
+          {
+            ...response,
+            metadata: data.metadata
+          },
+          undefined,
+          2
+        )
+      );
       // break;
     }
   }
@@ -88,30 +119,27 @@ export class DataExtractor {
     - IMPORTANT: Output JSON as described
 
     Start extracting information:
-    `
-    console.time('LLM PROCESSING');
-    const result = await this.#llmClient.send(
-      instructions,
-      text
-    );
-    console.timeEnd('LLM PROCESSING');
-
-    console.time('EXTRACT_JSON');
+    `;
+    console.time("LLM PROCESSING");
+    const result = await this.#llmClient.send(instructions, text);
+    console.timeEnd("LLM PROCESSING");
+    console.time("EXTRACT_JSON");
     // TODO: check if result contains JSON
     const rawData = extractAndParseJson(result);
-    console.timeEnd('EXTRACT_JSON');
+    console.timeEnd("EXTRACT_JSON");
 
     if (!rawData) return {};
 
-    console.time('NORMALIZE_DATA');
+    console.time("NORMALIZE_DATA");
     const normalizedData = normalizeRawData(rawData);
-    console.timeEnd('NORMALIZE_DATA');
-    if (!normalizedData) {};
+    console.timeEnd("NORMALIZE_DATA");
+    if (!normalizedData) {
+    }
     return normalizedData || {};
   }
 
   async #saveResponse(originalFile: string, text: string) {
-    const rawResultFile = `${this.#outputDir}/${originalFile}.json`;
+    const rawResultFile = `${this.#outputDir}/${originalFile}`;
     console.log(`OUT FILE=${rawResultFile}`);
     await fs.writeFile(rawResultFile, text);
   }

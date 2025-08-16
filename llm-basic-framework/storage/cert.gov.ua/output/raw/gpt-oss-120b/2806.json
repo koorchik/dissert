@@ -1,0 +1,21 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "AZORult"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Syenergy Consulting & Representation Ltd",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "18.09.2018",
+    "id": 2806,
+    "title": "Розсилка шкідливого програмного забезпечення AZORult"
+  }
+}

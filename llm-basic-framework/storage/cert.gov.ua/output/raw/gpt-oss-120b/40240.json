@@ -1,0 +1,70 @@
+{
+  "attackTargets": [
+    "critical infrastructure objects in Kherson"
+  ],
+  "hackerGroups": [
+    "UAC-0010 (Armageddon)"
+  ],
+  "applications": [
+    "mshta.exe",
+    "cmd.exe",
+    "wscript.exe",
+    "GammaLoad.PS1_v2"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Armed Forces of Ukraine",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "sendmail.website",
+      "relation": "attacker"
+    },
+    {
+      "name": "a0671524.xsph.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "a0667987.xsph.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "qiwardos.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nitikora.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "milotraf.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nikotod.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "icanhazip.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "12.05.2022",
+    "id": 40240,
+    "title": "Кібератаки групи UAC-0010 (Armageddon) з використанням шкідливої програми GammaLoad.PS1_v2 (CERT-UA#4634,4648)"
+  }
+}

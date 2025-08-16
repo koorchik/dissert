@@ -1,0 +1,50 @@
+{
+  "attackTargets": [
+    "Official website of the President of Ukraine"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "OUTSTEEL",
+    "LOADJUMP"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "President of Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "giraffe-tour.ru",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "1833.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-ua.info",
+      "relation": "attacker"
+    },
+    {
+      "name": "president.gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "giraffe-tour.ru",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "13.07.2021",
+    "id": 13156,
+    "title": "Зафіксовано атаку на державні органи України з використанням веб-сайту, що імітує Офіційне інтернет-представництво Президента України"
+  }
+}

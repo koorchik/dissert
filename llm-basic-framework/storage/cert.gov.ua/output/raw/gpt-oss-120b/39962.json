@@ -1,0 +1,55 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "OpenPGP"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Служба безпеки України (SBU)",
+      "relation": "neutral"
+    },
+    {
+      "name": "Національний банк України",
+      "relation": "neutral"
+    },
+    {
+      "name": "Національний координаційний центр кібербезпеки РНБО України",
+      "relation": "neutral"
+    },
+    {
+      "name": "Держспецзв'язку",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "dis.gov.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "bank.gov.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "ncscc.gov.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "cisa.gov",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "29.04.2022",
+    "id": 39962,
+    "title": "Щодо обміну інформацією про кіберзагрози "
+  }
+}

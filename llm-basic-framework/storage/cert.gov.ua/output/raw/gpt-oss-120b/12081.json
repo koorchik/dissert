@@ -1,0 +1,50 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Cybercenter UA30",
+      "relation": "neutral"
+    },
+    {
+      "name": "State Special Communications",
+      "relation": "neutral"
+    },
+    {
+      "name": "FIRST",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Volodymyr Zelensky",
+      "relation": "neutral"
+    },
+    {
+      "name": "Mykhailo Fedorov",
+      "relation": "neutral"
+    },
+    {
+      "name": "Yuriy Shchyhol",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [
+    {
+      "name": "ua30.gov.ua",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "13.05.2021",
+    "id": 12081,
+    "title": "Президент України Володимир Зеленський відкрив Кіберцентр UA30"
+  }
+}

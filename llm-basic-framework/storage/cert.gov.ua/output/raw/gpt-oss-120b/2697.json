@@ -1,0 +1,44 @@
+{
+  "attackTargets": [
+    "органи державної влади"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "antination.kherson.ua",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "М.Колєди",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "antination.kherson.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "mx-out-14.default-host.net",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "04.02.2019",
+    "id": 2697,
+    "title": "Архів листування російської терористки М.Колєди"
+  }
+}

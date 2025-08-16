@@ -1,8 +1,8 @@
-import fs from 'fs/promises';
-import {existsSync} from 'fs';
-import { CountryNameNormalizer } from '../CountryNameNormalizer/CountryNameNormalizer';
-import { NormalizedData } from '../utils/validationUtils';
-import { EmbeddingsClient } from '../EmbeddingsClient/EmbeddingsClient';
+import fs from "fs/promises";
+import { existsSync } from "fs";
+import { CountryNameNormalizer } from "../CountryNameNormalizer/CountryNameNormalizer";
+import { NormalizedData } from "../utils/validationUtils";
+import { EmbeddingsClient } from "../EmbeddingsClient/EmbeddingsClient";
 
 interface Params {
   inputDir: string;
@@ -39,18 +39,22 @@ export class DataNormalizer {
     }
   }
 
-  async #normalizeAndEnrich(data: NormalizedData): Promise<NormalizedData | {}> {
+  async #normalizeAndEnrich(
+    data: NormalizedData
+  ): Promise<NormalizedData | {}> {
     if (!data.countries) return data;
-    
+
     for (const country of data.countries) {
       if (!country.name) continue;
-      const countryCode = await this.#countryNameNormalizer.normalizeCountry(country.name);
+      const countryCode = await this.#countryNameNormalizer.normalizeCountry(
+        country.name
+      );
       country.code = countryCode;
     }
 
     const enrichedAttackTargets: {
-      name: string,
-      embedding: number[]
+      name: string;
+      embedding: number[];
     }[] = [];
 
     for (const target of data.attackTargets) {

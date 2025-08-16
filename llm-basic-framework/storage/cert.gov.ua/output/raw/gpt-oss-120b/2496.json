@@ -1,0 +1,99 @@
+{
+  "attackTargets": [
+    "Thunderbird",
+    "Firefox ESR",
+    "Firefox",
+    "Firefox for iOS",
+    "VMware ESXi",
+    "VMware Workstation Pro",
+    "VMware Workstation Player",
+    "VMware Fusion Pro",
+    "VMware Fusion",
+    "VMRC for Mac",
+    "VMware Horizon client for Mac",
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "tvOS",
+    "watchOS",
+    "Chrome for iOS",
+    "Chrome for Windows",
+    "Chrome for Mac",
+    "Chrome for Linux",
+    "Cisco IOS",
+    "Cisco IOS XE"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Thunderbird",
+    "Firefox ESR",
+    "Firefox",
+    "Firefox for iOS",
+    "VMware ESXi",
+    "VMware Workstation Pro",
+    "VMware Workstation Player",
+    "VMware Fusion Pro",
+    "VMware Fusion",
+    "VMRC for Mac",
+    "VMware Horizon client for Mac",
+    "iOS",
+    "iPadOS",
+    "macOS",
+    "tvOS",
+    "watchOS",
+    "Chrome",
+    "Cisco IOS",
+    "Cisco IOS XE"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Mozilla",
+      "relation": "neutral"
+    },
+    {
+      "name": "VMware",
+      "relation": "neutral"
+    },
+    {
+      "name": "Apple",
+      "relation": "neutral"
+    },
+    {
+      "name": "Google",
+      "relation": "neutral"
+    },
+    {
+      "name": "Cisco",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "www.mozilla.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "www.vmware.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "support.apple.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "chromereleases.googleblog.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "tools.cisco.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "05.06.2020",
+    "id": 2496,
+    "title": "Mozilla, VMWare, Apple, Chrome та Cisco випустили оновлення безпеки"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "attackTargets": [
+    "Google",
+    "Ukr.Net",
+    "Outlook",
+    "EXMO",
+    "Binance"
+  ],
+  "hackerGroups": [
+    "JokerDPR"
+  ],
+  "applications": [
+    "IMAP",
+    "POP3"
+  ],
+  "countries": [
+    {
+      "name": "Palestine",
+      "relation": "attacker"
+    },
+    {
+      "name": "United States",
+      "relation": "attacker"
+    },
+    {
+      "name": "Finland",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Tucows",
+      "relation": "attacker"
+    },
+    {
+      "name": "Namecheap",
+      "relation": "attacker"
+    },
+    {
+      "name": "Google",
+      "relation": "target"
+    },
+    {
+      "name": "Ukr.Net",
+      "relation": "target"
+    },
+    {
+      "name": "Microsoft Outlook",
+      "relation": "target"
+    },
+    {
+      "name": "EXMO",
+      "relation": "target"
+    },
+    {
+      "name": "Binance",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "authcheck.in",
+      "relation": "attacker"
+    },
+    {
+      "name": "authssl.in",
+      "relation": "attacker"
+    },
+    {
+      "name": "exmo.day",
+      "relation": "attacker"
+    },
+    {
+      "name": "account.google.com.getssl.ink",
+      "relation": "attacker"
+    },
+    {
+      "name": "google.com",
+      "relation": "target"
+    },
+    {
+      "name": "binance.com",
+      "relation": "target"
+    }
+  ],
+  "metadata": {
+    "date": "19.12.2023",
+    "id": 6276799,
+    "title": "Modus operandi UAC-0177 (JokerDPR) на прикладі однієї з кібератак (CERT-UA#8290)"
+  }
+}

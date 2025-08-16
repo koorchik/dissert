@@ -1,0 +1,37 @@
+{
+  "attackTargets": [
+    "Ukrainian government sector websites",
+    "Ukrainian banking sector websites",
+    "Ukrainian defense sector websites"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian government",
+      "relation": "target"
+    },
+    {
+      "name": "Raidforums",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "raidforums.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "21.02.2022",
+    "id": 37211,
+    "title": "Попередження щодо можливих кібератак"
+  }
+}

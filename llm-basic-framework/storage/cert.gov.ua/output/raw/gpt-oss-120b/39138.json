@@ -1,0 +1,94 @@
+{
+  "attackTargets": [
+    "Ukrainian government agencies"
+  ],
+  "hackerGroups": [
+    "UAC-0010 (Armageddon)"
+  ],
+  "applications": [
+    "PowerShell",
+    "VBScript",
+    "HTA"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker"
+    },
+    {
+      "name": "United States",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "jokotras.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tiloraso.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "milotrad.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "potrakit.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tortunas.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "Linode.com",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Vadim Melnik",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "jokotras.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "prefer.jokotras.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tiloraso.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "milotrad.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "potrakit.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tortunas.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "linode.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "04.04.2022",
+    "id": 39138,
+    "title": "Кібератака групи UAC-0010 (Armageddon) на державні організації України (CERT-UA#4378)"
+  }
+}

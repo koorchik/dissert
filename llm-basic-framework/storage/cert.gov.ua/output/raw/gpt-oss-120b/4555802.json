@@ -1,0 +1,137 @@
+{
+  "attackTargets": [
+    "ЕОМ бухгалтерів"
+  ],
+  "hackerGroups": [
+    "UAC-0006"
+  ],
+  "applications": [
+    "PowerShell",
+    "WScript.exe",
+    "Windows Script Host",
+    "cmd.exe",
+    "Google Chrome",
+    "SmokeLoader"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker"
+    },
+    {
+      "name": "Uganda",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "dl.kr-admin.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "mayak.dp.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "atl.ua",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "beliy@atl.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "inbox6@dl.kr-admin.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "nvn@mayak.dp.ua",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "homospoison.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "3dstore.pro",
+      "relation": "attacker"
+    },
+    {
+      "name": "balkimotion.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "coudzoom.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "criticalosl.tech",
+      "relation": "attacker"
+    },
+    {
+      "name": "humanitarydp.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipodromlan.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "lamazone.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "ligaspace.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "maximprofile.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "redport80.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shopersport.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "sindoproperty.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "superboler.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaliphone.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "atl.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "dl.kr-admin.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "mayak.dp.ua",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "05.05.2023",
+    "id": 4555802,
+    "title": "Повернення UAC-0006: масове розповсюдження SmokeLoader з використанням тематики \"рахунків\" (CERT-UA#6613)"
+  }
+}

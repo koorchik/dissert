@@ -1,0 +1,35 @@
+{
+  "attackTargets": [
+    "email accounts",
+    "поштові скриньки"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "South Korea",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "cautionphenomenon.co.kr",
+      "relation": "attacker"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "30.07.2019",
+    "id": 2659,
+    "title": "Не перевіряйте свої поштові акаунти на фішингових сайтах!"
+  }
+}

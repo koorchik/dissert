@@ -1,7 +1,7 @@
 import type { LlmBackendBase } from "./LlmClientBackendBase";
 
 interface Args {
-  backend: LlmBackendBase,
+  backend: LlmBackendBase;
 }
 
 export class LlmClient {
@@ -12,10 +12,15 @@ export class LlmClient {
   }
 
   async send(instructions: string, text: string) {
-    return this.#backend.send(instructions, text);
+    try {
+      return await this.#backend.send(instructions, text);
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
   }
 
   get modelName() {
-    return this.#backend.model
+    return this.#backend.model;
   }
 }

@@ -1,0 +1,172 @@
+{
+  "attackTargets": [
+    "Employees of defense industry enterprises",
+    "Ukrainian Armed Forces personnel"
+  ],
+  "hackerGroups": [
+    "UAC-0185 (UNC4221)"
+  ],
+  "applications": [
+    "mshta.exe",
+    "PowerShell",
+    "MESHAGENT",
+    "ULTRAVNC",
+    "HTA files",
+    "LNK files",
+    "BAT scripts",
+    "VBS scripts"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian Union of Industrialists and Entrepreneurs (УСПП)",
+      "relation": "neutral"
+    },
+    {
+      "name": "Defense Industrial Complex Enterprises",
+      "relation": "target"
+    },
+    {
+      "name": "Ukrainian Armed Forces",
+      "relation": "target"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "mititarycua",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "device.redirecl.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "mail.outloolc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "live.outloolc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "svc.odwebp.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "uspp.derzhposluhy.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "redirecl.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "i-ua.account-guard.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "telegram.defender-bot.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "telegram.token-defender.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "account-guard.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "defender-bot.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "token-defender.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mirotrent.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "plntr.mirotrent.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "cloud.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.god-le.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "god-le.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "god-le.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "in-touc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "mail-gov.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "mail-gov.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "sign-cert.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "palantir.ink",
+      "relation": "neutral"
+    },
+    {
+      "name": "clouddrive.world",
+      "relation": "neutral"
+    },
+    {
+      "name": "emtserviceca.info",
+      "relation": "neutral"
+    },
+    {
+      "name": "account-saver.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "mails.support",
+      "relation": "neutral"
+    },
+    {
+      "name": "check.sign-cert.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloud.god-le.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "confirm.account-viewer.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "07.12.2024",
+    "id": 6281632,
+    "title": "Цільові кібератаки UAC-0185 у відношенні Сил оборони та підприємств ОПК України (CERT-UA#12414)"
+  }
+}

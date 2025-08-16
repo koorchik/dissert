@@ -1,0 +1,56 @@
+{
+  "attackTargets": [
+    "оператори телекомунікацій України",
+    "провайдери телекомунікацій України",
+    "медійні організації України"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "PowerShell",
+    "MSCommondll.exe",
+    "MSCommonDriver.exe",
+    "MSCommonDriver.DCRat.exe",
+    "DarkCrystal RAT",
+    "PythonHttpGeolongpolldefault.php"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "plexbd.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "datagroup.ddns.net",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "plexbd.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "datagroup.ddns.net",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "24.06.2022",
+    "id": 405538,
+    "title": "Кібератака у відношенні операторів телекомунікацій України з використанням шкідливої програми DarkCrystal RAT (CERT-UA#4874)"
+  }
+}

@@ -24,8 +24,23 @@ async function main() {
   const embeddingsClient = makeEmbeddingsClient();
 
   const dataExtractor = new DataExtractor({
-    inputDir: "./storage/data/cert.gov.ua-news",
-    outputDir: `./storage/output/raw/${llmClient.modelName.replace(/:/g, "-")}`,
+    inputDir: "../cert.gov.ua-fetcher/data",
+    outputDir: `./storage/cert.gov.ua/output/raw/${llmClient.modelName.replace(
+      /:/g,
+      "-"
+    )}`,
+    preprocessor: (content: string) => {
+      const data = JSON.parse(content);
+
+      return Promise.resolve({
+        text: data.text.replace(/<img[^>]*>/gi, ""),
+        metadata: {
+          date: data.date,
+          id: data.id,
+          title: data.title
+        }
+      });
+    },
     llmClient
   });
 
@@ -124,8 +139,12 @@ function makeLlmClient() {
   // phi3:3.8b - 8GB GPU (100% of model). Unusable: generates a lot of noise, incorrect classification, etc.
   // phi3:14b - 8GB GPU (74% of model). Low quality. TODO: check more.
   // gemma3:270m - Unusable: cannot extract any data
+  // gemma3:27b 24GB GPU (100% of model, 4-8 seconds per message).
+  // gemma3:4b 24GB GPU (100% of model, 2-4 seconds per message).
+  // gemma3:1b Unusable: copies some data from example
+
   const ollamaBackend = new LlmClientBackendOllama({
-    model: "gemma3:27b",
+    model: "gpt-oss:120b",
     apiKey: ollamaApiKey
   });
 

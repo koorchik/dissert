@@ -1,0 +1,69 @@
+{
+  "attackTargets": [
+    "public core of the internet (domain name system)",
+    "technical infrastructure for elections, referendums, and plebiscites",
+    "public resources used as botnets"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Netherlands",
+      "relation": "neutral"
+    },
+    {
+      "name": "Estonia",
+      "relation": "neutral"
+    },
+    {
+      "name": "India",
+      "relation": "neutral"
+    },
+    {
+      "name": "United States",
+      "relation": "neutral"
+    },
+    {
+      "name": "Russia",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Global Commission on the Stability of Cyberspace (GCSC)",
+      "relation": "neutral"
+    },
+    {
+      "name": "Group of Governmental Experts (GGE)",
+      "relation": "neutral"
+    },
+    {
+      "name": "Open-Ended Working Group (OEWG)",
+      "relation": "neutral"
+    },
+    {
+      "name": "United Nations (UN)",
+      "relation": "neutral"
+    },
+    {
+      "name": "High-Level Group",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Michael Chertoff",
+      "relation": "neutral"
+    },
+    {
+      "name": "António Guterres",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [],
+  "metadata": {
+    "date": "06.12.2019",
+    "id": 2681,
+    "title": "Вісім правил кібербезпеки. Що пропонують в ООН"
+  }
+}

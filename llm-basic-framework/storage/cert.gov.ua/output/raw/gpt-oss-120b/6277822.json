@@ -1,0 +1,50 @@
+{
+  "attackTargets": [
+    "Ukrainian government organization",
+    "Ukrainian energy organization",
+    "Ukrainian financial organization",
+    "Ukrainian healthcare organization",
+    "Ukrainian information technology organization"
+  ],
+  "hackerGroups": [
+    "UAC-0028 (APT28)",
+    "UAC-0003 (Turla)",
+    "UAC-0050",
+    "UAC-0010"
+  ],
+  "applications": [
+    "KAZUAR",
+    "REMCOS RAT",
+    "QUASAR RAT",
+    "VENOM RAT",
+    "REMOTE UTILITIES",
+    "LUMMASTEALER"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian security and defense forces",
+      "relation": "target"
+    },
+    {
+      "name": "Russian law enforcement structures",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "22.02.2024",
+    "id": 6277822,
+    "title": "Щодо обстановки в сфері кібер на 23-24 лютого 2024 року"
+  }
+}
