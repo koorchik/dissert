@@ -1,0 +1,26 @@
+{
+  "attackTargets": [
+    "інформаційні системи",
+    "мобільні пристрої",
+    "griselda",
+    "системи стеження \"очі\""
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "signal",
+    "griselda",
+    "очі",
+    "google drive",
+    "hydra",
+    "java"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "google drive",
+      "relation": "neutral"
+    }
+  ]
+}

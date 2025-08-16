@@ -1,0 +1,36 @@
+{
+  "attackTargets": [
+    "підприємства галузі енергетики",
+    "підприємства водо та теплопостачання",
+    "об’єкти тепло, водо та енерго постачання"
+  ],
+  "hackerGroups": [
+    "uac-0133",
+    "sandworm/apt44"
+  ],
+  "applications": [
+    "спз",
+    "asutp",
+    "php-вебшелл weevely",
+    "php-тунель regeorg.neo",
+    "pivotnacci",
+    "loadgrip",
+    "biasboat",
+    "queueseed",
+    "gossipflow"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "підприємства",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

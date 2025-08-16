@@ -1,0 +1,24 @@
+{
+  "attackTargets": [
+    "government institutions"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "python software foundation basehttp 0.6",
+    "powershell"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "hostzealot",
+      "relation": "attacker"
+    }
+  ]
+}

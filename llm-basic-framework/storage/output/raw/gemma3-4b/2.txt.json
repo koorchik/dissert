@@ -1,0 +1,47 @@
+{
+  "attackTargets": [
+    "державними організаціями",
+    "оборонним відомствам інших країни світу"
+  ],
+  "hackerGroups": [
+    "uac-0001 (apt28)"
+  ],
+  "applications": [
+    "powershell",
+    "hta-файлу \"browser.hta\"",
+    "metasploit",
+    "google таблицю",
+    "chrome",
+    "edge",
+    "opera",
+    "firefox",
+    "roundcube"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "іншої країни світу",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "державними організаціями",
+      "relation": "target"
+    },
+    {
+      "name": "іншої країни світу",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz[.]com",
+      "relation": "attacker"
+    }
+  ]
+}

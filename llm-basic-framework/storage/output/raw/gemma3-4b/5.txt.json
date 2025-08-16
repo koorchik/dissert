@@ -1,0 +1,20 @@
+{
+  "attackTargets": [
+    "computer systems"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "meduzastealer",
+    "powershell",
+    "microsoft defender"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

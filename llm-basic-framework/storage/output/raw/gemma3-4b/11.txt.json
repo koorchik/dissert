@@ -1,0 +1,46 @@
+{
+  "attackTargets": [
+    "науково-дослідні установи україни"
+  ],
+  "hackerGroups": [
+    "uac-0063",
+    "apt28"
+  ],
+  "applications": [
+    "microsoft office",
+    "hfs http file server",
+    "python",
+    "mshta.exe",
+    "c:\\windows\\system32\\tasks\\vmanage\\standaloneservice"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    },
+    {
+      "name": "вірменія",
+      "relation": "target"
+    },
+    {
+      "name": "киргизстан",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "міністерство оборони республіки вірменія",
+      "relation": "target"
+    },
+    {
+      "name": "управління міжнародного військового співробітництва міністерства оборони киргизької республіки",
+      "relation": "target"
+    },
+    {
+      "name": "гу гш зс рф",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

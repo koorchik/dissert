@@ -1,0 +1,22 @@
+{
+  "attackTargets": [
+    "фахівці проєктних офісів",
+    "співробітників відповідних органів місцевого самоврядування україни"
+  ],
+  "hackerGroups": [
+    "uac-0057"
+  ],
+  "applications": [
+    "cobalt strike beacon",
+    "picassoloader"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "проєкт usaid/dai \"hoverla\"",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": []
+}

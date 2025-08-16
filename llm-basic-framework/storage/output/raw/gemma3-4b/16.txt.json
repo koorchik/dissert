@@ -1,0 +1,36 @@
+{
+  "attackTargets": [
+    "фінансові та страхові установи європи і сша",
+    "українські організації"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "superops rmm",
+    "python",
+    "minesweeper",
+    "pyinstaller",
+    "msi"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "csirt-nbu",
+      "relation": "neutral"
+    },
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "*.superops.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "*.superops.ai",
+      "relation": "attacker"
+    }
+  ]
+}

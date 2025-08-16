@@ -1,0 +1,21 @@
+{
+  "attackTargets": [
+    "оборонних підприємств",
+    "сил оборони україни"
+  ],
+  "hackerGroups": [
+    "uac-0180"
+  ],
+  "applications": [
+    "glueegg",
+    "dropclue",
+    "atera",
+    "curl.exe",
+    "adobe_acrobat_pack.exe",
+    "font-pack-pdf-windows-64-bit"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": []
+}

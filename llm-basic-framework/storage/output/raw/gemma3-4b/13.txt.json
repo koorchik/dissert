@@ -1,0 +1,73 @@
+{
+  "attackTargets": [
+    "сили оборони україни",
+    "зсу"
+  ],
+  "hackerGroups": [
+    "uac-0020 (vermin)"
+  ],
+  "applications": [
+    "syncthing",
+    "innosetup",
+    "robocopy.exe",
+    "telegram",
+    "signal",
+    "skype",
+    "element",
+    "firefox",
+    "edge",
+    "chrome",
+    "opera software",
+    "amigo",
+    "orbitum",
+    "yandex",
+    "comodo",
+    "maxthon3",
+    "brave-browser",
+    "1c:enterprise",
+    "1с:предприятие",
+    "1с предприятие",
+    "1с-предприятие",
+    "1cv",
+    "faststone",
+    "foxit",
+    "pdf24 reader",
+    "anydesk",
+    "youtube-dl",
+    "youtube-uploader",
+    "youtube-upload",
+    "chrome.downloader",
+    "chrome.uploader",
+    "chrome.downloader-uploader",
+    "youtube-uploader-downloader",
+    "youtube-downloader-uploader",
+    "youtube-downloader-uploader",
+    "youtube-downloader-uploader",
+    "youtube-downloader-uploader",
+    "youtube-downloader-uploader",
+    "youtube-downloader-uploader"
+  ],
+  "countries": [
+    {
+      "name": "україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "cert-ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "цкб зсу",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "syncthing.net",
+      "relation": "attacker"
+    }
+  ]
+}
