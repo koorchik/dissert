@@ -37,7 +37,7 @@ interface RawData {
   [key: string]: string
 };
 
-type Relation = 'attacker' | 'target' | 'neutral';
+export type Relation = 'attacker' | 'target' | 'neutral';
 
 export interface NormalizedData {
   attackTargets: string[];
@@ -46,7 +46,9 @@ export interface NormalizedData {
     embedding: number[]
   }>;
   hackerGroups: string[];
+  normalizedHackerGroups?: string[];
   applications: [];
+  normalizedApplications?: string[];
   countries: Array<{
     name: string;
     relation: Relation;
@@ -56,11 +58,23 @@ export interface NormalizedData {
     name: string;
     relation: Relation
   }>;
+  normalizedOrganizations?: Array<{
+    name: string;
+    relation: Relation
+  }>;
   individuals: Array<{
     name: string;
     relation: Relation
   }>;
+  normalizedIndividuals?: Array<{
+    name: string;
+    relation: Relation
+  }>;
   domains: Array<{
+    name: string;
+    relation: Relation
+  }>;
+  normalizedDomains?: Array<{
     name: string;
     relation: Relation
   }>;

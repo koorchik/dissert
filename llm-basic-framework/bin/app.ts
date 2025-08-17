@@ -58,12 +58,19 @@ async function main() {
   });
 
   const dataNormalizer = new DataNormalizer({
-    inputDir: `./storage/output/raw/${llmClient.modelName.replace(/:/g, "-")}`,
-    outputDir: `./storage/output/normalized/${llmClient.modelName.replace(
+    inputDir: `./storage/cert.gov.ua/output/raw/${llmClient.modelName.replace(
+      /:/g,
+      "-"
+    )}`,
+    outputDir: `./storage/cert.gov.ua/output/normalized/${llmClient.modelName.replace(
       /:/g,
       "-"
     )}`,
     countryNameNormalizer: new CountryNameNormalizer({ llmClient }),
+    entitiesFile: `./storage/cert.gov.ua/output/entities/${llmClient.modelName.replace(
+      /:/g,
+      "-"
+    )}/entities.json`,
     embeddingsClient
   });
 
@@ -108,7 +115,7 @@ async function main() {
     ]
   });
 
-  await flowManager.runStep("dataEntitiesCollector");
+  await flowManager.runStep("dataNormalizer");
   //  flowManager.runAllSteps();
 }
 
@@ -163,7 +170,7 @@ function makeLlmClient() {
   // gpt-oss:20b
 
   const ollamaBackend = new LlmClientBackendOllama({
-    model: "gpt-oss:20b",
+    model: "gpt-oss:120b",
     apiKey: ollamaApiKey
   });
 
