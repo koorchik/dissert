@@ -4,6 +4,7 @@ dotenv.config();
 import { DataExtractor } from "../src/DataProcessors/DataExtractor";
 import { DataNormalizer } from "../src/DataProcessors/DataNormalizer";
 import { DataAnalyzer } from "../src/DataProcessors/DataAnalyzer";
+import { DataEntitiesCollector } from "../src/DataProcessors/DataEntitiesCollector";
 import { LlmClient } from "../src/LlmClient/LlmClient";
 import { LlmClientBackendOpenAi } from "../src/LlmClient/LlmClientBackendOpenAi";
 import { LlmClientBackendOllama } from "../src/LlmClient/LlmClientBackendOllama";
@@ -44,6 +45,18 @@ async function main() {
     llmClient
   });
 
+  const dataEntitiesCollector = new DataEntitiesCollector({
+    inputDir: `./storage/cert.gov.ua/output/raw/${llmClient.modelName.replace(
+      /:/g,
+      "-"
+    )}`,
+    outputDir: `./storage/cert.gov.ua/output/entities/${llmClient.modelName.replace(
+      /:/g,
+      "-"
+    )}`,
+    llmClient
+  });
+
   const dataNormalizer = new DataNormalizer({
     inputDir: `./storage/output/raw/${llmClient.modelName.replace(/:/g, "-")}`,
     outputDir: `./storage/output/normalized/${llmClient.modelName.replace(
@@ -72,6 +85,10 @@ async function main() {
         run: () => dataExtractor.run()
       },
       {
+        name: "dataEntitiesCollector",
+        run: async () => dataEntitiesCollector.run()
+      },
+      {
         name: "dataNormalizer",
         run: async () => dataNormalizer.run()
       },
@@ -91,7 +108,7 @@ async function main() {
     ]
   });
 
-  await flowManager.runStep("dataExtractor");
+  await flowManager.runStep("dataEntitiesCollector");
   //  flowManager.runAllSteps();
 }
 
