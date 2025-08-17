@@ -170,7 +170,7 @@ function makeLlmClient() {
   // gpt-oss:20b
 
   const ollamaBackend = new LlmClientBackendOllama({
-    model: "gpt-oss:120b",
+    model: "gpt-oss:20b",
     apiKey: ollamaApiKey
   });
 

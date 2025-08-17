@@ -1,0 +1,108 @@
+{
+  "attackTargets": [
+    "World Congress of Ukrainians"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "CHM file",
+    "VBScript",
+    "Microsoft HTML Help",
+    "MAGICSPELL loader",
+    "EXE",
+    "DLL",
+    "CPL",
+    "PS1"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Lithuania",
+      "relation": "neutral",
+      "code": "LT"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "World Congress of Ukrainians",
+      "relation": "target"
+    },
+    {
+      "name": "NATO",
+      "relation": "neutral"
+    },
+    {
+      "name": "NATO Summit",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "ukrainianworldcongress.org",
+      "relation": "target"
+    },
+    {
+      "name": "ukrainianworldcongress.info",
+      "relation": "attacker"
+    },
+    {
+      "name": "finformservice.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "05.07.2023",
+    "id": 5077168,
+    "title": "Цільова атака з використанням тематики членства України в Організації Північноатлантичного договору (CERT-UA#6940)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "World Congress of Ukrainians",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "CHM file",
+    "VBScript",
+    "Microsoft HTML Help",
+    "MAGICSPELL loader",
+    "EXE",
+    "DLL",
+    "CPL",
+    "PS1"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "World Congress of Ukrainians",
+      "relation": "target"
+    },
+    {
+      "name": "NATO",
+      "relation": "neutral"
+    },
+    {
+      "name": "NATO Summit",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "ukrainianworldcongress.org",
+      "relation": "target"
+    },
+    {
+      "name": "ukrainianworldcongress.info",
+      "relation": "attacker"
+    },
+    {
+      "name": "finformservice.com",
+      "relation": "neutral"
+    }
+  ]
+}

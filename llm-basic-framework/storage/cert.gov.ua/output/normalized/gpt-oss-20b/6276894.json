@@ -1,0 +1,141 @@
+{
+  "attackTargets": [
+    "Українські державні організації",
+    "Польські організації"
+  ],
+  "hackerGroups": [
+    "APT28"
+  ],
+  "applications": [
+    "MASEPIE",
+    "OCEANMAP",
+    "STEELHOOK",
+    "PowerShell",
+    "OpenSSH",
+    "SMBEXEC",
+    "IMPACKET",
+    "Python",
+    "Client.py"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Польща",
+      "relation": "target",
+      "code": "PL"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "czyrqdnvpujmmjkfhhvs4knf1av02demj.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsclx05sfi23bfr.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsgapqr3hclnhhj.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsvlaax17vd5r6v.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "nas-files.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-calendar.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "e-nas.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "webmail.facadesolutionsuae.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "facadesolutionsuae.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "28.12.2023",
+    "id": 6276894,
+    "title": "APT28: від первинного ураження до створення загроз для контролеру домену за годину (CERT-UA#8399)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian State Organizations",
+      "embedding": []
+    },
+    {
+      "name": "Polish Organizations",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "APT28"
+  ],
+  "normalizedApplications": [
+    "MASEPIE",
+    "OCEANMAP",
+    "STEELHOOK",
+    "PowerShell",
+    "OpenSSH",
+    "SMBEXEC",
+    "Impacket",
+    "Python",
+    "Client"
+  ],
+  "normalizedOrganizations": [],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "czyrqdnvpujmmjkfhhvs4knf1av02demj.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsclx05sfi23bfr.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsgapqr3hclnhhj.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsvlaax17vd5r6v.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "nas-files.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-calendar.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "e-nas.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "webmail.facadesolutionsuae.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "facadesolutionsuae.com",
+      "relation": "attacker"
+    }
+  ]
+}

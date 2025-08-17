@@ -1,0 +1,220 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "Apache",
+    "nginx",
+    "OpenSSL",
+    "dnsmasq",
+    "Microsoft Windows",
+    "Qualys SSL Labs"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "neutral",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Microsoft",
+      "relation": "target"
+    },
+    {
+      "name": "Qualys",
+      "relation": "neutral"
+    },
+    {
+      "name": "Digicert",
+      "relation": "neutral"
+    },
+    {
+      "name": "Rapid7",
+      "relation": "neutral"
+    },
+    {
+      "name": "Cloudflare",
+      "relation": "neutral"
+    },
+    {
+      "name": "HostIQ",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "cve.mitre.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "nvd.nist.gov",
+      "relation": "neutral"
+    },
+    {
+      "name": "habr.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "hostiq.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "ssllabs.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "digicert.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "rapid7.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "us-cert.gov",
+      "relation": "neutral"
+    },
+    {
+      "name": "heartbleed.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "ru.wikipedia.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "en.wikipedia.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "freakattack.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "blog.cloudflare.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "tools.keycdn.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "15.05.2018",
+    "id": 2722,
+    "title": "Популярні вразливості в українському сегменті мережі Інтернет"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Apache",
+    "nginx",
+    "OpenSSL",
+    "dnsmasq",
+    "Windows",
+    "Qualys SSL Labs"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Microsoft",
+      "relation": "target"
+    },
+    {
+      "name": "Qualys",
+      "relation": "neutral"
+    },
+    {
+      "name": "Digicert",
+      "relation": "neutral"
+    },
+    {
+      "name": "Rapid7",
+      "relation": "neutral"
+    },
+    {
+      "name": "Cloudflare",
+      "relation": "neutral"
+    },
+    {
+      "name": "HostIQ",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "mitre.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "nist.gov",
+      "relation": "neutral"
+    },
+    {
+      "name": "habr.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "hostiq.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "ssllabs.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "digicert.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "rapid7.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "us-cert.gov",
+      "relation": "neutral"
+    },
+    {
+      "name": "heartbleed.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "wikipedia.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "wikipedia.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "freakattack.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cloudflare.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "keycdn.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    }
+  ]
+}

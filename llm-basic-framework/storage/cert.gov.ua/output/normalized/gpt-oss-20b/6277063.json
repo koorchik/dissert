@@ -1,0 +1,98 @@
+{
+  "attackTargets": [
+    "Медок"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "AutoIt",
+    "RemcosRAT",
+    "QuasarRAT",
+    "Remote Utilities",
+    "PowerShell",
+    "Bitbucket",
+    "Google Drive"
+  ],
+  "countries": [
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    },
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Медок",
+      "relation": "target"
+    },
+    {
+      "name": "DesignPixel Innovations",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "bitbucket.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "drive.google.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "rmssrv.ru",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "11.01.2024",
+    "id": 6277063,
+    "title": "RemcosRAT, QuasarRAT, RemoteUtilities на озброєнні UAC-0050 (CERT-UA#8453, CERT-UA#8494)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Medok",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "AutoIt",
+    "REMCOS RAT",
+    "QuasarRAT",
+    "Remote Utilities",
+    "PowerShell",
+    "bitbucket",
+    "Google Drive"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Medok",
+      "relation": "target"
+    },
+    {
+      "name": "DesignPixel Innovations",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "bitbucket.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "drive.google.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "rmssrv.ru",
+      "relation": "attacker"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "attackTargets": [
+    "Український Союз Промислівців та Підприємців (УСПП)",
+    "DELTA",
+    "ТЕНЕТА",
+    "КРОПИВА",
+    "ЕОМ співробітників підприємств оборонно-промислового комплексу",
+    "Сили оборони України"
+  ],
+  "hackerGroups": [
+    "UAC-0185 (UNC4221)"
+  ],
+  "applications": [
+    "mshta.exe",
+    "start.hta",
+    "update.exe",
+    "Registry.hta",
+    "Main.bat",
+    ".lnk",
+    "MESHAGENT",
+    "ULTRAVNC",
+    "PowerShell",
+    "EdgeUpdate"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Український Союз Промислівців та Підприємців (УСПП)",
+      "relation": "target"
+    },
+    {
+      "name": "Сили оборони України",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "uspp.derzhposluhy.com",
+      "relation": "target"
+    },
+    {
+      "name": "device.redirecl.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "live.outloolc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "mail.outloolc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "svc.odwebp.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.god-le.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "cloud.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "plntr.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ivanti.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.in-touc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.mail-gov.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.sign-cert.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "my.mail-gov.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "stellar.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "i-ua.account-guard.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "telegram.defender-bot.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "telegram.token-defender.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "account-guard.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "defender-bot.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "token-defender.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "kropyva.group",
+      "relation": "attacker"
+    },
+    {
+      "name": "teneta.group",
+      "relation": "attacker"
+    },
+    {
+      "name": "group-teneta.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "group.teneta.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "plntr.mirotrent.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "mirotrent.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "outloolc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "dhl.redirecl.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "drive.redirecl.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "check.sign-cert.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "sign-cert.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "sign-cert.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "confirm.sign-cert.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "07.12.2024",
+    "id": 6281632,
+    "title": "Цільові кібератаки UAC-0185 у відношенні Сил оборони та підприємств ОПК України (CERT-UA#12414)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Union of Industrialists and Entrepreneurs (UPSPE)",
+      "embedding": []
+    },
+    {
+      "name": "DELTA system",
+      "embedding": []
+    },
+    {
+      "name": "ТЕНЕТА",
+      "embedding": []
+    },
+    {
+      "name": "КРОПИВА",
+      "embedding": []
+    },
+    {
+      "name": "Computers of Defense Industry Enterprise Employees",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Defense Forces",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UNC4221"
+  ],
+  "normalizedApplications": [
+    "mshta",
+    "start.hta",
+    "update",
+    "Registry.hta",
+    "Main.bat",
+    ".lnk",
+    "MESHAGENT",
+    "ULTRAVNC",
+    "PowerShell",
+    "EdgeUpdate"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ukrainian Union of Entrepreneurs",
+      "relation": "target"
+    },
+    {
+      "name": "Armed Forces of Ukraine",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "uspp.derzhposluhy.com",
+      "relation": "target"
+    },
+    {
+      "name": "device.redirecl.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "live.outloolc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "mail.outloolc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "svc.odwebp.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.god-le.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "cloud.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "plntr.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ivanti.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.in-touc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.mail-gov.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "get.sign-cert.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "my.mail-gov.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "stellar.account-viewer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "i-ua.account-guard.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "telegram.defender-bot.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "telegram.token-defender.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "account-guard.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "defender-bot.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "token-defender.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "kropyva.group",
+      "relation": "attacker"
+    },
+    {
+      "name": "teneta.group",
+      "relation": "attacker"
+    },
+    {
+      "name": "group-teneta.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "group.teneta.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "plntr.mirotrent.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "mirotrent.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "outloolc.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "dhl.redirecl.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "drive.redirecl.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "check.sign-cert.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "sign-cert.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "sign-cert.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "confirm.sign-cert.com",
+      "relation": "attacker"
+    }
+  ]
+}

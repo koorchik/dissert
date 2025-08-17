@@ -1,0 +1,220 @@
+{
+  "attackTargets": [
+    "Thunderbird",
+    "Firefox ESR",
+    "Firefox",
+    "Firefox iOS",
+    "VMware ESXi",
+    "VMware Workstation Pro",
+    "VMware Fusion Pro",
+    "VMRC",
+    "VMware Horizon",
+    "Apple iOS",
+    "macOS",
+    "tvOS",
+    "watchOS",
+    "Chrome",
+    "Cisco IOS",
+    "Cisco IOS XE"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Thunderbird",
+    "Firefox ESR",
+    "Firefox",
+    "Firefox iOS",
+    "VMware ESXi",
+    "VMware Workstation Pro",
+    "VMware Fusion Pro",
+    "VMRC",
+    "VMware Horizon",
+    "Apple iOS",
+    "macOS",
+    "tvOS",
+    "watchOS",
+    "Chrome",
+    "Cisco IOS",
+    "Cisco IOS XE"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Mozilla Foundation",
+      "relation": "target"
+    },
+    {
+      "name": "VMware",
+      "relation": "target"
+    },
+    {
+      "name": "Apple Inc.",
+      "relation": "target"
+    },
+    {
+      "name": "Google Inc.",
+      "relation": "target"
+    },
+    {
+      "name": "Cisco Systems",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mozilla.org",
+      "relation": "target"
+    },
+    {
+      "name": "vmware.com",
+      "relation": "target"
+    },
+    {
+      "name": "support.apple.com",
+      "relation": "target"
+    },
+    {
+      "name": "chromereleases.googleblog.com",
+      "relation": "target"
+    },
+    {
+      "name": "tools.cisco.com",
+      "relation": "target"
+    }
+  ],
+  "metadata": {
+    "date": "05.06.2020",
+    "id": 2496,
+    "title": "Mozilla, VMWare, Apple, Chrome та Cisco випустили оновлення безпеки"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Thunderbird",
+      "embedding": []
+    },
+    {
+      "name": "Firefox",
+      "embedding": []
+    },
+    {
+      "name": "Firefox",
+      "embedding": []
+    },
+    {
+      "name": "Firefox iOS",
+      "embedding": []
+    },
+    {
+      "name": "VMware",
+      "embedding": []
+    },
+    {
+      "name": "VMware",
+      "embedding": []
+    },
+    {
+      "name": "VMware",
+      "embedding": []
+    },
+    {
+      "name": "VMRC",
+      "embedding": []
+    },
+    {
+      "name": "VMware Horizon",
+      "embedding": []
+    },
+    {
+      "name": "Apple iOS",
+      "embedding": []
+    },
+    {
+      "name": "macOS",
+      "embedding": []
+    },
+    {
+      "name": "tvOS",
+      "embedding": []
+    },
+    {
+      "name": "watchOS",
+      "embedding": []
+    },
+    {
+      "name": "Chrome",
+      "embedding": []
+    },
+    {
+      "name": "Cisco IOS",
+      "embedding": []
+    },
+    {
+      "name": "Cisco IOS",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Thunderbird",
+    "Firefox",
+    "Firefox",
+    "Firefox iOS",
+    "VMware ESXi",
+    "VMware Workstation",
+    "VMware Fusion",
+    "VMRC",
+    "VMware Horizon",
+    "Apple iOS",
+    "macOS",
+    "tvOS",
+    "watchOS",
+    "Chrome",
+    "Cisco IOS",
+    "Cisco IOS XE"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Mozilla Foundation",
+      "relation": "target"
+    },
+    {
+      "name": "VMware",
+      "relation": "target"
+    },
+    {
+      "name": "Apple",
+      "relation": "target"
+    },
+    {
+      "name": "Google",
+      "relation": "target"
+    },
+    {
+      "name": "Cisco",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "mozilla.org",
+      "relation": "target"
+    },
+    {
+      "name": "vmware.com",
+      "relation": "target"
+    },
+    {
+      "name": "apple.com",
+      "relation": "target"
+    },
+    {
+      "name": "googleblog.com",
+      "relation": "target"
+    },
+    {
+      "name": "cisco.com",
+      "relation": "target"
+    }
+  ]
+}

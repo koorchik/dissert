@@ -1,0 +1,137 @@
+{
+  "attackTargets": [
+    "Укрінформ"
+  ],
+  "hackerGroups": [
+    "UAC-0082 (Sandworm)"
+  ],
+  "applications": [
+    "CaddyWiper",
+    "ZeroWipe",
+    "SDelete",
+    "AwfulShred",
+    "BidSwipe"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    },
+    {
+      "name": "Germany",
+      "relation": "neutral",
+      "code": "DE"
+    },
+    {
+      "name": "Netherlands",
+      "relation": "neutral",
+      "code": "NL"
+    },
+    {
+      "name": "France",
+      "relation": "neutral",
+      "code": "FR"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Укрінформ",
+      "relation": "target"
+    },
+    {
+      "name": "UAC-0082 (Sandworm)",
+      "relation": "attacker"
+    },
+    {
+      "name": "digitalcourage.de",
+      "relation": "neutral"
+    },
+    {
+      "name": "besthosting.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "milkywan.fr",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "digitalcourage.de",
+      "relation": "neutral"
+    },
+    {
+      "name": "besthosting.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "milkywan.fr",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "27.01.2023",
+    "id": 3718487,
+    "title": "Кібератака Sandworm на інформаційно-комунікаційну систему Укрінформ (CERT-UA#5850)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Укрінформ",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "Sandworm"
+  ],
+  "normalizedApplications": [
+    "CADDYWIPER",
+    "ZeroWipe",
+    "SDelete",
+    "AWFULSHRED",
+    "BidSwipe"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ukrinform",
+      "relation": "target"
+    },
+    {
+      "name": "Sandworm",
+      "relation": "attacker"
+    },
+    {
+      "name": "digitalcourage.de",
+      "relation": "neutral"
+    },
+    {
+      "name": "besthosting.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "milkywan.fr",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "digitalcourage.de",
+      "relation": "neutral"
+    },
+    {
+      "name": "besthosting.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "milkywan.fr",
+      "relation": "neutral"
+    }
+  ]
+}

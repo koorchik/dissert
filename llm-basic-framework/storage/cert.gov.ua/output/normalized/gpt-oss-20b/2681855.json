@@ -1,0 +1,238 @@
+{
+  "attackTargets": [
+    "Держспецзв'язку"
+  ],
+  "hackerGroups": [
+    "UAC-0010",
+    "Armageddon"
+  ],
+  "applications": [
+    "HTML",
+    "JavaScript",
+    "RAR archive",
+    "HTA",
+    "VBScript",
+    "mshta.exe"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Росія",
+      "relation": "attacker",
+      "code": "RU"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "mail.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "civh.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "hilr.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "rubidiumo.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shapurt.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ardeas.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tzi.info-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "arhiv.ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "info-cip.org",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "cloudflare-dns.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "t.me",
+      "relation": "neutral"
+    },
+    {
+      "name": "civh.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "hilr.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "rubidiumo.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shapurt.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ardeas.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tzi.info-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "arhiv.ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "info-cip.org",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "08.11.2022",
+    "id": 2681855,
+    "title": "Кібератака групи UAC-0010: розсилання електронних листів, начебто, від імені Держспецзв'язку (CERT-UA#5570)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian State Special Communications Service",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "Armageddon",
+    "Armageddon"
+  ],
+  "normalizedApplications": [
+    "HTML",
+    "JavaScript",
+    "RAR archive",
+    "HTA",
+    "VBScript",
+    "mshta"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "mail.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "civh.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "hilr.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "rubidiumo.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shapurt.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ardeas.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tzi.info-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "arhiv.ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "info-cip.org",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "cloudflare-dns.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "t.me",
+      "relation": "neutral"
+    },
+    {
+      "name": "civh.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "hilr.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "rubidiumo.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shapurt.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ardeas.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "info-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "info-cip.org",
+      "relation": "attacker"
+    }
+  ]
+}

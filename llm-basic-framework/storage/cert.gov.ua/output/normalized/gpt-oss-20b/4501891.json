@@ -1,0 +1,217 @@
+{
+  "attackTargets": [
+    "EOM бухгалтерів",
+    "комп’ютери бухгалтерів",
+    "системи дистанційного банківського обслуговування"
+  ],
+  "hackerGroups": [
+    "UAC-0006"
+  ],
+  "applications": [
+    "SmokeLoader",
+    "portable.exe",
+    "pax_2023_AB1058..js",
+    "PowerShell",
+    "WScript.exe",
+    "cmd.exe"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "CERT-UA",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "homospoison.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "3dstore.pro",
+      "relation": "attacker"
+    },
+    {
+      "name": "balkimotion.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "coudzoom.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "criticalosl.tech",
+      "relation": "attacker"
+    },
+    {
+      "name": "humanitarydp.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipodromlan.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "lamazone.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "ligaspace.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "maximprofile.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "redport80.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shopersport.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "sindoproperty.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "superboler.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaliphone.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "atl.ua",
+      "relation": "target"
+    },
+    {
+      "name": "dl.kr-admin.gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "mayak.dp.ua",
+      "relation": "target"
+    }
+  ],
+  "metadata": {
+    "date": "05.05.2023",
+    "id": 4555802,
+    "title": "Повернення UAC-0006: масове розповсюдження SmokeLoader з використанням тематики \"рахунків\" (CERT-UA#6613)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "EOM of accountants",
+      "embedding": []
+    },
+    {
+      "name": "Computers of accountants",
+      "embedding": []
+    },
+    {
+      "name": "Remote Banking Systems",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UAC-0006"
+  ],
+  "normalizedApplications": [
+    "SMOKELOADER",
+    "portable",
+    "pax_2023_AB1058..js",
+    "PowerShell",
+    "WScript",
+    "cmd"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "CERT-UA",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "homospoison.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "3dstore.pro",
+      "relation": "attacker"
+    },
+    {
+      "name": "balkimotion.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "coudzoom.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "criticalosl.tech",
+      "relation": "attacker"
+    },
+    {
+      "name": "humanitarydp.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipodromlan.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "lamazone.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "ligaspace.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "maximprofile.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "redport80.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shopersport.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "sindoproperty.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "superboler.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaliphone.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "atl.ua",
+      "relation": "target"
+    },
+    {
+      "name": "dl.kr-admin.gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "mayak.dp.ua",
+      "relation": "target"
+    }
+  ]
+}

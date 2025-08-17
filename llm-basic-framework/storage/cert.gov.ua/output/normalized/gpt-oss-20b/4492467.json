@@ -1,0 +1,67 @@
+{
+  "attackTargets": [
+    "Ukrainian government institutions"
+  ],
+  "hackerGroups": [
+    "APT28"
+  ],
+  "applications": [
+    "PowerShell"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "run.mocky.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "mockbin.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "m247.ro",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "28.04.2023",
+    "id": 4492467,
+    "title": "Кібератака групи APT28: розповсюдження електронних листів з \"інструкціями\" щодо \"оновлення операційної системи\" (CERT-UA#6562)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Government Institutions",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "APT28"
+  ],
+  "normalizedApplications": [
+    "PowerShell"
+  ],
+  "normalizedOrganizations": [],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "run.mocky.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "mockbin.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "m247.ro",
+      "relation": "attacker"
+    }
+  ]
+}

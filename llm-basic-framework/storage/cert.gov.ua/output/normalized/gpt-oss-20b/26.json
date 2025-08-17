@@ -1,0 +1,73 @@
+{
+  "attackTargets": [
+    "Ministry of Health of Ukraine"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "MS Office"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ministry of Health of Ukraine",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "i.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "answers.microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "social.technet.microsoft.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "01.04.2020",
+    "id": 26,
+    "title": "Звертаємо увагу на використання зловмисниками епідеміологічної ситуації в світі"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ministry of Health of Ukraine",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Microsoft Office"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ministry of Health of Ukraine",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "i.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "microsoft.com",
+      "relation": "neutral"
+    }
+  ]
+}

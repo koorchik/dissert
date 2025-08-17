@@ -1,0 +1,196 @@
+{
+  "attackTargets": [
+    "комп'ютери нотаріусів",
+    "державні реєстри",
+    "Міністерство юстиції України",
+    "Нотаріальна палата України"
+  ],
+  "hackerGroups": [
+    "UAC-0173"
+  ],
+  "applications": [
+    "HAKA3.exe",
+    "Наказ Міністерства юстиції від 10.02.2025 № 43613.1-03.exe",
+    "До відома.exe",
+    "DARKCRYSTALRAT (DCRAT)",
+    "RDPWRAPPER",
+    "BORE",
+    "NMAP",
+    "FIDDLER",
+    "XWORM",
+    "SENDEMAIL",
+    "mshta.exe",
+    "PowerShell",
+    "install.bat",
+    "autoupdate.bat",
+    "try_excl.exe",
+    "xupwork3.exe",
+    "excl.bat"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "attacker",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Міністерство юстиції України",
+      "relation": "target"
+    },
+    {
+      "name": "Нотаріальна палата України",
+      "relation": "target"
+    },
+    {
+      "name": "Комісія з кібербезпеки НПУ",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "bestank.ph",
+      "relation": "attacker"
+    },
+    {
+      "name": "fgf2.i.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "r2.cloudflarestorage.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "upnow-prod.ff45e40d1a1c8f7e7de4e976d0c9e555.r2.cloudflarestorage.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "i.ibb.co",
+      "relation": "attacker"
+    },
+    {
+      "name": "193.233.48.166",
+      "relation": "attacker"
+    },
+    {
+      "name": "91.92.246.18",
+      "relation": "attacker"
+    },
+    {
+      "name": "87.120.126.48",
+      "relation": "attacker"
+    },
+    {
+      "name": "89.105.201.98",
+      "relation": "attacker"
+    },
+    {
+      "name": "194.0.234.155",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "25.02.2025",
+    "id": 6282536,
+    "title": "UAC-0173 проти Нотаріату України (CERT-UA#13738)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Notary Computers",
+      "embedding": []
+    },
+    {
+      "name": "State Registers",
+      "embedding": []
+    },
+    {
+      "name": "Ministry of Justice of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Notary's Chamber of Ukraine",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UAC-0173"
+  ],
+  "normalizedApplications": [
+    "HAKA3",
+    "Наказ Міністерства юстиції від 10.02.2025 № 43613.1-03",
+    "До відома",
+    "DARKCRYSTALRAT",
+    "RDPWRAPPER",
+    "BORE",
+    "NMAP",
+    "FIDDLER",
+    "XWORM",
+    "SENDEMAIL",
+    "mshta",
+    "PowerShell",
+    "install",
+    "autoupdate",
+    "try_excl",
+    "xupwork3",
+    "excl"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ministry of Justice of Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Ukrainian Notary Chamber",
+      "relation": "target"
+    },
+    {
+      "name": "Cybersecurity Commission of the National University of Ukraine",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "bestank.ph",
+      "relation": "attacker"
+    },
+    {
+      "name": "fgf2.i.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "r2.cloudflarestorage.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "upnow-prod.ff45e40d1a1c8f7e7de4e976d0c9e555.r2.cloudflarestorage.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "i.ibb.co",
+      "relation": "attacker"
+    },
+    {
+      "name": "193.233.48.166",
+      "relation": "attacker"
+    },
+    {
+      "name": "91.92.246.18",
+      "relation": "attacker"
+    },
+    {
+      "name": "87.120.126.48",
+      "relation": "attacker"
+    },
+    {
+      "name": "89.105.201.98",
+      "relation": "attacker"
+    },
+    {
+      "name": "194.0.234.155",
+      "relation": "attacker"
+    }
+  ]
+}

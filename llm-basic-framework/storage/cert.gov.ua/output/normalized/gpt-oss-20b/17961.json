@@ -1,0 +1,77 @@
+{
+  "attackTargets": [
+    "Microsoft Windows Server 2019",
+    "Microsoft Windows 10 version 1809",
+    "Internet Information Services (IIS)"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "http.sys",
+    "Internet Information Services (IIS)"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "msrc.microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cve.mitre.org",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "18.01.2022",
+    "id": 17961,
+    "title": "Інформація щодо вразливості в продуктах Microsoft CVE-2022-21907"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Microsoft Windows Server 2019",
+      "embedding": []
+    },
+    {
+      "name": "Microsoft Windows 10 version 1809",
+      "embedding": []
+    },
+    {
+      "name": "Internet Information Services (IIS)",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "http.sys",
+    "IIS"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "mitre.org",
+      "relation": "neutral"
+    }
+  ]
+}

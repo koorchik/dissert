@@ -1,0 +1,111 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "JesterStealer"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "attacker",
+      "code": "UA"
+    },
+    {
+      "name": "Japan",
+      "relation": "attacker",
+      "code": "JP"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Telegram",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "igshop.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "dcshost.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "marmaris.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "autodoka.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "lightnogu5owjjllyo4tj2sfos6fchnmcidlgo6c7e6fz2hgryhfhoyd.onion",
+      "relation": "attacker"
+    },
+    {
+      "name": "wasabiwallet.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "ip-api.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "sv5206.xserver.jp",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "07.05.2022",
+    "id": 40125,
+    "title": "Масове розповсюдження шкідливої програми JesterStealer з використанням тематики хімічної атаки (CERT-UA#4625)"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "JesterStealer"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Telegram",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "igshop.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "dcshost.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "marmaris.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "autodoka.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "lightnogu5owjjllyo4tj2sfos6fchnmcidlgo6c7e6fz2hgryhfhoyd.onion",
+      "relation": "attacker"
+    },
+    {
+      "name": "wasabiwallet.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "ip-api.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "sv5206.xserver.jp",
+      "relation": "attacker"
+    }
+  ]
+}

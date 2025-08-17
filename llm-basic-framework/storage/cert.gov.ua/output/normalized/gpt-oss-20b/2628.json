@@ -1,0 +1,210 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "Agent Tesla",
+    "WinSCP",
+    "FileZilla",
+    "OpenVPN",
+    "jDownloader",
+    "SmartFTP",
+    "FTP Commander",
+    "WS_FTP",
+    "FTPGetter",
+    "Trillian",
+    "Thunderbird",
+    "Claws Mail",
+    "Postbox Credential",
+    "Outlook",
+    "Foxmail",
+    "Opera Mail",
+    "Pocomail",
+    "Becky!",
+    "IceDragon",
+    "RegAsm.exe",
+    "Google Chrome",
+    "Mozilla Firefox",
+    "Internet Explorer",
+    "Yandex Browser",
+    "Iridium Browser",
+    "Epic Privacy Browser",
+    "Chromium Browser",
+    "7Star Browser",
+    "Torch Browser",
+    "ChromePlus Browser",
+    "Kometa Browser",
+    "Amigo Browser",
+    "Brave Browser",
+    "CentBrowser",
+    "Liebao Browser",
+    "Elements Browser",
+    "Vivaldi Browser",
+    "Citrio Browser",
+    "360Chrome Browser",
+    "Uran Browser",
+    "Chedot Browser",
+    "Orbitum Browser",
+    "Sputnik Browser",
+    "Comodo Dragon Browser",
+    "CocCoc Browser",
+    "QIP Surf Browser",
+    "Coowon Browser",
+    "Opera Browser"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Apple",
+      "relation": "target"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "chinagrill.co",
+      "relation": "attacker"
+    },
+    {
+      "name": "badpdf.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "dyndns.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "winscp.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "docs.microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cuckoo.cert.ee",
+      "relation": "neutral"
+    },
+    {
+      "name": "any.run",
+      "relation": "neutral"
+    },
+    {
+      "name": "analyze.intezer.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "07.08.2020",
+    "id": 3028,
+    "title": "Agent Tesla (шкідливе програмне забезпечення)"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Agent Tesla",
+    "WinSCP",
+    "FileZilla",
+    "OpenVPN",
+    "jDownloader",
+    "SmartFTP",
+    "FTP Commander",
+    "WS_FTP",
+    "FTPGetter",
+    "Trillian",
+    "Thunderbird",
+    "Claws Mail",
+    "Postbox",
+    "Outlook",
+    "Foxmail",
+    "Opera Mail",
+    "Pocomail",
+    "Becky!",
+    "IceDragon",
+    "RegAsm",
+    "Chrome",
+    "Firefox",
+    "Internet Explorer",
+    "Yandex Browser",
+    "Iridium Browser",
+    "Epic Privacy Browser",
+    "Chromium Browser",
+    "7Star Browser",
+    "Torch Browser",
+    "Chrome Plus Browser",
+    "Kometa Browser",
+    "Amigo Browser",
+    "Brave Browser",
+    "CentBrowser",
+    "Liebao Browser",
+    "Elements Browser",
+    "Vivaldi Browser",
+    "Citrio Browser",
+    "360Chrome Browser",
+    "Uran Browser",
+    "Chedot Browser",
+    "Orbitum Browser",
+    "Sputnik Browser",
+    "Comodo Dragon Browser",
+    "CocCoc Browser",
+    "QIP Surf Browser",
+    "Coowon Browser",
+    "Opera Browser"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Apple",
+      "relation": "target"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "chinagrill.co",
+      "relation": "attacker"
+    },
+    {
+      "name": "badpdf.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "dyndns.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "winscp.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cert.ee",
+      "relation": "neutral"
+    },
+    {
+      "name": "any.run",
+      "relation": "neutral"
+    },
+    {
+      "name": "intezer.com",
+      "relation": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Netherlands",
+      "relation": "neutral",
+      "code": "NL"
+    },
+    {
+      "name": "Estonia",
+      "relation": "neutral",
+      "code": "EE"
+    },
+    {
+      "name": "India",
+      "relation": "neutral",
+      "code": "IN"
+    },
+    {
+      "name": "United States",
+      "relation": "target",
+      "code": "US"
+    },
+    {
+      "name": "Russia",
+      "relation": "neutral",
+      "code": "RU"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Global Commission on Stability in Cyberspace",
+      "relation": "neutral"
+    },
+    {
+      "name": "United Nations",
+      "relation": "neutral"
+    },
+    {
+      "name": "Group of Government Experts",
+      "relation": "neutral"
+    },
+    {
+      "name": "Open-Source Working Group",
+      "relation": "neutral"
+    },
+    {
+      "name": "Project Syndicate",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Michael Chertoff",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [
+    {
+      "name": "nv.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "project-syndicate.org",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "06.12.2019",
+    "id": 2681,
+    "title": "Вісім правил кібербезпеки. Що пропонують в ООН"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [],
+  "normalizedOrganizations": [
+    {
+      "name": "Global Commission for Cyber Stability",
+      "relation": "neutral"
+    },
+    {
+      "name": "United Nations",
+      "relation": "neutral"
+    },
+    {
+      "name": "Government Group of Experts",
+      "relation": "neutral"
+    },
+    {
+      "name": "Open-Source Working Group",
+      "relation": "neutral"
+    },
+    {
+      "name": "Project Syndicate",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "Michael Chertoff",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "nv.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "project-syndicate.org",
+      "relation": "neutral"
+    }
+  ]
+}

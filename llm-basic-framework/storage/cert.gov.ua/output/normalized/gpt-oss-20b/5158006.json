@@ -1,0 +1,436 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "SmokeLoader",
+    "WScript.exe",
+    "cscript.exe",
+    "PowerShell",
+    "Firefox Default Browser Agent 67491D09DDF7934E"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    },
+    {
+      "name": "Uganda",
+      "relation": "attacker",
+      "code": "UG"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "IQHost",
+      "relation": "attacker"
+    },
+    {
+      "name": "Ruvds",
+      "relation": "attacker"
+    },
+    {
+      "name": "DNSpod",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "alegoomaster.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "azartnyjboy.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "criticalosl.tech",
+      "relation": "attacker"
+    },
+    {
+      "name": "droopily.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "filterfullproperty.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "freesitucionap.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "gondurasonline.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "hopentools.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "humanitarydp.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "infomalilopera.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "jkghdj2993jdjjdjd.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "jskgdhjkdfhjdkjhd844.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "kismamabeforyougo.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "kissmafiabeforyoudied.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "kjhgdj99fuller.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "lamazone.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "maximprofile.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "nabufixservice.name",
+      "relation": "attacker"
+    },
+    {
+      "name": "prostotaknet.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "verycheap.store",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaikaopentra-com-ug.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaikaopentra.com.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "zakolibal.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "zalamafiapopcultur.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaliphone.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "liverpulapp.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "samoramertut.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "cityofuganda.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "goodlenuxilam.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "hillespostelnm.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "internetcygane.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "jimloamfilling.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "jslopasitmon.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "kilomunara.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "krasavchikoleg.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "maxteroper.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nafillimonilini.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "napropertyhub.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "polinamailserverip.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "sismasterhome.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "supermarioprohozhdenie.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "vertusupportjk.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaikadoctor.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zallesman.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zarabovannyok.eu",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "13.07.2023",
+    "id": 5158006,
+    "title": "Кібератака UAC-0006: розповсюдження SmokeLoader з використанням електронних листів і тематики \"рахунків\" (CERT-UA#6999)"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "SMOKELOADER",
+    "WScript",
+    "cscript",
+    "PowerShell",
+    "Firefox Default Browser Agent"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "IQHost",
+      "relation": "attacker"
+    },
+    {
+      "name": "Ruvds",
+      "relation": "attacker"
+    },
+    {
+      "name": "DNSpod",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "alegoomaster.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "azartnyjboy.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "criticalosl.tech",
+      "relation": "attacker"
+    },
+    {
+      "name": "droopily.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "filterfullproperty.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "freesitucionap.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "gondurasonline.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "hopentools.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "humanitarydp.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "infomalilopera.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "jkghdj2993jdjjdjd.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "jskgdhjkdfhjdkjhd844.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "kismamabeforyougo.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "kissmafiabeforyoudied.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "kjhgdj99fuller.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "lamazone.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "maximprofile.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "nabufixservice.name",
+      "relation": "attacker"
+    },
+    {
+      "name": "prostotaknet.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "verycheap.store",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaikaopentra-com-ug.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaikaopentra.com.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "zakolibal.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "zalamafiapopcultur.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaliphone.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "liverpulapp.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "samoramertut.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "cityofuganda.ug",
+      "relation": "attacker"
+    },
+    {
+      "name": "goodlenuxilam.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "hillespostelnm.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "internetcygane.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "jimloamfilling.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "jslopasitmon.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "kilomunara.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "krasavchikoleg.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "maxteroper.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nafillimonilini.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "napropertyhub.eu",
+      "relation": "attacker"
+    },
+    {
+      "name": "polinamailserverip.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "sismasterhome.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "supermarioprohozhdenie.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "vertusupportjk.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "zaikadoctor.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zallesman.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zarabovannyok.eu",
+      "relation": "attacker"
+    }
+  ]
+}

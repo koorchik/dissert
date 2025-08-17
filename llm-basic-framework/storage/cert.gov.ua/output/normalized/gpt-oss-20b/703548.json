@@ -1,0 +1,63 @@
+{
+  "attackTargets": [
+    "Ukrainian government organizations"
+  ],
+  "hackerGroups": [
+    "UAC-0056"
+  ],
+  "applications": [
+    "Cobalt Strike Beacon",
+    "baseupd.exe",
+    "oYUuQbXu",
+    "stage1.ps1",
+    "stage2.ps1",
+    "shellcode.x86.bin",
+    "shellcode.x64.bin"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian government organizations",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "11.07.2022",
+    "id": 703548,
+    "title": "Атака групи UAC-0056 на державні організації України з використанням Cobalt Strike Beacon (CERT-UA#4941)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Government Organizations",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UAC-0056"
+  ],
+  "normalizedApplications": [
+    "Cobalt Strike",
+    "baseupd",
+    "oYUuQbXu",
+    "stage1",
+    "stage2",
+    "shellcode.x86",
+    "shellcode.x64"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Government of Ukraine",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": []
+}

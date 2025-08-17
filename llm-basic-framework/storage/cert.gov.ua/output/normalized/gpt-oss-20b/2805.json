@@ -1,0 +1,47 @@
+{
+  "attackTargets": [
+    "Syenergy Consulting & Representation Ltd"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Outlook",
+    "Thunderbird",
+    "Filezilla",
+    "WinSCP"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Syenergy Consulting & Representation Ltd",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "18.09.2018",
+    "id": 2806,
+    "title": "Розсилка шкідливого програмного забезпечення AZORult"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Syenergy Consulting & Representation Ltd",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Outlook",
+    "Thunderbird",
+    "FileZilla",
+    "WinSCP"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Synergy Consulting & Representation Ltd",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": []
+}

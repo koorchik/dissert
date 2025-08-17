@@ -1,0 +1,89 @@
+{
+  "attackTargets": [
+    "gov.ua"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Pterodo",
+    "Icloud.exe",
+    "Iclouding.exe",
+    "spisok_24.08.2018.com",
+    "iclouds.cmd"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "i.ua",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "i.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "single-office.ddns.net",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "03.09.2018",
+    "id": 2807,
+    "title": "Масова розсилка шпигунського програмного забезпечення типу Pterodo"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "gov.ua",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Pterodo",
+    "Icloud",
+    "Iclouding",
+    "spisok_24.08.2018.com",
+    "iclouds"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "i.ua",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "gov.ua",
+      "relation": "target"
+    },
+    {
+      "name": "i.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "ddns.net",
+      "relation": "attacker"
+    }
+  ]
+}

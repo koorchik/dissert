@@ -1,0 +1,79 @@
+{
+  "attackTargets": [
+    "state sector websites",
+    "banking sector websites",
+    "defence sector websites"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Оперативний центр реагування на кіберінциденти",
+      "relation": "neutral"
+    },
+    {
+      "name": "Оперативно-технічну службу Державного центру кіберзахисту",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": ".ua",
+      "relation": "target"
+    },
+    {
+      "name": "raidforums.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "21.02.2022",
+    "id": 37211,
+    "title": "Попередження щодо можливих кібератак"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "State Sector Websites",
+      "embedding": []
+    },
+    {
+      "name": "Banking Sector Websites",
+      "embedding": []
+    },
+    {
+      "name": "Defence Sector Websites",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [],
+  "normalizedOrganizations": [
+    {
+      "name": "Cyber Incident Response Center",
+      "relation": "neutral"
+    },
+    {
+      "name": "Operations and Technical Service of State Center for Cyber Defense",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "ua",
+      "relation": "target"
+    },
+    {
+      "name": "raidforums.com",
+      "relation": "attacker"
+    }
+  ]
+}
