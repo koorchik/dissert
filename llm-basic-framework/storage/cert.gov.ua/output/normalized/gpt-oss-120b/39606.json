@@ -1,0 +1,133 @@
+{
+  "attackTargets": [
+    "Zimbra Collaboration Suite"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "junit.js"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Hotmail",
+      "relation": "neutral"
+    },
+    {
+      "name": "Yandex",
+      "relation": "neutral"
+    },
+    {
+      "name": "GitHub",
+      "relation": "neutral"
+    },
+    {
+      "name": "jsDelivr",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "joey@kmtacn.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "repo.ma@hotmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "nov.td@yandex.ru",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "cdn.jsdelivr.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "github.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "kmtacn.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "hotmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "yandex.ru",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "14.04.2022",
+    "id": 39606,
+    "title": "Кібератака на державні організації України з використанням експлойту для XSS вразливості в Zimbra Collaboration Suite (CVE-2018-6882) (CERT-UA#4461)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Zimbra Collaboration Suite",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "junit.js"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Hotmail",
+      "relation": "neutral"
+    },
+    {
+      "name": "Yandex",
+      "relation": "neutral"
+    },
+    {
+      "name": "GitHub",
+      "relation": "neutral"
+    },
+    {
+      "name": "jsDelivr",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "joey@kmtacn.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "repo.ma@hotmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "nov.td@yandex.ru",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "jsdelivr.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "github.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "kmtacn.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "hotmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "yandex.ru",
+      "relation": "attacker"
+    }
+  ]
+}

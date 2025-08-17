@@ -1,0 +1,248 @@
+{
+  "attackTargets": [
+    "Ukrainian organizations",
+    "Austrian organizations",
+    "German organizations"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "PowerShell",
+    "Microsoft Visual Basic",
+    "AgentTesla"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Austria",
+      "relation": "target",
+      "code": "AT"
+    },
+    {
+      "name": "Germany",
+      "relation": "target",
+      "code": "DE"
+    },
+    {
+      "name": "Brazil",
+      "relation": "neutral",
+      "code": "BR"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "t-online.de",
+      "relation": "target"
+    },
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    },
+    {
+      "name": "westafrance.com",
+      "relation": "target"
+    },
+    {
+      "name": "aon.at",
+      "relation": "target"
+    },
+    {
+      "name": "ssttekstil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "academiadutygroup.com.br",
+      "relation": "attacker"
+    },
+    {
+      "name": "sackmeister.de",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Eric Fehling",
+      "relation": "target"
+    },
+    {
+      "name": "Bondar Mob",
+      "relation": "target"
+    },
+    {
+      "name": "Bonitet Ltd",
+      "relation": "target"
+    },
+    {
+      "name": "Adv Rsnord",
+      "relation": "target"
+    },
+    {
+      "name": "A Bindhammer",
+      "relation": "target"
+    },
+    {
+      "name": "A Ehrnhofer",
+      "relation": "target"
+    },
+    {
+      "name": "A Bernsteiner",
+      "relation": "target"
+    }
+  ],
+  "domains": [
+    {
+      "name": "t-online.de",
+      "relation": "target"
+    },
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    },
+    {
+      "name": "westafrance.com",
+      "relation": "target"
+    },
+    {
+      "name": "aon.at",
+      "relation": "target"
+    },
+    {
+      "name": "ssttekstil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ftp.ssttekstil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "academiadutygroup.com.br",
+      "relation": "attacker"
+    },
+    {
+      "name": "sackmeister.de",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "31.08.2022",
+    "id": 1563322,
+    "title": "Масове розповсюдження шкідливої програми AgentTesla (CERT-UA#5252)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Organizations",
+      "embedding": []
+    },
+    {
+      "name": "Austrian Organizations",
+      "embedding": []
+    },
+    {
+      "name": "German Organizations",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "PowerShell",
+    "Microsoft Visual Basic",
+    "AgentTesla"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "t-online.de",
+      "relation": "target"
+    },
+    {
+      "name": "Ukr.Net",
+      "relation": "target"
+    },
+    {
+      "name": "westafrance.com",
+      "relation": "target"
+    },
+    {
+      "name": "aon.at",
+      "relation": "target"
+    },
+    {
+      "name": "ssttekstil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "academiadutygroup.com.br",
+      "relation": "attacker"
+    },
+    {
+      "name": "sackmeister.de",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "Eric Fehling",
+      "relation": "target"
+    },
+    {
+      "name": "Bondar Mob",
+      "relation": "target"
+    },
+    {
+      "name": "Bonitet Ltd",
+      "relation": "target"
+    },
+    {
+      "name": "Adv Rsnord",
+      "relation": "target"
+    },
+    {
+      "name": "A Bindhammer",
+      "relation": "target"
+    },
+    {
+      "name": "A Ehrnhofer",
+      "relation": "target"
+    },
+    {
+      "name": "A Bernsteiner",
+      "relation": "target"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "t-online.de",
+      "relation": "target"
+    },
+    {
+      "name": "ukr.net",
+      "relation": "target"
+    },
+    {
+      "name": "westafrance.com",
+      "relation": "target"
+    },
+    {
+      "name": "aon.at",
+      "relation": "target"
+    },
+    {
+      "name": "ssttekstil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ssttekstil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "academiadutygroup.com.br",
+      "relation": "attacker"
+    },
+    {
+      "name": "sackmeister.de",
+      "relation": "attacker"
+    }
+  ]
+}

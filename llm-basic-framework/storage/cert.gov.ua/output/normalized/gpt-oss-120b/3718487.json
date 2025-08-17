@@ -1,0 +1,225 @@
+{
+  "attackTargets": [
+    "Ukrinform"
+  ],
+  "hackerGroups": [
+    "UAC-0082 (Sandworm)",
+    "Sandworm"
+  ],
+  "applications": [
+    "CaddyWiper",
+    "ZeroWipe",
+    "SDelete",
+    "AwfulShred",
+    "BidSwipe",
+    "news.bat",
+    "PowerShell (encoded)",
+    "certutil",
+    "copy",
+    "dnscmd",
+    "hostname",
+    "icacls.exe",
+    "takeown",
+    "Windows_Security_Update_HxW",
+    "Windows_Security_Update_gMj",
+    "Windows_Security_Update_xBQ"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    },
+    {
+      "name": "Germany",
+      "relation": "neutral",
+      "code": "DE"
+    },
+    {
+      "name": "Netherlands",
+      "relation": "neutral",
+      "code": "NL"
+    },
+    {
+      "name": "France",
+      "relation": "neutral",
+      "code": "FR"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrinform",
+      "relation": "target"
+    },
+    {
+      "name": "CyberArmyofRussia_Reborn",
+      "relation": "neutral"
+    },
+    {
+      "name": "digitalcourage.de",
+      "relation": "neutral"
+    },
+    {
+      "name": "besthosting.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "stark-industries.solutions",
+      "relation": "neutral"
+    },
+    {
+      "name": "milkywan.fr",
+      "relation": "neutral"
+    },
+    {
+      "name": "torguard.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "secureconnect.me",
+      "relation": "neutral"
+    },
+    {
+      "name": "as210558.net",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "digitalcourage.de",
+      "relation": "neutral"
+    },
+    {
+      "name": "as210558.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "stark-industries.solutions",
+      "relation": "neutral"
+    },
+    {
+      "name": "milkywan.fr",
+      "relation": "neutral"
+    },
+    {
+      "name": "besthosting.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "torguard.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "secureconnect.me",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "27.01.2023",
+    "id": 3718487,
+    "title": "Кібератака Sandworm на інформаційно-комунікаційну систему Укрінформ (CERT-UA#5850)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrinform",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "Sandworm (UAC-0082)",
+    "Sandworm (UAC-0082)"
+  ],
+  "normalizedApplications": [
+    "CaddyWiper",
+    "ZeroWipe",
+    "SDelete",
+    "AwfulShred",
+    "BidSwipe",
+    "news.bat",
+    "PowerShell (encoded)",
+    "certutil",
+    "copy",
+    "dnscmd",
+    "hostname",
+    "icacls.exe",
+    "takeown",
+    "Windows Security Update",
+    "Windows Security Update",
+    "Windows Security Update"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ukrinform",
+      "relation": "target"
+    },
+    {
+      "name": "CyberArmyofRussia_Reborn",
+      "relation": "neutral"
+    },
+    {
+      "name": "digitalcourage.de",
+      "relation": "neutral"
+    },
+    {
+      "name": "besthosting.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "Stark Industries Solutions",
+      "relation": "neutral"
+    },
+    {
+      "name": "milkywan.fr",
+      "relation": "neutral"
+    },
+    {
+      "name": "torguard.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "secureconnect.me",
+      "relation": "neutral"
+    },
+    {
+      "name": "as210558.net",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "digitalcourage.de",
+      "relation": "neutral"
+    },
+    {
+      "name": "as210558.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "stark-industries.solutions",
+      "relation": "neutral"
+    },
+    {
+      "name": "milkywan.fr",
+      "relation": "neutral"
+    },
+    {
+      "name": "besthosting.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "torguard.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "secureconnect.me",
+      "relation": "neutral"
+    }
+  ]
+}

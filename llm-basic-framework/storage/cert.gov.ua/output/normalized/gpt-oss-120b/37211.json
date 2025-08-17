@@ -1,0 +1,58 @@
+{
+  "attackTargets": [
+    "websites of the public sector in Ukraine",
+    "banking sector websites in Ukraine",
+    "defense sector websites in Ukraine",
+    "web resources located in the .ua zone"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "raidforums.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "21.02.2022",
+    "id": 37211,
+    "title": "Попередження щодо можливих кібератак"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Public Sector Websites",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Banking Sector Websites",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Defense Sector Websites",
+      "embedding": []
+    },
+    {
+      "name": ".ua Zone Web Resources",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [],
+  "normalizedOrganizations": [],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "raidforums.com",
+      "relation": "attacker"
+    }
+  ]
+}

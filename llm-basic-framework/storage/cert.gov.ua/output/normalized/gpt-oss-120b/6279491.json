@@ -1,0 +1,69 @@
+{
+  "attackTargets": [
+    "Ukrainian government officials",
+    "Ukrainian military personnel",
+    "Ukrainian defense industry representatives"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "DarkCrystal RAT",
+    "Signal"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian defense enterprises",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "188.245.50.32",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "04.06.2024",
+    "id": 6279561,
+    "title": "UAC-0200: Цільові кібератаки з використанням DarkCrystal RAT та Signal як засобу довіреного розповсюдження (CERT-UA#9918)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Government Officials",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Armed Forces",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Defense Industry Representatives",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "DarkCrystal RAT",
+    "Signal"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ukrainian Defense Enterprises",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "188.245.50.32",
+      "relation": "attacker"
+    }
+  ]
+}

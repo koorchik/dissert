@@ -1,0 +1,165 @@
+{
+  "attackTargets": [
+    "Ukrainian judicial institutions",
+    "Ukrainian notary offices",
+    "Ministry of Justice of Ukraine"
+  ],
+  "hackerGroups": [
+    "BlackNotary"
+  ],
+  "applications": [
+    "ScrubCrypt",
+    "AsyncRAT",
+    "PowerShell"
+  ],
+  "countries": [
+    {
+      "name": "Switzerland",
+      "relation": "attacker",
+      "code": "CH"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "minijusfil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "filetransrediremin.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barnsertr.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "privatelayer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "Namecheap.com",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "riuscos88@gmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "amandarecz75@gmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barno2715@gmail.com",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "minijusfil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "filetransrediremin.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barnsertr.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "privatelayer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "namecheap.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "28.08.2023",
+    "id": 5628441,
+    "title": "UAC-0173: органи юстиції та нотаріат \"під прицілом\" (CERT-UA#7372)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Judicial Institutions",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Notary Offices",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Ministry of Justice",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "BlackNotary"
+  ],
+  "normalizedApplications": [
+    "ScrubCrypt",
+    "AsyncRAT",
+    "PowerShell"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "minijusfil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "filetransrediremin.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barnsertr.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "privatelayer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "Namecheap",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "riuscos88@gmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "amandarecz75@gmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barno2715@gmail.com",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "minijusfil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "filetransrediremin.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barnsertr.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "privatelayer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "namecheap.com",
+      "relation": "neutral"
+    }
+  ]
+}

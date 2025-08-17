@@ -1,0 +1,30 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "MEDUZASTEALER",
+    "PowerShell",
+    "Microsoft Defender",
+    "Telegram"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "16.10.2024",
+    "id": 6281018,
+    "title": "Розповсюдження MEDUZASTEALER засобами Telegram, начебто, від імені технічної підтримки Резерв+ (CERT-UA#11603)"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "MEDUZASTEALER",
+    "PowerShell",
+    "Microsoft Defender",
+    "Telegram"
+  ],
+  "normalizedOrganizations": [],
+  "normalizedIndividuals": [],
+  "normalizedDomains": []
+}

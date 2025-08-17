@@ -1,0 +1,46 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "SRP",
+    "AppLocker",
+    "UAC-0010",
+    "Yara",
+    "MISP",
+    "Mikrotik",
+    "pfSense",
+    "VPN",
+    "SIEM"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "neutral",
+      "code": "UA"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "28.02.2024",
+    "id": 6277896,
+    "title": "АНОНС: Практичний семінар для кіберфахівців"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "SRP",
+    "AppLocker",
+    "UAC-0010",
+    "Yara",
+    "MISP",
+    "Mikrotik",
+    "pfSense",
+    "VPN",
+    "SIEM"
+  ],
+  "normalizedOrganizations": [],
+  "normalizedIndividuals": [],
+  "normalizedDomains": []
+}

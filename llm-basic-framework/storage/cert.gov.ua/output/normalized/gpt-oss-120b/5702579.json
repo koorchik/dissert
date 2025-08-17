@@ -1,0 +1,246 @@
+{
+  "attackTargets": [
+    "ЕОМ бухгалтерів",
+    "банківські установи",
+    "системи дистанційного банківського обслуговування"
+  ],
+  "hackerGroups": [
+    "UAC-0006"
+  ],
+  "applications": [
+    "SmokeLoader",
+    "wscript.exe",
+    "cscript.exe",
+    "powershell.exe",
+    "mshta.exe"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Росія",
+      "relation": "attacker",
+      "code": "RU"
+    },
+    {
+      "name": "Білорусь",
+      "relation": "attacker",
+      "code": "BY"
+    },
+    {
+      "name": "Іран",
+      "relation": "attacker",
+      "code": "IR"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "ООО \"Трейдер софт\"",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "simplecloud.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "diplombar.by",
+      "relation": "attacker"
+    },
+    {
+      "name": "dublebomber.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "iloveua.ir",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipoluchayteudovolstvie.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "kozachok777.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "moyabelorussiya.by",
+      "relation": "attacker"
+    },
+    {
+      "name": "nomnetozhedenyuzhkanuzhna.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "popuasyfromua.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "propertyiran.ir",
+      "relation": "attacker"
+    },
+    {
+      "name": "propertyminsk.by",
+      "relation": "attacker"
+    },
+    {
+      "name": "prostosmeritesya.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "restmantra.by",
+      "relation": "attacker"
+    },
+    {
+      "name": "sakentoshi.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "specnaznachenie.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "super777bomba.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tvoyaradostetoya.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "yavasponimayu.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zakrylki809.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zasadacafe.by",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "06.10.2023",
+    "id": 6032734,
+    "title": "Нарощування темпів UAC-0006, мільйонні збитки (CERT-UA#7648, CERT-UA#7688, CERT-UA#7699, CERT-UA#7705)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Accountants' Workstations",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Banking Institutions",
+      "embedding": []
+    },
+    {
+      "name": "Remote Banking Service Systems",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UAC-0006"
+  ],
+  "normalizedApplications": [
+    "SmokeLoader",
+    "wscript.exe",
+    "cscript.exe",
+    "powershell.exe",
+    "mshta.exe"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "OOO \"Trader Soft\"",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "simplecloud.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "diplombar.by",
+      "relation": "attacker"
+    },
+    {
+      "name": "dublebomber.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "iloveua.ir",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipoluchayteudovolstvie.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "kozachok777.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "moyabelorussiya.by",
+      "relation": "attacker"
+    },
+    {
+      "name": "nomnetozhedenyuzhkanuzhna.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "popuasyfromua.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "propertyiran.ir",
+      "relation": "attacker"
+    },
+    {
+      "name": "propertyminsk.by",
+      "relation": "attacker"
+    },
+    {
+      "name": "prostosmeritesya.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "restmantra.by",
+      "relation": "attacker"
+    },
+    {
+      "name": "sakentoshi.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "specnaznachenie.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "super777bomba.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tvoyaradostetoya.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "yavasponimayu.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zakrylki809.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zasadacafe.by",
+      "relation": "attacker"
+    }
+  ]
+}

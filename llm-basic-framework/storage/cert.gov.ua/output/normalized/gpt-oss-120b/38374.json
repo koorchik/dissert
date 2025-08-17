@@ -1,0 +1,55 @@
+{
+  "attackTargets": [
+    "Ukrainian government agencies"
+  ],
+  "hackerGroups": [
+    "UAC-0056"
+  ],
+  "applications": [
+    "GoDownloader",
+    "GraphSteel",
+    "GrimPlant"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian government agencies",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "28.03.2022",
+    "id": 38374,
+    "title": "Кібератака групи UAC-0056 на державні органи України з використанням шкідливих програм GraphSteel та GrimPlant (CERT-UA#4293)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Government Agencies",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UAC-0056"
+  ],
+  "normalizedApplications": [
+    "GoDownloader",
+    "GraphSteel",
+    "GrimPlant"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ukrainian Government Agencies",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": []
+}

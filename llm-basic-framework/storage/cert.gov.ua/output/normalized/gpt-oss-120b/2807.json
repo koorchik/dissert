@@ -1,0 +1,76 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "spisok_24.08.2018.com",
+    "Icloud.exe",
+    "Iclouding.exe",
+    "IcloudSecurity.lnk",
+    "ipad.system",
+    "timeout.exe",
+    "cmd.exe",
+    "icloud.cmd",
+    "iclouds.cmd"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [
+    {
+      "name": "porohman@i.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "porohwoman@i.ua",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "single-office.ddns.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "i.ua",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "03.09.2018",
+    "id": 2807,
+    "title": "Масова розсилка шпигунського програмного забезпечення типу Pterodo"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "spisok_24.08.2018.com",
+    "iCloud.exe",
+    "iClouding.exe",
+    "iCloudSecurity.lnk",
+    "ipad.system",
+    "timeout.exe",
+    "cmd.exe",
+    "icloud.cmd",
+    "iclouds.cmd"
+  ],
+  "normalizedOrganizations": [],
+  "normalizedIndividuals": [
+    {
+      "name": "porohman@i.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "porohwoman@i.ua",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "ddns.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "i.ua",
+      "relation": "attacker"
+    }
+  ]
+}

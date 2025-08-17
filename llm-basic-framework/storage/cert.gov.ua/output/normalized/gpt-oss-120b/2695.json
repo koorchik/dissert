@@ -1,0 +1,83 @@
+{
+  "attackTargets": [
+    "OptiData"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Microsoft Office",
+    "Windows"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "OptiData",
+      "relation": "target"
+    },
+    {
+      "name": "SOCIS",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "optidata.com.ua",
+      "relation": "target"
+    },
+    {
+      "name": "facebook.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "support.office.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "30.03.2019",
+    "id": 2693,
+    "title": "Фішингова розсилка на тему виборів"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "OptiData",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Microsoft Office",
+    "Windows"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "OptiData",
+      "relation": "target"
+    },
+    {
+      "name": "SOCIS",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "optidata.com.ua",
+      "relation": "target"
+    },
+    {
+      "name": "facebook.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "office.com",
+      "relation": "neutral"
+    }
+  ]
+}
