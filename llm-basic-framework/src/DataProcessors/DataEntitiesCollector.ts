@@ -117,7 +117,6 @@ export class DataEntitiesCollector {
       1. Find the same entities or entities that can be considered the same.
       2. Unify and merge such entities into single entity.
       3. Create mappings between original name as key and new name as value
-      3. Output in English
 
       Return the final data in exact JSON format specified below and nothing else: 
       {
@@ -142,7 +141,7 @@ export class DataEntitiesCollector {
         const unifiedList = JSON.parse(repaired) as Record<string, string>;
 
         if (!unifiedList) return {};
-        
+
         // Validate and add missing items
         const missingItems: string[] = [];
         for (const item of uniqueInputItems) {
@@ -151,19 +150,32 @@ export class DataEntitiesCollector {
             unifiedList[item] = item; // Identity mapping for missing items
           }
         }
-        
+
         if (missingItems.length > 0) {
-          console.warn(`⚠️  Missing ${missingItems.length} items in LLM response for ${entityName}. Added with identity mapping.`);
-          console.warn(`   Missing items: ${missingItems.slice(0, 5).join(', ')}${missingItems.length > 5 ? '...' : ''}`);
+          console.warn(
+            `⚠️  Missing ${missingItems.length} items in LLM response for ${entityName}. Added with identity mapping.`
+          );
+          console.warn(
+            `   Missing items: ${missingItems.slice(0, 5).join(", ")}${
+              missingItems.length > 5 ? "..." : ""
+            }`
+          );
         }
-        
+
         // Calculate and print statistics
         const uniqueOutputValues = new Set(Object.values(unifiedList));
         console.log(`✅ ${entityName} normalization complete:`);
         console.log(`   Input: ${uniqueInputItems.length} unique entities`);
-        console.log(`   Output: ${uniqueOutputValues.size} unique normalized entities`);
-        console.log(`   Reduction: ${((1 - uniqueOutputValues.size / uniqueInputItems.length) * 100).toFixed(1)}%`);
-        
+        console.log(
+          `   Output: ${uniqueOutputValues.size} unique normalized entities`
+        );
+        console.log(
+          `   Reduction: ${(
+            (1 - uniqueOutputValues.size / uniqueInputItems.length) *
+            100
+          ).toFixed(1)}%`
+        );
+
         return unifiedList;
       } catch (error) {
         lastError = error as Error;
@@ -187,7 +199,7 @@ export class DataEntitiesCollector {
       `All retry attempts failed for ${entityName}. Returning identity mappings.`
     );
     console.error(`Last error:`, lastError);
-    
+
     // Return identity mappings if all attempts fail
     const identityMappings: Record<string, string> = {};
     for (const item of uniqueInputItems) {

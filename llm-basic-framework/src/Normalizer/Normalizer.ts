@@ -1,9 +1,9 @@
-import type { LlmClient } from '../LlmClient/LlmClient';
-import { getCountryCode, countries } from 'countries-list'
-import { extractAndParseJson } from '../utils/validationUtils';
+import type { LlmClient } from "../LlmClient/LlmClient";
+import { getCountryCode, countries } from "countries-list";
+import { extractAndParseJson } from "../utils/validationUtils";
 
 interface NormalizerParams {
-  llmClient: LlmClient
+  llmClient: LlmClient;
 }
 
 export class Normalizer {
@@ -16,7 +16,7 @@ export class Normalizer {
   async normalizeAttackTarget(target: string) {
     const instructions = `
       You are text normalization expert. Your goal is to normalize names, so it can be used to for clustering later.
-      As input you get a text and should return only normiled version of it in English.
+      As input you get a text and should return only normalized version of it in English.
       Please return the extracted information in the exact JSON format specified below and nothing else: 
       { "normalized": "lower case some normalized text" }
 
@@ -33,9 +33,7 @@ export class Normalizer {
 
     const instructions = `
       You should normalize country name to country code from the following list:
-      ${
-        Object.keys(countries).join(', ')
-      }
+      ${Object.keys(countries).join(", ")}
       Please return the extracted information in the exact JSON format specified below and nothing else: 
       { "normalized": "CODE" }
     `;
