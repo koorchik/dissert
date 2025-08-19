@@ -22,15 +22,15 @@ interface Entities {
 }
 
 export class DataNormalizer {
-  #inputDir: string;
-  #outputDir: string;
+  public readonly inputDir: string;
+  public readonly outputDir: string;
   #countryNameNormalizer: CountryNameNormalizer;
   #embeddingsClient: EmbeddingsClient;
   #entitesFile: string;
 
   constructor(params: Params) {
-    this.#inputDir = params.inputDir;
-    this.#outputDir = params.outputDir;
+    this.inputDir = params.inputDir;
+    this.outputDir = params.outputDir;
     this.#countryNameNormalizer = params.countryNameNormalizer;
     this.#embeddingsClient = params.embeddingsClient;
     this.#entitesFile = params.entitiesFile;
@@ -42,14 +42,14 @@ export class DataNormalizer {
 
     console.log(entities);
 
-    if (!existsSync(this.#outputDir)) {
-      await fs.mkdir(this.#outputDir, { recursive: true });
+    if (!existsSync(this.outputDir)) {
+      await fs.mkdir(this.outputDir, { recursive: true });
     }
 
-    const files = await fs.readdir(this.#inputDir);
+    const files = await fs.readdir(this.inputDir);
     for (const file of files) {
-      console.log(`IN FILE=${this.#inputDir}/${file}`);
-      const content = await fs.readFile(`${this.#inputDir}/${file}`);
+      console.log(`IN FILE=${this.inputDir}/${file}`);
+      const content = await fs.readFile(`${this.inputDir}/${file}`);
       const data = JSON.parse(content.toString()) as NormalizedData;
       const response = await this.#normalizeAndEnrich(data, entities);
       await this.#saveResponse(file, JSON.stringify(response, undefined, 2));
@@ -203,7 +203,7 @@ export class DataNormalizer {
   }
 
   async #saveResponse(originalFile: string, content: string) {
-    const rawResultFile = `${this.#outputDir}/${originalFile}`;
+    const rawResultFile = `${this.outputDir}/${originalFile}`;
     console.log(`OUT FILE=${rawResultFile}`);
     await fs.writeFile(rawResultFile, content);
   }

@@ -18,23 +18,23 @@ interface Params {
 }
 
 export class DataEntitiesCollector {
-  #inputDir: string;
-  #outputDir: string;
+  public readonly inputDir: string;
+  public readonly outputDir: string;
   #llmClient: LlmClient;
   #maxRetries: number;
   #retryDelay: number;
 
   constructor(params: Params) {
-    this.#inputDir = params.inputDir;
-    this.#outputDir = params.outputDir;
+    this.inputDir = params.inputDir;
+    this.outputDir = params.outputDir;
     this.#llmClient = params.llmClient;
     this.#maxRetries = params.maxRetries ?? 3;
     this.#retryDelay = params.retryDelay ?? 2000;
   }
 
   async run() {
-    if (!existsSync(this.#outputDir)) {
-      await fs.mkdir(this.#outputDir, { recursive: true });
+    if (!existsSync(this.outputDir)) {
+      await fs.mkdir(this.outputDir, { recursive: true });
     }
 
     const entities = await this.#gatherEntities();
@@ -74,7 +74,7 @@ export class DataEntitiesCollector {
   }
 
   async #gatherEntities() {
-    const files = await fs.readdir(this.#inputDir);
+    const files = await fs.readdir(this.inputDir);
 
     const entities = {
       attackTargets: [] as string[],
@@ -86,7 +86,7 @@ export class DataEntitiesCollector {
     };
 
     for (const file of files) {
-      const data = await fs.readFile(`${this.#inputDir}/${file}`);
+      const data = await fs.readFile(`${this.inputDir}/${file}`);
       const content = JSON.parse(data.toString()) as NormalizedData;
 
       entities.attackTargets.push(...content.attackTargets);
@@ -209,7 +209,7 @@ export class DataEntitiesCollector {
   }
 
   async #readExistingEntities(): Promise<any> {
-    const file = `${this.#outputDir}/entities.json`;
+    const file = `${this.outputDir}/entities.json`;
 
     if (!existsSync(file)) {
       return {
@@ -239,7 +239,7 @@ export class DataEntitiesCollector {
   }
 
   async #saveResponse(newData: any) {
-    const file = `${this.#outputDir}/entities.json`;
+    const file = `${this.outputDir}/entities.json`;
 
     const existingData = await this.#readExistingEntities();
 

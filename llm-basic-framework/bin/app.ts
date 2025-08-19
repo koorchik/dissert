@@ -5,6 +5,7 @@ import { DataExtractor } from "../src/DataProcessors/DataExtractor";
 import { DataNormalizer } from "../src/DataProcessors/DataNormalizer";
 import { DataAnalyzer } from "../src/DataProcessors/DataAnalyzer";
 import { DataEntitiesCollector } from "../src/DataProcessors/DataEntitiesCollector";
+import { DataGraphBuilder } from "../src/DataProcessors/DataGraphBuilder";
 import { LlmClient } from "../src/LlmClient/LlmClient";
 import { LlmClientBackendOpenAi } from "../src/LlmClient/LlmClientBackendOpenAi";
 import { LlmClientBackendOllama } from "../src/LlmClient/LlmClientBackendOllama";
@@ -24,12 +25,12 @@ async function main() {
   const llmClient = makeLlmClient();
   const embeddingsClient = makeEmbeddingsClient();
 
+  const modelDir = llmClient.modelName.replace(/:/g, "-");
+  const storageDir = "./storage/cert.gov.ua/output";
+
   const dataExtractor = new DataExtractor({
     inputDir: "../cert.gov.ua-fetcher/data",
-    outputDir: `./storage/cert.gov.ua/output/raw/${llmClient.modelName.replace(
-      /:/g,
-      "-"
-    )}`,
+    outputDir: `${storageDir}/raw/${modelDir}`,
     preprocessor: (content: string) => {
       const data = JSON.parse(content);
 
@@ -46,43 +47,27 @@ async function main() {
   });
 
   const dataEntitiesCollector = new DataEntitiesCollector({
-    inputDir: `./storage/cert.gov.ua/output/raw/${llmClient.modelName.replace(
-      /:/g,
-      "-"
-    )}`,
-    outputDir: `./storage/cert.gov.ua/output/entities/${llmClient.modelName.replace(
-      /:/g,
-      "-"
-    )}`,
+    inputDir: dataExtractor.outputDir,
+    outputDir: `${storageDir}/entities/${modelDir}`,
     llmClient
   });
 
   const dataNormalizer = new DataNormalizer({
-    inputDir: `./storage/cert.gov.ua/output/raw/${llmClient.modelName.replace(
-      /:/g,
-      "-"
-    )}`,
-    outputDir: `./storage/cert.gov.ua/output/normalized/${llmClient.modelName.replace(
-      /:/g,
-      "-"
-    )}`,
+    inputDir: dataExtractor.outputDir,
+    outputDir: `${storageDir}/normalized/${modelDir}`,
+    entitiesFile: `${dataEntitiesCollector.outputDir}/entities.json`,
     countryNameNormalizer: new CountryNameNormalizer({ llmClient }),
-    entitiesFile: `./storage/cert.gov.ua/output/entities/${llmClient.modelName.replace(
-      /:/g,
-      "-"
-    )}/entities.json`,
     embeddingsClient
   });
 
   const dataAnalyzer = new DataAnalyzer({
-    inputDir: `./storage/output/normalized/${llmClient.modelName.replace(
-      /:/g,
-      "-"
-    )}`,
-    outputDir: `./storage/output/analyzed/${llmClient.modelName.replace(
-      /:/g,
-      "-"
-    )}`
+    inputDir: dataNormalizer.outputDir,
+    outputDir: `${storageDir}/analyzed/${modelDir}`
+  });
+
+  const dataGraphBuilder = new DataGraphBuilder({
+    inputDir: dataNormalizer.outputDir,
+    outputDir: `${storageDir}/analyzed/${modelDir}`
   });
 
   const flowManager = new FlowManager({
@@ -102,6 +87,10 @@ async function main() {
       {
         name: "dataAnalyzer",
         run: async () => dataAnalyzer.run()
+      },
+      {
+        name: "dataGraphBuilder",
+        run: async () => dataGraphBuilder.run()
       }
       // {
       //   name: 'normalizer',

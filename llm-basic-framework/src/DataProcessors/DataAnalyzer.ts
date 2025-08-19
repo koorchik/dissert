@@ -1,8 +1,8 @@
-import fs from 'fs/promises';
-import { existsSync } from 'fs';
-import { NormalizedData } from '../utils/validationUtils';
+import fs from "fs/promises";
+import { existsSync } from "fs";
+import { NormalizedData } from "../utils/validationUtils";
 
-import TSNE from 'tsne-js';
+import TSNE from "tsne-js";
 
 interface Params {
   inputDir: string;
@@ -10,24 +10,24 @@ interface Params {
 }
 
 export class DataAnalyzer {
-  #inputDir: string;
-  #outputDir: string;
+  public readonly inputDir: string;
+  public readonly outputDir: string;
 
   constructor(params: Params) {
-    this.#inputDir = params.inputDir;
-    this.#outputDir = params.outputDir;
+    this.inputDir = params.inputDir;
+    this.outputDir = params.outputDir;
   }
 
   async run() {
-    if (!existsSync(this.#outputDir)) {
-      await fs.mkdir(this.#outputDir, { recursive: true });
+    if (!existsSync(this.outputDir)) {
+      await fs.mkdir(this.outputDir, { recursive: true });
     }
 
-    const files = await fs.readdir(this.#inputDir);
+    const files = await fs.readdir(this.inputDir);
     const allData = [];
     for (const file of files) {
       console.log(`FILE=${file}`);
-      const content = await fs.readFile(`${this.#inputDir}/${file}`);
+      const content = await fs.readFile(`${this.inputDir}/${file}`);
       const data = JSON.parse(content.toString()) as NormalizedData;
       allData.push(data);
     }
@@ -44,9 +44,9 @@ export class DataAnalyzer {
 
   #countriesStats(data: NormalizedData[]) {
     const countriesStats: {
-      attacker: Record<string, number>,
-      target: Record<string, number>,
-      neutral: Record<string, number>
+      attacker: Record<string, number>;
+      target: Record<string, number>;
+      neutral: Record<string, number>;
     } = {
       attacker: {},
       target: {},
@@ -57,12 +57,15 @@ export class DataAnalyzer {
       if (!item.countries) continue;
       for (const country of item.countries) {
         if (!country.code) continue;
-        if (country.relation === 'attacker') {
-          countriesStats.attacker[country.code] = (countriesStats.attacker[country.code] || 0) + 1;
-        } else if (country.relation === 'target') {
-          countriesStats.target[country.code] = (countriesStats.target[country.code] || 0) + 1;
+        if (country.relation === "attacker") {
+          countriesStats.attacker[country.code] =
+            (countriesStats.attacker[country.code] || 0) + 1;
+        } else if (country.relation === "target") {
+          countriesStats.target[country.code] =
+            (countriesStats.target[country.code] || 0) + 1;
         } else {
-          countriesStats.neutral[country.code] = (countriesStats.neutral[country.code] || 0) + 1;
+          countriesStats.neutral[country.code] =
+            (countriesStats.neutral[country.code] || 0) + 1;
         }
       }
     }
@@ -71,7 +74,7 @@ export class DataAnalyzer {
   }
 
   async #computeTsne(records: NormalizedData[]) {
-    const data = records.flatMap(item => item.enrichedAttackTargets);
+    const data = records.flatMap((item) => item.enrichedAttackTargets);
     const vectors = data.map((d) => d!.embedding);
 
     const tsne = new TSNE({
@@ -80,13 +83,13 @@ export class DataAnalyzer {
       earlyExaggeration: 4.0,
       learningRate: 100,
       nIter: 500,
-      metric: 'euclidean',
+      metric: "euclidean"
     });
 
     // Initialize with your embedding vectors (dense format)
     tsne.init({
       data: vectors,
-      type: 'dense',
+      type: "dense"
     });
 
     // Run the optimization
@@ -97,7 +100,7 @@ export class DataAnalyzer {
     const tsneData = data.map((d, i) => ({
       name: d!.name,
       x: tsneResults[i][0],
-      y: tsneResults[i][1],
+      y: tsneResults[i][1]
     }));
 
     const htmlContent = `
@@ -190,16 +193,18 @@ export class DataAnalyzer {
     `;
 
     // 6) Write the HTML to file
-    await fs.writeFile(`${this.#outputDir}/tsne-chart.html`, htmlContent, 'utf-8');
-    console.log('t-SNE chart generated: tsne-chart.html');
+    await fs.writeFile(
+      `${this.outputDir}/tsne-chart.html`,
+      htmlContent,
+      "utf-8"
+    );
+    console.log("t-SNE chart generated: tsne-chart.html");
 
     // console.log(tsneData);
   }
 
-
-
   // async #saveResponse(originalFile: string, content: string) {
-  //   const rawResultFile = `${this.#outputDir}/${originalFile}`;
+  //   const rawResultFile = `${this.outputDir}/${originalFile}`;
   //   await fs.writeFile(rawResultFile, content);
   // }
 }

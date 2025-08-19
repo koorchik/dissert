@@ -19,8 +19,9 @@ interface Params {
 }
 
 export class DataExtractor {
-  #inputDir: string;
-  #outputDir: string;
+  public readonly inputDir: string;
+  public readonly outputDir: string;
+
   #llmClient: LlmClient;
   #preprocessor: Preprocessor = (content: string) =>
     Promise.resolve({
@@ -29,8 +30,8 @@ export class DataExtractor {
     });
 
   constructor(params: Params) {
-    this.#inputDir = params.inputDir;
-    this.#outputDir = params.outputDir;
+    this.inputDir = params.inputDir;
+    this.outputDir = params.outputDir;
     this.#llmClient = params.llmClient;
 
     if (params.preprocessor) {
@@ -39,19 +40,19 @@ export class DataExtractor {
   }
 
   async run() {
-    if (!existsSync(this.#outputDir)) {
-      await fs.mkdir(this.#outputDir, { recursive: true });
+    if (!existsSync(this.outputDir)) {
+      await fs.mkdir(this.outputDir, { recursive: true });
     }
 
-    const files = await fs.readdir(this.#inputDir);
+    const files = await fs.readdir(this.inputDir);
 
     for (const file of files) {
       // if (file !== "6281123.json") {
       //   continue;
       // }
 
-      console.log(`IN FILE=${this.#inputDir}/${file}`);
-      const content = await fs.readFile(`${this.#inputDir}/${file}`);
+      console.log(`IN FILE=${this.inputDir}/${file}`);
+      const content = await fs.readFile(`${this.inputDir}/${file}`);
       const data = await this.#preprocessor(content.toString());
       const response = await this.#sendToLlm(data.text);
 
@@ -139,7 +140,7 @@ export class DataExtractor {
   }
 
   async #saveResponse(originalFile: string, text: string) {
-    const rawResultFile = `${this.#outputDir}/${originalFile}`;
+    const rawResultFile = `${this.outputDir}/${originalFile}`;
     console.log(`OUT FILE=${rawResultFile}`);
     await fs.writeFile(rawResultFile, text);
   }
