@@ -104,7 +104,7 @@ async function main() {
     ]
   });
 
-  await flowManager.runStep("dataNormalizer");
+  await flowManager.runStep("dataGraphBuilder");
   //  flowManager.runAllSteps();
 }
 
