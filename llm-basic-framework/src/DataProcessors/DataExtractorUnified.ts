@@ -4,8 +4,8 @@ import type { LlmClient } from "../LlmClient/LlmClient";
 import {
   extractAndParseJson,
   normalizeRawData,
-  NormalizedData
-} from "../utils/validationUtils";
+  UnifiedData
+} from "../utils/validationUtilsUnified";
 
 type Preprocessor = (
   content: string
@@ -47,9 +47,9 @@ export class DataExtractorUnified {
     const files = await fs.readdir(this.inputDir);
 
     for (const file of files) {
-      // if (file !== "6281123.json") {
-      //   continue;
-      // }
+      if (file !== "6280129.json") {
+        continue;
+      }
 
       console.log(`IN FILE=${this.inputDir}/${file}`);
       const content = await fs.readFile(`${this.inputDir}/${file}`);
@@ -71,41 +71,76 @@ export class DataExtractorUnified {
     }
   }
 
-  async #sendToLlm(text: string): Promise<NormalizedData | {}> {
-    const instructions = `### ROLE ###
-You are a precision-driven data extraction engine. Your function is to act as an expert specializing in identifying and extracting structured information about cyber incidents from unstructured text.
+  async #sendToLlm(text: string): Promise<UnifiedData | {}> {
+const instructions = `### ROLE ###
+You are a specialized AI model functioning as a high-precision data extraction engine. Your purpose is to parse unstructured text about cyber incidents and convert it into a structured JSON object according to the strict schema and rules provided.
 
 ### OBJECTIVE ###
-Your primary objective is to meticulously analyze the provided text, identify all relevant entities, and structure them into a single list within a strict JSON format.
+Your sole objective is to identify, classify, and structure all relevant entities from the provided text into the specified JSON format. You must adhere meticulously to all definitions, rules, and constraints.
 
-### EXTRACTION SCHEMA & DEFINITIONS ###
-You will extract all relevant entities into a single list called \`entities\`. Each item in the list will be an object with three keys: "name", "category", and "role".
+### STEP-BY-STEP WORKFLOW ###
+1.  **Full Analysis**: First, read the entire input text to comprehend the complete context of the incident.
+2.  **Entity Identification**: Scan the text and pinpoint all potential entities that match the categories defined in the schema.
+3.  **Rule-Based Classification**: For each identified entity, apply the definitions and the "RULES ENGINE" to determine its precise \`category\` and \`role\`.
+4.  **JSON Formatting**: Consolidate all validated entities into the final JSON structure, ensuring no duplicates and strict adherence to the output format.
 
-1.  **Entity Object Structure**:
-    * \`name\`: The name of the extracted entity (e.g., "Oblenergo", "Sandworm", "Cisco ASA Firewall").
-    * \`category\`: The classification of the entity. You MUST choose one of the following values: ["Organization", "HackerGroup", "Software", "Country", "Individual", "Domain", "Sector", "Government Body", "Infrastructure", "Device"].
-    * \`role\`: The role the entity played in the incident. You MUST choose one of the following values: ["Target", "Attacker", "Neutral"].
+### EXTRACTION SCHEMA ###
+You MUST extract entities into a list called \`entities\`. Each entity is an object with three required keys: "name", "category", and "role".
 
-2.  **Category Definitions**:
-    * \`Device\`: Refers to specific hardware, network appliances, or IoT/ICS equipment (e.g., "home routers", "firewalls", "PLCs", "IP cameras", "servers").
+**1. Category Definitions (MUST be one of the following):**
+  * \`Organization\`: A specific company, corporation, or non-governmental group (e.g., "Microsoft", "CyberTrace", "Red Cross").
+  * \`HackerGroup\`: A named threat actor, APT group, or cyber-criminal collective (e.g., "Sandworm", "IronNomad", "APT28").
+  * \`Software\`: Specific malware, tools, vulnerabilities, or legitimate software involved (e.g., "Industroyer2", "Log4j", "Cisco IOS").
+  * \`Country\`: A nation-state or country (e.g., "Ukraine", "USA", "China").
+  * \`Individual\`: A specific, named person (e.g., "John Doe").
+  * \`Domain\`: A fully qualified domain name (FQDN) used for C2, phishing, or other purposes (e.g., "control.ironnomad.net").
+  * \`Sector\`: A broad industry or category of victims (e.g., "Energy Sector", "Ukrainian news websites", "Financial Institutions").
+  * \`Government Body\`: A specific government agency or military branch (e.g., "FBI", "SBU", "Ministry of Defence of Ukraine").
+  * \`Infrastructure\`: Large-scale foundational systems or networks (e.g., "Ukrainian power grid", "telecom networks").
+  * \`Device\`: Specific types of hardware or network appliances (e.g., "Cisco ASA Firewall", "home routers", "PLCs").
 
-3.  **Role Definitions**:
-    * \`Target\`: The entity is a victim or is directly associated with the victim's side.
-    * \`Attacker\`: The entity is the aggressor, a tool used by the aggressor, or a resource controlled by the aggressor.
-    * \`Neutral\`: The entity is a third-party observer, security researcher, news outlet, or any other party not directly involved in the conflict.
+**2. Role Definitions (MUST be one of the following):**
+  * \`Target\`: The ultimate entity being victimized or attacked.
+  * \`Attacker\`: The aggressor, or any software, domain, or infrastructure directly controlled by and used by the aggressor to facilitate an attack.
+  * \`Neutral\`: A third-party observer, security researcher, reporting agency, or any entity not directly involved in the conflict.
 
-### OUTPUT FORMAT ###
-You MUST return the extracted information in the exact JSON format specified below, containing a single key "entities" which holds the list of extracted entity objects.
+### RULES ENGINE ###
+Apply these rules in order. The logic here is absolute.
 
-{
-  "entities": []
-}
+* **Rule 1: Role Assignment Logic**
+  * An entity's role is determined by its function in the incident:
+    * **Condition A: Assign "Attacker" Role** if the entity meets **any** of these criteria:
+      * It is explicitly identified as the aggressor (e.g., a HackerGroup).
+      * It is a resource directly controlled by the aggressor, such as:
+        * **A.1: Malware/Tools:** Software used to perform the attack.
+        * **A.2: C2 Infrastructure:** Domains or IPs used for command and control.
+        * **A.3: Compromised Infrastructure:** Devices or servers that were taken over and then used to launch further attacks (e.g., botnets). This is the "Compromised Infrastructure Rule".
+    * **Condition B: Assign "Target" Role** if the entity is the final recipient of the malicious activity and does not meet any criteria under Condition A.
+    * **Condition C: Assign "Neutral" Role** if the entity is an observer, reporter, or researcher not involved in the conflict.
 
-### EXAMPLE ###
-**Input Text Example:**
-"The threat group IronNomad, believed to be operating out of China, is exploiting a vulnerability in 'SmartHome V2' home routers. According to a report by the US-based security firm CyberTrace, thousands of these devices have been compromised. The attacker uses the compromised routers, controlled via the C2 domain control.ironnomad.net, to launch DDoS attacks against various Ukrainian news websites."
+* **Rule 2: Implied Country Extraction**
+  * **IF** you extract an entity with the category \`Government Body\`,
+  * **AND** the name of that entity explicitly contains the name of a country (e.g., "Ministry of Defence of **Ukraine**", "**US** Department of State"),
+  * **THEN** you MUST also generate a second, separate \`Country\` entity for that nation.
+  * This new Country entity MUST be assigned the **same role** as the Government Body it was derived from.
 
-**Correct JSON Output for Example:**
+* **Rule 3: Strict Adherence** (Previously Rule 2)
+  * The values for \`category\` and \`role\` MUST be chosen exclusively from the definition lists provided above. Do not invent or modify values.
+
+* **Rule 4: Deduplication** (Previously Rule 3)
+  * The final \`entities\` list must not contain duplicates. An entity is a duplicate if its \`name\`, \`category\`, and \`role\` are all identical.
+
+* **Rule 5: Negative Constraints (Exclusions)** (Previously Rule 4)
+  * **DO NOT** extract the following:
+    * The entity "CERT-UA". It is a reporting body to be ignored.
+    * Generic, non-specific technologies like "the internet," "computers," or "networks" unless they refer to a specific, targeted infrastructure (e.g., "the Viasat satellite network").
+
+### EXAMPLE OF EXECUTION ###
+
+**Input Text:**
+"The threat group IronNomad, believed to be operating out of China, is exploiting a vulnerability in 'SmartHome V2' home routers. According to a report by the US-based security firm CyberTrace, thousands of these devices have been compromised. The attacker uses the compromised routers, controlled via the C2 domain control.ironnomad.net, to launch DDoS attacks against various Ukrainian news websites. The incident was later analyzed by the Security Service of Ukraine (SBU)."
+
+**Correct JSON Output:**
 {
   "entities": [
     {
@@ -121,7 +156,7 @@ You MUST return the extracted information in the exact JSON format specified bel
     {
       "name": "SmartHome V2 home routers",
       "category": "Device",
-      "role": "Target"
+      "role": "Attacker"
     },
     {
       "name": "CyberTrace",
@@ -142,21 +177,30 @@ You MUST return the extracted information in the exact JSON format specified bel
       "name": "Ukrainian news websites",
       "category": "Sector",
       "role": "Target"
+    },
+    {
+      "name": "Security Service of Ukraine (SBU)",
+      "category": "Government Body",
+      "role": "Neutral"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Neutral"
     }
   ]
 }
 
-### FINAL INSTRUCTIONS ###
-- If no entities are found in the text, return an empty array \`[]\` for the \`entities\` key.
-- The output MUST be a single, valid JSON object and nothing else.
-- Do not include duplicate entities in the list. An entity is a duplicate if it has the same name, category, and role.
-- **Exclusion Rule**: Do not extract any information related to "CERT-UA". Treat it as a neutral reporting body to be ignored completely.
-- The text for you to analyze will be provided in the following user prompt. Apply all of these rules to that text.`;
+### FINAL OUTPUT FORMAT ###
+Your final output MUST be a single, raw JSON object and nothing else. Do not wrap it in markdown code blocks (\`\`\`json). Do not add any conversational text, explanations, or apologies before or after the JSON object. If no entities are found, you MUST return an empty list within the JSON structure: \`{"entities": []}\`.
+
+Apply these instructions to the text provided in the user's next message.`;
 
     console.time("LLM PROCESSING");
     const result = await this.#llmClient.send(instructions, text);
     console.timeEnd("LLM PROCESSING");
     console.time("EXTRACT_JSON");
+    console.log({result});
     // TODO: check if result contains JSON
     const rawData = extractAndParseJson(result);
     console.timeEnd("EXTRACT_JSON");

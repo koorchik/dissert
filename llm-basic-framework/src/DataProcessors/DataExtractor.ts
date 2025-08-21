@@ -47,9 +47,10 @@ export class DataExtractor {
     const files = await fs.readdir(this.inputDir);
 
     for (const file of files) {
-      // if (file !== "6281123.json") {
-      //   continue;
-      // }
+      if (file !== "6280129.json") {
+        continue;
+      }
+
 
       console.log(`IN FILE=${this.inputDir}/${file}`);
       const content = await fs.readFile(`${this.inputDir}/${file}`);
@@ -125,6 +126,7 @@ export class DataExtractor {
     const result = await this.#llmClient.send(instructions, text);
     console.timeEnd("LLM PROCESSING");
     console.time("EXTRACT_JSON");
+    console.log({result});
     // TODO: check if result contains JSON
     const rawData = extractAndParseJson(result);
     console.timeEnd("EXTRACT_JSON");
