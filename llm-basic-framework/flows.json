@@ -1,0 +1,16 @@
+{
+  "// Available steps": [
+    "dataExtractor",
+    "dataEntitiesCollector", 
+    "dataNormalizer",
+    "dataAnalyzer",
+    "dataGraphBuilder"
+  ],
+  
+  "// Common flows": {
+    "extraction": ["dataExtractor"],
+    "full": ["dataExtractor", "dataEntitiesCollector", "dataNormalizer", "dataAnalyzer", "dataGraphBuilder"],
+    "normalize": ["dataEntitiesCollector", "dataNormalizer"],
+    "analyze": ["dataAnalyzer", "dataGraphBuilder"]
+  }
+}

@@ -29,8 +29,8 @@ const CONFIG = {
   format: process.env.FORMAT || 'legacy',
   
   // LLM provider: 'openai', 'ollama', 'vertexai', 'anthropic'
-  llmProvider: process.env.LLM_PROVIDER || 'ollama',
-  llmModel: process.env.LLM_MODEL || 'gpt-oss:20b',
+  llmProvider: process.env.LLM_PROVIDER || 'vertexai',
+  llmModel: process.env.LLM_MODEL || 'gemini-2.5-flash-lite',
   
   // Embeddings provider: 'openai', 'ollama', 'vertexai'
   embeddingsProvider: process.env.EMBEDDINGS_PROVIDER || 'ollama',
