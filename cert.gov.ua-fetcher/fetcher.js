@@ -35,9 +35,10 @@ async function fetchAllArticles() {
     
     while (hasMore) {
         try {
-            console.log(`Fetching page ${page}...`);
+            const listUrl = `${BASE_URL}/api/articles/all?page=${page}&lang=${LANG}`;
+            console.log(`Fetching page ${page} from: ${listUrl}`);
             const data = await fetchWithRetry(
-                `${BASE_URL}/api/articles/all?page=${page}&lang=${LANG}`,
+                listUrl,
                 {
                     headers: {
                         'accept': 'application/json, text/plain, */*',
@@ -82,11 +83,12 @@ async function fetchAllArticles() {
 }
 
 async function fetchArticleDetails(articleId) {
-    console.log(`Fetching article ${articleId}...`);
+    const articleUrl = `${BASE_URL}/api/articles/byId?id=${articleId}&lang=${LANG}`;
+    console.log(`Fetching article ${articleId} from: ${articleUrl}`);
     
     try {
         const data = await fetchWithRetry(
-            `${BASE_URL}/api/articles/byId?id=${articleId}&lang=${LANG}`,
+            articleUrl,
             {
                 headers: {
                     'accept': 'application/json, text/plain, */*',
@@ -106,10 +108,36 @@ async function fetchArticleDetails(articleId) {
     }
 }
 
-async function saveArticle(articleId, articleData) {
-    const filePath = path.join(DATA_DIR, `${articleId}.json`);
-    await fs.writeFile(filePath, JSON.stringify(articleData, null, 2));
-    console.log(`Saved article ${articleId} to ${filePath}`);
+async function saveArticle(requestedId, articleData) {
+    // Always save with the requested ID as filename to maintain consistency
+    const filePath = path.join(DATA_DIR, `${requestedId}.json`);
+    
+    // Check if file already exists
+    try {
+        await fs.access(filePath);
+        console.log(`  Article ${requestedId} already exists, skipping...`);
+        return false; // Return false to indicate no fetch was needed
+    } catch (error) {
+        // File doesn't exist, proceed with saving
+    }
+    
+    // Add metadata about the request
+    const dataToSave = {
+        ...articleData,
+        _meta: {
+            requestedId: requestedId,
+            actualId: articleData.id,
+            fetchedAt: new Date().toISOString(),
+            idMismatch: requestedId !== articleData.id
+        }
+    };
+    
+    await fs.writeFile(filePath, JSON.stringify(dataToSave, null, 2));
+    console.log(`  Saved article ${requestedId} to ${filePath}`);
+    if (requestedId !== articleData.id) {
+        console.log(`    Note: Content has ID ${articleData.id} but saved as ${requestedId}.json`);
+    }
+    return true; // Return true to indicate a new file was saved
 }
 
 async function main() {
@@ -135,10 +163,42 @@ async function main() {
             
             console.log(`\nProcessing article ${i + 1}/${articles.length} (ID: ${articleId})`);
             
+            // Check if file already exists before fetching
+            const filePath = path.join(DATA_DIR, `${articleId}.json`);
+            try {
+                await fs.access(filePath);
+                console.log(`  Article ${articleId} already exists, skipping...`);
+                successCount++;
+                continue; // Skip to next article without delay
+            } catch (error) {
+                // File doesn't exist, proceed with fetching
+            }
+            
             try {
                 const articleDetails = await fetchArticleDetails(articleId);
-                await saveArticle(articleId, articleDetails);
-                successCount++;
+                
+                // Validate the response
+                if (!articleDetails || typeof articleDetails !== 'object') {
+                    console.error(`  Invalid response for article ${articleId}`);
+                    failCount++;
+                    continue;
+                }
+                
+                // Check for ID mismatch
+                const actualArticleId = articleDetails.id;
+                if (actualArticleId && actualArticleId !== articleId) {
+                    console.log(`  WARNING: API returned different article!`);
+                    console.log(`    Requested: ${articleId}`);
+                    console.log(`    Received: ${actualArticleId}`);
+                    console.log(`    Title: ${articleDetails.title ? articleDetails.title.substring(0, 60) + '...' : 'N/A'}`);
+                }
+                
+                // Save with the requested ID to maintain consistency
+                const wasSaved = await saveArticle(articleId, articleDetails);
+                if (wasSaved) {
+                    successCount++;
+                }
+                // Only delay after an actual network fetch
                 await sleep(DELAY_MS);
             } catch (error) {
                 console.error(`Failed to process article ${articleId}:`, error.message);
