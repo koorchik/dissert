@@ -4,7 +4,7 @@ const path = require('path');
 const BASE_URL = 'https://cert.gov.ua';
 const DATA_DIR = '../storage/cert.gov.ua/fetched';
 const LANG = 'uk';
-const DELAY_MS = 500; // Delay between requests to be respectful
+const DELAY_MS = 1000; // Delay between requests to be respectful (increased to avoid rate limiting)
 
 async function fetchWithRetry(url, options = {}, maxRetries = 3) {
     for (let i = 0; i < maxRetries; i++) {
@@ -82,7 +82,7 @@ async function fetchAllArticles() {
     return allArticles;
 }
 
-async function fetchArticleDetails(articleId) {
+async function fetchArticleDetails(articleId, retryForMismatch = true) {
     const articleUrl = `${BASE_URL}/api/articles/byId?id=${articleId}&lang=${LANG}`;
     console.log(`Fetching article ${articleId} from: ${articleUrl}`);
     
@@ -95,11 +95,45 @@ async function fetchArticleDetails(articleId) {
                     'accept-language': 'uk,en-US;q=0.9,en;q=0.8',
                     'cache-control': 'no-cache',
                     'pragma': 'no-cache',
+                    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                     'Referer': `${BASE_URL}/article/${articleId}`
                 },
                 method: 'GET'
             }
         );
+        
+        // Check for ID mismatch and retry if needed
+        if (data && data.id && data.id !== articleId && retryForMismatch) {
+            console.log(`  ID mismatch detected (got ${data.id} instead of ${articleId}), waiting and retrying...`);
+            await sleep(2000); // Wait 2 seconds before retry
+            
+            // Clear any potential cache by adding timestamp
+            const retryUrl = `${articleUrl}&_t=${Date.now()}`;
+            console.log(`  Retrying with cache-bust: ${retryUrl}`);
+            
+            const retryData = await fetchWithRetry(
+                retryUrl,
+                {
+                    headers: {
+                        'accept': 'application/json, text/plain, */*',
+                        'accept-language': 'uk,en-US;q=0.9,en;q=0.8',
+                        'cache-control': 'no-cache, no-store, must-revalidate',
+                        'pragma': 'no-cache',
+                        'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                        'Referer': `${BASE_URL}/article/${articleId}`
+                    },
+                    method: 'GET'
+                }
+            );
+            
+            if (retryData && retryData.id === articleId) {
+                console.log(`  ✓ Retry successful, got correct article ${articleId}`);
+                return retryData;
+            } else if (retryData && retryData.id !== articleId) {
+                console.log(`  ✗ Retry still returned wrong article (${retryData.id}), using it anyway`);
+                return retryData;
+            }
+        }
         
         return data;
     } catch (error) {
@@ -181,13 +215,14 @@ async function main() {
                 if (!articleDetails || typeof articleDetails !== 'object') {
                     console.error(`  Invalid response for article ${articleId}`);
                     failCount++;
+                    await sleep(DELAY_MS);
                     continue;
                 }
                 
-                // Check for ID mismatch
+                // Check for persistent ID mismatch after retry
                 const actualArticleId = articleDetails.id;
                 if (actualArticleId && actualArticleId !== articleId) {
-                    console.log(`  WARNING: API returned different article!`);
+                    console.log(`  WARNING: API persistently returns different article!`);
                     console.log(`    Requested: ${articleId}`);
                     console.log(`    Received: ${actualArticleId}`);
                     console.log(`    Title: ${articleDetails.title ? articleDetails.title.substring(0, 60) + '...' : 'N/A'}`);
@@ -197,12 +232,16 @@ async function main() {
                 const wasSaved = await saveArticle(articleId, articleDetails);
                 if (wasSaved) {
                     successCount++;
+                    // Add extra delay after successful fetch to be nice to the server
+                    await sleep(DELAY_MS);
+                } else {
+                    // File already exists, no delay needed
                 }
-                // Only delay after an actual network fetch
-                await sleep(DELAY_MS);
             } catch (error) {
                 console.error(`Failed to process article ${articleId}:`, error.message);
                 failCount++;
+                // Still add delay on error to avoid hammering the server
+                await sleep(DELAY_MS);
             }
         }
         
