@@ -1,0 +1,102 @@
+{
+  "attackTargets": [
+    "high-voltage electrical substations",
+    "Windows-based electronic computing machines (user computers, servers, automated control system workstations)",
+    "Linux-based server equipment",
+    "active network equipment"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "INDUSTROYER2",
+    "CADDYWIPER",
+    "ARGUEPATCH",
+    "TAILJUMP",
+    "ORCSHRED",
+    "SOLOSHRED",
+    "AWFULSHRED",
+    "POWERGAP",
+    "IMPACKET"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian energy sector",
+      "relation": "target"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    },
+    {
+      "name": "ESET",
+      "relation": "neutral"
+    },
+    {
+      "name": "International energy sector partners",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "12.04.2022",
+    "id": 39518,
+    "title": "Кібератака групи Sandworm (UAC-0082) на об’єкти енергетики України з використанням шкідливих програм INDUSTROYER2 та CADDYWIPER (CERT-UA#4435)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "High‑Voltage Electrical Substations",
+      "embedding": []
+    },
+    {
+      "name": "Windows Computing Machines",
+      "embedding": []
+    },
+    {
+      "name": "Linux Server Equipment",
+      "embedding": []
+    },
+    {
+      "name": "Active Network Equipment",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "INDUSTROYER2",
+    "CaddyWiper",
+    "ARGUEPATCH",
+    "TAILJUMP",
+    "ORCSHRED",
+    "SOLOSHRED",
+    "AwfulShred",
+    "POWERGAP",
+    "IMPACKET"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ukrainian Energy Sector",
+      "relation": "target"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    },
+    {
+      "name": "ESET",
+      "relation": "neutral"
+    },
+    {
+      "name": "International energy sector partners",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": []
+}

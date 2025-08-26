@@ -1,0 +1,187 @@
+{
+  "attackTargets": [
+    "ТОВ Технік",
+    "Компания \"Спец Строй Монтаж\"",
+    "ООО Спецстрой",
+    "Спецбуд"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Sonoko",
+    "sysm.exe",
+    "Propagate"
+  ],
+  "countries": [
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    },
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "HP-INTERNET",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "target"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Бородавко Александр Владимирович",
+      "relation": "target"
+    },
+    {
+      "name": "Филипова Алла",
+      "relation": "target"
+    },
+    {
+      "name": "fortshritt@zp.ukrtel.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "a-prom@sm.ukrtel.net",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "target"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "15.11.2018",
+    "id": 2718,
+    "title": "Розсилка шкідливого програмного забезпечення бекдор-завантажувача Sonoko/Propagate "
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "ТОВ Технік",
+      "embedding": []
+    },
+    {
+      "name": "Компания \"Спец Строй Монтаж\"",
+      "embedding": []
+    },
+    {
+      "name": "ООО Спецстрой",
+      "embedding": []
+    },
+    {
+      "name": "Спецбуд",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Sonoko",
+    "sysm.exe",
+    "Propagate"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "HP-INTERNET",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "target"
+    },
+    {
+      "name": "VirusTotal",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "Borodavko Alexander Vladimirovich",
+      "relation": "target"
+    },
+    {
+      "name": "Filipova Alla",
+      "relation": "target"
+    },
+    {
+      "name": "fortshritt@zp.ukrtel.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "a-prom@sm.ukrtel.net",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "target"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    }
+  ]
+}

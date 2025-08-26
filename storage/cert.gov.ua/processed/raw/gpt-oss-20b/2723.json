@@ -1,0 +1,67 @@
+{
+  "attackTargets": [
+    "Linksys",
+    "MikroTik",
+    "NETGEAR",
+    "TP-Link",
+    "QNAP",
+    "Ukraine"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "VPNFilter",
+    "Tor"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Linksys",
+      "relation": "target"
+    },
+    {
+      "name": "MikroTik",
+      "relation": "target"
+    },
+    {
+      "name": "NETGEAR",
+      "relation": "target"
+    },
+    {
+      "name": "TP-Link",
+      "relation": "target"
+    },
+    {
+      "name": "QNAP",
+      "relation": "target"
+    },
+    {
+      "name": "Cisco",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "photobucket.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "toknowall.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "zuh3vcyskd4gipkm.onion",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "23.05.2018",
+    "id": 2720,
+    "title": "Деструктивне шкідливе програмне забезпечення VPNFilter"
+  }
+}

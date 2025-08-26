@@ -1,0 +1,96 @@
+{
+  "attackTargets": [
+    "Ukrainian organization"
+  ],
+  "hackerGroups": [
+    "FRwL",
+    "Z-Team"
+  ],
+  "applications": [
+    "Advanced IP Scanner",
+    "Vidar",
+    "Cobalt Strike Beacon",
+    "Rclone",
+    "Netscan",
+    "Anydesk",
+    "Ngrok",
+    "Somnia",
+    "FunnySomnia",
+    "Themida"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Ukrainian organization",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "advanced-ip-scaner.com.vuxuancuong.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "advanced-ip-scanner.website",
+      "relation": "attacker"
+    },
+    {
+      "name": "zambeziz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "vuxuancuong.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "gofile.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "store1.gofile.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "store3.gofile.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "store8.gofile.io",
+      "relation": "attacker"
+    },
+    {
+      "name": "advanced-ip-scanner.click",
+      "relation": "attacker"
+    },
+    {
+      "name": "advanced-ip-scanner.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "mega.nz",
+      "relation": "neutral"
+    },
+    {
+      "name": "onedrive.live.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "t.me",
+      "relation": "neutral"
+    },
+    {
+      "name": "mastodon.social",
+      "relation": "neutral"
+    },
+    {
+      "name": "dropbox.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "11.11.2022",
+    "id": 2724253,
+    "title": "Інформація щодо кібератак групи UAC-0118 (FRwL) з використанням шкідливої програми Somnia (CERT-UA#5185)"
+  }
+}

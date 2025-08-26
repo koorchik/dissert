@@ -1,0 +1,55 @@
+{
+  "id": 2806,
+  "title": "Розсилка шкідливого програмного забезпечення AZORult",
+  "description": "<p>CERT-UA було повідомлено про розсилку шкідливого програмного забезпечення AZORult. AZORult - викрадач паролів, має функціонал для збору збережених паролів в браузерах,&nbsp;поштових клієнтах&nbsp;(Outlook, Thunderbird), FTP клієнтах&nbsp;(Filezilla, WinSCP), інформацію про криптогаманці. Також, може збирати інформацію про файлову систему, запущені процеси, викрадати листування месенджерів та&nbsp;надає хакерам можливість завантаження та віддаленого запуску файлів в&nbsp;системах жертв.</p>",
+  "text": "<p>CERT-UA було повідомлено про розсилку шкідливого програмного забезпечення AZORult. AZORult - викрадач паролів, має функціонал для збору збережених паролів в браузерах,&nbsp;поштових клієнтах&nbsp;(Outlook, Thunderbird), FTP клієнтах&nbsp;(Filezilla, WinSCP), інформацію про криптогаманці. Також, може збирати інформацію про файлову систему, запущені процеси, викрадати листування месенджерів та&nbsp;надає хакерам можливість завантаження та віддаленого запуску файлів в&nbsp;системах жертв.</p><p>&nbsp;</p><p><strong>Індикатори компрометації (ІОС):</strong></p><p><strong>Шкідливі файли:</strong></p><p>&nbsp;</p><p><span style=\"color: black;\">File name:&nbsp;&nbsp;QUOTATION N0AB.doc</span></p><p><span style=\"color: black;\">SHA-256 3cf7272c35aad460bd3c162e4e1499c383ac06dec02ef36e506eb50d9e84116f</span></p><p><a href=\"https://www.virustotal.com/#/file/3cf7272c35aad460bd3c162e4e1499c383ac06dec02ef36e506eb50d9e84116f/detection\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://www.virustotal.com/#/file/3cf7272c35aad460bd3c162e4e1499c383ac06dec02ef36e506eb50d9e84116f/detection</a></p><p>&nbsp;</p><p><span style=\"color: black;\">File name&nbsp;&nbsp;PO.jpg (EXE)</span></p><p><span style=\"color: black;\">SHA-256 6767b6974e104025cac4ace55ca70580b8d838415900be85b6c193efc79921a4</span></p><p><a href=\"https://www.virustotal.com/#/file/6767b6974e104025cac4ace55ca70580b8d838415900be85b6c193efc79921a4/detection\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://www.virustotal.com/#/file/6767b6974e104025cac4ace55ca70580b8d838415900be85b6c193efc79921a4/detection</a></p><p>&nbsp;</p><p><strong>Шкідливі домени та ІР (С2):</strong></p><p>67.199.248.10</p><p>67.199.248.11</p><p>192.198.87.130</p><p>185.193.38.78</p><p>&nbsp;</p><p><strong>Автозапуск:</strong></p><p><span style=\"color: black;\">office.exe&nbsp;Diagnose SQL Server performance issues&nbsp;Syenergy Consulting &amp; Representation Ltd&nbsp;&nbsp;c:\\users\\operator\\appdata\\roaming\\microsoft\\windows\\start menu\\programs\\startup\\office.exe&nbsp;15.04.1992 16:05&nbsp;&nbsp;</span></p><p><span style=\"color: black;\">office.lnk&nbsp;Diagnose SQL Server performance issues&nbsp;Syenergy Consulting &amp; Representation Ltd&nbsp;&nbsp;c:\\users\\operator\\appdata\\roaming\\microsoft\\windows\\start menu\\programs\\startup\\office.exe&nbsp;15.04.1992 16:05</span></p><p>&nbsp;</p><p><strong>Вразливості:</strong></p><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-11882\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-11882</a></p><p>&nbsp;</p><p><strong>Корисні посилання:</strong></p><p><a href=\"https://pastebin.com/MwwZ7DyY\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://pastebin.com/MwwZ7DyY</a></p><p><a href=\"https://www.hybrid-analysis.com/sample/3cf7272c35aad460bd3c162e4e1499c383ac06dec02ef36e506eb50d9e84116f?environmentId=100\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://www.hybrid-analysis.com/sample/3cf7272c35aad460bd3c162e4e1499c383ac06dec02ef36e506eb50d9e84116f?environmentId=100</a></p><p>&nbsp;</p><p><strong>Рекомендації CERT-UA:</strong></p><p>- рекомендуємо адміністраторам слідкувати за спробами підключення&nbsp;до зазначених C2 IP-адрес, для виявлення потенційно заражених систем.</p><p>- не відкривайте вкладення у підозрілих повідомленнях та файлів з виконуваними форматами ;</p><p>- адміністраторам поштових серверів, зверніть увагу на фільтрування вхідних/вихідних інформаційних потоків, зокрема поштового веб-трафіку, налаштуйте захист від спаму та підробки адреси відправника за допомогою технологій DKIM, SPF, DMARC;</p><p>- перевірте журнальні файли на предмет наявності записів з зазначеними вище індикаторами;</p><p>- обмежіть можливість запуску виконуваних файлів (*.exe) на комп’ютерах користувачів з директорій %TEMP%, %APPDATA%.</p><p>- регулярно оновлюйте антивірусну базу та сканувати потенційно заражені системи;</p><p>- періодично робіть повну перевірку \"чутливих\" комп'ютерів на предмет наявності шкідливого програмного забезпечення;</p><p>- регулярно оновлюйте програмне забезпечення;</p>",
+  "image": "https://cert.gov.ua/img/articles/2806/18,09,18.png",
+  "previous": {
+    "id": 2805,
+    "name": "Масова розсилка вірусу-шифрувальника GandCrab / Troldesh"
+  },
+  "next": {
+    "id": 2804,
+    "name": "Виявлено нове шкідливе програмне забезпечення GreyEnergy"
+  },
+  "articles": [
+    {
+      "id": 6284949,
+      "date": "04.08.2025",
+      "title": "Оновлений інструментарій UAC-0099: MATCHBOIL, MATCHWOK, DRAGSTARE",
+      "tags": []
+    },
+    {
+      "id": 6284730,
+      "date": "17.07.2025",
+      "title": "Кібератаки UAC-0001 на сектор безпеки та оборони із застосуванням програмного засобу LAMEHUG, що використовує LLM (велику мовну модель) (CERT-UA#16039)",
+      "tags": []
+    },
+    {
+      "id": 6284080,
+      "date": "21.06.2025",
+      "title": "Кібератаки UAC-0001 (APT28) у відношенні державних органів із застосуванням BEARDSHELL та COVENANT ",
+      "tags": []
+    },
+    {
+      "id": 6282946,
+      "date": "06.04.2025",
+      "title": "Цільова шпигунська активність UAC-0226 у відношенні осередків інновацій, державних і правоохоронних органів з використанням стілеру GIFTEDCROOK (CERT-UA#14303)",
+      "tags": []
+    },
+    {
+      "id": 6282902,
+      "date": "01.04.2025",
+      "title": "UAC-0219: кібершпигунство з використанням PowerShell-стілеру WRECKSTEEL (CERT-UA#14283)",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 30,
+      "name": "ШПЗ"
+    }
+  ],
+  "date": "18.09.2018",
+  "langId": null
+}

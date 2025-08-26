@@ -1,0 +1,102 @@
+{
+  "attackTargets": [
+    "органи місцевого самоврядування",
+    "email accounts of state organization"
+  ],
+  "hackerGroups": [
+    "UAC-0001 (APT28)"
+  ],
+  "applications": [
+    "PowerShell",
+    "HTA",
+    "Metasploit"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "Google",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "docs.google.com.spreadsheets.d.1ip6eeakdebmwteh36vana4hu-glaeksstsht-boujdk.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "doc.gmail.com.gyehddhrggdii323sdhnshiswh2udhqjwdhhfjcjeuejcj.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "google.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "25.10.2024",
+    "id": 6281123,
+    "title": "Кібератака UAC-0001 (APT28): PowerShell-команда в буфері обміну як \"точка входу\" (CERT-UA#11689)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Local Government Bodies",
+      "embedding": []
+    },
+    {
+      "name": "Email Accounts (State Organization)",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "APT28 (UAC-0028)"
+  ],
+  "normalizedApplications": [
+    "PowerShell",
+    "HTA",
+    "Metasploit"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "Google",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "mail.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "docs.google.com.spreadsheets.d.1ip6eeakdebmwteh36vana4hu-glaeksstsht-boujdk.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "doc.gmail.com.gyehddhrggdii323sdhnshiswh2udhqjwdhhfjcjeuejcj.zhblz.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "google.com",
+      "relation": "neutral"
+    }
+  ]
+}

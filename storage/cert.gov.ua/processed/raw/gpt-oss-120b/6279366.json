@@ -1,0 +1,64 @@
+{
+  "attackTargets": [
+    "Enterprise workstations of accountants",
+    "Remote banking service systems"
+  ],
+  "hackerGroups": [
+    "UAC-0006"
+  ],
+  "applications": [
+    "SMOKELOADER",
+    "TALESHOT",
+    "RMS",
+    "PowerShell",
+    "cmd.exe",
+    "xmrig.exe",
+    "WmiPrvSE.exe"
+  ],
+  "countries": [],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "agentsuperpupervinil.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ccbaminumpot.ru",
+      "relation": "neutral"
+    },
+    {
+      "name": "picwalldoor.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "rafraystore.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "sephoraofficetz.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "vikompalion.ru",
+      "relation": "neutral"
+    },
+    {
+      "name": "vivianstyler.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "monopoliafromyou.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "xmr.2miners.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "21.05.2024",
+    "id": 6279366,
+    "title": "Весняне загострення: UAC-0006 активізувало кібератаки"
+  }
+}

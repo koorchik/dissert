@@ -1,0 +1,39 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [
+    "UAC-0057",
+    "unc1151"
+  ],
+  "applications": [
+    "Microsoft Compiled HTML Help",
+    "VBScript",
+    "regasm.exe",
+    "wscript.exe",
+    ".NET loader",
+    "Python"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Mandiant",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Dmytro Oleksiuk",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "xbeta.online",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "07.03.2022",
+    "id": 37626,
+    "title": "Кібератака групи UAC-0057 (unc1151) на державні організації України з  використанням шкідливої програми MicroBackdoor (CERT-UA#4109)"
+  }
+}

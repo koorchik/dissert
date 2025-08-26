@@ -1,0 +1,1179 @@
+{
+  "attackTargets": [
+    "Town of Lake Lure",
+    "Ukrainian Government",
+    "Ukrainian Military",
+    "UKRTelecom"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Microsoft Remote Desktop (RDP)",
+    "mstsc.exe",
+    "Zero Trust Architecture Configuration",
+    "Device Configuration Verification",
+    "AWS IAM Quick Start",
+    "AWS IAM Compliance Check",
+    "AWS IAM Configuration"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "United States",
+      "relation": "attacker",
+      "code": "US"
+    },
+    {
+      "name": "Australia",
+      "relation": "neutral",
+      "code": "AU"
+    },
+    {
+      "name": "Finland",
+      "relation": "neutral",
+      "code": "FI"
+    },
+    {
+      "name": "Greece",
+      "relation": "neutral",
+      "code": "GR"
+    },
+    {
+      "name": "Lithuania",
+      "relation": "neutral",
+      "code": "LT"
+    },
+    {
+      "name": "Latvia",
+      "relation": "neutral",
+      "code": "LV"
+    },
+    {
+      "name": "Poland",
+      "relation": "neutral",
+      "code": "PL"
+    },
+    {
+      "name": "Slovakia",
+      "relation": "neutral",
+      "code": "SK"
+    },
+    {
+      "name": "Turkey",
+      "relation": "neutral",
+      "code": "TR"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Town of Lake Lure",
+      "relation": "target"
+    },
+    {
+      "name": "UKRTelecom",
+      "relation": "target"
+    },
+    {
+      "name": "Ukrainian Government",
+      "relation": "target"
+    },
+    {
+      "name": "AWS",
+      "relation": "attacker"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "yulia.antonenko",
+      "relation": "neutral"
+    },
+    {
+      "name": "alexandra.gerst",
+      "relation": "neutral"
+    },
+    {
+      "name": "oleksii.myronov",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [
+    {
+      "name": "townoflakelure.com",
+      "relation": "target"
+    },
+    {
+      "name": "ukrtelecom.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ca-central-1.awsplatform[.]online",
+      "relation": "attacker"
+    },
+    {
+      "name": "ca-west-1.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "central-2-aws.ua-aws[.]army",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-central-1-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-central-1.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-central-1.ukrtelecom[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-central-2-aws.ua-aws[.]army",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-north-1-aws.ua-energy[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-north-1-aws.ua-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-south-1-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-south-2-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-southeast-1-aws.gov-ua[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-southeast-1-aws.govtr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-southeast-1-aws.zero-trust[.]solutions",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-east-1-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-east-2-aws.ua-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-east-console.awsplatform[.]online",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-1-amazon.uk-energy[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-1.aws-ukraine[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-1.ua-aws[.]army",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-1.ukrtelecom[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-2-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "zero-trust.solutions",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtelecom.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "awsplatform.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-ukraine.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-s3.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-meet.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-il.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-data.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-meetings.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-secure.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-join.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-online.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-au[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-aws[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-fi[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-gr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-lt[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-lv[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-pl[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-sk[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-trust[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-ua[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "govps[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "govtr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "govua[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eru-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "feedzai-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "md-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mf-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mo-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mpo-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mpsv-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "msmt-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mv-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "my-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mzd-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mze-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mzp-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mzv-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "nakit-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "nbu-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "nukib-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "policie-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mmr-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "uohs-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "uoou-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "vlada-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "voa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov-il[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov-il[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov-tr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov-tr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mil-be[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mil-ee[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mil-pl[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mil-pt[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mod-gov-il[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mod-gov-il[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-acronis[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-army[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-atlassian[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-aws[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-bah[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-be[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-blackberry[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-csis[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-de[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-dgap[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-dk[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-dnc[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-esa[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-fbi[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-hudson[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-ida[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-iri[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-knowbe4[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-marcus[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-monitoring[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-nato[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-ned[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-nsa[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-proofpoint[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-pt[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-rackspace[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-rand[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-spacex[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-state[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-stig[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-ua[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-ucia[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-zoho[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-aws.army",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-energy[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-mil[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-sec[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-se[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-sn[.]cloud",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "23.10.2024",
+    "id": 6281076,
+    "title": "Файли конфігурацій RDP як засіб отримання віддаленого доступу до комп'ютера або \"Rogue RDP\" (CERT-UA#11690)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Town of Lake Lure",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Government",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Military",
+      "embedding": []
+    },
+    {
+      "name": "UKRTelecom",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Microsoft Remote Desktop",
+    "mstsc",
+    "Zero Trust Architecture Configuration",
+    "Device Configuration Verification",
+    "AWS IAM Quick Start",
+    "AWS IAM Compliance Check",
+    "AWS IAM Configuration"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Town of Lake Lure",
+      "relation": "target"
+    },
+    {
+      "name": "UKRTelecom",
+      "relation": "target"
+    },
+    {
+      "name": "Government of Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "AWS",
+      "relation": "attacker"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "yulia.antonenko",
+      "relation": "neutral"
+    },
+    {
+      "name": "alexandra.gerst",
+      "relation": "neutral"
+    },
+    {
+      "name": "oleksii.myronov",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "townoflakelure.com",
+      "relation": "target"
+    },
+    {
+      "name": "ukrtelecom.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ca-central-1.awsplatform[.]online",
+      "relation": "attacker"
+    },
+    {
+      "name": "ca-west-1.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "central-2-aws.ua-aws[.]army",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-central-1-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-central-1.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-central-1.ukrtelecom[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-central-2-aws.ua-aws[.]army",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-north-1-aws.ua-energy[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-north-1-aws.ua-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-south-1-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-south-2-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-southeast-1-aws.gov-ua[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-southeast-1-aws.govtr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eu-southeast-1-aws.zero-trust[.]solutions",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-east-1-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-east-2-aws.ua-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-east-console.awsplatform[.]online",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-1-amazon.uk-energy[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-1.aws-ukraine[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-1.ua-aws[.]army",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-1.ukrtelecom[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "us-west-2-aws.mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "zero-trust.solutions",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtelecom.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "awsplatform.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-ukraine.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-s3.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-meet.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-il.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-data.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-meetings.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-secure.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-join.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "aws-online.cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-au[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-aws[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-fi[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-gr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-lt[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-lv[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-pl[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-sk[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-trust[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "gov-ua[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "govps[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "govtr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "govua[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "eru-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "feedzai-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "md-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mf-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mo-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mpo-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mpsv-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "msmt-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mv-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "my-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mzd-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mze-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mzp-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mzv-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "nakit-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "nbu-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "nukib-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "policie-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mmr-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "uohs-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "uoou-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "vlada-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "voa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov-il[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov-il[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov-tr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mfa-gov-tr[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mil-be[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mil-ee[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mil-pl[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mil-pt[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mod-gov-il[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "mod-gov-il[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-acronis[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-army[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-atlassian[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-aws[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-bah[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-be[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-blackberry[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-csis[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-de[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-dgap[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-dk[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-dnc[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-esa[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-fbi[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-hudson[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-ida[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-iri[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-knowbe4[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-marcus[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-monitoring[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-nato[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-ned[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-nsa[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-proofpoint[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-pt[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-rackspace[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-rand[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-spacex[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-state[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-stig[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-ua[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-ucia[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "s3-zoho[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-aws.army",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-energy[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-gov[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-mil[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-sec[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-se[.]cloud",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-sn[.]cloud",
+      "relation": "attacker"
+    }
+  ]
+}

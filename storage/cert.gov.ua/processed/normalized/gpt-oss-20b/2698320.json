@@ -1,0 +1,93 @@
+{
+  "attackTargets": [
+    "CERT-UA"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "ESET Online Scanner.exe",
+    "ESET_scanner.rar",
+    "Renci.SshNet"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "CERT-UA",
+      "relation": "target"
+    },
+    {
+      "name": "online.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipfib.com",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "online.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipfib.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "09.11.2022",
+    "id": 2698320,
+    "title": "Розповсюдження електронних листів з фейковим сканером, начебто, від імені CERT-UA (CERT-UA#5583)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "CERT-UA",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "ESET Online Scanner",
+    "ESET_scanner",
+    "Renci.SshNet"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "CERT-UA",
+      "relation": "target"
+    },
+    {
+      "name": "online.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipfib.com",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "online.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "ipfib.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "attackTargets": [
+    "Ukrainian organizations"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "SuperOps RMM",
+    "PyInstaller",
+    "Minesweeper"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Europe",
+      "relation": "neutral"
+    },
+    {
+      "name": "USA",
+      "relation": "neutral"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "CSIRT-NBU",
+      "relation": "neutral"
+    },
+    {
+      "name": "CERT-UA",
+      "relation": "neutral"
+    },
+    {
+      "name": "Lexical Analysis Software Ltd",
+      "relation": "neutral"
+    },
+    {
+      "name": "Bank of America",
+      "relation": "neutral"
+    },
+    {
+      "name": "Chase Online",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "superops.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "superops.ai",
+      "relation": "attacker"
+    },
+    {
+      "name": "patient-docs-mail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "protonmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "anotepad.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "dropbox.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "yemmyusa.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "23.05.2024",
+    "id": 6279419,
+    "title": "UAC-0188: Цільові кібератаки з використанням SuperOps RMM (CERT-UA#9797)"
+  }
+}

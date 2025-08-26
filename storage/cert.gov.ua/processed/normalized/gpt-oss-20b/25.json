@@ -1,0 +1,77 @@
+{
+  "attackTargets": [
+    "users"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "CoronaMap.exe",
+    "AZORult Trojan",
+    "Java"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian Cybersecurity Center of the State Committee on Special Communications and Informatics",
+      "relation": "neutral"
+    },
+    {
+      "name": "University of John Hopkins",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "cert.gov.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "24.03.2020",
+    "id": 25,
+    "title": "Фішингові листи на тему коронавірусу, що приховують у собі ШПЗ"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Users",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "CoronaMap",
+    "AZORult",
+    "Java"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "National Cyber Security Center",
+      "relation": "neutral"
+    },
+    {
+      "name": "Johns Hopkins University",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "gov.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "virustotal.com",
+      "relation": "neutral"
+    }
+  ]
+}

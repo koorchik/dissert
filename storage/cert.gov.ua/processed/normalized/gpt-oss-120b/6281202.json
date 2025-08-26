@@ -1,0 +1,124 @@
+{
+  "attackTargets": [
+    "Бухгалтери підприємств",
+    "комп'ютери бухгалтерів"
+  ],
+  "hackerGroups": [
+    "UAC-0050"
+  ],
+  "applications": [
+    "LiteManager Pro",
+    "pdf.msi",
+    "ROMFUSClient.exe",
+    "ROMServer.exe",
+    "msiexec.exe"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Державна податкова служба України",
+      "relation": "target"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Christine",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "qaz.im",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "attacker"
+    },
+    {
+      "name": "tax-gov-ua.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "dpsu-gov-ua.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "rozsenich.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "30.10.2024",
+    "id": 6281202,
+    "title": "Кібератака UAC-0050 з використанням податкової тематики та LITEMANAGER (CERT-UA#11776)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Enterprise Accountants",
+      "embedding": []
+    },
+    {
+      "name": "Accountants' Workstations",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UAC-0050"
+  ],
+  "normalizedApplications": [
+    "LiteManager Pro",
+    "pdf.msi",
+    "ROMFUSClient.exe",
+    "ROMServer.exe",
+    "msiexec.exe"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "State Tax Service of Ukraine",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "Christine",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "qaz.im",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "attacker"
+    },
+    {
+      "name": "tax-gov-ua.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "dpsu-gov-ua.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "rozsenich.com",
+      "relation": "attacker"
+    }
+  ]
+}

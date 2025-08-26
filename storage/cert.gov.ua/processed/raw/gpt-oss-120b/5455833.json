@@ -1,0 +1,87 @@
+{
+  "attackTargets": [
+    "Ukrainian justice organs",
+    "Ukrainian notary offices"
+  ],
+  "hackerGroups": [
+    "BlackNotary"
+  ],
+  "applications": [
+    "ScrubCrypt",
+    "AsyncRAT",
+    "PowerShell"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Switzerland",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "minijusfil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "filetransrediremin.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barnsertr.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "privatelayer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "Namecheap",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "riuscos88@gmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "amandarecz75@gmail.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barno2715@gmail.com",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "minijusfil.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "filetransrediremin.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "barnsertr.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "privatelayer.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "namecheap.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "28.08.2023",
+    "id": 5628441,
+    "title": "UAC-0173: органи юстиції та нотаріат \"під прицілом\" (CERT-UA#7372)"
+  }
+}

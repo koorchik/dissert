@@ -1,0 +1,28 @@
+{
+  "attackTargets": [
+    "government sector websites",
+    "banking sector websites",
+    "defense sector websites"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "raidforums.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "21.02.2022",
+    "id": 37211,
+    "title": "Попередження щодо можливих кібератак"
+  }
+}

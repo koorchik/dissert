@@ -1,0 +1,41 @@
+{
+  "attackTargets": [
+    "state sector websites",
+    "banking sector websites",
+    "defence sector websites"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Оперативний центр реагування на кіберінциденти",
+      "relation": "neutral"
+    },
+    {
+      "name": "Оперативно-технічну службу Державного центру кіберзахисту",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": ".ua",
+      "relation": "target"
+    },
+    {
+      "name": "raidforums.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "21.02.2022",
+    "id": 37211,
+    "title": "Попередження щодо можливих кібератак"
+  }
+}

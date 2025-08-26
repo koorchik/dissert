@@ -1,0 +1,49 @@
+{
+  "attackTargets": [
+    "Microsoft Windows 7 for 32-bit Systems SP1",
+    "Microsoft Windows 7 for x64-based Systems SP1",
+    "Microsoft Windows Server 2003",
+    "Microsoft Windows Server 2008 R2 for Itanium-based Systems SP1",
+    "Microsoft Windows Server 2008 R2 for x64-based Systems SP1",
+    "Microsoft Windows Server 2008 for 32-bit Systems SP2",
+    "Microsoft Windows Server 2008 for Itanium-based Systems SP2",
+    "Microsoft Windows Server 2008 for x64-based Systems SP2",
+    "Microsoft Windows XP"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Remote Desktop Protocol (RDP)",
+    "Microsoft Windows"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    },
+    {
+      "name": "Symantec",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "portal.msrc.microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cve.mitre.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "www.symantec.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "15.01.2020",
+    "id": 2661,
+    "title": "Критична вразливість в старих версіях ОС Windows "
+  }
+}

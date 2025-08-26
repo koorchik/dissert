@@ -1,0 +1,63 @@
+{
+  "id": 16,
+  "title": "Intel, Adobe, Oracle та VMWare опублікували перші, в цьому році, оновлення безпеки для своїх продуктів.",
+  "description": "<p>Adobe випустила оновлення безпеки для усунення вразливостей в Illustrator CC та Experience Manager. Зловмисник може скористатися деякими з цих вразливостей для контролю таких систем.</p>",
+  "text": "<p>Intel, Adobe, Oracle та VMWare опублікували перші, в цьому році, оновлення безпеки для своїх продуктів.</p><p><br></p><p>Adobe випустила оновлення безпеки для усунення вразливостей в Illustrator CC та Experience Manager. Зловмисник може скористатися деякими з цих вразливостей для контролю таких систем.</p><p><br></p><p>Ознайомитись з даними оновлення та завантажити їх можна за посиланнями:</p><p><br></p><p>Adobe Illustrator CC&nbsp;APSB20-03</p><p>Adobe Experience Manager APSB20-01</p><p>&nbsp;</p><p><br></p><p>VMware також було опубліковано оновлення безпеки для усунення вразливості в VMware Tools. Зловмисник може скористатися цією вразливістю, щоб взяти під контроль систему, яка має дану вразливість.</p><p><br></p><p>Ознайомтесь з VMware Security Advisory VMSA-2020-0002 та встановіть необхідні оновлення.</p><p><br></p><p>&nbsp;</p><p><br></p><p>Intel опублікувала оновлення безпеки для усунення вразливостей у кількох продуктах. Автентифікований зловмисник з локальним доступом може використовувати деякі з цих вразливих місць для отримання підвищення привілеїв.</p><p><br></p><p>Список продуктів Intel із вразливостями та посилань на офіційні рекомендації виробника:</p><p><br></p><p>SNMP Subagent Stand-Alone Advisory for Windows <a href=\"https://helpx.adobe.com/security/products/illustrator/apsb20-03.html\" rel=\"noopener noreferrer\" target=\"_blank\">INTEL-SA-00300</a></p><p>Chipset Device Software Advisory INTEL-SA-00306</p><p>RWC 3 for Windows Advisory INTEL-SA-00308</p><p>Processor Graphics Advisory INTEL-SA-00314</p><p>VTune Amplifier for Windows Advisory INTEL-SA-00325</p><p>DAAL Advisory INTEL-SA-00332</p><p>&nbsp;</p><p><br></p><p>Oracle випустила оновлення Critical Patch 2020 року, що містить 334 нових виправлення безпеки для вирішення вразливостей у кількох продуктах. Дані вразливості зловмисник може використовувати для віддаленого використання даної системи.</p><p><br></p><p>Список вразливих продуктів Oracle та патчів до них можна знайти за посиланням Oracle January 2020 Critical Patch Update.</p>",
+  "image": "https://cert.gov.ua/img/articles/16/WOD9zkWypbePWgY5icI511o8HjoAZ1gec8f3KcE1.jpeg",
+  "previous": {
+    "id": 2624,
+    "name": " Перші цьогорічні оновлення безпеки Intel, Adobe, Oracle та VMWare "
+  },
+  "next": {
+    "id": 17,
+    "name": "Критичні помилки плагіну WordPress дозволяють зловмисникам заволодіти вашим сайтом."
+  },
+  "articles": [
+    {
+      "id": 6123309,
+      "date": "15.10.2023",
+      "title": "Особливості деструктивних кібератак Sandworm у відношенні українських провайдерів (CERT-UA#7627)",
+      "tags": []
+    },
+    {
+      "id": 4697016,
+      "date": "22.05.2023",
+      "title": "Шпигунська активність UAC-0063 у відношенні України, Казахстану, Киргизстану, Монголії, Ізраїлю, Індії (CERT-UA#6549)",
+      "tags": []
+    },
+    {
+      "id": 4501891,
+      "date": "29.04.2023",
+      "title": "WinRAR як \"кіберзброя\". Деструктивна кібератака UAC-0165 (ймовірно, Sandworm) на держсектор України із застосуванням RoarBat (CERT-UA#6550)",
+      "tags": []
+    },
+    {
+      "id": 3718487,
+      "date": "27.01.2023",
+      "title": "Кібератака Sandworm на інформаційно-комунікаційну систему Укрінформ (CERT-UA#5850)",
+      "tags": []
+    },
+    {
+      "id": 2624,
+      "date": "17.01.2020",
+      "title": " Перші цьогорічні оновлення безпеки Intel, Adobe, Oracle та VMWare ",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 11,
+      "name": "Intel"
+    },
+    {
+      "id": 13,
+      "name": "VMWare"
+    },
+    {
+      "id": 14,
+      "name": "Adobe"
+    }
+  ],
+  "date": "17.01.2020",
+  "langId": null
+}

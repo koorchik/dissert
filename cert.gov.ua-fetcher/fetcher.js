@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const BASE_URL = 'https://cert.gov.ua';
-const DATA_DIR = './data';
+const DATA_DIR = '../storage/cert.gov.ua/fetched';
 const LANG = 'uk';
 const DELAY_MS = 500; // Delay between requests to be respectful
 

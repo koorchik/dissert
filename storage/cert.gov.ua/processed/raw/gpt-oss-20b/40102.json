@@ -1,0 +1,50 @@
+{
+  "attackTargets": [
+    "Ukrainian government institutions"
+  ],
+  "hackerGroups": [
+    "APT28 (UAC-0028)"
+  ],
+  "applications": [
+    "CredoMap_v2",
+    "UkrScanner.rar",
+    "UkrScanner.exe (SFX)",
+    "Pipedream"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "MISP",
+      "relation": "neutral"
+    },
+    {
+      "name": "Pipedream",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "eo2mxtqmeqzafqi.m.pipedream.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "m.pipedream.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "ginaengg.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "06.05.2022",
+    "id": 40102,
+    "title": "Кібератака групи APT28 із застосуванням шкідливої програми CredoMap_v2 (CERT-UA#4622)"
+  }
+}

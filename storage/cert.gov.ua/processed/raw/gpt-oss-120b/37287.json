@@ -1,0 +1,52 @@
+{
+  "attackTargets": [
+    "Zabbix Frontend"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Zabbix"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Zabbix",
+      "relation": "target"
+    },
+    {
+      "name": "PortSwigger",
+      "relation": "neutral"
+    },
+    {
+      "name": "SonarSource",
+      "relation": "neutral"
+    },
+    {
+      "name": "NVD",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "portswigger.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "blog.sonarsource.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "nvd.nist.gov",
+      "relation": "neutral"
+    },
+    {
+      "name": "support.zabbix.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "22.02.2022",
+    "id": 37287,
+    "title": "Вразливості в Zabbix (CVE-2022-23131, CVE-2022-23134)"
+  }
+}

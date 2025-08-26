@@ -1,0 +1,56 @@
+{
+  "attackTargets": [
+    "Employees of defense-industrial complex enterprises",
+    "Representatives of Ukrainian Armed Forces"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Signal",
+    "DarkTortilla",
+    "Dark Crystal RAT"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "imgurl.ir",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "18.03.2025",
+    "id": 6282737,
+    "title": "UAC-0200: Шпигунство за оборонно-промисловим комплексом за допомогою DarkCrystal RAT (CERT-UA#14045)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Defense Industrial Complex Employees",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Armed Forces Representatives",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Signal",
+    "DarkTortilla",
+    "DarkCrystal RAT"
+  ],
+  "normalizedOrganizations": [],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "imgurl.ir",
+      "relation": "attacker"
+    }
+  ]
+}

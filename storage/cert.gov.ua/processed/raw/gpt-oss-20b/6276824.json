@@ -1,0 +1,68 @@
+{
+  "attackTargets": [
+    "Київстар",
+    "СБУ"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "ZIP",
+    "RAR",
+    "SFX-архів",
+    "BATCH-скрипт",
+    "bitbucket",
+    "RemcosRAT",
+    "SmartAssembly",
+    "test2.exe",
+    "wsuscr.exe",
+    "GB.exe",
+    "Запит.exe",
+    "reg.exe",
+    "cmd.exe",
+    "powershell",
+    "explorer.exe"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Malaysia",
+      "relation": "attacker"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Київстар",
+      "relation": "target"
+    },
+    {
+      "name": "СБУ",
+      "relation": "target"
+    },
+    {
+      "name": "Shinjiru",
+      "relation": "attacker"
+    },
+    {
+      "name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "relation": "attacker"
+    },
+    {
+      "name": "bitbucket",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "bitbucket.org",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "21.12.2023",
+    "id": 6276824,
+    "title": "\"Заборгованість Київстар\", \"Запит СБУ\": нова атака UAC-0050 з використанням RemcosRAT (CERT-UA#8338)"
+  }
+}

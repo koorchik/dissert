@@ -1,0 +1,202 @@
+{
+  "attackTargets": [
+    "підприємства енергетики України",
+    "підприємства водопостачання та теплопостачання України",
+    "логістичні підприємства України",
+    "підприємства, що спеціалізуються на проектуванні та виробництві техніки для сушіння, транспортування та зберігання зерна в Україні",
+    "підприємства, що розробляють автоматизовані системи управління технологічними процесами (АСУТП) в Україні"
+  ],
+  "hackerGroups": [
+    "UAC-0002",
+    "Sandworm",
+    "APT44",
+    "Seashell Blizzard",
+    "UAC-0133"
+  ],
+  "applications": [
+    "SECONDBEST",
+    "EMPIREPAST",
+    "SPARK",
+    "CROOKBAG",
+    "RSYNC",
+    "PowerShell",
+    "customchecker.com.exe",
+    "adobe.exe",
+    "bShark.exe",
+    "spark.exe",
+    "rsync.exe",
+    "resume.lnk",
+    "VASY.lnk",
+    "AdobeReaderDocument.pdf",
+    "start.ps1"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target"
+    },
+    {
+      "name": "Сербія",
+      "relation": "target"
+    },
+    {
+      "name": "Чехія",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    },
+    {
+      "name": "Strike Ready",
+      "relation": "neutral"
+    },
+    {
+      "name": "onamae.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "publicdomainregistry.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "namesilo.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "protectraid.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "furqaanenergy.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "ertel-audit.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "gurt.duna.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "afi-ukraine.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "calendar.stib.com.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "helpdesk.katolik.bydgoszcz.pl",
+      "relation": "neutral"
+    },
+    {
+      "name": "documentreader.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "documentreader.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "agro-sk.com.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "cdnauthsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "protectconnections.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "adobeprotectcheck.com",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Vitaliy Klymenko",
+      "relation": "target"
+    },
+    {
+      "name": "D Lymarenko",
+      "relation": "target"
+    }
+  ],
+  "domains": [
+    {
+      "name": "protectraid.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "furqaanenergy.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "ertel-audit.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "gurt.duna.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "afi-ukraine.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "calendar.stib.com.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "helpdesk.katolik.bydgoszcz.pl",
+      "relation": "neutral"
+    },
+    {
+      "name": "documentreader.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "documentreader.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "agro-sk.com.ua",
+      "relation": "neutral"
+    },
+    {
+      "name": "cdnauthsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "protectconnections.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "adobeprotectcheck.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "onamae.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "publicdomainregistry.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "namesilo.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "23.02.2025",
+    "id": 6282517,
+    "title": "Цільова активність UAC-0212 у відношенні розробників та постачальників рішень АСУТП з метою здійснення кібератак на об'єкти критичної інфраструктури України (CERT-UA#13702)"
+  }
+}

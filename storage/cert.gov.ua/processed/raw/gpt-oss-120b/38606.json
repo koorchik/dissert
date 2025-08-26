@@ -1,0 +1,49 @@
+{
+  "attackTargets": [
+    "Ukrainian citizens",
+    "Ukrainian organizations"
+  ],
+  "hackerGroups": [
+    "UAC-0041",
+    "Racoon"
+  ],
+  "applications": [
+    "MarsStealer"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ministry of Education and Science of Ukraine",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "api.dev-com.sc",
+      "relation": "attacker"
+    },
+    {
+      "name": "dev-com.sc",
+      "relation": "attacker"
+    },
+    {
+      "name": "176.57.189.191",
+      "relation": "attacker"
+    },
+    {
+      "name": "drive.google.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "30.03.2022",
+    "id": 38606,
+    "title": "Масове розповсюдження шкідливої програми MarsStealer серед громадян України та вітчизняних організацій (CERT-UA#4315)"
+  }
+}

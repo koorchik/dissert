@@ -1,0 +1,50 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "RemcosRAT",
+    "QuasarRAT",
+    "Remote Utilities",
+    "AutoIt",
+    "PowerShell"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Bitbucket",
+      "relation": "neutral"
+    },
+    {
+      "name": "Google Drive",
+      "relation": "neutral"
+    },
+    {
+      "name": "Remote Utilities",
+      "relation": "neutral"
+    },
+    {
+      "name": "DesignPixel Innovations",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "rmssrv.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "bitbucket.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "drive.google.com",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "11.01.2024",
+    "id": 6277063,
+    "title": "RemcosRAT, QuasarRAT, RemoteUtilities на озброєнні UAC-0050 (CERT-UA#8453, CERT-UA#8494)"
+  }
+}

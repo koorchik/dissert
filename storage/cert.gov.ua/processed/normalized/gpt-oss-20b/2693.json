@@ -1,0 +1,69 @@
+{
+  "attackTargets": [
+    "SOCIS"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "SOCIS",
+      "relation": "target"
+    },
+    {
+      "name": "OptiData",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "facebook.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "optidata.com.ua",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "30.03.2019",
+    "id": 2693,
+    "title": "Фішингова розсилка на тему виборів"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "SOCIS",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [],
+  "normalizedOrganizations": [
+    {
+      "name": "SOCIS",
+      "relation": "target"
+    },
+    {
+      "name": "OptiData",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "facebook.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "optidata.com.ua",
+      "relation": "neutral"
+    }
+  ]
+}

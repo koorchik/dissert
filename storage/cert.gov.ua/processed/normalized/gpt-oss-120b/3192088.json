@@ -1,0 +1,99 @@
+{
+  "attackTargets": [
+    "Державна служба України з надзвичайних ситуацій"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "PowerShell",
+    "BitsTransfer",
+    "CodeMeter.exe",
+    "WibuCm32.dll",
+    "PPSX"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Державна служба України з надзвичайних ситуацій",
+      "relation": "target"
+    },
+    {
+      "name": "DSNS",
+      "relation": "attacker"
+    },
+    {
+      "name": "АТ \"Укрзалізниця\"",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Трігубенко Сергій Георгійович",
+      "relation": "attacker"
+    },
+    {
+      "name": "Morgunov A.",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "dsns.com.ua",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "08.12.2022",
+    "id": 3192088,
+    "title": "Кібератака на державні організації з використанням тематики іранських дронів-камікадзе Shahed-136 та шкідливої програми DolphinCape (CERT-UA#5683)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "State Emergency Service of Ukraine",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "PowerShell",
+    "BitsTransfer",
+    "CodeMeter.exe",
+    "WibuCm32.dll",
+    "PPSX"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "State Emergency Service of Ukraine (DSNS)",
+      "relation": "target"
+    },
+    {
+      "name": "State Emergency Service of Ukraine (DSNS)",
+      "relation": "attacker"
+    },
+    {
+      "name": "Ukrzaliznytsia",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "Trigubenko Serhiy Heorhiyovych",
+      "relation": "attacker"
+    },
+    {
+      "name": "Morgunov A.",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "dsns.com.ua",
+      "relation": "attacker"
+    }
+  ]
+}

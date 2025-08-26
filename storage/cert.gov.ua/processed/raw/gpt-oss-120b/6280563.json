@@ -1,0 +1,86 @@
+{
+  "attackTargets": [
+    "GRISELDA",
+    "Очі",
+    "Ukrainian military personnel"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Signal",
+    "HYDRA",
+    "Google Drive"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "MILCERT",
+      "relation": "target"
+    },
+    {
+      "name": "Google Cloud",
+      "relation": "neutral"
+    },
+    {
+      "name": "Cloudflare",
+      "relation": "neutral"
+    },
+    {
+      "name": "ІКС \"Очі\"",
+      "relation": "target"
+    },
+    {
+      "name": "в/ч А0334",
+      "relation": "target"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "iniqestgoclued@proton.me",
+      "relation": "attacker"
+    },
+    {
+      "name": "vasilyi1997@proton.me",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "griselda-edu.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "griselda.biz.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "griselda.co.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "bitter-hall-1c0c.ochiplus.workers.dev",
+      "relation": "attacker"
+    },
+    {
+      "name": "falling-rice-4afa.ochiplus.workers.dev",
+      "relation": "attacker"
+    },
+    {
+      "name": "ochiplus.workers.dev",
+      "relation": "attacker"
+    },
+    {
+      "name": "proton.me",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "04.09.2024",
+    "id": 6280563,
+    "title": "Спроби кібератак на військові системи за допомогою шкідливих програм для мобільних пристроїв"
+  }
+}

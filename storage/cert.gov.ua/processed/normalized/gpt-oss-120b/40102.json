@@ -1,0 +1,91 @@
+{
+  "attackTargets": [
+    "Ukrainian government agencies"
+  ],
+  "hackerGroups": [
+    "APT28 (UAC-0028)"
+  ],
+  "applications": [
+    "CredoMap_v2",
+    "UkrScanner.exe",
+    "scan.exe"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Pipedream",
+      "relation": "neutral"
+    },
+    {
+      "name": "MISP",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "mariachandran@ginaengg.com",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "eo2mxtqmeqzafqi.m.pipedream.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "ginaengg.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "06.05.2022",
+    "id": 40102,
+    "title": "Кібератака групи APT28 із застосуванням шкідливої програми CredoMap_v2 (CERT-UA#4622)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Government Agencies",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "APT28 (UAC-0028)"
+  ],
+  "normalizedApplications": [
+    "CredoMap_v2",
+    "UkrScanner.exe",
+    "scan.exe"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Pipedream",
+      "relation": "neutral"
+    },
+    {
+      "name": "MISP",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "mariachandran@ginaengg.com",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "pipedream.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "ginaengg.com",
+      "relation": "attacker"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "attackTargets": [
+    "Державна податкова служба України"
+  ],
+  "hackerGroups": [
+    "UAC-0050"
+  ],
+  "applications": [
+    "LITEMANAGER",
+    "LiteManager Pro - Server",
+    "ROMFUSClient.exe",
+    "ROMServer.exe",
+    "msiexec.exe",
+    "pdf.msi",
+    "Електронний запит документів податкової служби.pdf.exe"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Державна податкова служба України",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "tax-gov-ua.com",
+      "relation": "target"
+    },
+    {
+      "name": "dpsu-gov-ua.com",
+      "relation": "target"
+    },
+    {
+      "name": "qaz.im",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.is",
+      "relation": "attacker"
+    },
+    {
+      "name": "qaz.su",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "30.10.2024",
+    "id": 6281202,
+    "title": "Кібератака UAC-0050 з використанням податкової тематики та LITEMANAGER (CERT-UA#11776)"
+  }
+}

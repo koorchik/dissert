@@ -1,0 +1,257 @@
+{
+  "attackTargets": [
+    "Energy, Water & Heating Supply Enterprises (OKI)",
+    "Serbian enterprises",
+    "Czechian enterprises",
+    "Ukrainian enterprises",
+    "Logistics enterprises in Ukraine involved in automotive, air and sea transport",
+    "Ukrainian firms specializing in machinery for drying, transporting and storing grains",
+    "Ukrainian firms developing automated process control systems (АСУТП)"
+  ],
+  "hackerGroups": [
+    "Sandworm",
+    "APT44",
+    "Seashell Blizzard"
+  ],
+  "applications": [
+    "SECONDBEST",
+    "EMPIREPAST",
+    "SPARK",
+    "CROOKBAG",
+    "PEAKLIGHT",
+    "BShark.exe",
+    "Backup.dll",
+    "customchecker.com.exe",
+    "adobe.exe"
+  ],
+  "countries": [
+    {
+      "name": "Serbia",
+      "relation": "target",
+      "code": "RS"
+    },
+    {
+      "name": "Czechia",
+      "relation": "target",
+      "code": "CZ"
+    },
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Energy, Water & Heating Supply Enterprises (OKI)",
+      "relation": "target"
+    },
+    {
+      "name": "Logistics enterprises in Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Ukrainian grain equipment manufacturers",
+      "relation": "target"
+    },
+    {
+      "name": "Ukrainian ASUTP solution providers",
+      "relation": "target"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "documents-reader.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "femundengerdal.no",
+      "relation": "attacker"
+    },
+    {
+      "name": "object-storage-service.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "protectraid.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "protectconnections.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "gurt.duna.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "helpdesk.katolik.bydgoszcz.pl",
+      "relation": "attacker"
+    },
+    {
+      "name": "ertel-audit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "furqaanenergy.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "adobeprotectcheck.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "annualgieconferenceinmunich2024.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "gieannualconferenceinmunich.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "afi-ukraine.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "calendar.stib.com.ua",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "23.02.2025",
+    "id": 6282517,
+    "title": "Цільова активність UAC-0212 у відношенні розробників та постачальників рішень АСУТП з метою здійснення кібератак на об'єкти критичної інфраструктури України (CERT-UA#13702)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Energy, Water & Heating Supply Enterprises (OKI)",
+      "embedding": []
+    },
+    {
+      "name": "Serbian Enterprises",
+      "embedding": []
+    },
+    {
+      "name": "Czechian Enterprises",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Enterprises",
+      "embedding": []
+    },
+    {
+      "name": "Logistics Enterprises in Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Grain Machinery Firms",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian Automated Process Control Firm",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "Sandworm",
+    "APT44",
+    "Seashell Blizzard"
+  ],
+  "normalizedApplications": [
+    "SECONDBEST",
+    "EMPIREPAST",
+    "SPARK",
+    "CROOKBAG",
+    "PEAKLIGHT",
+    "BShark",
+    "Backup",
+    "customchecker.com",
+    "adobe"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Energy, Water & Heating Supply Enterprises (OKI)",
+      "relation": "target"
+    },
+    {
+      "name": "Logistics enterprises in Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Ukrainian grain equipment manufacturers",
+      "relation": "target"
+    },
+    {
+      "name": "Ukrainian ASUTP solution providers",
+      "relation": "target"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "documents-reader.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "femundengerdal.no",
+      "relation": "attacker"
+    },
+    {
+      "name": "object-storage-service.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "protectraid.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "protectconnections.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "gurt.duna.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "helpdesk.katolik.bydgoszcz.pl",
+      "relation": "attacker"
+    },
+    {
+      "name": "ertel-audit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "furqaanenergy.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "adobeprotectcheck.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "annualgieconferenceinmunich2024.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "gieannualconferenceinmunich.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "afi-ukraine.org",
+      "relation": "neutral"
+    },
+    {
+      "name": "calendar.stib.com.ua",
+      "relation": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "attackTargets": [
+    "українські організації",
+    "будівлі у Росії"
+  ],
+  "hackerGroups": [
+    "Encrpt3d"
+  ],
+  "applications": [
+    "WhisperKill",
+    "WhiteBlackCrypt",
+    "BinDiff"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Russia",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "WEX",
+      "relation": "neutral"
+    },
+    {
+      "name": "ФСБ",
+      "relation": "neutral"
+    },
+    {
+      "name": "ССО ЗС України",
+      "relation": "neutral"
+    },
+    {
+      "name": "@tomhunter Telegram channel",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Костянтин Малофєєв",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [
+    {
+      "name": "gmail.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "26.01.2022",
+    "id": 18108,
+    "title": "Порівняльний аналіз ШПЗ WhisperKill та WhiteBlackCrypt"
+  }
+}

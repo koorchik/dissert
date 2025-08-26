@@ -1,0 +1,215 @@
+{
+  "attackTargets": [
+    "Ukrainian governmental organizations",
+    "Polish organizations"
+  ],
+  "hackerGroups": [
+    "APT28"
+  ],
+  "applications": [
+    "PowerShell",
+    "Python",
+    "OpenSSH",
+    "SMBEXEC",
+    "IMPACKET",
+    "STEELHOOK",
+    "MASEPIE",
+    "OCEANMAP",
+    "Client.py",
+    "VMSearch.exe",
+    "VMSearch.sfx.exe",
+    "JavaScript"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Poland",
+      "relation": "target",
+      "code": "PL"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    },
+    {
+      "name": "United States",
+      "relation": "neutral",
+      "code": "US"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian government",
+      "relation": "target"
+    },
+    {
+      "name": "Polish organizations",
+      "relation": "target"
+    },
+    {
+      "name": "Facadesolutions UAE",
+      "relation": "attacker"
+    },
+    {
+      "name": "FirstCloudit",
+      "relation": "attacker"
+    },
+    {
+      "name": "Bahou Holdings",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "czyrqdnvpujmmjkfhhvs4knf1av02demj.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsclx05sfi23bfr.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsgapqr3hclnhhj.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "czyrqdnvpujmmjkfhhvsvlaax17vd5r6v.oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "nas-files.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-calendar.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "e-nas.firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "webmail.facadesolutionsuae.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "facadesolutionsuae.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "bahouholdings.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "28.12.2023",
+    "id": 6276894,
+    "title": "APT28: від первинного ураження до створення загроз для контролеру домену за годину (CERT-UA#8399)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Government Agencies",
+      "embedding": []
+    },
+    {
+      "name": "Polish Organizations",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "APT28 (UAC-0028)"
+  ],
+  "normalizedApplications": [
+    "PowerShell",
+    "Python",
+    "OpenSSH",
+    "SMBEXEC",
+    "IMPACKET",
+    "STEELHOOK",
+    "MASEPIE",
+    "OCEANMAP",
+    "Client.py",
+    "VMSearch.exe",
+    "VMSearch.sfx.exe",
+    "JavaScript"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ukrainian Government",
+      "relation": "target"
+    },
+    {
+      "name": "Polish organizations",
+      "relation": "target"
+    },
+    {
+      "name": "Facadesolutions UAE",
+      "relation": "attacker"
+    },
+    {
+      "name": "FirstCloudit",
+      "relation": "attacker"
+    },
+    {
+      "name": "Bahou Holdings",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "oast.fun",
+      "relation": "attacker"
+    },
+    {
+      "name": "firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "firstcloudit.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "facadesolutionsuae.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "facadesolutionsuae.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "bahouholdings.com",
+      "relation": "attacker"
+    }
+  ]
+}

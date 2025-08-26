@@ -1,0 +1,66 @@
+{
+  "attackTargets": [
+    "Єдиний Компенсаційний Центр Повернення Невиплачених Грошових Коштів"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "kohhd.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "rivierafamily.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "compensationukr.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "compensations-ukrain.bar",
+      "relation": "attacker"
+    },
+    {
+      "name": "compensation-ukr.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "europadonnaireland.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "foundpomoshi.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "peer-gos.top",
+      "relation": "attacker"
+    },
+    {
+      "name": "helpzzfound.site",
+      "relation": "attacker"
+    },
+    {
+      "name": "uacompensation.xyz",
+      "relation": "attacker"
+    },
+    {
+      "name": "pay.uacompensation.xyz",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "14.07.2022",
+    "id": 761668,
+    "title": "Онлайн-шахрайство з використанням тематики \"грошової компенсації\" (CERT-UA#4964)"
+  }
+}

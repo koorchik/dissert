@@ -1,0 +1,111 @@
+{
+  "attackTargets": [
+    "Kyivstar",
+    "Security Service of Ukraine (SBU)"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "explorer.exe",
+    "remcos.exe",
+    "wsuscr.exe",
+    "GB.exe",
+    "PowerShell",
+    "reg.exe",
+    "cmd.exe",
+    "schtasks.exe",
+    "wscript.exe",
+    "SmartAssembly .NET",
+    "Bitbucket"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Malaysia",
+      "relation": "attacker",
+      "code": "MY"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Kyivstar",
+      "relation": "target"
+    },
+    {
+      "name": "Shinjiru",
+      "relation": "attacker"
+    },
+    {
+      "name": "STARK INDUSTRIES SOLUTIONS LTD",
+      "relation": "attacker"
+    },
+    {
+      "name": "Bitbucket",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "bitbucket.org",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "21.12.2023",
+    "id": 6276824,
+    "title": "\"Заборгованість Київстар\", \"Запит СБУ\": нова атака UAC-0050 з використанням RemcosRAT (CERT-UA#8338)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Kyivstar",
+      "embedding": []
+    },
+    {
+      "name": "Security Service of Ukraine (SBU)",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "explorer.exe",
+    "remcos.exe",
+    "wsuscr.exe",
+    "GB.exe",
+    "PowerShell",
+    "reg.exe",
+    "cmd.exe",
+    "schtasks.exe",
+    "wscript.exe",
+    "SmartAssembly .NET",
+    "Bitbucket"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Kyivstar",
+      "relation": "target"
+    },
+    {
+      "name": "Shinjiru",
+      "relation": "attacker"
+    },
+    {
+      "name": "Stark Industries Solutions",
+      "relation": "attacker"
+    },
+    {
+      "name": "Bitbucket",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "bitbucket.org",
+      "relation": "attacker"
+    }
+  ]
+}

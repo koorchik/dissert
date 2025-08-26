@@ -1,0 +1,31 @@
+{
+  "id": 23,
+  "title": "Adobe провела широкомасштабну розробку оновлень безпеки",
+  "description": "<p>Adobe провела широкомасштабну розробку оновлень безпеки для своїх продуктів у Patch Tuesday, включаючи критичну вразливість у Flash Player, яка, у випадку використання, може призвести до виконання коду з правами поточного користувача.</p>",
+  "text": "<p>Adobe провела широкомасштабну розробку оновлень безпеки для своїх продуктів у Patch Tuesday, включаючи критичну вразливість у Flash Player, яка, у випадку використання, може призвести до виконання коду з правами поточного користувача.</p><p>Разом з Adobe Flash Player оновлення безпеки також отримали: Framemaker, Acrobat Reader та DC, Digital Editions та Experience Manager.</p><p><strong>Adobe&nbsp;виправила такі вразливості:</strong></p><p>CVE-2020-3757</p><ul><li>критична вразливість Flash Player для Windows, Mac та Linux, що дозволяє зловмиснику&nbsp;віддалено запускати довільний код.</li></ul><p>CVE-2020-3760</p><ul><li>критична вразливість у Adobe Digital Edition – проблема застосування команд, що може призвести до виконання довільного коду.</li></ul><p>CVE-2020-3759</p><ul><li>вразливість високого рівня у Adobe Digital Edition – помилка буфера, яка може призвести до розкриття інформації.</li></ul><p>CVE-2020-3741</p><ul><li>вразливість високого рівня у Experience Manager. Дана вразливість може призвести до відмови в обслуговуванні через проблеми неконтрольованого споживання ресурсів.</li></ul><p>Оновлення для Framemaker виправляють 21 критичну CVE, що охоплюють помилку буфера, переповнення купи, пошкодження пам’яті та недоліки, що можуть призвести до виконання довільного коду.</p><p>У програмах Reader і Reader DC було знайдено 12 критичних, 3 високого та 2 середнього рівня вразливості. Найактуальніші проблеми зосереджуються на переповненні купи, помилці буфера, ескалації привілеїв, що потенційно може призвести до виконання довільного коду.</p><p><strong>Що робити?</strong></p><p>Якщо Ви використовуєте одну з вищезазначених систем, рекомендуємо&nbsp;<strong>негайно</strong>&nbsp;встановити відповідні оновлення (патчі) для усунення вразливостей, що вже випущені компанією Adobe.</p><p><strong>Корисні посилання:</strong></p><p>Adobe Security Bulletin – CVE-2020-3757 –&nbsp;<a href=\"https://helpx.adobe.com/security/products/flash-player/apsb20-06.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://helpx.adobe.com/security/products/flash-player/apsb20-06.html</a></p><p>Adobe Security Bulletin – CVE-2020-3760, CVE-2020-3759&nbsp;–&nbsp;<a href=\"https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://helpx.adobe.com/security/products/Digital-Editions/apsb20-07.html</a></p><p>Adobe Security Bulletin – CVE-2020-3741–&nbsp;<a href=\"https://helpx.adobe.com/security/products/experience-manager/apsb20-08.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://helpx.adobe.com/security/products/experience-manager/apsb20-08.html</a></p><p>Adobe Security Bulletin – Security Updates Available for Adobe Framemaker –&nbsp;<a href=\"https://helpx.adobe.com/security/products/framemaker/apsb20-04.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://helpx.adobe.com/security/products/framemaker/apsb20-04.html</a></p><p>Adobe Security Bulletin – Security update available for Adobe Acrobat and Reader –&nbsp;<a href=\"https://helpx.adobe.com/security/products/acrobat/apsb20-05.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://helpx.adobe.com/security/products/acrobat/apsb20-05.html</a></p>",
+  "image": "https://cert.gov.ua/img/articles/23/KTexnmEAF9hOPhHeiR0coRr2kTPrR2fNqcyW0vko.jpeg",
+  "previous": {
+    "id": 22,
+    "name": "Cisco випустив патчі для закриття 'CDPwn'"
+  },
+  "next": {
+    "id": 24,
+    "name": "УВАГА! Спостерігається масова розсилка фішингових листів, які використовують вразливість CVE-2017-11882"
+  },
+  "articles": [
+    {
+      "id": 16,
+      "date": "17.01.2020",
+      "title": "Intel, Adobe, Oracle та VMWare опублікували перші, в цьому році, оновлення безпеки для своїх продуктів.",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 14,
+      "name": "Adobe"
+    }
+  ],
+  "date": "13.02.2020",
+  "langId": null
+}

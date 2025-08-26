@@ -1,0 +1,70 @@
+{
+  "attackTargets": [
+    "Windows Server 2019",
+    "Windows 10 1809"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "HTTP Protocol Stack (http.sys)",
+    "Internet Information Services (IIS)",
+    "Windows Server 2019",
+    "Windows 10 1809"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "msrc.microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "cve.mitre.org",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "18.01.2022",
+    "id": 17961,
+    "title": "Інформація щодо вразливості в продуктах Microsoft CVE-2022-21907"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Windows Server 2019",
+      "embedding": []
+    },
+    {
+      "name": "Windows 10 1809",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "http.sys",
+    "IIS",
+    "Windows Server",
+    "Windows 10"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "microsoft.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "mitre.org",
+      "relation": "neutral"
+    }
+  ]
+}

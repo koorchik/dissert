@@ -1,0 +1,150 @@
+{
+  "attackTargets": [
+    "ТОВ Технік",
+    "Компания \"Спец Строй Монтаж\"",
+    "HP-INTERNET мережа"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "Sonoko",
+    "sysm.exe",
+    "Propagate"
+  ],
+  "countries": [
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    },
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Бородавко Александр Владимирович",
+      "relation": "attacker"
+    },
+    {
+      "name": "Филипова Алла",
+      "relation": "attacker"
+    }
+  ],
+  "domains": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "zp.ukrtel.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "sm.ukrtel.net",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "15.11.2018",
+    "id": 2718,
+    "title": "Розсилка шкідливого програмного забезпечення бекдор-завантажувача Sonoko/Propagate "
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "ТОВ Технік",
+      "embedding": []
+    },
+    {
+      "name": "Компания \"Спец Строй Монтаж\"",
+      "embedding": []
+    },
+    {
+      "name": "HP-INTERNET Network",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Sonoko",
+    "sysm.exe",
+    "Propagate"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "Borodavko Alexander Vladimirovich",
+      "relation": "attacker"
+    },
+    {
+      "name": "Filipova Alla",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "districoperav.icu",
+      "relation": "attacker"
+    },
+    {
+      "name": "varanasiclick.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "nx0.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "ukrtel.net",
+      "relation": "attacker"
+    }
+  ]
+}

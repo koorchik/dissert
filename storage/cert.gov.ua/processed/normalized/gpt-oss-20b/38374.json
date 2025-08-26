@@ -1,0 +1,53 @@
+{
+  "attackTargets": [
+    "Ukrainian state bodies"
+  ],
+  "hackerGroups": [
+    "UAC-0056"
+  ],
+  "applications": [
+    "Base-Update.exe",
+    "java-sdk.exe",
+    "oracle-java.exe",
+    "microsoft-cortana.exe",
+    "GraphSteel",
+    "GrimPlant",
+    "GoDownloader"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "28.03.2022",
+    "id": 38374,
+    "title": "Кібератака групи UAC-0056 на державні органи України з використанням шкідливих програм GraphSteel та GrimPlant (CERT-UA#4293)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian State Bodies",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UAC-0056"
+  ],
+  "normalizedApplications": [
+    "Base-Update",
+    "java-sdk",
+    "oracle-java",
+    "microsoft-cortana",
+    "GraphSteel",
+    "GrimPlant",
+    "GoDownloader"
+  ],
+  "normalizedOrganizations": [],
+  "normalizedIndividuals": [],
+  "normalizedDomains": []
+}

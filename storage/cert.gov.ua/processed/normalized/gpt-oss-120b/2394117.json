@@ -1,0 +1,173 @@
+{
+  "attackTargets": [
+    "Ukrainian government agencies",
+    "State Special Communications Service (Держспецзв'язку)"
+  ],
+  "hackerGroups": [
+    "UAC-0010 (Armageddon)"
+  ],
+  "applications": [
+    "mshta.exe",
+    "HTA",
+    "VBScript",
+    "RAR"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "State Special Communications Service",
+      "relation": "target"
+    },
+    {
+      "name": "mail.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "cloudflare-dns.com",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "civh.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "hilr.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "rubidiumo.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shapurt.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ardeas.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "tzi.info-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "arhiv.ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "info-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "cloudflare-dns.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "mail.gov.ua",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "08.11.2022",
+    "id": 2681855,
+    "title": "Кібератака групи UAC-0010: розсилання електронних листів, начебто, від імені Держспецзв'язку (CERT-UA#5570)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian Government Agencies",
+      "embedding": []
+    },
+    {
+      "name": "State Special Communications Service (Ukrainian)",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "Armageddon (UAC-0010)"
+  ],
+  "normalizedApplications": [
+    "mshta.exe",
+    "HTA",
+    "VBScript",
+    "RAR"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "State Special Communications Service (SSU)",
+      "relation": "target"
+    },
+    {
+      "name": "mail.gov.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "Cloudflare",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "civh.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "hilr.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "rubidiumo.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "shapurt.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "ardeas.ru",
+      "relation": "attacker"
+    },
+    {
+      "name": "cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "ua-cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "cip.org",
+      "relation": "attacker"
+    },
+    {
+      "name": "cloudflare-dns.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "gov.ua",
+      "relation": "attacker"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "JesterStealer",
+    "Updater-Microsoft.exe"
+  ],
+  "countries": [
+    {
+      "name": "Japan",
+      "relation": "neutral",
+      "code": "JP"
+    },
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "United States",
+      "relation": "attacker",
+      "code": "US"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "igshop.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "dcshost.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "marmaris.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "autodoka.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "lightnogu5owjjllyo4tj2sfos6fchnmcidlgo6c7e6fz2hgryhfhoyd.onion",
+      "relation": "attacker"
+    },
+    {
+      "name": "wasabiwallet.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "ip-api.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "sv5206.xserver.jp",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "igshop.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "dcshost.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "marmaris.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "autodoka.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "lightnogu5owjjllyo4tj2sfos6fchnmcidlgo6c7e6fz2hgryhfhoyd.onion",
+      "relation": "attacker"
+    },
+    {
+      "name": "wasabiwallet.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "ip-api.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "sv5206.xserver.jp",
+      "relation": "attacker"
+    },
+    {
+      "name": "tachikawaobs@sv5206.xserver.jp",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "07.05.2022",
+    "id": 40125,
+    "title": "Масове розповсюдження шкідливої програми JesterStealer з використанням тематики хімічної атаки (CERT-UA#4625)"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "JesterStealer",
+    "Updater-Microsoft.exe"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "igshop.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "dcshost.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "marmaris.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "autodoka.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "lightnogu5owjjllyo4tj2sfos6fchnmcidlgo6c7e6fz2hgryhfhoyd.onion",
+      "relation": "attacker"
+    },
+    {
+      "name": "wasabiwallet.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "ip-api.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "sv5206.xserver.jp",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "igshop.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "dcshost.net",
+      "relation": "attacker"
+    },
+    {
+      "name": "marmaris.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "autodoka.com.ua",
+      "relation": "attacker"
+    },
+    {
+      "name": "lightnogu5owjjllyo4tj2sfos6fchnmcidlgo6c7e6fz2hgryhfhoyd.onion",
+      "relation": "attacker"
+    },
+    {
+      "name": "wasabiwallet.online",
+      "relation": "attacker"
+    },
+    {
+      "name": "ip-api.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "xserver.jp",
+      "relation": "attacker"
+    },
+    {
+      "name": "xserver.jp",
+      "relation": "attacker"
+    }
+  ]
+}

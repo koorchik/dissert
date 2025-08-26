@@ -1,0 +1,32 @@
+{
+  "attackTargets": [
+    "email accounts"
+  ],
+  "hackerGroups": [],
+  "applications": [
+    "HTML file"
+  ],
+  "countries": [
+    {
+      "name": "South Korea",
+      "relation": "attacker"
+    },
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "cautionphenomenon.co.kr",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "30.07.2019",
+    "id": 2659,
+    "title": "Не перевіряйте свої поштові акаунти на фішингових сайтах!"
+  }
+}

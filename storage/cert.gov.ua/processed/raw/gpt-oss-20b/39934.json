@@ -1,0 +1,40 @@
+{
+  "attackTargets": [
+    "Ukrainian government"
+  ],
+  "hackerGroups": [
+    "TrickBot"
+  ],
+  "applications": [
+    "PowerShell",
+    "Meterpreter",
+    "z.ps1",
+    "b.exe",
+    "loader.exe",
+    "a.docx"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Government of Ukraine",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "rs500cosworth.com",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "28.04.2022",
+    "id": 39934,
+    "title": "Кібератака групи UAC-0098 на державні органи України із застосуванням фреймворку Metasploit (CERT-UA#4560)"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "Microsoft Exchange Server",
+    "Fortinet",
+    "Apache Log4j",
+    "shodan.io",
+    "Mikrotik",
+    "Proxmox",
+    "ISPManager",
+    "DirectAdmin",
+    "Webmin",
+    "PhpMyAdmin",
+    "АСКОД"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "CISA",
+      "relation": "neutral"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    },
+    {
+      "name": "Fortinet",
+      "relation": "neutral"
+    },
+    {
+      "name": "Apache",
+      "relation": "neutral"
+    },
+    {
+      "name": "Shodan",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "shodan.io",
+      "relation": "neutral"
+    },
+    {
+      "name": "cisa.gov",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "12.09.2022",
+    "id": 1751036,
+    "title": "Щодо невідкладних заходів кіберзахисту"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Microsoft Exchange Server",
+    "Fortinet",
+    "Apache Log4j",
+    "shodan.io",
+    "Mikrotik",
+    "Proxmox",
+    "ISPManager",
+    "DirectAdmin",
+    "Webmin",
+    "PhpMyAdmin",
+    "АСКОД"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "CISA",
+      "relation": "neutral"
+    },
+    {
+      "name": "Microsoft",
+      "relation": "neutral"
+    },
+    {
+      "name": "Fortinet",
+      "relation": "neutral"
+    },
+    {
+      "name": "Apache",
+      "relation": "neutral"
+    },
+    {
+      "name": "Shodan",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "shodan.io",
+      "relation": "neutral"
+    },
+    {
+      "name": "cisa.gov",
+      "relation": "neutral"
+    }
+  ]
+}

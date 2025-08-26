@@ -1,0 +1,54 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "CERT-UA",
+      "relation": "target"
+    },
+    {
+      "name": "Держспецзв'язку",
+      "relation": "target"
+    },
+    {
+      "name": "Кіберцентр UA30",
+      "relation": "neutral"
+    },
+    {
+      "name": "FIRST",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Володимир Зеленський",
+      "relation": "neutral"
+    },
+    {
+      "name": "Михайло Федоров",
+      "relation": "neutral"
+    },
+    {
+      "name": "Юрій Щиголь",
+      "relation": "neutral"
+    }
+  ],
+  "domains": [
+    {
+      "name": "ua30.gov.ua",
+      "relation": "target"
+    }
+  ],
+  "metadata": {
+    "date": "13.05.2021",
+    "id": 12081,
+    "title": "Президент України Володимир Зеленський відкрив Кіберцентр UA30"
+  }
+}

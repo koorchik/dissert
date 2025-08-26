@@ -1,0 +1,37 @@
+{
+  "id": 2496,
+  "title": "Mozilla, VMWare, Apple, Chrome та Cisco випустили оновлення безпеки",
+  "description": "<p>Mozilla, VMWare, Apple, Chrome та Cisco опублікували актуальні оновлення безпеки для своїх продуктів.</p>",
+  "text": "<p>Mozilla, VMWare, Apple, Chrome та Cisco опублікували актуальні оновлення безпеки для своїх продуктів.</p><p>Mozilla випустила оновлення безпеки для усунення вразливостей в Thunderbird, Firefox ESR&nbsp;та Firefox, а також на Firefox для операційної системи iOS. Зловмисник може скористатися деякими з цих вразливостей для викрадення закритих ключів шифрування, запуску зловмисного коду, отримання конфіденційної інформації.</p><p>Ознайомитись з даними оновлення та завантажити їх можна за посиланнями:</p><p>Thunderbird&nbsp;<a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-22/\" rel=\"noopener noreferrer\" target=\"_blank\">Mozilla Foundation Security Advisory 2020-22</a></p><p>Firefox ESR <a href=\"https://www.mozilla.org/en-US/security/advisories/mfsa2020-21/\" rel=\"noopener noreferrer\" target=\"_blank\">Mozilla Foundation Security Advisory 2020-21</a></p><p>Firefox <a href=\"Mozilla Foundation Security Advisory 2020-20\" rel=\"noopener noreferrer\" target=\"_blank\">Mozilla Foundation Security Advisory 2020-20</a></p><p>Firefox для iOS <a href=\"Mozilla Foundation Security Advisory 2020-19\" rel=\"noopener noreferrer\" target=\"_blank\">Mozilla Foundation Security Advisory 2020-19</a></p><p>VMware також було опубліковано оновлення безпеки для усунення вразливостей (CVE-2020-3957, CVE-2020-3958, CVE-2020-3959) в VMware ESXi, VMware Workstation Pro / Player (Workstation), VMware Fusion Pro / Fusion (Fusion), VMRC для Mac, клієнтів VMware Horizon для Mac. Зловмисник може скористатися цими вразливостями, щоб здійснити ескалацію своїх привілеїв в системі та/або зірвати процес vmx віртуальної машини, що призведе до відмови обслуговуванні.&nbsp;</p><p>Ознайомтесь з VMware Security Advisory <a href=\"https://www.vmware.com/security/advisories/VMSA-2020-0011.html\" rel=\"noopener noreferrer\" target=\"_blank\">VMSA-2020-0011</a> та встановіть необхідні оновлення.</p><p>Apple опублікувала оновлення безпеки для усунення вразливостей у кількох продуктах. Зловмисник може використовувати деякі з цих вразливих місць для отримання підвищення привілеїв.</p><p>Список продуктів Apple, для яких вийшли оновлення та посилань на офіційні рекомендації виробника:</p><p>Остання версія iOS та iPadOS - це 13.5.1. <a href=\"https://support.apple.com/en-us/HT211214\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2020-9859</a></p><p>Остання версія macOS - 10.15.5. <a href=\"https://support.apple.com/en-us/HT211215\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2020-9859</a></p><p>Остання версія tvOS - 13.4.6. <a href=\"https://support.apple.com/en-us/HT211216\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2020-9859</a></p><p>Остання версія watchOS - 6.2.6. <a href=\"https://support.apple.com/en-us/HT211217\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2020-9859</a></p><p>Компанія Google анонсувала оновлення безпеки Chrome для усунення вразливостей (CVE-2020-6497, CVE-2020-6498) для IOS до версії (83.0.4103.88) та вразливостей (CVE-2020-6493, CVE-2020-6494, CVE-2020-6495, CVE-2020-6496) для Windows, Mac, а також Linux до версії (83.0.4103.97). Дані оновлення будуть доступні найближчим часом.</p><p>Деталі за посиланням <a href=\"https://chromereleases.googleblog.com/2020/06/stable-channel-update-for-desktop.html\" rel=\"noopener noreferrer\" target=\"_blank\">Stable Channel Update for Desktop</a></p><p>Компанія Cisco опублікувала «Рекомендації з безпеки програмного забезпечення Cisco IOS та IOS XE», що містять у собі 23 рекомендації з безпеки Cisco, в яких описуються 25 вразливостей в програмному забезпеченні Cisco IOS та Cisco IOS XE. Також випустили оновлення, що направлені усунути описані вразливості.</p><p>Щоб швидко визначити чи присутні в конкретній версії програмного забезпечення Cisco IOS чи IOS XE одна чи декілька вразливостей, можна використовувати <a href=\"https://tools.cisco.com/security/center/softwarechecker.x\" rel=\"noopener noreferrer\" target=\"_blank\">засіб перевірки програмного забезпечення Cisco</a>.</p><p>Список вразливих продуктів Cisco та патчів до них можна знайти за посиланням: <a href=\"https://tools.cisco.com/security/center/viewErp.x?alertId=ERP-73388\" rel=\"noopener noreferrer\" target=\"_blank\">Cisco Event Response: June 2020 Semiannual Cisco IOS and IOS XE Software Security Advisory Bundled Publication</a></p>",
+  "image": "https://cert.gov.ua/img/articles/2496/hiIbbTJUcCogQ9JZvw82BdFHAOFeLOfBxB69wkJL.jpeg",
+  "previous": {
+    "id": 27,
+    "name": "Вразливість в Zoom для Windows"
+  },
+  "next": {
+    "id": 2492,
+    "name": "Рекомендації з безпеки програмного забезпечення Cisco ASA, FMC та FTD"
+  },
+  "articles": [
+    {
+      "id": 2492,
+      "date": "08.06.2020",
+      "title": "Рекомендації з безпеки програмного забезпечення Cisco ASA, FMC та FTD",
+      "tags": []
+    },
+    {
+      "id": 22,
+      "date": "12.02.2020",
+      "title": "Cisco випустив патчі для закриття 'CDPwn'",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 24,
+      "name": "Cisco"
+    }
+  ],
+  "date": "05.06.2020",
+  "langId": null
+}

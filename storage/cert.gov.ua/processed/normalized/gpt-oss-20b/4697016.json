@@ -1,0 +1,205 @@
+{
+  "attackTargets": [
+    "Ukrainian state institution"
+  ],
+  "hackerGroups": [
+    "UAC-0063"
+  ],
+  "applications": [
+    "SvcRestartTaskLogon",
+    "WsSwapAssessmentTask",
+    "SoftwareProtectionPlatform",
+    "LOGPIE",
+    "CHERRYSPY",
+    "PyArmor",
+    "Themida",
+    "Diagsvc.exe",
+    "mshta.exe",
+    "wscript.exe",
+    "cscript.exe",
+    "python",
+    "WinTime.py",
+    "slmgr.vbe",
+    "pytransform.pyd",
+    "help.py",
+    "driver.vbs"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Mongolia",
+      "relation": "attacker",
+      "code": "MN"
+    },
+    {
+      "name": "Kazakhstan",
+      "relation": "attacker",
+      "code": "KZ"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "relation": "attacker",
+      "code": "KG"
+    },
+    {
+      "name": "Israel",
+      "relation": "attacker",
+      "code": "IL"
+    },
+    {
+      "name": "India",
+      "relation": "attacker",
+      "code": "IN"
+    },
+    {
+      "name": "Netherlands",
+      "relation": "attacker",
+      "code": "NL"
+    },
+    {
+      "name": "Bulgaria",
+      "relation": "attacker",
+      "code": "BG"
+    },
+    {
+      "name": "Singapore",
+      "relation": "attacker",
+      "code": "SG"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Ukrainian state institution",
+      "relation": "target"
+    },
+    {
+      "name": "Embassy of Tajikistan in Ukraine",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "diagnostic-resolver.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ms-webdav-miniredir.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "blnwx.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "vpsag.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "4vendeta.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "cherryservers.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "linode.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "namecheap.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "net-certificate.services",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "22.05.2023",
+    "id": 4697016,
+    "title": "Шпигунська активність UAC-0063 у відношенні України, Казахстану, Киргизстану, Монголії, Ізраїлю, Індії (CERT-UA#6549)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukrainian State Institution",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UAC-0063"
+  ],
+  "normalizedApplications": [
+    "SvcRestartTaskLogon",
+    "WsSwapAssessmentTask",
+    "SoftwareProtectionPlatform",
+    "LOGPIE",
+    "CHERRYSPY",
+    "PyArmor",
+    "Themida",
+    "Diagsvc",
+    "mshta",
+    "WScript",
+    "cscript",
+    "Python",
+    "WinTime",
+    "slmgr",
+    "pytransform",
+    "help",
+    "driver"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Ukrainian State Institution",
+      "relation": "target"
+    },
+    {
+      "name": "Embassy of Tajikistan in Ukraine",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "diagnostic-resolver.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "ms-webdav-miniredir.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "blnwx.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "vpsag.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "4vendeta.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "cherryservers.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "linode.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "namecheap.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "net-certificate.services",
+      "relation": "attacker"
+    }
+  ]
+}

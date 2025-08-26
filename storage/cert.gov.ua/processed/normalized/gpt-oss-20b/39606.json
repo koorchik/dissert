@@ -1,0 +1,110 @@
+{
+  "attackTargets": [
+    "Zimbra Collaboration Suite",
+    "Email accounts of the Armed Forces of Ukraine"
+  ],
+  "hackerGroups": [
+    "Sukaut"
+  ],
+  "applications": [
+    "Zimbra Collaboration Suite",
+    "JUnit.js"
+  ],
+  "countries": [
+    {
+      "name": "Ukraine",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Armed Forces of Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Zimbra",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [
+    {
+      "name": "Volodymyr Zelenskyy",
+      "relation": "target"
+    }
+  ],
+  "domains": [
+    {
+      "name": "kmtacn.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "cdn.jsdelivr.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "yandex.ru",
+      "relation": "neutral"
+    }
+  ],
+  "metadata": {
+    "date": "14.04.2022",
+    "id": 39606,
+    "title": "Кібератака на державні організації України з використанням експлойту для XSS вразливості в Zimbra Collaboration Suite (CVE-2018-6882) (CERT-UA#4461)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Zimbra Collaboration Suite",
+      "embedding": []
+    },
+    {
+      "name": "Armed Forces Email Accounts",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "Sukaut"
+  ],
+  "normalizedApplications": [
+    "Zimbra Collaboration Suite",
+    "JUnit.js"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Armed Forces of Ukraine",
+      "relation": "target"
+    },
+    {
+      "name": "Zimbra",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [
+    {
+      "name": "Володимир Зеленський",
+      "relation": "target"
+    }
+  ],
+  "normalizedDomains": [
+    {
+      "name": "kmtacn.com",
+      "relation": "attacker"
+    },
+    {
+      "name": "cdn.jsdelivr.net",
+      "relation": "neutral"
+    },
+    {
+      "name": "github.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "yandex.ru",
+      "relation": "neutral"
+    }
+  ]
+}

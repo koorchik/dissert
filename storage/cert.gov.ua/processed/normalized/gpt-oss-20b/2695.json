@@ -1,0 +1,51 @@
+{
+  "attackTargets": [
+    "Україна"
+  ],
+  "hackerGroups": [],
+  "applications": [],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target",
+      "code": "UA"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Центр соціальних та маркетингових досліджень (SOCIS)",
+      "relation": "attacker"
+    },
+    {
+      "name": "OptiData",
+      "relation": "neutral"
+    }
+  ],
+  "individuals": [],
+  "domains": [],
+  "metadata": {
+    "date": "30.03.2019",
+    "id": 2693,
+    "title": "Фішингова розсилка на тему виборів"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukraine",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [],
+  "normalizedOrganizations": [
+    {
+      "name": "SOCIS",
+      "relation": "attacker"
+    },
+    {
+      "name": "OptiData",
+      "relation": "neutral"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": []
+}

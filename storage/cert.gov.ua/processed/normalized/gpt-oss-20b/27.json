@@ -1,0 +1,54 @@
+{
+  "attackTargets": [],
+  "hackerGroups": [],
+  "applications": [
+    "Adobe Flash Player",
+    "Adobe Framemaker",
+    "Adobe Acrobat Reader",
+    "Adobe Acrobat Reader DC",
+    "Adobe Digital Editions",
+    "Adobe Experience Manager"
+  ],
+  "countries": [],
+  "organizations": [
+    {
+      "name": "Adobe",
+      "relation": "target"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "helpx.adobe.com",
+      "relation": "target"
+    }
+  ],
+  "metadata": {
+    "date": "13.02.2020",
+    "id": 23,
+    "title": "Adobe провела широкомасштабну розробку оновлень безпеки"
+  },
+  "enrichedAttackTargets": [],
+  "normalizedHackerGroups": [],
+  "normalizedApplications": [
+    "Adobe Flash Player",
+    "Adobe Framemaker",
+    "Adobe Acrobat Reader",
+    "Adobe Acrobat Reader DC",
+    "Adobe Digital Editions",
+    "Adobe Experience Manager"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "Adobe",
+      "relation": "target"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "adobe.com",
+      "relation": "target"
+    }
+  ]
+}

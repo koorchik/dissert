@@ -1,0 +1,103 @@
+{
+  "attackTargets": [
+    "Україна"
+  ],
+  "hackerGroups": [
+    "UAC-0057"
+  ],
+  "applications": [
+    "WinRAR",
+    "mshta.exe",
+    "Cobalt Strike Beacon",
+    "PicassoLoader",
+    "HTA"
+  ],
+  "countries": [
+    {
+      "name": "Україна",
+      "relation": "target",
+      "code": "UA"
+    },
+    {
+      "name": "Turkey",
+      "relation": "attacker",
+      "code": "TR"
+    },
+    {
+      "name": "Russia",
+      "relation": "attacker",
+      "code": "RU"
+    }
+  ],
+  "organizations": [
+    {
+      "name": "publicdomainregistry.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "stark-industries.solutions",
+      "relation": "attacker"
+    },
+    {
+      "name": "profitserver.ru",
+      "relation": "attacker"
+    }
+  ],
+  "individuals": [],
+  "domains": [
+    {
+      "name": "topibuzz.space",
+      "relation": "attacker"
+    },
+    {
+      "name": "windacarmelita.pw",
+      "relation": "attacker"
+    }
+  ],
+  "metadata": {
+    "date": "31.08.2023",
+    "id": 5661411,
+    "title": "Кібератака UAC-0057: експлойт для CVE-2023-38831, JavaScript-варіація PicassoLoader, алгоритм Rabbit та Cobalt Strike Beacon (CERT-UA#7435)"
+  },
+  "enrichedAttackTargets": [
+    {
+      "name": "Ukraine",
+      "embedding": []
+    }
+  ],
+  "normalizedHackerGroups": [
+    "UNC1151"
+  ],
+  "normalizedApplications": [
+    "WinRAR",
+    "mshta",
+    "Cobalt Strike",
+    "PicassoLoader",
+    "HTA"
+  ],
+  "normalizedOrganizations": [
+    {
+      "name": "publicdomainregistry.com",
+      "relation": "neutral"
+    },
+    {
+      "name": "Stark Industries Solutions Ltd",
+      "relation": "attacker"
+    },
+    {
+      "name": "profitserver.ru",
+      "relation": "attacker"
+    }
+  ],
+  "normalizedIndividuals": [],
+  "normalizedDomains": [
+    {
+      "name": "topibuzz.space",
+      "relation": "attacker"
+    },
+    {
+      "name": "windacarmelita.pw",
+      "relation": "attacker"
+    }
+  ]
+}
