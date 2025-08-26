@@ -1,0 +1,65 @@
+{
+  "id": 2625,
+  "title": " Виявлено критичні вразливості операційної системи Windows ",
+  "description": "<p>Агентство&nbsp;з питань кібербезпеки та інфраструктури (CISA) видало Директиву щодо надзвичайних ситуацій 20-02 (<a href=\"https://cyber.dhs.gov/ed/20-02/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255);\">https://cyber.dhs.gov/ed/20-02/</a>) та&nbsp;оприлюднило попередження&nbsp;щодо необхідності&nbsp;термінового виправлення критичних вразливостей, що існують у продуктах Microsoft Windows.</p>",
+  "text": "<p>Агентство&nbsp;з питань кібербезпеки та інфраструктури (CISA) видало Директиву щодо надзвичайних ситуацій 20-02 (<a href=\"https://cyber.dhs.gov/ed/20-02/\" rel=\"noopener noreferrer\" target=\"_blank\">https://cyber.dhs.gov/ed/20-02/</a>) та&nbsp;оприлюднило попередження&nbsp;щодо необхідності&nbsp;термінового виправлення критичних вразливостей, що існують у продуктах Microsoft Windows. Ці вразливості впливають на те, як деякі версії цієї операційної системи перевіряють сертифікати криптографії Elliptic Curve (ECC) та обробляють&nbsp;запити на з'єднання протоколом віддаленого робочого столу (RDP).&nbsp;</p><h2>Вразливості:</h2><h3><strong>CVE-2020-0601 – Серйозна</strong></h3><p>Вразливість перевірки сертифікатів ECC є у MS Windows 10, MS Server 2016 та MS Server 2019. Вразливість дозволяє, обходячи надійне сховище, небажаному чи шкідливому програмному забезпеченню маскуватися під автентичне підписання надійною або довіреною організацією. Це&nbsp;може ввести в оману користувачів або перешкодити методам виявлення зловмисних програм, наприклад за допомогою антивірусного&nbsp;програмного забезпечення. Крім того, може бути виданий зловмисно створений сертифікат для імені хоста, який його не авторизовував, а веб-браузер, який спирається на CryptoAPI Windows, не буде видавати попередження, дозволяючи зловмиснику непомітно розшифровувати, змінювати або вводити дані.</p><p>Оновлення Windows за посиланням: <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0601\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2020-0601</a>.</p><h3><strong>CVE-2020-0609 та&nbsp;CVE-2020-0610 – Критичні</strong></h3><p>Вразливості клієнта віддаленого робочого столу (RDP, стосується всіх підтримуваних версій Windows, включаючи Server) та RDP Gateway Server (є на Windows Server 2012, 2016, 2019) дозволяють виконувати віддалене виконання коду. Вразливості сервера не вимагають аутентифікації або взаємодії з користувачем, і їх можна використовувати спеціально створеним запитом. Вразливість клієнта можна використовувати, переконуючи користувача підключитися до шкідливого сервера (наприклад, за допомогою фішингу).</p><p>Оновлення Windows за посиланнями: <a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0609\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2020-0609</a>&nbsp;та&nbsp;<a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0610\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2020-0610</a>.</p><p>&nbsp;</p><h3><strong>CVE-2020-0611 – Критична</strong></h3><p>CVE-2020-0611 вразливість віддаленого виконання коду, яка існує в Windows Remote Desktop Client. В той час, коли користувач підключається до шкідливого серверу за допомогою RDP, зловминик може, використовуючи дану вразливість, виконати код для отримання підключення до операційної системи користувача. Це дозволяє зловмиснику вчиняти дії в операційній системі користувача.&nbsp;</p><p>Оновлення Windows за посиланням:&nbsp;<a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0611\" rel=\"noopener noreferrer\" target=\"_blank\">CVE-2020-0611</a>.</p><h2>Операційні системи, на яких&nbsp;є вразливості:</h2><h3>CVE-2020-0601</h3><ul><li>Windows 10</li><li>Windows Server 2016</li><li>Windows Server 2019</li></ul><h3>CVE-2020-0609 та CVE-2020-0610</h3><ul><li>Всі версії&nbsp;Windows Server, що підтримуються та&nbsp;на яких інстальовано Remote Desktop Gateway.</li></ul><h3>CVE-2020-0611</h3><ul><li>Всі версії&nbsp;Windows та&nbsp;Windows Server,&nbsp;що підтримуються, а також&nbsp;Windows&nbsp;7 та&nbsp;Windows&nbsp;2008&nbsp;R2, які не підтримуються з&nbsp;14&nbsp;січня&nbsp;2020.</li></ul><h2>Що робити?</h2><p>Якщо Ви використовуєте, одну з вищезгаданих операційних систем, рекомендуємо <strong>негайно</strong> встановити оновлення. Патчі для цих вразливостей вже випущені компанією&nbsp;Microsoft як частина оновлення January&nbsp;2020 Security Updates, що вийшли&nbsp;15.01.2020.</p><p>Якщо ці вразливості операційної&nbsp;системи неможливо негайно виправити, рекомендуємо ізолювати їх, відключивши&nbsp;з мереж потенційно вразливі пристрої, підключені до мережі Інтернет.</p><p>Додатково рекомендуємо використовувати ліцензійне програмне забезпечення та&nbsp;не відключати автоматичне встановлювлення&nbsp;оновлень.</p><h2>Корисні посилання</h2><p>Microsoft Advisory – CVE-2020-0601 -&nbsp;<a href=\"https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0601\" rel=\"noopener noreferrer\" target=\"_blank\">https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2020-0601</a></p><p>Microsoft Advisory – CVE-2020-0609 –&nbsp;<a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0609\" rel=\"noopener noreferrer\" target=\"_blank\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0609</a></p><p>Microsoft Advisory – CVE-2020-0610 -&nbsp;<a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0610\" rel=\"noopener noreferrer\" target=\"_blank\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0610</a></p><p>Microsoft Advisory – CVE-2020-0611 -&nbsp;<a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0611\" rel=\"noopener noreferrer\" target=\"_blank\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2020-0611</a></p><p>US-CERT Alert AA20-014A - Critical Vulnerabilities in Microsoft Windows Operating Systems -&nbsp;<a href=\"https://www.us-cert.gov/ncas/alerts/aa20-014a\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.us-cert.gov/ncas/alerts/aa20-014a</a></p><p>NSA Cyber Security Advisory- Patch Critical Cryptographic Vulnerability in Microsoft Windows Clients and Servers -&nbsp;<a href=\"https://media.defense.gov/2020/Jan/14/2002234275/-1/-1/0/CSA-WINDOWS-10-CRYPT-LIB-20190114.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://media.defense.gov/2020/Jan/14/2002234275/-1/-1/0/CSA-WINDOWS-10-CRYPT-LIB-20190114.pdf</a></p>",
+  "image": "https://cert.gov.ua/img/articles/2625/9R7oN6Av4QNbmHEOD89Ad9BL84HPrlXD4oMDSZJP.png",
+  "previous": {
+    "id": 2681,
+    "name": "Вісім правил кібербезпеки. Що пропонують в ООН"
+  },
+  "next": {
+    "id": 2661,
+    "name": "Критична вразливість в старих версіях ОС Windows "
+  },
+  "articles": [
+    {
+      "id": 17961,
+      "date": "18.01.2022",
+      "title": "Інформація щодо вразливості в продуктах Microsoft CVE-2022-21907",
+      "tags": []
+    },
+    {
+      "id": 11113,
+      "date": "17.03.2021",
+      "title": "Державним центром кіберзахисту Держспецзв’язку вживаються заходи з протидії кібератакам з використанням вразливостей Microsoft Exchange Server (ProxyLogon)",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "date": "21.02.2020",
+      "title": "УВАГА! Спостерігається масова розсилка фішингових листів, які використовують вразливість CVE-2017-11882",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "date": "06.02.2020",
+      "title": "Коректне налаштування програмного забезпечення MS Office",
+      "tags": []
+    },
+    {
+      "id": 2661,
+      "date": "15.01.2020",
+      "title": "Критична вразливість в старих версіях ОС Windows ",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 10,
+      "name": "Microsoft"
+    },
+    {
+      "id": 17,
+      "name": "Вразливість"
+    }
+  ],
+  "date": "15.01.2020",
+  "langId": null,
+  "_meta": {
+    "requestedId": 2625,
+    "actualId": 2625,
+    "fetchedAt": "2025-08-26T19:47:15.804Z",
+    "idMismatch": false
+  }
+}

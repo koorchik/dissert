@@ -1,0 +1,61 @@
+{
+  "id": 2699,
+  "title": "Чергова фішинг-атака на органи державної влади",
+  "description": "<p>Повторні фішинг-розсилки з&nbsp;<a href=\"https://twitter.com/hashtag/Smokeloader?src=hash\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">#Smokeloader</a>&nbsp;запакованим в lzh архів.</p><p>Листи приходять на адреси державних органів влади. Текст листа та вкладення українською або російською&nbsp;мовою,&nbsp;що свідчить про цілеспрямоване розповсюдження в Україні. Для прикриття в архів вкладений xlsx-файл файл з деякою інформацією.</p>",
+  "text": "<p>Повторні фішинг-розсилки з&nbsp;<a href=\"https://twitter.com/hashtag/Smokeloader?src=hash\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">#Smokeloader</a>, запакованим в lzh архів.</p><p>Листи приходять на адреси державних органів влади. Текст листа українською мовою, що свідчить про цілеспрямоване розповсюдження в Україні. Для прикриття в архів вкладений xlsx-файл з деякою інформацією.</p><p>Як повідомлялося раніше, даний вірус являється завантажувачем і використовується різними зловмисниками для завантаження&nbsp;іншого шкідливого програмного забезпечення без Вашої згоди і відома.&nbsp;</p><p>Будьте обережні! Не відкривайте вкладення листів та не переходьте за невідомими посиланнями з електронного листа, який ви не очікували отримати.</p><p>Інформація про попередні хвилі розсилок:</p><p><a href=\"https://cert.gov.ua/article/2707\" rel=\"noopener noreferrer\" target=\"_blank\">https://cert.gov.ua/article/2707</a></p><h3><strong>Рекомендації:</strong></h3><ul><li>Не відкривайте прикріплені файли&nbsp;в листах, яких Ви не очікували отримати.</li><li>Перевіряйте відправника повідомлення.</li><li>Блокуйте WSH або трафік cscript/wscript.</li><li>Фільтруйте нестандартні архіви та скриптові файли.</li><li>Блокуйте на Proxy нетипові User Agent.</li><li>Виконуйте основні&nbsp;<a href=\"https://cert.gov.ua/recommendation/31\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">правила кібергігієни&nbsp;</a>.</li></ul><p>Rate VirusTotal:3/57</p><p><strong>Індикатори компрометації (IOC):</strong></p><p>https://pastebin.com/xkVZtczH (Оновлюється)</p><p>-----------------29.01.2019-----------------</p><p>File: К оплате за январь Агро.lzh</p><p>File size: 114 KB (116 666 bytes)</p><p>MD5 checksum: 62CD291C9F341A74C84168DDE992083D</p><p>SHA256 checksum: 1EF967444D626187BD3762E3B12D11F26A1B61C163691D6F809F3888972575CD</p><p>File: Рахунок №6-19 от 29.01.2019р.xls.js</p><p>File size: 98,6 KB (100 984 bytes)</p><p>MD5 checksum: 15B9269D61F3E21A6990969F54A158D5</p><p>SHA256 checksum: 1D59FF685A1EB844C2487AC489E719FB2D23A3D2D82207578A10E1E308F92DD4</p><p>Received: from [91.234.2.202] (helo=91.234.2.202.hata.net.ua)</p><p>by s4.uman.net.ua with esmtpa (Exim 4.82)</p><p>(envelope-from &lt;sekretar2@svit-mebliv.ua&gt;)</p><p>-----------------30.01.2019-----------------</p><p>File: договір та р.фактура від 30.01.19.lzh</p><p>File size: 102 KB (104&nbsp;344 bytes)</p><p>MD5 checksum: B2B67EE7938D096A10B3D45DBA1DAC23</p><p>SHA256 checksum: 4509F9FA30D96DF3729112FECCDC4467FE176D97E3BDE43DA80976F68BC64667</p><p><br></p><p>File: Pax. 19-208 - 30.01.2019p..js</p><p>File size: 76,6 KB (78&nbsp;478 bytes)</p><p>MD5 checksum: DF297E3A2635842DDBCB49B541956AA6</p><p>SHA256 checksum: 593E1D16C62029551058E377BDD82AC351D31C12EE5FB20C3BD83ABCA8A62181</p><p>File: unit.exe</p><p>File size: 471 KB (482&nbsp;304 bytes)</p><p>MD5 checksum: A31EE1B959D804A560738AED872B6068</p><p>SHA256 checksum: 719BA15ABF04F7B449620C2D0F7917B32B69745FAD348327BE0DF519CB76ED79</p><p><br></p><p>Received: from out14.mi6.kiev.ua ([91.198.36.68])</p><p>&nbsp;&nbsp;&nbsp;by prestol.it-mark.net with esmtps (Exim 4.90_1)</p><p>&nbsp;&nbsp;&nbsp;(envelope-from &lt;abed@i.ua&gt;)</p><p>&nbsp;</p><p>hххp://ceronamtinclube.icu/opuba/unit.exe [&nbsp;62.173.138.170]</p><p>C&amp;C:</p><p>hххp://www.msftncsi.com/ncsi.txt</p><p>hххp://aviatorssm.bit/</p><p>&nbsp;</p>",
+  "image": "https://cert.gov.ua/img/articles/2699/54.jpg",
+  "previous": {
+    "id": 2701,
+    "name": "Глобальна кампанія з підміни DNS-записів"
+  },
+  "next": {
+    "id": 2697,
+    "name": "Архів листування російської терористки М.Колєди"
+  },
+  "articles": [
+    {
+      "id": 6280183,
+      "date": "24.07.2024",
+      "title": "Кібератаки UAC-0102 з метою викрадення автентифікаційних даних облікових записів користувачів UKR.NET (CERT-UA#10381)",
+      "tags": []
+    },
+    {
+      "id": 6279491,
+      "date": "30.05.2024",
+      "title": "Тематика голосування в месенджерах - новий спосіб викрадення акаунтів набирає обертів (CERT-UA#9688)",
+      "tags": []
+    },
+    {
+      "id": 6278735,
+      "date": "20.04.2024",
+      "title": "Викрадення акаунту WhatsApp під виглядом голосування за електронні петиції (CERT-UA#9565)",
+      "tags": []
+    },
+    {
+      "id": 6276894,
+      "date": "28.12.2023",
+      "title": "APT28: від первинного ураження до створення загроз для контролеру домену за годину (CERT-UA#8399)",
+      "tags": []
+    },
+    {
+      "id": 6276799,
+      "date": "19.12.2023",
+      "title": "Modus operandi UAC-0177 (JokerDPR) на прикладі однієї з кібератак (CERT-UA#8290)",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 2,
+      "name": "Phishing"
+    }
+  ],
+  "date": "29.01.2019",
+  "langId": null,
+  "_meta": {
+    "requestedId": 2699,
+    "actualId": 2699,
+    "fetchedAt": "2025-08-26T19:47:30.230Z",
+    "idMismatch": false
+  }
+}

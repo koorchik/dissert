@@ -1,0 +1,94 @@
+{
+  "id": 17,
+  "title": "Критичні помилки плагіну WordPress дозволяють зловмисникам заволодіти вашим сайтом.",
+  "description": "<p>Критичні помилки, знайдені у використовуваному понад 80 000 сайтів плагін&nbsp;для скидання бази даних. Вразливість дозволяє зловмисникам видаляти всіх користувачів&nbsp;й скидати будь-яку таблицю в базі даних.</p>",
+  "text": "<p>Критичні помилки, знайдені у використовуваному понад 80 000 сайтів плагін&nbsp;для скидання бази даних. Вразливість дозволяє зловмисникам видаляти всіх користувачів&nbsp;й скидати будь-яку таблицю в базі даних.</p><p>Плагін з відкритим кодом&nbsp;<a href=\"https://wordpress.org/plugins/wordpress-database-reset/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">WP Data Reset</a>&nbsp;WordPress,&nbsp;підтримуваний WebFactory Ltd, розроблений, щоб допомогти скинути бази даних до налаштувань за замовчуванням за допомогою декількох простих кроків, стираючи всі дані, що зберігаються в базі даних, включаючи повідомлення, сторінки, користувачі, тощо.</p><p>Дві вразливості, відстежувані як&nbsp;<a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7048\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">CVE-2020-7048</a>&nbsp;та&nbsp;<a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7047\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">CVE-2020-7047</a>, оцінені як&nbsp;<a href=\"https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">критичного</a>&nbsp;та&nbsp;<a href=\"https://www.first.org/cvss/calculator/3.0#CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">високого</a>&nbsp;рівня, були виправлені з випуском програми&nbsp;<a href=\"https://wordpress.org/plugins/wordpress-database-reset/#developers\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">WP Dataset Reset 3.15</a>, через тиждень після виявлення недоліку фірмою з безпеки WordPress - WordFence.</p><p>Вразливість&nbsp;<a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7048\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">CVE-2020-7048</a>&nbsp;дозволяє будь-якому неавторизованому користувачеві скинути будь-яку таблицю з бази даних до початкового стану налаштування WordPress. А&nbsp;<a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7047\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">CVE-2020-7047</a>&nbsp;дозволяє будь-якому аутентифікованому користувачеві, навіть особам з мінімальними правами, надавати адміністративні привілеї своєму&nbsp;обліковому&nbsp;запису шляхом видалення всіх користувачів із таблиці за допомогою простого запиту.</p><p>Успішна експлуатація двох недоліків може призвести до повного захоплення сайту та / або скидання бази даних.</p><p>Для захисту від зловмисників, які зловживають цими вразливостями, варто негайно оновити WP Database Reset 3.15 та постійно оновлювати резервні копії сайту й зберігати їх на іншому сервері.</p>",
+  "image": "https://cert.gov.ua/img/articles/17/e39UOiFbKyEnlSFBTAI8ZWWJv37oJQgnCVI0sqac.jpeg",
+  "previous": {
+    "id": 16,
+    "name": "Intel, Adobe, Oracle та VMWare опублікували перші, в цьому році, оновлення безпеки для своїх продуктів."
+  },
+  "next": {
+    "id": 18,
+    "name": "Безпека вебресурсів та інформаційних систем органів державної влади – це безпека держави"
+  },
+  "articles": [
+    {
+      "id": 6284949,
+      "date": "04.08.2025",
+      "title": "Оновлений інструментарій UAC-0099: MATCHBOIL, MATCHWOK, DRAGSTARE",
+      "tags": [
+        {
+          "id": 30,
+          "name": "ШПЗ"
+        }
+      ]
+    },
+    {
+      "id": 6284730,
+      "date": "17.07.2025",
+      "title": "Кібератаки UAC-0001 на сектор безпеки та оборони із застосуванням програмного засобу LAMEHUG, що використовує LLM (велику мовну модель) (CERT-UA#16039)",
+      "tags": [
+        {
+          "id": 30,
+          "name": "ШПЗ"
+        }
+      ]
+    },
+    {
+      "id": 6284080,
+      "date": "21.06.2025",
+      "title": "Кібератаки UAC-0001 (APT28) у відношенні державних органів із застосуванням BEARDSHELL та COVENANT ",
+      "tags": [
+        {
+          "id": 17,
+          "name": "Вразливість"
+        },
+        {
+          "id": 30,
+          "name": "ШПЗ"
+        }
+      ]
+    },
+    {
+      "id": 6282946,
+      "date": "06.04.2025",
+      "title": "Цільова шпигунська активність UAC-0226 у відношенні осередків інновацій, державних і правоохоронних органів з використанням стілеру GIFTEDCROOK (CERT-UA#14303)",
+      "tags": [
+        {
+          "id": 30,
+          "name": "ШПЗ"
+        }
+      ]
+    },
+    {
+      "id": 6282902,
+      "date": "01.04.2025",
+      "title": "UAC-0219: кібершпигунство з використанням PowerShell-стілеру WRECKSTEEL (CERT-UA#14283)",
+      "tags": [
+        {
+          "id": 30,
+          "name": "ШПЗ"
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "id": 15,
+      "name": "WordPress"
+    },
+    {
+      "id": 17,
+      "name": "Вразливість"
+    }
+  ],
+  "date": "20.01.2020",
+  "langId": null,
+  "_meta": {
+    "requestedId": 17,
+    "actualId": 17,
+    "fetchedAt": "2025-08-26T19:47:11.373Z",
+    "idMismatch": false
+  }
+}

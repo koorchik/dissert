@@ -1,0 +1,65 @@
+{
+  "id": 2661,
+  "title": "Критична вразливість в старих версіях ОС Windows ",
+  "description": "<p>15.05.2019 Компанія Microsoft <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"background-color: rgb(255, 255, 255); color: blue;\">опублікувала</a> інформацію про критичну вразливість(CVE-2019-0708) в ОС Windows, яка дозволяє зловмисникам виконувати довільний код на комп'ютері&nbsp;жертви за допомогою протоколу RDP.</p>",
+  "text": "<p>15.05.2019 Компанія Microsoft <a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">опублікувала</a> інформацію про критичну вразливість(CVE-2019-0708) в ОС Windows, яка дозволяє зловмисникам виконувати довільний код на комп'ютері&nbsp;жертви за допомогою протоколу RDP. Вразливість дозволяє неавторизованим користувачам під’єднуватись до машини жертви за допомогою RDP (віддаленого робочого столу) та відправляти спеціально сформовані запити. Після вдалої експлуатації вразливості зловмисники можуть встановлювати програми, видаляти та змінювати дані, або створювати нових користувачів в системі.</p><p>&nbsp;</p><p><strong>Вразливі версії ОС Windows:</strong></p><ul><li>Microsoft Windows 7 for 32-bit Systems SP1</li><li>Microsoft Windows 7 for x64-based Systems SP1</li><li>Microsoft Windows Server 2003</li><li>Microsoft Windows Server 2008 R2 for Itanium-based Systems SP1</li><li>Microsoft Windows Server 2008 R2 for x64-based Systems SP1</li><li>Microsoft Windows Server 2008 for 32-bit Systems SP2</li><li>Microsoft Windows Server 2008 for Itanium-based Systems SP2</li><li>Microsoft Windows Server 2008 for x64-based Systems SP2</li><li>Microsoft Windows XP</li></ul><p>&nbsp;</p><p><strong>Рекомендації:</strong></p><p>1. Якщо ви користуєтесь однією з перелічених систем потрібно <strong>НЕГАЙНО </strong>встановити оновлення Windows, які усувають зазначену вразливість.</p><p>Посилання на оновлення:</p><p><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708</a></p><p>2. Якщо ви не використовуєте RDP, відключити його.</p><p>3. До проведення оновлення вразливих систем&nbsp;на мережевому фаерволі заблокувати до них доступ по&nbsp;3389 порту (RDP).</p><p><strong>Корисні посилання:</strong></p><p><a href=\"https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2019-0708</a></p><p><a href=\"https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0708\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-0708</a></p><p><a href=\"https://www.symantec.com/security-center/vulnerabilities/writeup/108273\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://www.symantec.com/security-center/vulnerabilities/writeup/108273</a></p>",
+  "image": "https://cert.gov.ua/img/articles/2661/15,05,19.png",
+  "previous": {
+    "id": 2625,
+    "name": " Виявлено критичні вразливості операційної системи Windows "
+  },
+  "next": {
+    "id": 2624,
+    "name": " Перші цьогорічні оновлення безпеки Intel, Adobe, Oracle та VMWare "
+  },
+  "articles": [
+    {
+      "id": 17961,
+      "date": "18.01.2022",
+      "title": "Інформація щодо вразливості в продуктах Microsoft CVE-2022-21907",
+      "tags": []
+    },
+    {
+      "id": 11113,
+      "date": "17.03.2021",
+      "title": "Державним центром кіберзахисту Держспецзв’язку вживаються заходи з протидії кібератакам з використанням вразливостей Microsoft Exchange Server (ProxyLogon)",
+      "tags": []
+    },
+    {
+      "id": 24,
+      "date": "21.02.2020",
+      "title": "УВАГА! Спостерігається масова розсилка фішингових листів, які використовують вразливість CVE-2017-11882",
+      "tags": []
+    },
+    {
+      "id": 20,
+      "date": "06.02.2020",
+      "title": "Коректне налаштування програмного забезпечення MS Office",
+      "tags": []
+    },
+    {
+      "id": 2625,
+      "date": "15.01.2020",
+      "title": " Виявлено критичні вразливості операційної системи Windows ",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 10,
+      "name": "Microsoft"
+    },
+    {
+      "id": 17,
+      "name": "Вразливість"
+    }
+  ],
+  "date": "15.01.2020",
+  "langId": null,
+  "_meta": {
+    "requestedId": 2661,
+    "actualId": 2661,
+    "fetchedAt": "2025-08-26T19:47:14.688Z",
+    "idMismatch": false
+  }
+}

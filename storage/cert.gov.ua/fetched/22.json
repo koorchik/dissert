@@ -1,0 +1,43 @@
+{
+  "id": 22,
+  "title": "Cisco випустив патчі для закриття 'CDPwn'",
+  "description": "<p>Компанія Cisco випустила оновлення безпеки для багатьох своїх продуктів, що закривають недавно знайдені п'ять вразливостей, які використовують Cisco Discovery Protocol (CDP). П'ять вразливостей отримали загальну назву CDPwn і мають «високий» статус критичності. CDPwn можуть дозволити зловмисникам віддалено захопити мільйони пристроїв, які використовують CDP.</p>",
+  "text": "<p>Компанія Cisco випустила оновлення безпеки для багатьох своїх продуктів, що закривають недавно знайдені п'ять вразливостей, які використовують Cisco Discovery Protocol (CDP). П'ять вразливостей отримали загальну назву CDPwn і мають «високий» статус критичності. CDPwn можуть дозволити зловмисникам віддалено захопити мільйони пристроїв, які використовують CDP.</p><h3><strong>Що таке CDP?</strong></h3><p>CDP - фірмовий мережевий протокол Cisco, який використовується для пошуку інформації про місцеве обладнання Cisco. CDP реалізований практично у всіх продуктах Cisco, включаючи комутатори, маршрутизатори, IP-телефони та камери.</p><h3><strong>Cisco виправила такі вразливості в реалізації протоколу CDP:</strong></h3><p>CVE-2020-3120</p><ul><li>Cisco FXOS, IOS XR і NX-OS – вразливість, яка дозволяє атакуючому з тієї ж мережі, де знаходяться пристрої з цим ПО, організовувати витік пам'яті, викликаючи перезавантаження пристроїв;</li></ul><p>CVE-2020-3119</p><ul><li>Cisco NX-OS – вразливість, яка дозволяє атакуючому викликати переповнення стека (stack overflow), що, у свою чергу, веде до можливості запуску коду з адміністративними привілеями;</li></ul><p>CVE-2020-3118</p><ul><li>Cisco IOS XR – вразливість, яка дозволяє атакуючому викликати переповнення стека (stack overflow), що, у свою чергу, веде до можливості запуску коду з адміністративними привілеями;</li></ul><p>CVE-2020-3111</p><ul><li>IP-телефон Cisco IP – вразливість, яка дозволяє віддалено запускати код з привілеями root або виконувати перезавантаження пристрою;</li></ul><p>CVE-2020-3110</p><ul><li>IP-камери Cisco для відеоспостереження серії 8000 – вразливість дозволяє віддалено запускати шкідливий код або викликати перезавантаження пристрою, створюючи статус Denial of Service (DoS).</li></ul><h3><strong>Що робити?</strong></h3><p>Якщо Ви використовуєте одну з вищезазначених систем, рекомендуємо&nbsp;<strong>негайно</strong>&nbsp;встановити відповідні оновлення (патчі) для усунення вразливостей, що вже випущені компанією Cisco.</p><h3><strong>Корисні посилання</strong></h3><p>Окремі оновлення можна знайти тут:</p><p>Cisco Security Advisory – CVE-2020-3120 – <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-fxnxos-iosxr-cdp-dos\" rel=\"noopener noreferrer\" target=\"_blank\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-fxnxos-iosxr-cdp-dos</a></p><p>Cisco Security Advisory – CVE-2020-3119 – <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-nxos-cdp-rce\" rel=\"noopener noreferrer\" target=\"_blank\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-nxos-cdp-rce</a></p><p>Cisco Security Advisory – CVE-2020-3118 – <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-iosxr-cdp-rce\" rel=\"noopener noreferrer\" target=\"_blank\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-iosxr-cdp-rce</a></p><p>Cisco Security Advisory – CVE-2020-3111 – <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-voip-phones-rce-dos\" rel=\"noopener noreferrer\" target=\"_blank\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-voip-phones-rce-dos</a></p><p>Cisco Security Advisory – CVE-2020-3110 – <a href=\"https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-ipcameras-rce-dos\" rel=\"noopener noreferrer\" target=\"_blank\">https://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20200205-ipcameras-rce-dos</a></p>",
+  "image": "https://cert.gov.ua/img/articles/22/B99OlInr732TQn3Q0JWXVzk3ZDTMzPw6O4MheOTl.jpeg",
+  "previous": {
+    "id": 20,
+    "name": "Коректне налаштування програмного забезпечення MS Office"
+  },
+  "next": {
+    "id": 23,
+    "name": "Adobe провела широкомасштабну розробку оновлень безпеки"
+  },
+  "articles": [
+    {
+      "id": 2492,
+      "date": "08.06.2020",
+      "title": "Рекомендації з безпеки програмного забезпечення Cisco ASA, FMC та FTD",
+      "tags": []
+    },
+    {
+      "id": 2496,
+      "date": "05.06.2020",
+      "title": "Mozilla, VMWare, Apple, Chrome та Cisco випустили оновлення безпеки",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 24,
+      "name": "Cisco"
+    }
+  ],
+  "date": "12.02.2020",
+  "langId": null,
+  "_meta": {
+    "requestedId": 22,
+    "actualId": 22,
+    "fetchedAt": "2025-08-26T19:47:08.106Z",
+    "idMismatch": false
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": 17580,
+  "title": "РЕКОМЕНДАЦІЇ ДЕРЖАВНОГО ЦЕНТРУ КІБЕРЗАХИСТУ",
+  "description": "<p>У період новорічних свят&nbsp;існує ймовірність активізації спроб зловмисників здійснити&nbsp;несанкціоноване втручання у роботу інформаційно-комунікаційних систем органів державної влади, міністерств, відомств та інших підприємств державної та недержавної форми власності.</p>",
+  "text": "<p class=\"ql-align-justify\">У період новорічних свят&nbsp;існує ймовірність активізації спроб зловмисників здійснити&nbsp;несанкціоноване втручання у роботу інформаційно-комунікаційних систем органів&nbsp;державної влади, підприємств, установ та організації&nbsp;різної&nbsp;форми власності.</p><p class=\"ql-align-justify\">У разі виявлення&nbsp;ознак кібератак або аномальних дій у ваших інформаційних системах просимо ТЕРМІНОВО повідомляти:&nbsp;</p><p class=\"ql-align-justify\"><strong style=\"color: rgb(0, 112, 192);\">Урядову команду реагування на комп’ютерні надзвичайні події України СERT-UA</strong></p><p class=\"ql-align-justify\">е-mail: cert@cert.gov.ua;</p><p class=\"ql-align-justify\">тел.: (044) 281-88-05&nbsp;або &nbsp;(044) 281-88-25;</p><p class=\"ql-align-justify\">на сторінці у Facebook:&nbsp;<a href=\"https://www.facebook.com/UACERT\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 0, 255);\"><u>https://www.facebook.com/UACERT</u></a>;</p><p class=\"ql-align-justify\">форма повідомлення на сайті:&nbsp;<a href=\"https://cert.gov.ua/contact-us\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 0, 255);\"><u>https://cert.gov.ua/contact-us</u></a></p><p class=\"ql-align-justify\"><strong style=\"color: rgb(0, 112, 192);\">Оперативний центр реагування на кіберінциденти</strong></p><p class=\"ql-align-justify\">е-mail: soc@cert.gov.ua;</p><p class=\"ql-align-justify\">тел.: (044) 281-87-37&nbsp;</p><p class=\"ql-align-justify\"><strong style=\"color: rgb(0, 112, 192);\">Оперативно-технічну службу&nbsp;Державного центру кіберзахисту</strong></p><p class=\"ql-align-justify\">тел.: (044) 281-88-01</p><p class=\"ql-align-justify\">&nbsp;</p><p class=\"ql-align-justify\"><strong>З метою&nbsp;попередження та зменшення наслідків впливу від можливих спроб несанкціонованого втручання у роботу інформаційних систем&nbsp;РЕКОМЕНДУЄМО&nbsp;вжити&nbsp;наступних&nbsp;заходів:</strong></p><p class=\"ql-align-justify\"><strong>забезпечити</strong>&nbsp;у період свят наявність на об’єкті(тах) системних адміністраторів (адміністраторів безпеки);</p><p class=\"ql-align-justify\"><strong>забезпечити</strong>&nbsp;моніторинг подій інформаційної безпеки;</p><p class=\"ql-align-justify\"><strong>визначити</strong>&nbsp;відповідальних осіб за реагування на кіберінциденти під час взаємодії з Державним центром кіберзахисту;</p><p class=\"ql-align-justify\"><strong>сформувати</strong>&nbsp;з фахівців ІТ (інформаційної безпеки) команду реагування на комп’ютерні надзвичайні події;</p><p class=\"ql-align-justify\"><strong>провести </strong>з усіма співробітниками, що мають&nbsp;у&nbsp;період свят доступ до інформаційних систем, інструктаж щодо дотримання політик інформаційної безпеки (правил кібергігієни) та приділити увагу питанням використання&nbsp;Інтернет-ресурсів та&nbsp;електронної&nbsp;пошти, реагування на фішингові повідомлення;</p><p class=\"ql-align-justify\"><strong>здійснити</strong>&nbsp;резервне копіювання критичних (важливих) інформаційних ресурсів та зберігання їх&nbsp;резервних копії на окремих сховищах даних;</p><p class=\"ql-align-justify\"><strong>здійснити</strong>&nbsp;оновлення операційних систем та програмного забезпечення&nbsp;до останніх версій;</p><p class=\"ql-align-justify\"><strong>увімкнути</strong>&nbsp;всі можливі варіанти логування подій та&nbsp;<strong>забезпечити</strong>&nbsp;їх&nbsp;збереження на окремому дисковому сховищі;</p><p class=\"ql-align-justify\"><strong>перевірити</strong>&nbsp;та увімкнути антивірусний захист, <strong>здійснити </strong>оновлення бази сигнатур антивірусного програмного забезпечення;</p><p class=\"ql-align-justify\"><strong>провести</strong>&nbsp;власними силами сканування на предмет вразливості інформаційних ресурсів, розміщених в Інтернеті&nbsp;&nbsp;або&nbsp;звернутися до Державного центру кіберзахисту;</p><p class=\"ql-align-justify\"><strong>усунути</strong>&nbsp;вразливості в інформаційних системах;</p><p class=\"ql-align-justify\"><strong>відключити</strong>&nbsp;віддалений доступ до інформаційних систем або;</p><p class=\"ql-align-justify\"><strong>переглянути </strong>коло співробітників, яким у період свят надано право віддаленого доступу до інформаційних систем, <strong>впровадити</strong>&nbsp;максимальні обмеження (фільтрація за ІР, протоколами, часом доступу, користувачами тощо);</p><p class=\"ql-align-justify\"><strong>використовувати </strong>тільки надійно захищені&nbsp;методи віддаленого&nbsp;доступу та протоколи для адміністрування інформаційних систем та ресурсів, що мають належний рівень шифрування;</p><p class=\"ql-align-justify\"><strong>використовувати</strong>&nbsp;стійкі паролі та <strong>налаштувати </strong>багатофакторну автентифікацію;</p><p class=\"ql-align-justify\"><strong>заблокувати</strong>&nbsp;доступ з мережі Інтернет до версій програмного забезпечення та інформаційних систем, які більше не підтримуються&nbsp;виробником&nbsp;або функціонування яких не є критичним у період свят;</p><p class=\"ql-align-justify\"><strong>вимкнути </strong>всі сервіси та інформаційні системи, які не будуть використовуватися у період&nbsp;свят…</p><p class=\"ql-align-justify\">&nbsp;</p><p class=\"ql-align-justify\"><strong>Корисні посилання:</strong></p><p class=\"ql-align-justify\"><a href=\"https://cert.gov.ua/recommendation/31\" rel=\"noopener noreferrer\" target=\"_blank\">Основні правила кібергігієни</a></p><p class=\"ql-align-justify\"><a href=\"https://cert.gov.ua/recommendation/11388\" rel=\"noopener noreferrer\" target=\"_blank\">Рекомендації щодо організації віддаленої роботи</a></p><p class=\"ql-align-justify\"><a href=\"https://cert.gov.ua/recommendation/2502\" rel=\"noopener noreferrer\" target=\"_blank\">Загальні рекомендації щодо зменшення наслідків від впливу шкідливого програмного забезпечення</a></p><p class=\"ql-align-justify\"><a href=\"https://cert.gov.ua/recommendation/19\" rel=\"noopener noreferrer\" target=\"_blank\">Рекомендації CERT-UA з безпеки вебресурсів</a></p><p class=\"ql-align-justify\"><a href=\"https://cert.gov.ua/files/pdf/Recomendations-MSOffice.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">Рекомендації CERT-UA з налаштувань програм MS Office</a></p><p class=\"ql-align-justify\"><br></p>",
+  "image": "https://cert.gov.ua/img/articles/17580/c-suite-recommendations-2.jpeg",
+  "previous": {
+    "id": 17474,
+    "name": "Робоча нарада з представниками енергетичного сектору"
+  },
+  "next": {
+    "id": 17696,
+    "name": "Перший щорічний звіт за результатами роботи системи виявлення вразливостей і реагування на кіберінциденти та кібератаки"
+  },
+  "articles": [
+    {
+      "id": 6282069,
+      "date": "17.01.2025",
+      "title": "Спроби здійснення кібератак з використанням AnyDesk, нібито, від імені CERT-UA",
+      "tags": []
+    },
+    {
+      "id": 6278274,
+      "date": "01.04.2024",
+      "title": "Фактор кібербезпеки",
+      "tags": []
+    },
+    {
+      "id": 6277822,
+      "date": "22.02.2024",
+      "title": "Щодо обстановки в сфері кібер на 23-24 лютого 2024 року",
+      "tags": []
+    },
+    {
+      "id": 1751036,
+      "date": "12.09.2022",
+      "title": "Щодо невідкладних заходів кіберзахисту",
+      "tags": []
+    },
+    {
+      "id": 39962,
+      "date": "29.04.2022",
+      "title": "Щодо обміну інформацією про кіберзагрози ",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 32,
+      "name": "Рекомендації"
+    }
+  ],
+  "date": "24.12.2021",
+  "langId": null,
+  "_meta": {
+    "requestedId": 17580,
+    "actualId": 17580,
+    "fetchedAt": "2025-08-26T19:46:40.306Z",
+    "idMismatch": false
+  }
+}

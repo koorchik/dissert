@@ -1,0 +1,61 @@
+{
+  "id": 17899,
+  "title": "Кібератака на сайти державних органів",
+  "description": "<p>У ніч з 13 на 14 січня було здійснено хакерську атаку на низку сайтів державних органів, зокрема МЗС, МОН та інші. На головній сторінці цих сайтів було розміщено повідомлення провокаційного характеру. Контент сайтів при цьому змінено не було та витоку персональних даних, за попередньою інформацією, не відбулося.</p>",
+  "text": "<p class=\"ql-align-justify\">У ніч з 13 на 14 січня було здійснено хакерську атаку на низку сайтів державних органів, зокрема МЗС, МОН та інші. На головній сторінці цих сайтів було розміщено повідомлення провокаційного характеру. Контент сайтів при цьому змінено не було та витоку персональних даних, за попередньою інформацією, не відбулося.</p><p class=\"ql-align-justify\">З метою недопущення поширення атаки на інші ресурси та локалізації технічної проблеми тимчасово призупинено роботу низки інших сайтів державних органів.</p><p class=\"ql-align-justify\">Зараз Держспецзв'язку спільно зі Службою безпеки України та Кіберполіцією збирає цифрові докази та займається дослідженням кіберінциденту.</p><p class=\"ql-align-justify\">Наразі триває робота з надання допомоги адміністраторам вражених ресурсів у їх відновленні.</p><p class=\"ql-align-justify\">За результатами опрацювання можливих векторів атаки не виключається використання зловмисниками вразливості October CMS:</p><p class=\"ql-align-justify\"><a href=\"https://www.cvedetails.com/cve/CVE-2021-32648/\" rel=\"noopener noreferrer\" target=\"_blank\">https://www.cvedetails.com/cve/CVE-2021-32648/</a>,</p><p class=\"ql-align-justify\"><a href=\"https://github.com/octobercms/october/security/advisories/GHSA-mxr5-mc97-63rc\" rel=\"noopener noreferrer\" target=\"_blank\">https://github.com/octobercms/october/security/advisories/GHSA-mxr5-mc97-63rc</a>.</p><p class=\"ql-align-justify\">Якщо ваш сайт, який побудовано за допомогою даної CMS, зламано (проведено дефейс), рекомендуємо вжити наступні заходи:&nbsp;</p><p class=\"ql-align-justify\">1.&nbsp;&nbsp;&nbsp;Відключити доступ веб серверу від мережі Інтернет.</p><p class=\"ql-align-justify\">2.&nbsp;&nbsp;&nbsp;Зібрати та передати до CERT-UA для аналізу такі дані:</p><p class=\"ql-align-justify\">лог-файли доступу до веб серверу,</p><p class=\"ql-align-justify\">образ та/або копію файлової системи веб серверу.</p><p class=\"ql-align-justify\">3.&nbsp;&nbsp;&nbsp;Відновити веб сервер з резервної копії. Якщо така можливість відсутня необхідно відновити стартову сторінку сайту:</p><p class=\"ql-align-justify\">перейти за посиланням {ваш_домен}/backend/rainlab/blog/posts, знайти шкідливий пост та видалити його.</p><p class=\"ql-align-justify\">4.&nbsp;&nbsp;&nbsp;Перевірити наявність веб шелів (нелегітимних фалів та скриптів) на веб сервері (<a href=\"https://cert.gov.ua/files/pdf/CUA-14-06R.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">https://cert.gov.ua/files/pdf/CUA-14-06R.pdf</a>).</p><p class=\"ql-align-justify\">5.&nbsp;&nbsp;&nbsp;Перевірити наявність сторонніх облікових записів користувачів CMS та ОС веб серверу та видалити нелегітимні, змінити паролі на всіх інших облікових записах.</p><p class=\"ql-align-justify\">6.&nbsp;&nbsp;&nbsp;Заблокувати доступ до адмін-панелі CMS з мережі Інтернет:</p><p class=\"ql-align-justify\">6.1 При використанні веб-серверу NGINX:</p><p class=\"ql-align-justify\">Відредагувати файл конфігурації:</p><p class=\"ql-align-justify\">/etc/nginx/sites-enabled/{ім'я файлу з конфігурацією}.conf</p><p class=\"ql-align-justify\">Зазвичай ім'я файлу з конфігурацією співпадає з доменним іменем сайту</p><p class=\"ql-align-justify\">Додати в конфігурацію (в директиві server) наступні рядки:&nbsp;</p><p class=\"ql-align-justify\">location /backend/backend/auth/restore {</p><p class=\"ql-align-justify\">allow {ваша внутрішня адміністративна мережа або внутрішня ІР адреса адміністратора};</p><p class=\"ql-align-justify\">deny all;</p><p class=\"ql-align-justify\">}</p><p class=\"ql-align-justify\">location /backend/backend/auth/signin {</p><p class=\"ql-align-justify\">allow {ваша внутрішня адміністративна мережа або внутрішня ІР адреса адміністратора};</p><p class=\"ql-align-justify\">deny all;</p><p class=\"ql-align-justify\">}</p><p class=\"ql-align-justify\">перезапустити NGINX.</p><p class=\"ql-align-justify\">6.2 При використанні веб-серверу APACHE:</p><p class=\"ql-align-justify\">Відредагувати файл конфігурації:</p><p class=\"ql-align-justify\">/etc/apache2/sites-enabled/{ім'я файлу з конфігурацією}.conf</p><p class=\"ql-align-justify\">Зазвичай ім'я файлу з конфігурацією співпадає з доменним іменем сайту</p><p class=\"ql-align-justify\">Додати в конфігурацію наступні рядки:</p><p class=\"ql-align-justify\">&lt;Location /backend/backend/auth/restore &gt;</p><p class=\"ql-align-justify\">Order deny,allow</p><p class=\"ql-align-justify\">Deny from all</p><p class=\"ql-align-justify\">Allow from {ваша внутрішня адміністративна мережа або внутрішня ІР адреса адміністратора}&nbsp;&nbsp;</p><p class=\"ql-align-justify\">&lt;/Location&gt;</p><p class=\"ql-align-justify\">&lt;Location /backend/backend/auth/signin &gt;</p><p class=\"ql-align-justify\">Order deny,allow&nbsp;</p><p class=\"ql-align-justify\">Deny from all</p><p class=\"ql-align-justify\">Allow from {ваша внутрішня адміністративна мережа або внутрішня ІР адреса адміністратора}&nbsp;&nbsp;</p><p class=\"ql-align-justify\">&lt;/Location&gt;</p><p class=\"ql-align-justify\">перезапустити APACHE.</p><p class=\"ql-align-justify\">7.&nbsp;&nbsp;&nbsp;Оновити OctoberCMS до останньої версії (у версії 1.0.472, 1.1.5 вразливість вже усунено). Включити сервер в продакшн.</p><p class=\"ql-align-justify\">Якщо сайт не зламано виконати дії зазначені в пунктах 4 – 7.</p><p><br></p><p>&nbsp;</p><p class=\"ql-align-justify\">&nbsp;</p><p class=\"ql-align-justify\">&nbsp;</p>",
+  "image": "https://cert.gov.ua/img/articles/17899/cert.jpg",
+  "previous": {
+    "id": 17696,
+    "name": "Перший щорічний звіт за результатами роботи системи виявлення вразливостей і реагування на кіберінциденти та кібератаки"
+  },
+  "next": {
+    "id": 17961,
+    "name": "Інформація щодо вразливості в продуктах Microsoft CVE-2022-21907"
+  },
+  "articles": [
+    {
+      "id": 6282069,
+      "date": "17.01.2025",
+      "title": "Спроби здійснення кібератак з використанням AnyDesk, нібито, від імені CERT-UA",
+      "tags": []
+    },
+    {
+      "id": 6278274,
+      "date": "01.04.2024",
+      "title": "Фактор кібербезпеки",
+      "tags": []
+    },
+    {
+      "id": 6277822,
+      "date": "22.02.2024",
+      "title": "Щодо обстановки в сфері кібер на 23-24 лютого 2024 року",
+      "tags": []
+    },
+    {
+      "id": 1751036,
+      "date": "12.09.2022",
+      "title": "Щодо невідкладних заходів кіберзахисту",
+      "tags": []
+    },
+    {
+      "id": 39962,
+      "date": "29.04.2022",
+      "title": "Щодо обміну інформацією про кіберзагрози ",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 32,
+      "name": "Рекомендації"
+    }
+  ],
+  "date": "14.01.2022",
+  "langId": null,
+  "_meta": {
+    "requestedId": 17899,
+    "actualId": 17899,
+    "fetchedAt": "2025-08-26T19:46:38.134Z",
+    "idMismatch": false
+  }
+}

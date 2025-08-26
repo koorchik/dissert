@@ -1,0 +1,61 @@
+{
+  "id": 2805,
+  "title": "Масова розсилка вірусу-шифрувальника GandCrab / Troldesh",
+  "description": "<p>За результатами дослідження вірусу встановлено, що дані маркери властиві вірусу-шифрувальнику відомому, як Troldesh (інші назви Shade, XTBL, Trojan.Encoder.858), а не GandCrab, як було повідомлено раніше.&nbsp;За даними VirusTotal велика кількість антивірусів досі визначають його, як GandCrab v.4.1.</p>",
+  "text": "<p>Оновлено:</p><p>За результатами дослідження вірусу встановлено, що дані маркери властиві вірусу-шифрувальнику відомому, як Troldesh (інші назви Shade, XTBL, Trojan.Encoder.858), а не GandCrab, як було повідомлено раніше.&nbsp;За даними VirusTotal велика кількість антивірусів досі визначають його, як GandCrab v.4.1.</p><p>Інформація&nbsp;про наявність інструментів для дешифрування файлів поки відсутня.</p><p>13.09.2018 зафіксовано масову розсилку нової модифікації вірусу-шифрувальника GandCrab v4 / Troldesh, який&nbsp;розповсюджується за допомогою електронної пошти з таким та схожим за змістом листами:</p><p>&nbsp;</p><p><span style=\"color: black;\">Дякуємо, що скористалися нашими послугами!</span></p><p><span style=\"color: black;\"> Ваш баланс був успішно поповнений на 178 $.</span></p><p><span style=\"color: black;\"> Баланс після операції 369.015125 $</span></p><p><span style=\"color: black;\"> Oзнайомитися з деталями платежу [1]</span></p><p><span style=\"color: black;\"> С ув Anastas</span></p><p><span style=\"color: black;\"> </span></p><p><span style=\"color: black;\"> Links:</span></p><p><span style=\"color: black;\"> ------</span></p><p><span style=\"color: black;\"> [1] ftp://thestore:Soot777!@thestoreroomnsw.com.au/public_html/administrator/templates/khepri/html/0297_docs_tre_88.zip</span></p><p>&nbsp;</p><p>В листах знаходяться посилання на файли, які зберігаються на попередньо зламаних&nbsp;ftp-серверах (найчастіше веб-сайти на базі CMS WordPress), до яких зловмисники отримали доступ. Власники можуть не підозрювати, що їх сервери скомпрометовані, адже сайти, які розміщені на цих серверах працюють без змін.</p><p>При переході по посиланню з листа, завантажуються архів (з розширенням zip) з виконуваним файлом (розширення .exe), який після активації (запуску) починає&nbsp;шифрувати всі файли користувача, які є в операційній системі.</p><p>&nbsp;</p><p><strong>Індикатори компрометації (IOC):</strong></p><p><strong>Архіви можуть мати назву:</strong></p><p>0297_docs_tre_88.zip</p><p>docs_spwo_374.zip</p><p>eoplata007.zip</p><p>Prvd_docs.zip та інші</p><p>&nbsp;</p><p><strong>Виконувані файли можуть мати назву</strong>:</p><p>docs_spwo_374.exe</p><p>0297_docs_tre_88.exe</p><p>Prvd_docs.exe</p><p>&nbsp;</p><p><strong>Адреси електронної пошти, з яких проводилась розсилка можуть мати назву:</strong></p><p>ricardodiniz@iol.pt</p><p>schmarbutzken@arcor.de</p><p>werner.mock@arcor.de</p><p>&nbsp;</p><p><strong>Шкідливі посилання:</strong></p><p>ftp[:]//thestore:Soot777!@thestoreroomnsw.com.au/public_html/administrator/templates/khepri/html/0297_docs_tre_88.zip</p><p><br></p><p>ftp[:]//howgrim7:BVH4iOo8IE@www.dstruct.net/public_html/doomsdayfilms.com.au/administrator/templates/khepri/html/eoplata007.zip</p><p><br></p><p>ftp[:]//thefooda:tZu89(!pi[n6@ftp.thefoodplace.net/public_html/images/docs_spwo_374.zip</p><p>&nbsp;</p><p>Файл попередження:</p><p><span style=\"color: black;\">-----------------------------------------------------------------------------------------------------------------------------------------------</span></p><p><span style=\"color: black;\">Вaши фaйлы были зашифровaны.</span></p><p><span style=\"color: black;\">Чmoбы рaсшuфpoваmь иx, Bам необхoдимо omпрaвumь код:</span></p><p><span style=\"color: black;\">*****код*******</span></p><p><span style=\"color: black;\">нa элeктpoнный aдрес VladimirScherbinin1991@gmail.com .</span></p><p><span style=\"color: black;\">Далее вы полyчиme вcе необxодuмые uнсmpykции.</span></p><p><span style=\"color: black;\">Пonытkи paсшuфpoвamь caмоcmoятeльно не nрuведуm ни k чeмy, kрoмe бeзвозвpаmнoй пomеpи uнфoрмaциu.</span></p><p><span style=\"color: black;\">Еслu вы вcё же хoтuтe nonыmaтьcя, то nредвaрuтeльнo сдeлайme pезеpвныe koпuu фaйлoв, иначе в cлучae иx uзмeнeнuя рaсшифровкa сmанеm невoзможной ни пpи kаkиx уcлoвиях.</span></p><p><span style=\"color: black;\">Еcли вы нe получuли ответа пo вышeykазаннoмy адpeсу в mечeнuе 48 чacoв (u тольko в этoм cлyчae!),</span></p><p><span style=\"color: black;\">воспoльзyйтеcь формой обpатной связи. Это мoжно cдeлаmь двyмя cпосoбами:</span></p><p><span style=\"color: black;\">1) Cкaчайmе и уcтановите Tor Browser no cсылке: https://www.torproject[.]org/download/download-easy.html.en</span></p><p><span style=\"color: black;\">B aдpеcной cтpоke Tor Browser-а введume aдpec:</span></p><p><span style=\"color: black;\">hxxp://cryptsen7fo43rr6[.]onion/</span></p><p><span style=\"color: black;\">u нaжмumе Enter. Зarрyзuтся cтpанuца с формoй обраmнoй связu.</span></p><p><span style=\"color: black;\">2) B любoм брayзepе пeрeйдиme no oдномy uз адреcoв:</span></p><p><span style=\"color: black;\">hxxp://cryptsen7fo43rr6.onion[.]to/</span></p><p><span style=\"color: black;\">hxxp://cryptsen7fo43rr6.onion[.]cab/</span></p><p><span style=\"color: black;\">-----------------------------------------------------------------------------------------------------------------------------------------------</span></p><p>&nbsp;</p><p><strong>Шкідливі файли:</strong></p><p><br></p><p><strong>0297_docs_tre_88.scr.exe</strong></p><p><br></p><p>MD5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c2c5b6069c491bbd789e4ca2ab0b8b4b</p><p>SHA-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c656448557cd3adda31e71da56700776b223f7a7</p><p>File Type&nbsp;&nbsp;&nbsp;Win32 EXE</p><p>File Size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;911 KB</p><p><a href=\"https://www.virustotal.com/#/file/e7f43c2e20deb45a295eb7f3774c238e29a4a89e3d2487d9f852ada216052148/detection\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://www.virustotal.com/#/file/e7f43c2e20deb45a295eb7f3774c238e29a4a89e3d2487d9f852ada216052148/detection</a></p><p><strong>docs_spwo_374.scr.exe</strong></p><p>MD5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8d0db2fc0a493b9fbb0f21e455328294</p><p>SHA-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;bafc8dbd93879deabe7f9cb79b4641f950d53f79</p><p>File Type&nbsp;&nbsp;&nbsp;Win32 EXE</p><p>File Size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;911 KB</p><p><a href=\"https://www.virustotal.com/#/file/270cbd6b5c344b952eb23b3383b30c4b97dc3f5b3e7702c61bb08c19e7f0320a/detection\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://www.virustotal.com/#/file/270cbd6b5c344b952eb23b3383b30c4b97dc3f5b3e7702c61bb08c19e7f0320a/detection</a></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Додаткова інформація:</strong></p><p><a href=\"https://www.fortinet.com/blog/threat-research/gandcrab-v4-0-analysis--new-shell--same-old-menace.html\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://www.fortinet.com/blog/threat-research/gandcrab-v4-0-analysis--new-shell--same-old-menace.html</a></p><p><a href=\"https://pastebin.com/q6L376A8\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: blue;\">https://pastebin.com/q6L376A8</a></p><p>&nbsp;</p><p><strong>Рекомендації CERT-UA:</strong></p><p>- уникайте повідомлень вказаного та схожого змісту та застережіть персонал від запуску вкладень у підозрілих повідомленнях та файлів з виконуваними форматами ;</p><p>- зверніть увагу на фільтрування вхідних/вихідних інформаційних потоків, зокрема поштового веб-трафіку, налаштуйте захист від спаму та підробки адреси відправника за допомогою технологій DKIM, SPF, DMARC;</p><p>- не завантажуйте з невідомих джерел файли і не активуйте підозрілі виконувані файли;</p><p>&nbsp;- регулярно робіть резервні копії важливого програмного забезпечення та данних;</p><p>- оновити&nbsp;антивірусну базу та просканувати&nbsp;потенційно заражені системи;</p><p>- регулярно оновлюйте операційну систему та програмне забезпечення;</p><p>- перевірте журнальні файли на предмет наявності записів з зазначеними вище індикаторами;</p><p>- користуйтеся ліцензійним ПЗ, адже безкоштовні активатори та генератори ключів майже завжди містять в собі шкідливе ПЗ.</p>",
+  "image": "https://cert.gov.ua/img/articles/2805/14,09,18.jpeg",
+  "previous": {
+    "id": 2807,
+    "name": "Масова розсилка шпигунського програмного забезпечення типу Pterodo"
+  },
+  "next": {
+    "id": 2806,
+    "name": "Розсилка шкідливого програмного забезпечення AZORult"
+  },
+  "articles": [
+    {
+      "id": 6284949,
+      "date": "04.08.2025",
+      "title": "Оновлений інструментарій UAC-0099: MATCHBOIL, MATCHWOK, DRAGSTARE",
+      "tags": []
+    },
+    {
+      "id": 6284730,
+      "date": "17.07.2025",
+      "title": "Кібератаки UAC-0001 на сектор безпеки та оборони із застосуванням програмного засобу LAMEHUG, що використовує LLM (велику мовну модель) (CERT-UA#16039)",
+      "tags": []
+    },
+    {
+      "id": 6284080,
+      "date": "21.06.2025",
+      "title": "Кібератаки UAC-0001 (APT28) у відношенні державних органів із застосуванням BEARDSHELL та COVENANT ",
+      "tags": []
+    },
+    {
+      "id": 6282946,
+      "date": "06.04.2025",
+      "title": "Цільова шпигунська активність UAC-0226 у відношенні осередків інновацій, державних і правоохоронних органів з використанням стілеру GIFTEDCROOK (CERT-UA#14303)",
+      "tags": []
+    },
+    {
+      "id": 6282902,
+      "date": "01.04.2025",
+      "title": "UAC-0219: кібершпигунство з використанням PowerShell-стілеру WRECKSTEEL (CERT-UA#14283)",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 30,
+      "name": "ШПЗ"
+    }
+  ],
+  "date": "14.09.2018",
+  "langId": null,
+  "_meta": {
+    "requestedId": 2805,
+    "actualId": 2805,
+    "fetchedAt": "2025-08-26T19:47:39.124Z",
+    "idMismatch": false
+  }
+}

