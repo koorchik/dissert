@@ -7,7 +7,7 @@ export class LlmClientBackendOllama implements LlmBackendBase {
   constructor(args: { model: string; apiKey?: string }) {
     this.model = args.model;
 
-    this.ollama = args.apiKey
+    this.ollama = args.apiKey && args.model.match(/gpt-oss/)
       ? new Ollama({
           host: "https://ollama.com",
           headers: {
@@ -20,6 +20,7 @@ export class LlmClientBackendOllama implements LlmBackendBase {
   async send(instructions: string, text: string): Promise<string> {
     const response = await this.ollama.chat({
       model: this.model,
+      options:{num_ctx: 32768},
       messages: [
         { role: "system", content: instructions },
         { role: "user", content: text }
