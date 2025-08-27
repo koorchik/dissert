@@ -29,16 +29,16 @@ const CONFIG = {
   format: process.env.FORMAT || 'legacy',
   
   // LLM provider: 'openai', 'ollama', 'vertexai', 'anthropic'
-  llmProvider: process.env.LLM_PROVIDER || 'vertexai',
-  llmModel: process.env.LLM_MODEL || 'gemini-2.5-flash-lite',
+  llmProvider: process.env.LLM_PROVIDER || 'openai',
+  llmModel: process.env.LLM_MODEL || 'gpt-5',
   
   // Embeddings provider: 'openai', 'ollama', 'vertexai'
   embeddingsProvider: process.env.EMBEDDINGS_PROVIDER || 'ollama',
   embeddingsModel: process.env.EMBEDDINGS_MODEL || 'nomic-embed-text',
   
   // Directories
-  inputDir: process.env.INPUT_DIR || '../cert.gov.ua-fetcher/data',
-  outputDir: process.env.OUTPUT_DIR || './storage/cert.gov.ua/output',
+  inputDir: process.env.INPUT_DIR || '../storage/cert.gov.ua/fetched',
+  outputDir: process.env.OUTPUT_DIR || '../storage/cert.gov.ua/processed',
   
   // What to run
   steps: process.env.STEPS?.split(',') || ['dataExtractor']

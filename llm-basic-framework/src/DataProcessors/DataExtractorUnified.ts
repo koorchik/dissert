@@ -47,21 +47,24 @@ export class DataExtractorUnified {
     const files = await fs.readdir(this.inputDir);
 
     for (const file of files) {
-      if (file !== "6280129.json") {
-        continue;
-      }
+      // if (file !== "6280129.json") {
+      //   continue;
+      // }
 
       console.log(`IN FILE=${this.inputDir}/${file}`);
       const content = await fs.readFile(`${this.inputDir}/${file}`);
       const data = await this.#preprocessor(content.toString());
+      
+      const started = Date.now();
       const response = await this.#sendToLlm(data.text);
+      const spent = (Date.now() - started) / 1000;
 
       await this.#saveResponse(
         file,
         JSON.stringify(
           {
             ...response,
-            metadata: data.metadata
+            metadata: {...data.metadata, llmProcessingTimeSeconds: spent}
           },
           undefined,
           2
