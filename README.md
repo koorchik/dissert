@@ -9,15 +9,13 @@ My dissert experiments
 
 **Entities normalization requests**
 
-* Organization: 3:51.513 (m:ss.mmm) (174 entities normalized)
-* Processing category: HackerGroup (93 entities)
-* HackerGroup: 1:35.037 (m:ss.mmm) (93 entities normalized)
-* Processing category: Software (882 entities)
-* Software: 18:32.579 (m:ss.mmm) (882 entities normalized)
-* Processing category: Country (32 entities)
-* Country: 26.776s (32 entities normalized)
-* Processing category: Individual (19 entities)
-* Individual: 45.326s (19 entities normalized)
-* Processing category: Domain (1929 entities)
-* Domain: 29:05.667 (m:ss.mmm) (1929 entities normalized)
-* Processing category: Sector (121 entities)
+* Organization (174 entities) 3:51.513 (m:ss.mmm) 
+* HackerGroup (93 entities) 1:35.037 (m:ss.mmm)
+* Software (882 entities) 18:32.579 (m:ss.mmm)
+* Country (32 entities) 26.776s
+* Individual (19 entities) 45.326s
+* Domain (1929 entities) 29:05.667 (m:ss.mmm)
+* Sector (121 entities) 3:46.112 (m:ss.mmm)
+* Government Body (96 entities) 3:47.760 (m:ss.mmm)
+* Infrastructure (15 entities) 31.372s
+* Device (31 entities) 46.025s
