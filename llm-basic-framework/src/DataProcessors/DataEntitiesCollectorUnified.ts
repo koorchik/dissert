@@ -69,6 +69,43 @@ export class DataEntitiesCollectorUnified {
     }
 
     console.log('All categories processed successfully');
+    
+    // Display statistics
+    this.#displayStatistics(existingData.entities);
+  }
+
+  #displayStatistics(entities: Record<Category, Record<string, string>>) {
+    console.log('\n========== ENTITY NORMALIZATION STATISTICS ==========');
+    
+    let totalOriginal = 0;
+    let totalNormalized = 0;
+    
+    for (const [category, categoryEntities] of Object.entries(entities)) {
+      const originalCount = Object.keys(categoryEntities).length;
+      const normalizedNames = new Set(Object.values(categoryEntities));
+      const normalizedCount = normalizedNames.size;
+      
+      if (originalCount > 0) {
+        const reductionPercent = ((originalCount - normalizedCount) / originalCount * 100).toFixed(1);
+        console.log(`\n${category}:`);
+        console.log(`  Original entities: ${originalCount}`);
+        console.log(`  Normalized to: ${normalizedCount}`);
+        console.log(`  Reduction: ${reductionPercent}% (${originalCount - normalizedCount} duplicates merged)`);
+        
+        totalOriginal += originalCount;
+        totalNormalized += normalizedCount;
+      }
+    }
+    
+    if (totalOriginal > 0) {
+      const totalReductionPercent = ((totalOriginal - totalNormalized) / totalOriginal * 100).toFixed(1);
+      console.log('\n---------- TOTAL ----------');
+      console.log(`Total original entities: ${totalOriginal}`);
+      console.log(`Total normalized entities: ${totalNormalized}`);
+      console.log(`Overall reduction: ${totalReductionPercent}% (${totalOriginal - totalNormalized} duplicates merged)`);
+    }
+    
+    console.log('\n====================================================\n');
   }
 
   async #gatherEntities() {
