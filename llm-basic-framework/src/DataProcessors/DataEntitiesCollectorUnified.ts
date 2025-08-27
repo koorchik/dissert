@@ -39,26 +39,36 @@ export class DataEntitiesCollectorUnified {
       await fs.mkdir(this.outputDir, { recursive: true });
     }
 
+    // Load existing data to resume processing
+    const existingData = await this.#loadExistingData();
+
     const entitiesByCategory = await this.#gatherEntities();
-    const normalizedEntities: Record<string, any> = {};
 
     // Process each category
     for (const [category, entities] of Object.entries(entitiesByCategory)) {
       if (entities.length === 0) continue;
       
+      const categoryKey = category as Category;
+      
+      // Skip already processed categories
+      if (existingData.entities[categoryKey] && Object.keys(existingData.entities[categoryKey]).length > 0) {
+        console.log(`Skipping already processed category: ${category} (${Object.keys(existingData.entities[categoryKey]).length} entities already normalized)`);
+        continue;
+      }
+      
+      console.log(`Processing category: ${category} (${entities.length} entities)`);
       const normalized = await this.#sendToLlm(category, entities);
       
-      // Store normalized entities with their category
-      for (const [original, normalizedName] of Object.entries(normalized)) {
-        const key = `${category}:${original}`;
-        normalizedEntities[key] = {
-          category,
-          normalizedName
-        };
-      }
+      // Update the data structure with normalized entities for this category
+      existingData.entities[categoryKey] = normalized;
+
+      // Save incrementally after processing each category
+      await this.#saveResponse(existingData);
+      
+      console.log(`Saved progress for category: ${category} (${Object.keys(normalized).length} entities normalized)`);
     }
 
-    await this.#saveResponse({ entities: normalizedEntities });
+    console.log('All categories processed successfully');
   }
 
   async #gatherEntities() {
@@ -151,6 +161,47 @@ export class DataEntitiesCollectorUnified {
       fallback[entity] = entity;
     }
     return fallback;
+  }
+
+  async #loadExistingData(): Promise<{ entities: Record<Category, Record<string, string>> }> {
+    const entitiesFile = `${this.outputDir}/entities.json`;
+    
+    // Initialize with empty categories
+    const defaultData: { entities: Record<Category, Record<string, string>> } = {
+      entities: {
+        'Organization': {},
+        'HackerGroup': {},
+        'Software': {},
+        'Country': {},
+        'Individual': {},
+        'Domain': {},
+        'Sector': {},
+        'Government Body': {},
+        'Infrastructure': {},
+        'Device': {}
+      }
+    };
+    
+    if (!existsSync(entitiesFile)) {
+      return defaultData;
+    }
+
+    try {
+      const data = await fs.readFile(entitiesFile, 'utf-8');
+      const parsed = JSON.parse(data);
+      
+      // Merge parsed data with default structure to ensure all categories exist
+      if (parsed && parsed.entities) {
+        return {
+          entities: { ...defaultData.entities, ...parsed.entities }
+        };
+      }
+      
+      return defaultData;
+    } catch (error) {
+      console.warn('Failed to load existing entities file, starting fresh:', error);
+      return defaultData;
+    }
   }
 
   async #saveResponse(data: any) {

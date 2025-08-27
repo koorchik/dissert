@@ -2,9 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(node:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(npx tsc:*)"
     ],
     "deny": [],
-    "ask": []
+    "ask": [],
+    "additionalDirectories": [
+      "/mnt/c/Users/koorc/Documents/work/dissert/llm-basic-framework"
+    ]
   }
 }
