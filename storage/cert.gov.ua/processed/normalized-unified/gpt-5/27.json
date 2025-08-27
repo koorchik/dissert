@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "name": "Zoom",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Zoom"
+    },
+    {
+      "name": "Windows",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Microsoft Windows"
+    },
+    {
+      "name": "Hashcat",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "hashcat"
+    },
+    {
+      "name": "evil.server.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "server.com"
+    },
+    {
+      "name": "BleepingComputer",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "BleepingComputer"
+    },
+    {
+      "name": "iTnews",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "iTnews"
+    },
+    {
+      "name": "Andrea Fortuna",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Andrea Fortuna"
+    },
+    {
+      "name": "Security Newspaper",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Security Newspaper"
+    }
+  ],
+  "metadata": {
+    "date": "06.04.2020",
+    "id": 27,
+    "title": "Вразливість в Zoom для Windows",
+    "llmProcessingTimeSeconds": 91.484
+  }
+}

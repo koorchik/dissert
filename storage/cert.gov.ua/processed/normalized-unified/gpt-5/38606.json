@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0041",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0041"
+    },
+    {
+      "name": "MarsStealer",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "MarsStealer"
+    },
+    {
+      "name": "drive.google.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "google.com"
+    },
+    {
+      "name": "api.dev-com.sc",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dev-com.sc"
+    },
+    {
+      "name": "dev-com.sc",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dev-com.sc"
+    },
+    {
+      "name": "Ukrainian citizens",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian citizens",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian organizations",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian organizations",
+      "embedding": []
+    },
+    {
+      "name": "Міністерство освіти та науки України",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Міністерство освіти і науки України"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Racoon",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Raccoon Stealer"
+    }
+  ],
+  "metadata": {
+    "date": "30.03.2022",
+    "id": 38606,
+    "title": "Масове розповсюдження шкідливої програми MarsStealer серед громадян України та вітчизняних організацій (CERT-UA#4315)",
+    "llmProcessingTimeSeconds": 83.073
+  }
+}

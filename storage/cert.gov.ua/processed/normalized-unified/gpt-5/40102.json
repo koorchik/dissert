@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "name": "APT28 (UAC-0028)",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "APT28"
+    },
+    {
+      "name": "CredoMap_v2",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CredoMap"
+    },
+    {
+      "name": "UkrScanner.rar",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "UkrScanner.rar"
+    },
+    {
+      "name": "UkrScanner.exe (SFX)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "UkrScanner"
+    },
+    {
+      "name": "scan.exe (CredoMap_v2)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CredoMap"
+    },
+    {
+      "name": "SQLite.Interop.dll",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SQLite"
+    },
+    {
+      "name": "eo2mxtqmeqzafqi.m.pipedream.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "pipedream.net"
+    },
+    {
+      "name": "Pipedream",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Pipedream"
+    },
+    {
+      "name": "ginaengg.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ginaengg.com"
+    },
+    {
+      "name": "MISP",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "MISP"
+    }
+  ],
+  "metadata": {
+    "date": "06.05.2022",
+    "id": 40102,
+    "title": "Кібератака групи APT28 із застосуванням шкідливої програми CredoMap_v2 (CERT-UA#4622)",
+    "llmProcessingTimeSeconds": 90.997
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0010 (Armageddon)",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Armageddon"
+    },
+    {
+      "name": "FSB of Russia",
+      "category": "Government Body",
+      "role": "Attacker",
+      "normalizedName": "Federal Security Service of Russia (FSB)"
+    },
+    {
+      "name": "Russia",
+      "category": "Country",
+      "role": "Attacker",
+      "code": "RU",
+      "normalizedName": "Russia"
+    },
+    {
+      "name": "GAMMASTEEL",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GammaSteel"
+    },
+    {
+      "name": "PowerShell",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PowerShell"
+    },
+    {
+      "name": "AnyDesk",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "AnyDesk"
+    },
+    {
+      "name": "Microsoft Office Word",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Microsoft Word"
+    },
+    {
+      "name": "Telegram",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Telegram"
+    },
+    {
+      "name": "WhatsApp",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "WhatsApp"
+    },
+    {
+      "name": "Signal",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Signal"
+    },
+    {
+      "name": "mshta.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "MSHTA"
+    },
+    {
+      "name": "wscript.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Windows Script Host"
+    },
+    {
+      "name": "cscript.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Windows Script Host"
+    },
+    {
+      "name": "LOADSHORT",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LOADSHORT"
+    },
+    {
+      "name": "LAKEFLASH",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LAKEFLASH"
+    },
+    {
+      "name": "Сили безпеки та оборони України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Security and Defense Forces of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Державні органи України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government bodies of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Збройні Сили України",
+      "category": "Government Body",
+      "role": "Target",
+      "normalizedName": "Збройні Сили України"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "DigitalOcean",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "DigitalOcean"
+    },
+    {
+      "name": "ООО \"ГЛОБАЛ ИНТЕРНЕТ РЕШЕНИЯ\"",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Global Internet Solutions LLC"
+    },
+    {
+      "name": "ООО \"ХОСТИНГ-ТЕХНОЛОГИИ\"",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Hosting-Technology LLC"
+    },
+    {
+      "name": "ТОО \"ИТ‑ГРАД\"",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "IT-GRAD"
+    },
+    {
+      "name": "gir.network",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "gir.network"
+    },
+    {
+      "name": "vdsina.ru",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "vdsina.ru"
+    },
+    {
+      "name": "it-grad.kz",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "it-grad.kz"
+    },
+    {
+      "name": "it-develop.me",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "it-develop.me"
+    },
+    {
+      "name": "mivocloud.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "mivocloud.com"
+    },
+    {
+      "name": "cloudflare-dns.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "cloudflare-dns.com"
+    },
+    {
+      "name": "t.me",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "t.me"
+    },
+    {
+      "name": "telegra.ph",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "telegra.ph"
+    },
+    {
+      "name": "Центр кібербезпеки ІТС",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Центр кібернетичної безпеки інформаційно-телекомунікаційних систем (в/ч А0334)"
+    },
+    {
+      "name": "ГУ СБУ в АР Крим",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Головне управління СБУ в Автономній Республіці Крим"
+    },
+    {
+      "name": "Kazakhstan",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "KZ",
+      "normalizedName": "Kazakhstan"
+    },
+    {
+      "name": "Montenegro",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "ME",
+      "normalizedName": "Montenegro"
+    },
+    {
+      "name": "Starlink terminals",
+      "category": "Device",
+      "role": "Neutral",
+      "normalizedName": "Starlink terminals"
+    }
+  ],
+  "metadata": {
+    "date": "13.07.2023",
+    "id": 5160737,
+    "title": "Зведена інформація щодо діяльності угрупування UAC-0010 станом на липень 2023 року",
+    "llmProcessingTimeSeconds": 181.445
+  }
+}

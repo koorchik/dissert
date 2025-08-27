@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "name": "Держспецзв’язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державна служба спеціального зв’язку та захисту інформації України"
+    },
+    {
+      "name": "вебсайти державних органів",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Web resources of government bodies",
+      "embedding": []
+    },
+    {
+      "name": "cert.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "cert.gov.ua"
+    }
+  ],
+  "metadata": {
+    "date": "27.01.2020",
+    "id": 18,
+    "title": "Безпека вебресурсів та інформаційних систем органів державної влади – це безпека держави",
+    "llmProcessingTimeSeconds": 38.653
+  }
+}

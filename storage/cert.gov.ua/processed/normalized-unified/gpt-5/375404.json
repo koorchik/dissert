@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "name": "RoyalRoad",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Royal Road"
+    },
+    {
+      "name": "Bisonal",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Bisonal"
+    },
+    {
+      "name": "QuickMute",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "QuickMute"
+    },
+    {
+      "name": "TontoTeam",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Tonto Team"
+    },
+    {
+      "name": "UAC-0018",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0018"
+    },
+    {
+      "name": "China",
+      "category": "Country",
+      "role": "Attacker",
+      "code": "CN",
+      "normalizedName": "China"
+    },
+    {
+      "name": "Russian Federation",
+      "category": "Country",
+      "role": "Target",
+      "code": "RU",
+      "normalizedName": "Russia"
+    },
+    {
+      "name": "upportteam.lingrevelat.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "lingrevelat.com"
+    },
+    {
+      "name": "lingrevelat.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "lingrevelat.com"
+    },
+    {
+      "name": "Russian scientific and technical sector",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Russian scientific and technical sector",
+      "embedding": []
+    },
+    {
+      "name": "Russian aviation sector",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Russian aviation sector",
+      "embedding": []
+    },
+    {
+      "name": "Russian government bodies",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Russian government bodies",
+      "embedding": []
+    }
+  ],
+  "metadata": {
+    "date": "22.06.2022",
+    "id": 375404,
+    "title": "Кібератаки груп, асоційованих з Китаєм, у відношенні російських науково-технічних підприємств та державних органів (CERT-UA#4860)",
+    "llmProcessingTimeSeconds": 98.815
+  }
+}

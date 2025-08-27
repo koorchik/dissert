@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0168",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0168"
+    },
+    {
+      "name": "MAGICSPELL",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "MAGICSPELL"
+    },
+    {
+      "name": "finformservice.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "finformservice.com"
+    },
+    {
+      "name": "ukrainianworldcongress.info",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ukrainianworldcongress.info"
+    },
+    {
+      "name": "ukrainianworldcongress.org",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "ukrainianworldcongress.org"
+    },
+    {
+      "name": "Світовий конґрес українців",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Ukrainian World Congress"
+    },
+    {
+      "name": "НАТО",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "NATO"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Литовська Республіка",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "LT",
+      "normalizedName": "Lithuania"
+    }
+  ],
+  "metadata": {
+    "date": "05.07.2023",
+    "id": 5077168,
+    "title": "Цільова атака з використанням тематики членства України в Організації Північноатлантичного договору (CERT-UA#6940)",
+    "llmProcessingTimeSeconds": 79.593
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "APT28",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "APT28"
+    },
+    {
+      "name": "PowerShell",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PowerShell"
+    },
+    {
+      "name": "tasklist",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "tasklist"
+    },
+    {
+      "name": "systeminfo",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "systeminfo"
+    },
+    {
+      "name": "run.mocky.io",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "mocky.io"
+    },
+    {
+      "name": "mockbin.org",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "mockbin.org"
+    },
+    {
+      "name": "outlook.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "outlook.com"
+    },
+    {
+      "name": "www.catalog.update.microsoft.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "microsoft.com"
+    },
+    {
+      "name": "державні органи України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government bodies of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "28.04.2023",
+    "id": 4492467,
+    "title": "Кібератака групи APT28: розповсюдження електронних листів з \"інструкціями\" щодо \"оновлення операційної системи\" (CERT-UA#6562)",
+    "llmProcessingTimeSeconds": 60.566
+  }
+}

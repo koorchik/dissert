@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "name": "i.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "i.ua"
+    },
+    {
+      "name": "Міністерства охорони здоров’я",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Міністерство охорони здоров’я України"
+    },
+    {
+      "name": "MS Office",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Microsoft Office"
+    },
+    {
+      "name": "VirusTotal",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "VirusTotal"
+    },
+    {
+      "name": "answers.microsoft.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "microsoft.com"
+    },
+    {
+      "name": "social.technet.microsoft.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "microsoft.com"
+    }
+  ],
+  "metadata": {
+    "date": "01.04.2020",
+    "id": 26,
+    "title": "Звертаємо увагу на використання зловмисниками епідеміологічної ситуації в світі",
+    "llmProcessingTimeSeconds": 73.028
+  }
+}

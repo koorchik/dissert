@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0050",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0050"
+    },
+    {
+      "name": "LITEMANAGER",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LiteManager"
+    },
+    {
+      "name": "LiteManager Pro - Server",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LiteManager"
+    },
+    {
+      "name": "ROMFUSClient.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LiteManager"
+    },
+    {
+      "name": "ROMServer.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LiteManager"
+    },
+    {
+      "name": "tax-gov-ua.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tax-gov-ua.com"
+    },
+    {
+      "name": "dpsu-gov-ua.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dpsu-gov-ua.com"
+    },
+    {
+      "name": "qaz.im",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "qaz.im"
+    },
+    {
+      "name": "qaz.is",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "qaz.is"
+    },
+    {
+      "name": "qaz.su",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "qaz.su"
+    },
+    {
+      "name": "rozsenich.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "rozsenich.com"
+    },
+    {
+      "name": "Державна податкова служба України",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державна податкова служба України"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Бухгалтери підприємств",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Enterprise accountants",
+      "embedding": []
+    }
+  ],
+  "metadata": {
+    "date": "30.10.2024",
+    "id": 6281202,
+    "title": "Кібератака UAC-0050 з використанням податкової тематики та LITEMANAGER (CERT-UA#11776)",
+    "llmProcessingTimeSeconds": 69.968
+  }
+}

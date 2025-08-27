@@ -1,0 +1,182 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0008 (Buhtrap)",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Buhtrap"
+    },
+    {
+      "name": "LightRope",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LightRope"
+    },
+    {
+      "name": "LiteManager",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LiteManager"
+    },
+    {
+      "name": "dnscat",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "dnscat"
+    },
+    {
+      "name": "SourSnack",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SourSnack"
+    },
+    {
+      "name": "NTDSDumpEx",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "NTDSDumpEx"
+    },
+    {
+      "name": "RDPWrapper",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "RDP Wrapper"
+    },
+    {
+      "name": "Ngrok",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "ngrok"
+    },
+    {
+      "name": "LightRope_v2",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LightRope"
+    },
+    {
+      "name": "mail.nais-gov.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "nais-gov.org"
+    },
+    {
+      "name": "widget.forum-pokemon.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "forum-pokemon.com"
+    },
+    {
+      "name": "ns.ns2-dns.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ns2-dns.com"
+    },
+    {
+      "name": "ns.ns3-dns.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ns3-dns.com"
+    },
+    {
+      "name": "ns3-dns.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ns3-dns.com"
+    },
+    {
+      "name": "ns2-dns.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ns2-dns.com"
+    },
+    {
+      "name": "cs1.wpc-v0cdn.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "wpc-v0cdn.org"
+    },
+    {
+      "name": "wpc-v0cdn.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "wpc-v0cdn.org"
+    },
+    {
+      "name": "ipv6-wpnc.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ipv6-wpnc.net"
+    },
+    {
+      "name": "alt-2cdn.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "alt-2cdn.net"
+    },
+    {
+      "name": "nais-gov.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "nais-gov.org"
+    },
+    {
+      "name": "nais-gov.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "lais-gov.com"
+    },
+    {
+      "name": "Financial organizations of Russia",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Financial organizations of Russia",
+      "embedding": []
+    },
+    {
+      "name": "Government bodies and enterprises of Ukraine",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government bodies and enterprises of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Russia",
+      "category": "Country",
+      "role": "Target",
+      "code": "RU",
+      "normalizedName": "Russia"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Mikael LLC",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Mikael LLC"
+    },
+    {
+      "name": "George Alan Developments Incorporated",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "George Alan Developments Incorporated"
+    },
+    {
+      "name": "LiteManagerTeam",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "LiteManagerTeam"
+    }
+  ],
+  "metadata": {
+    "date": "21.02.2022",
+    "id": 37246,
+    "title": "Інформація щодо активності групи UAC-0008 (Buhtrap)  (CERT-UA#3967)",
+    "llmProcessingTimeSeconds": 84.545
+  }
+}

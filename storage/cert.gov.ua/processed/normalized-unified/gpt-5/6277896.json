@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0010",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Armageddon"
+    },
+    {
+      "name": "SRP",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Software Restriction Policies (SRP)"
+    },
+    {
+      "name": "AppLocker",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "AppLocker"
+    },
+    {
+      "name": "YARA",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "YARA"
+    },
+    {
+      "name": "MISP",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "MISP"
+    },
+    {
+      "name": "Mikrotik",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "MikroTik"
+    },
+    {
+      "name": "pfSense",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "pfSense"
+    },
+    {
+      "name": "SIEM",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "SIEM"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "органи державної влади",
+      "category": "Sector",
+      "role": "Neutral",
+      "normalizedName": "Government bodies"
+    },
+    {
+      "name": "місцеве самоврядування",
+      "category": "Sector",
+      "role": "Neutral",
+      "normalizedName": "Local self-government"
+    },
+    {
+      "name": "військові формування",
+      "category": "Sector",
+      "role": "Neutral",
+      "normalizedName": "Military formations"
+    },
+    {
+      "name": "державні установи та підприємства",
+      "category": "Sector",
+      "role": "Neutral",
+      "normalizedName": "Government institutions and enterprises"
+    }
+  ],
+  "metadata": {
+    "date": "28.02.2024",
+    "id": 6277896,
+    "title": "АНОНС: Практичний семінар для кіберфахівців",
+    "llmProcessingTimeSeconds": 83.906
+  }
+}

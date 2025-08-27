@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "name": "Державний центр кіберзахисту Держспецзв’язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державний центр кіберзахисту Держспецзв’язку"
+    },
+    {
+      "name": "Держспецзв’язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державна служба спеціального зв’язку та захисту інформації України"
+    },
+    {
+      "name": "Національний координаційний центр кібербезпеки",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Національний координаційний центр кібербезпеки РНБО України"
+    },
+    {
+      "name": "Рада національної безпеки та оборони України",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Рада національної безпеки та оборони України"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "cert.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "cert.gov.ua"
+    }
+  ],
+  "metadata": {
+    "date": "10.11.2021",
+    "id": 16905,
+    "title": "Правила обміну інформацією про кіберінциденти та Перелік категорій кіберінцидентів ",
+    "llmProcessingTimeSeconds": 51.697
+  }
+}

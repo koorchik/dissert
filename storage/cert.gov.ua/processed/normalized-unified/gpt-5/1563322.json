@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0120",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0120"
+    },
+    {
+      "name": "AgentTesla",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Agent Tesla"
+    },
+    {
+      "name": "PowerShell",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PowerShell"
+    },
+    {
+      "name": "academiadutygroup.com.br",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "academiadutygroup.com.br"
+    },
+    {
+      "name": "sackmeister.de",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "sackmeister.de"
+    },
+    {
+      "name": "ssttekstil.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ssttekstil.com"
+    },
+    {
+      "name": "ftp.ssttekstil.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ssttekstil.com"
+    },
+    {
+      "name": "t-online.de",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "t-online.de"
+    },
+    {
+      "name": "ukr.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ukr.net"
+    },
+    {
+      "name": "westafrance.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "westafrance.com"
+    },
+    {
+      "name": "aon.at",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "aon.at"
+    },
+    {
+      "name": "Ukrainian organizations",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian organizations",
+      "embedding": []
+    },
+    {
+      "name": "Austrian organizations",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Austrian organizations",
+      "embedding": []
+    },
+    {
+      "name": "German organizations",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "German organizations",
+      "embedding": []
+    }
+  ],
+  "metadata": {
+    "date": "31.08.2022",
+    "id": 1563322,
+    "title": "Масове розповсюдження шкідливої програми AgentTesla (CERT-UA#5252)",
+    "llmProcessingTimeSeconds": 52.447
+  }
+}

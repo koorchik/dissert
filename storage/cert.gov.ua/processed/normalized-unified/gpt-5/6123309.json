@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0165",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0165"
+    },
+    {
+      "name": "Ukrainian telecommunications providers",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian telecommunications operators and providers",
+      "embedding": []
+    },
+    {
+      "name": "Mikrotik equipment",
+      "category": "Device",
+      "role": "Target",
+      "normalizedName": "MikroTik devices",
+      "embedding": []
+    },
+    {
+      "name": "masscan",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "masscan"
+    },
+    {
+      "name": "nmap",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Nmap"
+    },
+    {
+      "name": "ffuf",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "ffuf"
+    },
+    {
+      "name": "dirbuster",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "DirBuster"
+    },
+    {
+      "name": "gowitness",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "gowitness"
+    },
+    {
+      "name": "Dante",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Dante"
+    },
+    {
+      "name": "TOR network",
+      "category": "Infrastructure",
+      "role": "Attacker",
+      "normalizedName": "Tor network"
+    },
+    {
+      "name": "POEMGATE",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "POEMGATE"
+    },
+    {
+      "name": "WHITECAT",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "WHITECAT"
+    },
+    {
+      "name": "POSEIDON",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "POSEIDON"
+    },
+    {
+      "name": "Weevely",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Weevely"
+    },
+    {
+      "name": "eurotelle.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "eurotelle.com"
+    },
+    {
+      "name": "Telegram",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Telegram"
+    },
+    {
+      "name": "Facebook",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Facebook"
+    }
+  ],
+  "metadata": {
+    "date": "15.10.2023",
+    "id": 6123309,
+    "title": "Особливості деструктивних кібератак Sandworm у відношенні українських провайдерів (CERT-UA#7627)",
+    "llmProcessingTimeSeconds": 102.612
+  }
+}

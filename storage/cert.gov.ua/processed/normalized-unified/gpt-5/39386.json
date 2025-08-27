@@ -1,0 +1,298 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0010 (Armageddon)",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Armageddon"
+    },
+    {
+      "name": "NO-IP",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "No-IP"
+    },
+    {
+      "name": "noip.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "noip.com"
+    },
+    {
+      "name": "m-vz.webhop.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "webhop.me"
+    },
+    {
+      "name": "a0656203.xsph.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "xsph.ru"
+    },
+    {
+      "name": "a0322810.xsph.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "xsph.ru"
+    },
+    {
+      "name": "webhop.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "webhop.me"
+    },
+    {
+      "name": "xsph.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "xsph.ru"
+    },
+    {
+      "name": "lnk-upload.dodortar.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dodortar.ru"
+    },
+    {
+      "name": "dod-upload.dodortar.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dodortar.ru"
+    },
+    {
+      "name": "ln-upl.ddns.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ddns.net"
+    },
+    {
+      "name": "d-upl.ddns.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ddns.net"
+    },
+    {
+      "name": "up-dot.myftp.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "myftp.org"
+    },
+    {
+      "name": "up-lnk.myftp.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "myftp.org"
+    },
+    {
+      "name": "nitikora.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "nitikora.ru"
+    },
+    {
+      "name": "dodortar.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dodortar.ru"
+    },
+    {
+      "name": "kopratiso.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "kopratiso.ru"
+    },
+    {
+      "name": "billyhot.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "billyhot.ru"
+    },
+    {
+      "name": "bilitora.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "bilitora.ru"
+    },
+    {
+      "name": "ddns.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "ddns.net"
+    },
+    {
+      "name": "ddnsking.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "ddnsking.com"
+    },
+    {
+      "name": "3utilities.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "3utilities.com"
+    },
+    {
+      "name": "bounceme.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "bounceme.net"
+    },
+    {
+      "name": "freedynamicdns.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "freedynamicdns.net"
+    },
+    {
+      "name": "freedynamicdns.org",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "freedynamicdns.org"
+    },
+    {
+      "name": "gotdns.ch",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "gotdns.ch"
+    },
+    {
+      "name": "hopto.org",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "hopto.org"
+    },
+    {
+      "name": "myddns.me",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "myddns.me"
+    },
+    {
+      "name": "myftp.biz",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "myftp.biz"
+    },
+    {
+      "name": "myftp.org",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "myftp.org"
+    },
+    {
+      "name": "myvnc.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "myvnc.com"
+    },
+    {
+      "name": "onthewifi.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "onthewifi.com"
+    },
+    {
+      "name": "redirectme.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "redirectme.net"
+    },
+    {
+      "name": "servebeer.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "servebeer.com"
+    },
+    {
+      "name": "serveblog.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "serveblog.net"
+    },
+    {
+      "name": "servecounterstrike.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "servecounterstrike.com"
+    },
+    {
+      "name": "serveftp.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "serveftp.com"
+    },
+    {
+      "name": "servegame.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "servegame.com"
+    },
+    {
+      "name": "servehalflife.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "servehalflife.com"
+    },
+    {
+      "name": "servehttp.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "servehttp.com"
+    },
+    {
+      "name": "serveirc.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "serveirc.com"
+    },
+    {
+      "name": "serveminecraft.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "serveminecraft.net"
+    },
+    {
+      "name": "servemp3.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "servemp3.com"
+    },
+    {
+      "name": "servepics.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "servepics.com"
+    },
+    {
+      "name": "servequake.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "servequake.com"
+    },
+    {
+      "name": "sytes.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "sytes.net"
+    },
+    {
+      "name": "viewdns.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "viewdns.net"
+    },
+    {
+      "name": "zapto.org",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "zapto.org"
+    }
+  ],
+  "metadata": {
+    "date": "07.04.2022",
+    "id": 39386,
+    "title": "Кібератака групи UAC-0010 (Armageddon) на державні організації України (CERT-UA#4434)",
+    "llmProcessingTimeSeconds": 130.481
+  }
+}

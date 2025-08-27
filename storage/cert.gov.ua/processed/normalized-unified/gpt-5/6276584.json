@@ -1,0 +1,277 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0006",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0006"
+    },
+    {
+      "name": "SMOKELOADER",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SmokeLoader"
+    },
+    {
+      "name": "LOADERX3",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LOADERX3"
+    },
+    {
+      "name": "RMS",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "TektonIT RMS"
+    },
+    {
+      "name": "RDPWRAPPER",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "RDP Wrapper"
+    },
+    {
+      "name": "DANABOT",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "DanaBot"
+    },
+    {
+      "name": "LUMMASTEALER",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Lumma Stealer"
+    },
+    {
+      "name": "REDLINESTEALER",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "RedLine Stealer"
+    },
+    {
+      "name": "SYSTEMBC",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SystemBC"
+    },
+    {
+      "name": "TALESHOT",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "TALESHOT"
+    },
+    {
+      "name": "PIEJET",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PIEJET"
+    },
+    {
+      "name": "LOADNEST",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LOADNEST"
+    },
+    {
+      "name": "HANGTHREAD",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "HANGTHREAD"
+    },
+    {
+      "name": "BACKSTAB",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "BACKSTAB"
+    },
+    {
+      "name": "AUKILL",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "AuKill"
+    },
+    {
+      "name": "africathrillthes.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "africathrillthes.pw"
+    },
+    {
+      "name": "againandagaingmorder.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "againandagaingmorder.ru"
+    },
+    {
+      "name": "bloockflad.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "bloockflad.pw"
+    },
+    {
+      "name": "bluepablo.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "bluepablo.fun"
+    },
+    {
+      "name": "boddyshow.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "boddyshow.fun"
+    },
+    {
+      "name": "bookgames.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "bookgames.pw"
+    },
+    {
+      "name": "comperssw.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "comperssw.fun"
+    },
+    {
+      "name": "coudzoom.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "coudzoom.ru"
+    },
+    {
+      "name": "dayzilons.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dayzilons.pw"
+    },
+    {
+      "name": "downloadrezerves.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "downloadrezerves.ru"
+    },
+    {
+      "name": "duhodown.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "duhodown.fun"
+    },
+    {
+      "name": "howlcars.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "howlcars.fun"
+    },
+    {
+      "name": "keewoolas.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "keewoolas.pw"
+    },
+    {
+      "name": "killredls.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "killredls.pw"
+    },
+    {
+      "name": "kowersize.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "kowersize.fun"
+    },
+    {
+      "name": "monopoliafromyou.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "monopoliafromyou.ru"
+    },
+    {
+      "name": "moskhoods.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "moskhoods.pw"
+    },
+    {
+      "name": "mouseoiet.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "mouseoiet.fun"
+    },
+    {
+      "name": "plengreg.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "plengreg.fun"
+    },
+    {
+      "name": "revivalsecularas.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "revivalsecularas.pw"
+    },
+    {
+      "name": "rms-server.tektonit.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tektonit.ru"
+    },
+    {
+      "name": "steycools.pw",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "steycools.pw"
+    },
+    {
+      "name": "superdadymster.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "superdadymster.ru"
+    },
+    {
+      "name": "unayt.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "unayt.ru"
+    },
+    {
+      "name": "zamesblack.fun",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "zamesblack.fun"
+    },
+    {
+      "name": "cafeteriumups.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "cafeteriumups.ru"
+    },
+    {
+      "name": "Ukrainian enterprises",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian enterprises",
+      "embedding": []
+    },
+    {
+      "name": "Financial institutions",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Financial institutions",
+      "embedding": []
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "01.12.2023",
+    "id": 6276584,
+    "title": "Зведена інформація щодо діяльності угрупування UAC-0006 станом на 01.12.2023",
+    "llmProcessingTimeSeconds": 112.264
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0096",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0096"
+    },
+    {
+      "name": "Remote Utilities",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Remote Utilities"
+    },
+    {
+      "name": "rmssrv2.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "rmssrv2.ru"
+    },
+    {
+      "name": "rmssrv3.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "rmssrv3.ru"
+    },
+    {
+      "name": "rmssrv4.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "rmssrv4.ru"
+    },
+    {
+      "name": "Google Drive",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Google Drive"
+    },
+    {
+      "name": "DropMeFiles",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "DropMeFiles"
+    },
+    {
+      "name": "державні органи України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government bodies of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Usoris",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Usoris"
+    }
+  ],
+  "metadata": {
+    "date": "28.01.2022",
+    "id": 18163,
+    "title": "Кібератака на організації та установи України з використанням програми Remote Utilities (CERT-UA#3751)",
+    "llmProcessingTimeSeconds": 59.405
+  }
+}

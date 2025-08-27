@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0063",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0063"
+    },
+    {
+      "name": "APT28",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "APT28"
+    },
+    {
+      "name": "UAC-0001",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "APT28"
+    },
+    {
+      "name": "ГУ ГШ ЗС РФ",
+      "category": "Government Body",
+      "role": "Attacker",
+      "normalizedName": "Main Directorate of the General Staff of the Armed Forces of the Russian Federation (GRU)"
+    },
+    {
+      "name": "Russia",
+      "category": "Country",
+      "role": "Attacker",
+      "code": "RU",
+      "normalizedName": "Russia"
+    },
+    {
+      "name": "HATVIBE",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "HATVIBE"
+    },
+    {
+      "name": "CHERRYSPY",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CHERRYSPY"
+    },
+    {
+      "name": "CVE-2024-23692",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2024-23692"
+    },
+    {
+      "name": "HFS HTTP File Server",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "HFS (HTTP File Server)"
+    },
+    {
+      "name": "Python interpreter",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Python"
+    },
+    {
+      "name": "mshta.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "MSHTA"
+    },
+    {
+      "name": "trust-certificate.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "trust-certificate.net"
+    },
+    {
+      "name": "enrollmentdm.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "enrollmentdm.com"
+    },
+    {
+      "name": "українські науково-дослідні установи",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian research institutions",
+      "embedding": []
+    },
+    {
+      "name": "Міністерство оборони Республіки Вірменія",
+      "category": "Government Body",
+      "role": "Target",
+      "normalizedName": "Міністерство оборони Республіки Вірменія"
+    },
+    {
+      "name": "Вірменія",
+      "category": "Country",
+      "role": "Target",
+      "code": "AM",
+      "normalizedName": "Armenia"
+    },
+    {
+      "name": "Міністерство оборони Киргизької Республіки",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Міністерство оборони Киргизької Республіки"
+    },
+    {
+      "name": "Киргизька Республіка",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "KG",
+      "normalizedName": "Kyrgyzstan"
+    },
+    {
+      "name": "VirusTotal",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "VirusTotal"
+    }
+  ],
+  "metadata": {
+    "date": "21.07.2024",
+    "id": 6280129,
+    "title": "UAC-0063 атакує науково-дослідні установи України: HATVIBE + CHERRYSPY + CVE-2024-23692 (CERT-UA#10356)",
+    "llmProcessingTimeSeconds": 116.952
+  }
+}

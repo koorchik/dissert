@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "name": "Smokeloader",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SmokeLoader"
+    },
+    {
+      "name": "Ukrainian government bodies",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government bodies of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "ceronamtinclube.icu",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ceronamtinclube.icu"
+    },
+    {
+      "name": "www.msftncsi.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "msftncsi.com"
+    },
+    {
+      "name": "aviatorssm.bit",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "aviatorssm.bit"
+    },
+    {
+      "name": "pastebin.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "pastebin.com"
+    },
+    {
+      "name": "VirusTotal",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "VirusTotal"
+    }
+  ],
+  "metadata": {
+    "date": "29.01.2019",
+    "id": 2699,
+    "title": "Чергова фішинг-атака на органи державної влади",
+    "llmProcessingTimeSeconds": 60.015
+  }
+}

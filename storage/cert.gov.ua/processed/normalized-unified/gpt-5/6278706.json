@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "name": "Sandworm",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Sandworm"
+    },
+    {
+      "name": "APT44",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Sandworm"
+    },
+    {
+      "name": "UAC-0002",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0002"
+    },
+    {
+      "name": "UAC-0133",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0133"
+    },
+    {
+      "name": "QUEUESEED",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "QUEUESEED"
+    },
+    {
+      "name": "KNUCKLETOUCH",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "KNUCKLETOUCH"
+    },
+    {
+      "name": "ICYWELL",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "ICYWELL"
+    },
+    {
+      "name": "WRONGSENS",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "WRONGSENS"
+    },
+    {
+      "name": "KAPEKA",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "KAPEKA"
+    },
+    {
+      "name": "LOADGRIP",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "LOADGRIP"
+    },
+    {
+      "name": "BIASBOAT",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "BIASBOAT"
+    },
+    {
+      "name": "WEEVELY",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Weevely"
+    },
+    {
+      "name": "REGEORG.NEO",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "ReGeorg.Neo"
+    },
+    {
+      "name": "PIVOTNACCI",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PIVOTNACCI"
+    },
+    {
+      "name": "GOSSIPFLOW",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GOSSIPFLOW"
+    },
+    {
+      "name": "SDELETE",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SDelete"
+    },
+    {
+      "name": "CHISEL",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "chisel"
+    },
+    {
+      "name": "LIBPROCESSHIDER",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "libprocesshider"
+    },
+    {
+      "name": "JUICYPOTATONG",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "JuicyPotatoNG"
+    },
+    {
+      "name": "ROTTENPOTATONG",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "RottenPotatoNG"
+    },
+    {
+      "name": "Ukrainian energy sector",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian energy sector",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian water supply sector",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian water supply sector",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian heat supply sector",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian heat supply sector",
+      "embedding": []
+    },
+    {
+      "name": "Information and communication systems of Ukrainian critical infrastructure",
+      "category": "Infrastructure",
+      "role": "Target",
+      "normalizedName": "Information and communication systems of Ukrainian critical infrastructure",
+      "embedding": []
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "19.04.2024",
+    "id": 6278706,
+    "title": "Плани UAC-0133 (Sandworm) щодо кібердиверсії на майже 20 об'єктах критичної інфраструктури України",
+    "llmProcessingTimeSeconds": 103.908
+  }
+}

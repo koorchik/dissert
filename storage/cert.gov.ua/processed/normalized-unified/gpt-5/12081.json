@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "Кіберцентр UA30",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Кіберцентр UA30"
+    },
+    {
+      "name": "Володимир Зеленський",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Володимир Зеленський"
+    },
+    {
+      "name": "Михайло Федоров",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Михайло Федоров"
+    },
+    {
+      "name": "Юрій Щиголь",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Юрій Щиголь"
+    },
+    {
+      "name": "Держспецзв'язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державна служба спеціального зв’язку та захисту інформації України"
+    },
+    {
+      "name": "FIRST",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "FIRST"
+    },
+    {
+      "name": "ua30.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "ua30.gov.ua"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Тренінговий кіберцентр",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Тренінговий кіберцентр"
+    }
+  ],
+  "metadata": {
+    "date": "13.05.2021",
+    "id": 12081,
+    "title": "Президент України Володимир Зеленський відкрив Кіберцентр UA30",
+    "llmProcessingTimeSeconds": 34.78
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "Linux",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Linux"
+    },
+    {
+      "name": "rtlwifi driver",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "rtlwifi"
+    },
+    {
+      "name": "CVE-2019-17666",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "CVE-2019-17666"
+    },
+    {
+      "name": "Realtek",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Realtek"
+    },
+    {
+      "name": "Linux Team",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Linux Team"
+    },
+    {
+      "name": "Microsoft SQL Server (MSSQL)",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Microsoft SQL Server"
+    },
+    {
+      "name": "TeamViewer",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "TeamViewer"
+    },
+    {
+      "name": "FireEye",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "FireEye"
+    },
+    {
+      "name": "APT41",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "APT41"
+    },
+    {
+      "name": "China",
+      "category": "Country",
+      "role": "Attacker",
+      "code": "CN",
+      "normalizedName": "China"
+    }
+  ],
+  "metadata": {
+    "date": "22.10.2019",
+    "id": 2687,
+    "title": "Новини зі світу кібербезпеки",
+    "llmProcessingTimeSeconds": 53.944
+  }
+}

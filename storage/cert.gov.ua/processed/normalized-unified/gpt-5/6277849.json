@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0149",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0149"
+    },
+    {
+      "name": "COOKBOX",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "COOKBOX"
+    },
+    {
+      "name": "PowerShell",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PowerShell"
+    },
+    {
+      "name": "cmd.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "cmd.exe"
+    },
+    {
+      "name": "Microsoft Excel",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Microsoft Excel"
+    },
+    {
+      "name": "Signal",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Signal"
+    },
+    {
+      "name": "shorturl.at",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "shorturl.at"
+    },
+    {
+      "name": "github.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "github.com"
+    },
+    {
+      "name": "raw.githubusercontent.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "githubusercontent.com"
+    },
+    {
+      "name": "array.myftp.biz",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "myftp.biz"
+    },
+    {
+      "name": "bom02.gotdns.ch",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gotdns.ch"
+    },
+    {
+      "name": "worker-test-6f41.idv64828.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "myftp.biz",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "myftp.biz"
+    },
+    {
+      "name": "gotdns.ch",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gotdns.ch"
+    },
+    {
+      "name": "Сили оборони України",
+      "category": "Government Body",
+      "role": "Target",
+      "normalizedName": "Сили оборони України"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Центр кібернетичної безпеки інформаційно-телекомунікаційних систем військової частини А0334 (ЦКБ ІТС в/ч А0334)",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Центр кібернетичної безпеки інформаційно-телекомунікаційних систем (в/ч А0334)"
+    }
+  ],
+  "metadata": {
+    "date": "24.02.2024",
+    "id": 6277849,
+    "title": "UAC-0149: Цільові вибіркові атаки у відношенні Сил оборони України із застосуванням COOKBOX (CERT-UA#9204)",
+    "llmProcessingTimeSeconds": 106.445
+  }
+}

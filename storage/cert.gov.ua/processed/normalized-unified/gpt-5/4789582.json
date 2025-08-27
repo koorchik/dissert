@@ -1,0 +1,395 @@
+{
+  "entities": [
+    {
+      "name": "громадяни України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian citizens",
+      "embedding": []
+    },
+    {
+      "name": "Telegram",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Telegram"
+    },
+    {
+      "name": "CSIRT-NBU",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "CSIRT-NBU"
+    },
+    {
+      "name": "Єдина судова інформаційно-телекомунікаційна система (ЄСІТС)",
+      "category": "Infrastructure",
+      "role": "Neutral",
+      "normalizedName": "Єдина судова інформаційно-телекомунікаційна система (ЄСІТС)"
+    },
+    {
+      "name": "Електронний суд",
+      "category": "Infrastructure",
+      "role": "Neutral",
+      "normalizedName": "Єдина судова інформаційно-телекомунікаційна система (ЄСІТС)"
+    },
+    {
+      "name": "id.court.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "court.gov.ua"
+    },
+    {
+      "name": "sec-t.info",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "sec-t.info"
+    },
+    {
+      "name": "telegram.org-a0dk3dm91iu.tgeo.link",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tgeo.link"
+    },
+    {
+      "name": "telegram.org-a0dm91dk31i.cloue.link",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "cloue.link"
+    },
+    {
+      "name": "telegram.org.t.me-cloud.link",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "me-cloud.link"
+    },
+    {
+      "name": "telegram.account.associates",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "account.associates"
+    },
+    {
+      "name": "tgeo.link",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tgeo.link"
+    },
+    {
+      "name": "me-cloud.link",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "me-cloud.link"
+    },
+    {
+      "name": "account.associates",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "account.associates"
+    },
+    {
+      "name": "cloue.link",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "cloue.link"
+    },
+    {
+      "name": "4-t.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "4-t.me"
+    },
+    {
+      "name": "i1t.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "i1t.me"
+    },
+    {
+      "name": "t--t.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "t--t.me"
+    },
+    {
+      "name": "0-t.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "0-t.me"
+    },
+    {
+      "name": "7tt.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "7tt.me"
+    },
+    {
+      "name": "vljsport.eu.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "eu.com"
+    },
+    {
+      "name": "pomoshnikrbx.site",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "pomoshnikrbx.site"
+    },
+    {
+      "name": "telegrad.info",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "telegrad.info"
+    },
+    {
+      "name": "chimeramarket24.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "chimeramarket24.online"
+    },
+    {
+      "name": "chimeramarketplace24.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "chimeramarketplace24.online"
+    },
+    {
+      "name": "chimeramarketplace.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "chimeramarketplace.online"
+    },
+    {
+      "name": "chimera-shop24.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "chimera-shop24.online"
+    },
+    {
+      "name": "elyslink.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "elyslink.online"
+    },
+    {
+      "name": "tg.cyou",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "cyou"
+    },
+    {
+      "name": "telegraom.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "telegraom.me"
+    },
+    {
+      "name": "tme-id.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tme-id.ru"
+    },
+    {
+      "name": "tme-id.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tme-id.com"
+    },
+    {
+      "name": "apitelegram.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "apitelegram.org"
+    },
+    {
+      "name": "tronogram.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tronogram.com"
+    },
+    {
+      "name": "jokoloret.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "jokoloret.ru"
+    },
+    {
+      "name": "teleqram.info",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "teleqram.info"
+    },
+    {
+      "name": "cloudlnk.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "cloudlnk.org"
+    },
+    {
+      "name": "lolifans.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "lolifans.ru"
+    },
+    {
+      "name": "00-l.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "00-l.ru"
+    },
+    {
+      "name": "swinj.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "swinj.online"
+    },
+    {
+      "name": "claud.in",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "claud.in"
+    },
+    {
+      "name": "tsecurity.sbs",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tsecurity.sbs"
+    },
+    {
+      "name": "vote-me.top",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "vote-me.top"
+    },
+    {
+      "name": "konkurs-events.top",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "konkurs-events.top"
+    },
+    {
+      "name": "freeusadatingxxx.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "freeusadatingxxx.online"
+    },
+    {
+      "name": "webk-telegram.icu",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "webk-telegram.icu"
+    },
+    {
+      "name": "webk-telegram.sbs",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "webk-telegram.sbs"
+    },
+    {
+      "name": "golos2023q.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "golos2023q.ru"
+    },
+    {
+      "name": "telegram-click.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "telegram-click.ru"
+    },
+    {
+      "name": "confirm-agent.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "confirm-agent.online"
+    },
+    {
+      "name": "microjob.mn",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "microjob.mn"
+    },
+    {
+      "name": "teierqam.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "teierqam.org"
+    },
+    {
+      "name": "telegram-mobile.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "telegram-mobile.ru"
+    },
+    {
+      "name": "telegram-wed.id",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "telegram-wed.id"
+    },
+    {
+      "name": "tg-me.pro",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tg-me.pro"
+    },
+    {
+      "name": "telegram-wap.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "telegram-wap.me"
+    },
+    {
+      "name": "telesecurity.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "telesecurity.org"
+    },
+    {
+      "name": "truffa.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "truffa.online"
+    },
+    {
+      "name": "t-me.io",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "t-me.io"
+    },
+    {
+      "name": "golosdruga.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "golosdruga.ru"
+    },
+    {
+      "name": "webz-telegram.sbs",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "webz-telegram.sbs"
+    },
+    {
+      "name": "telegram.uk.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "telegram.uk.net"
+    },
+    {
+      "name": "teiegram1.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "teiegram1.me"
+    },
+    {
+      "name": "teiergam.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "teiergam.com"
+    }
+  ],
+  "metadata": {
+    "date": "02.06.2023",
+    "id": 4789582,
+    "title": "Розсилання SMS-повідомлень з темою судових повісток з використанням шахрайського альфа-імені \"SUDpovistka\" (CERT-UA#6804)",
+    "llmProcessingTimeSeconds": 165.001
+  }
+}

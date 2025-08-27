@@ -1,0 +1,84 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0170",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0170"
+    },
+    {
+      "name": "mlcrosoft.rf.gd",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "rf.gd"
+    },
+    {
+      "name": "beroozresaan.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "beroozresaan.com"
+    },
+    {
+      "name": "tataguyz.co.za",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tataguyz.co.za"
+    },
+    {
+      "name": "державні органи",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government bodies",
+      "embedding": []
+    },
+    {
+      "name": "InfinityFree",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "InfinityFree"
+    },
+    {
+      "name": "iFastNet",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "iFastNet"
+    },
+    {
+      "name": "ifastnet.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "ifastnet.com"
+    },
+    {
+      "name": "UK",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "GB",
+      "normalizedName": "United Kingdom"
+    },
+    {
+      "name": "Microsoft",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Microsoft"
+    },
+    {
+      "name": "Roundcube",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Roundcube"
+    },
+    {
+      "name": "ДЦКЗ Держспецзв'язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державний центр кіберзахисту Держспецзв’язку"
+    }
+  ],
+  "metadata": {
+    "date": "11.08.2023",
+    "id": 5455833,
+    "title": "\"Змініть пароль до Roundcube\": чергова фішингова атака з використанням атрибутів CERT-UA та символіки ДЦКЗ Держспецзв'язку (CERT-UA#7223)",
+    "llmProcessingTimeSeconds": 157.226
+  }
+}

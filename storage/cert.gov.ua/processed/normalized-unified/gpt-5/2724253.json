@@ -1,0 +1,239 @@
+{
+  "entities": [
+    {
+      "name": "FRwL",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "FRwL"
+    },
+    {
+      "name": "Z-Team",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Z-Team"
+    },
+    {
+      "name": "UAC-0118",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0118"
+    },
+    {
+      "name": "Somnia",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Somnia"
+    },
+    {
+      "name": "Vidar",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Vidar"
+    },
+    {
+      "name": "Cobalt Strike Beacon",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Cobalt Strike Beacon"
+    },
+    {
+      "name": "Netscan",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Netscan"
+    },
+    {
+      "name": "Rclone",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Rclone"
+    },
+    {
+      "name": "AnyDesk",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "AnyDesk"
+    },
+    {
+      "name": "Ngrok",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "ngrok"
+    },
+    {
+      "name": "Telegram",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Telegram"
+    },
+    {
+      "name": "Themida",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Themida"
+    },
+    {
+      "name": "українські організації",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian organizations",
+      "embedding": []
+    },
+    {
+      "name": "mega.nz",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "mega.nz"
+    },
+    {
+      "name": "t.me",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "t.me"
+    },
+    {
+      "name": "mastodon.social",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "mastodon.social"
+    },
+    {
+      "name": "advanced-ip-scaner.com.vuxuancuong.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "vuxuancuong.com"
+    },
+    {
+      "name": "advanced-ip-scanner.website",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "advanced-ip-scanner.website"
+    },
+    {
+      "name": "onedrive.live.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "live.com"
+    },
+    {
+      "name": "zambeziz.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "zambeziz.com"
+    },
+    {
+      "name": "vuxuancuong.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "vuxuancuong.com"
+    },
+    {
+      "name": "gofile.io",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gofile.io"
+    },
+    {
+      "name": "store1.gofile.io",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gofile.io"
+    },
+    {
+      "name": "store3.gofile.io",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gofile.io"
+    },
+    {
+      "name": "store8.gofile.io",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gofile.io"
+    },
+    {
+      "name": "advanced-ip-scanner.click",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "advanced-ip-scanner.click"
+    },
+    {
+      "name": "advanced-ip-scanner.site",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "advanced-ip-scanner.site"
+    },
+    {
+      "name": "www.dropbox.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dropbox.com"
+    },
+    {
+      "name": "agrikoz.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "agrikoz.com"
+    },
+    {
+      "name": "aluaadin.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "aluaadin.com"
+    },
+    {
+      "name": "arminext.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "arminext.com"
+    },
+    {
+      "name": "benokij.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "benokij.com"
+    },
+    {
+      "name": "fudupdate.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "fudupdate.com"
+    },
+    {
+      "name": "sinergil.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "sinergil.com"
+    },
+    {
+      "name": "softloadup.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "softloadup.com"
+    },
+    {
+      "name": "survefuz.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "survefuz.com"
+    },
+    {
+      "name": "vinergil.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "vinergil.com"
+    },
+    {
+      "name": "zbignef.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "zbignef.com"
+    }
+  ],
+  "metadata": {
+    "date": "11.11.2022",
+    "id": 2724253,
+    "title": "Інформація щодо кібератак групи UAC-0118 (FRwL) з використанням шкідливої програми Somnia (CERT-UA#5185)",
+    "llmProcessingTimeSeconds": 135.194
+  }
+}

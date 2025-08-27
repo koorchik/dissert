@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0056",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0056"
+    },
+    {
+      "name": "GraphSteel",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GraphSteel"
+    },
+    {
+      "name": "GrimPlant",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GrimPlant"
+    },
+    {
+      "name": "GoDownloader",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GoDownloader"
+    },
+    {
+      "name": "Base-Update.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Base-Update.exe"
+    },
+    {
+      "name": "java-sdk.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "java-sdk.exe"
+    },
+    {
+      "name": "oracle-java.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "oracle-java.exe"
+    },
+    {
+      "name": "microsoft-cortana.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "microsoft-cortana.exe"
+    },
+    {
+      "name": "державні органи України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government bodies of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "28.03.2022",
+    "id": 38374,
+    "title": "Кібератака групи UAC-0056 на державні органи України з використанням шкідливих програм GraphSteel та GrimPlant (CERT-UA#4293)",
+    "llmProcessingTimeSeconds": 57.642
+  }
+}

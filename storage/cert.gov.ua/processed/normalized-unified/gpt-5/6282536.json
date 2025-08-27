@@ -1,0 +1,133 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0173",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0173"
+    },
+    {
+      "name": "DARKCRYSTALRAT (DCRAT)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "DarkCrystal RAT"
+    },
+    {
+      "name": "RDP Wrapper",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "RDP Wrapper"
+    },
+    {
+      "name": "BORE",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "BORE"
+    },
+    {
+      "name": "Nmap",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Nmap"
+    },
+    {
+      "name": "Fiddler",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Fiddler"
+    },
+    {
+      "name": "XWORM",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "XWorm"
+    },
+    {
+      "name": "SENDEMAIL",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SendEmail"
+    },
+    {
+      "name": "PEAKLIGHT",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PEAKLIGHT"
+    },
+    {
+      "name": "PowerShell",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PowerShell"
+    },
+    {
+      "name": "MSHTA",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "MSHTA"
+    },
+    {
+      "name": "WMIC",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "WMIC"
+    },
+    {
+      "name": "LAPTOP-EBMNTFEL",
+      "category": "Device",
+      "role": "Attacker",
+      "normalizedName": "LAPTOP-EBMNTFEL"
+    },
+    {
+      "name": "Нотаріуси України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Notaries of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Державні реєстри України",
+      "category": "Infrastructure",
+      "role": "Target",
+      "normalizedName": "Державні реєстри України",
+      "embedding": []
+    },
+    {
+      "name": "Міністерство юстиції України",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Міністерство юстиції України"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Нотаріальна палата України",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Нотаріальна палата України"
+    },
+    {
+      "name": "Комісія з питань інформатизації, цифрової трансформації та запобігання кіберзлочинності Нотаріальної палати України",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Комісія з питань інформатизації, цифрової трансформації та запобігання кіберзлочинності Нотаріальної палати України"
+    },
+    {
+      "name": "ДП \"НАІС\"",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "ДП «НАІС»"
+    }
+  ],
+  "metadata": {
+    "date": "25.02.2025",
+    "id": 6282536,
+    "title": "UAC-0173 проти Нотаріату України (CERT-UA#13738)",
+    "llmProcessingTimeSeconds": 127.03
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0198",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0198"
+    },
+    {
+      "name": "ANONVNC",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "ANONVNC"
+    },
+    {
+      "name": "syn.hiddenvnc.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "hiddenvnc.com"
+    },
+    {
+      "name": "sync.hiddenvnc.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "hiddenvnc.com"
+    },
+    {
+      "name": "sync.anonvnc.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "anonvnc.com"
+    },
+    {
+      "name": "sync.invoice-traffic.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "invoice-traffic.com"
+    },
+    {
+      "name": "sync.smart-vnc.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "smart-vnc.com"
+    },
+    {
+      "name": "sync.smartcloudflare.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "smartcloudflare.com"
+    },
+    {
+      "name": "hiddenvnc.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "hiddenvnc.com"
+    },
+    {
+      "name": "anonvnc.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "anonvnc.com"
+    },
+    {
+      "name": "invoice-traffic.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "invoice-traffic.com"
+    },
+    {
+      "name": "smart-vnc.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "smart-vnc.com"
+    },
+    {
+      "name": "smartcloudflare.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "smartcloudflare.com"
+    },
+    {
+      "name": "gbshost.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gbshost.net"
+    },
+    {
+      "name": "gbshost.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gbshost.org"
+    },
+    {
+      "name": "filedn.eu",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "filedn.eu"
+    },
+    {
+      "name": "ac-strasbourg.fr",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ac-strasbourg.fr"
+    },
+    {
+      "name": "ndkgk.co.jp",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "co.jp"
+    },
+    {
+      "name": "co3ra.de",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "co3ra.de"
+    },
+    {
+      "name": "державні органи та органи місцевого самоврядування України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government and local self-government bodies of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Служба безпеки України",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Служба безпеки України"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "pCloud",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "pCloud"
+    },
+    {
+      "name": "GitHub",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "GitHub"
+    },
+    {
+      "name": "Cloudflare",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Cloudflare"
+    },
+    {
+      "name": "MESHAGENT",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "MeshCentral"
+    },
+    {
+      "name": "MeshCentral Assistant",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "MeshCentral"
+    }
+  ],
+  "metadata": {
+    "date": "12.08.2024",
+    "id": 6280345,
+    "title": "UAC-0198: Масове розповсюдження ANONVNC (MESHAGENT) серед державних організацій України (CERT-UA#10647)",
+    "llmProcessingTimeSeconds": 90.736
+  }
+}

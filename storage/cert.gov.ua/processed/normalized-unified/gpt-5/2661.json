@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "Microsoft",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Microsoft"
+    },
+    {
+      "name": "CVE-2019-0708",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2019-0708"
+    },
+    {
+      "name": "Remote Desktop Protocol (RDP)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "RDP"
+    },
+    {
+      "name": "Microsoft Windows 7 for 32-bit Systems SP1",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows 7"
+    },
+    {
+      "name": "Microsoft Windows 7 for x64-based Systems SP1",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows 7"
+    },
+    {
+      "name": "Microsoft Windows Server 2003",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows Server 2003"
+    },
+    {
+      "name": "Microsoft Windows Server 2008 R2 for Itanium-based Systems SP1",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows Server 2008 R2"
+    },
+    {
+      "name": "Microsoft Windows Server 2008 R2 for x64-based Systems SP1",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows Server 2008 R2"
+    },
+    {
+      "name": "Microsoft Windows Server 2008 for 32-bit Systems SP2",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows Server 2008"
+    },
+    {
+      "name": "Microsoft Windows Server 2008 for Itanium-based Systems SP2",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows Server 2008"
+    },
+    {
+      "name": "Microsoft Windows Server 2008 for x64-based Systems SP2",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows Server 2008"
+    },
+    {
+      "name": "Microsoft Windows XP",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Windows XP"
+    },
+    {
+      "name": "portal.msrc.microsoft.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "microsoft.com"
+    },
+    {
+      "name": "cve.mitre.org",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "mitre.org"
+    },
+    {
+      "name": "www.symantec.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "symantec.com"
+    }
+  ],
+  "metadata": {
+    "date": "15.01.2020",
+    "id": 2661,
+    "title": "Критична вразливість в старих версіях ОС Windows ",
+    "llmProcessingTimeSeconds": 72.262
+  }
+}

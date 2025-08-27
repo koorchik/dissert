@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "name": "INDUSTROYER2",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Industroyer2"
+    },
+    {
+      "name": "CADDYWIPER",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CaddyWiper"
+    },
+    {
+      "name": "ARGUEPATCH",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "ArguePatch"
+    },
+    {
+      "name": "TAILJUMP",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "TailJump"
+    },
+    {
+      "name": "ORCSHRED",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "ORCSHRED"
+    },
+    {
+      "name": "SOLOSHRED",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SOLOSHRED"
+    },
+    {
+      "name": "AWFULSHRED",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "AwfulShred"
+    },
+    {
+      "name": "POWERGAP",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "POWERGAP"
+    },
+    {
+      "name": "Group Policy (GPO)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Group Policy"
+    },
+    {
+      "name": "Impacket",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Impacket"
+    },
+    {
+      "name": "SSH",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SSH"
+    },
+    {
+      "name": "PowerShell",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PowerShell"
+    },
+    {
+      "name": "високовольтні електричні підстанції",
+      "category": "Infrastructure",
+      "role": "Target",
+      "normalizedName": "високовольтні електричні підстанції",
+      "embedding": []
+    },
+    {
+      "name": "Windows робочі станції та сервери",
+      "category": "Device",
+      "role": "Target",
+      "normalizedName": "Windows workstations and servers",
+      "embedding": []
+    },
+    {
+      "name": "серверне обладнання Linux",
+      "category": "Device",
+      "role": "Target",
+      "normalizedName": "Linux servers",
+      "embedding": []
+    },
+    {
+      "name": "активне мережеве обладнання",
+      "category": "Device",
+      "role": "Target",
+      "normalizedName": "Active network equipment",
+      "embedding": []
+    },
+    {
+      "name": "енергетичний сектор України",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian energy sector",
+      "embedding": []
+    },
+    {
+      "name": "Microsoft",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Microsoft"
+    },
+    {
+      "name": "ESET",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "ESET"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "12.04.2022",
+    "id": 39518,
+    "title": "Кібератака групи Sandworm (UAC-0082) на об’єкти енергетики України з використанням шкідливих програм INDUSTROYER2 та CADDYWIPER (CERT-UA#4435)",
+    "llmProcessingTimeSeconds": 85.762
+  }
+}

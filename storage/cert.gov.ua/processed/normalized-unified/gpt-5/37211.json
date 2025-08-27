@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "name": "Raidforums",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "RaidForums"
+    },
+    {
+      "name": "raidforums.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "raidforums.com"
+    },
+    {
+      "name": "Державний сектор",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Public sector",
+      "embedding": []
+    },
+    {
+      "name": "Банківський сектор",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Banking sector",
+      "embedding": []
+    },
+    {
+      "name": "Сектор оборони",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Defense sector",
+      "embedding": []
+    },
+    {
+      "name": "веб-ресурси в зоні .ua",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": ".ua domain web resources",
+      "embedding": []
+    },
+    {
+      "name": "Оперативний центр реагування на кіберінциденти",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Оперативний центр реагування на кіберінциденти (SOC) Державного центру кіберзахисту Держспецзв’язку"
+    },
+    {
+      "name": "Державний центр кіберзахисту",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державний центр кіберзахисту Держспецзв’язку"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "21.02.2022",
+    "id": 37211,
+    "title": "Попередження щодо можливих кібератак",
+    "llmProcessingTimeSeconds": 101.93
+  }
+}

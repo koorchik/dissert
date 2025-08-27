@@ -1,0 +1,112 @@
+{
+  "entities": [
+    {
+      "name": "Troldesh",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Troldesh"
+    },
+    {
+      "name": "Shade",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Troldesh"
+    },
+    {
+      "name": "XTBL",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "XTBL"
+    },
+    {
+      "name": "Trojan.Encoder.858",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Trojan.Encoder.858"
+    },
+    {
+      "name": "GandCrab v4",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GandCrab"
+    },
+    {
+      "name": "GandCrab v4.1",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GandCrab"
+    },
+    {
+      "name": "thestoreroomnsw.com.au",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "thestoreroomnsw.com.au"
+    },
+    {
+      "name": "www.dstruct.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dstruct.net"
+    },
+    {
+      "name": "ftp.thefoodplace.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "thefoodplace.net"
+    },
+    {
+      "name": "cryptsen7fo43rr6.onion",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "cryptsen7fo43rr6.onion"
+    },
+    {
+      "name": "cryptsen7fo43rr6.onion.to",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "onion.to"
+    },
+    {
+      "name": "cryptsen7fo43rr6.onion.cab",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "onion.cab"
+    },
+    {
+      "name": "iol.pt",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "iol.pt"
+    },
+    {
+      "name": "arcor.de",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "arcor.de"
+    },
+    {
+      "name": "gmail.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gmail.com"
+    },
+    {
+      "name": "VirusTotal",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "VirusTotal"
+    },
+    {
+      "name": "Fortinet",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Fortinet"
+    }
+  ],
+  "metadata": {
+    "date": "14.09.2018",
+    "id": 2805,
+    "title": "Масова розсилка вірусу-шифрувальника GandCrab / Troldesh",
+    "llmProcessingTimeSeconds": 106.164
+  }
+}

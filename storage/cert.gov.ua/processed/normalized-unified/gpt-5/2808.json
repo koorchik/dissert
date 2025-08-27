@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "name": "portal.nazk.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "nazk.gov.ua"
+    },
+    {
+      "name": "portal.nazk.org.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "nazk.org.ua"
+    },
+    {
+      "name": "державні установи",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government institutions",
+      "embedding": []
+    },
+    {
+      "name": "підприємства",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Enterprises",
+      "embedding": []
+    },
+    {
+      "name": "організації",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Organizations",
+      "embedding": []
+    },
+    {
+      "name": "громадяни",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Citizens",
+      "embedding": []
+    },
+    {
+      "name": "Єдиний державний реєстр декларацій осіб, уповноважених на виконання функцій держави або місцевого самоврядування",
+      "category": "Infrastructure",
+      "role": "Target",
+      "normalizedName": "Єдиний державний реєстр декларацій осіб, уповноважених на виконання функцій держави або місцевого самоврядування",
+      "embedding": []
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "07.08.2018",
+    "id": 2808,
+    "title": "Як убезпечитися від фішингового сайта?",
+    "llmProcessingTimeSeconds": 51.045
+  }
+}

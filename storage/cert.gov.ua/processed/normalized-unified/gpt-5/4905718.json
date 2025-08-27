@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0057 (GhostWriter)",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UNC1151"
+    },
+    {
+      "name": "PicassoLoader",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PicassoLoader"
+    },
+    {
+      "name": "Cobalt Strike Beacon",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Cobalt Strike Beacon"
+    },
+    {
+      "name": "PhotoMetadataHandler.dll",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PhotoMetadataHandler.dll"
+    },
+    {
+      "name": "yotsubasociety.website",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "yotsubasociety.website"
+    },
+    {
+      "name": "bourns.space",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "bourns.space"
+    },
+    {
+      "name": "Cloudflare",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Cloudflare"
+    },
+    {
+      "name": "Національний університет оборони України імені Івана Черняхівського",
+      "category": "Organization",
+      "role": "Target",
+      "normalizedName": "Національний університет оборони України імені Івана Черняхівського"
+    },
+    {
+      "name": "Russian Federation",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "RU",
+      "normalizedName": "Russia"
+    }
+  ],
+  "metadata": {
+    "date": "16.06.2023",
+    "id": 4905718,
+    "title": "Кібератака групи UAC-0057 (GhostWriter) у відношенні державної організації України з використанням PicassoLoader та Cobalt Strike Beacon (CERT-UA#6852)",
+    "llmProcessingTimeSeconds": 98.876
+  }
+}

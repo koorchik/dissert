@@ -1,0 +1,113 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0010 (Armageddon)",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Armageddon"
+    },
+    {
+      "name": "Держспецзв'язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державна служба спеціального зв’язку та захисту інформації України"
+    },
+    {
+      "name": "mail.gov.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "mail.gov.ua"
+    },
+    {
+      "name": "civh.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "civh.ru"
+    },
+    {
+      "name": "hilr.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "hilr.ru"
+    },
+    {
+      "name": "tzi.info-cip.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "info-cip.org"
+    },
+    {
+      "name": "arhiv.ua-cip.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ua-cip.org"
+    },
+    {
+      "name": "ua-cip.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ua-cip.org"
+    },
+    {
+      "name": "info-cip.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "info-cip.org"
+    },
+    {
+      "name": "rubidiumo.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "rubidiumo.ru"
+    },
+    {
+      "name": "shapurt.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "shapurt.ru"
+    },
+    {
+      "name": "ardeas.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ardeas.ru"
+    },
+    {
+      "name": "cloudflare-dns.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "cloudflare-dns.com"
+    },
+    {
+      "name": "t.me",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "t.me"
+    },
+    {
+      "name": "Telegram",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Telegram"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "mshta.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "MSHTA"
+    }
+  ],
+  "metadata": {
+    "date": "08.11.2022",
+    "id": 2681855,
+    "title": "Кібератака групи UAC-0010: розсилання електронних листів, начебто, від імені Держспецзв'язку (CERT-UA#5570)",
+    "llmProcessingTimeSeconds": 169.579
+  }
+}

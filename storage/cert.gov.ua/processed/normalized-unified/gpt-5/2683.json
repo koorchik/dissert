@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "name": "Естонський центр Східного партнерства (ECEAP)",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Estonian Center of Eastern Partnership (ECEAP)"
+    },
+    {
+      "name": "CybExer Technologies",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "CybExer Technologies"
+    },
+    {
+      "name": "Європейський Союз",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "European Union"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "місцеві ЗМІ",
+      "category": "Sector",
+      "role": "Neutral",
+      "normalizedName": "Local media"
+    },
+    {
+      "name": "Держспецзв’язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державна служба спеціального зв’язку та захисту інформації України"
+    },
+    {
+      "name": "Державний центр кіберзахисту Держспецзв’язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державний центр кіберзахисту Держспецзв’язку"
+    },
+    {
+      "name": "СБУ",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Служба безпеки України"
+    },
+    {
+      "name": "Департамент контррозвідувального захисту інтересів держави у сфері інформаційної безпеки СБУ",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Департамент контррозвідувального захисту інтересів держави у сфері інформаційної безпеки СБУ"
+    },
+    {
+      "name": "Центральна виборча комісія",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Центральна виборча комісія"
+    },
+    {
+      "name": "Кіберполіція",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Департамент кіберполіції Національної поліції України"
+    },
+    {
+      "name": "ГО «Міжнародний університет цифрової безпеки»",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "ГО «Міжнародний університет цифрової безпеки»"
+    },
+    {
+      "name": "Валентин Петров",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Валентин Петров"
+    },
+    {
+      "name": "Микола Худинцев",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Худинцев Микола Миколайович"
+    },
+    {
+      "name": "Микола Кулешов",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Микола Кулешов"
+    },
+    {
+      "name": "Роман Боярчук",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Роман Боярчук"
+    }
+  ],
+  "metadata": {
+    "date": "31.10.2019",
+    "id": 2683,
+    "title": "Конференція «Дезінформація та кібербезпека під час виборів в Україні: уроки 2019 року, та майбутні перспективи»",
+    "llmProcessingTimeSeconds": 34.903
+  }
+}

@@ -13,10 +13,8 @@ interface Params {
 }
 
 interface UnifiedEntities {
-  entities: Record<string, {
-    category: string;
-    normalizedName: string;
-  }>;
+  entities: Record<string, Record<string, string>>;
+  // Structure: { entities: { Category: { originalName: normalizedName } } }
 }
 
 export class DataNormalizerUnified {
@@ -70,10 +68,13 @@ export class DataNormalizerUnified {
       }
 
       // Look up normalized names from entities file
-      const key = `${entity.category}:${entity.name}`;
-      if (entities.entities && entities.entities[key]) {
-        entity.normalizedName = entities.entities[key].normalizedName;
+      // The entities file structure is: { entities: { Category: { originalName: normalizedName } } }
+      if (entities.entities && 
+          entities.entities[entity.category] && 
+          entities.entities[entity.category][entity.name]) {
+        entity.normalizedName = entities.entities[entity.category][entity.name];
       } else {
+        // If no normalized name is found, use the original name
         entity.normalizedName = entity.name;
       }
 

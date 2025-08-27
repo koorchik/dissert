@@ -1,0 +1,100 @@
+{
+  "entities": [
+    {
+      "name": "AZORult",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "AZORult"
+    },
+    {
+      "name": "QUOTATION N0AB.doc",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "QUOTATION N0AB.doc"
+    },
+    {
+      "name": "PO.jpg (EXE)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PO.jpg (EXE)"
+    },
+    {
+      "name": "CVE-2017-11882",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2017-11882"
+    },
+    {
+      "name": "67.199.248.10",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "67.199.248.10"
+    },
+    {
+      "name": "67.199.248.11",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "67.199.248.11"
+    },
+    {
+      "name": "192.198.87.130",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "192.198.87.130"
+    },
+    {
+      "name": "185.193.38.78",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "185.193.38.78"
+    },
+    {
+      "name": "Outlook",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Microsoft Outlook"
+    },
+    {
+      "name": "Thunderbird",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Mozilla Thunderbird"
+    },
+    {
+      "name": "Filezilla",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "FileZilla"
+    },
+    {
+      "name": "WinSCP",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "WinSCP"
+    },
+    {
+      "name": "www.virustotal.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "virustotal.com"
+    },
+    {
+      "name": "pastebin.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "pastebin.com"
+    },
+    {
+      "name": "www.hybrid-analysis.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "hybrid-analysis.com"
+    }
+  ],
+  "metadata": {
+    "date": "18.09.2018",
+    "id": 2806,
+    "title": "Розсилка шкідливого програмного забезпечення AZORult",
+    "llmProcessingTimeSeconds": 73.034
+  }
+}

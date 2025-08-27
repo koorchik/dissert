@@ -1,0 +1,172 @@
+{
+  "entities": [
+    {
+      "name": "MIL.CERT-UA",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "MILCERT"
+    },
+    {
+      "name": "UAC-0125",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0125"
+    },
+    {
+      "name": "UAC-0002",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0002"
+    },
+    {
+      "name": "APT44",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Sandworm"
+    },
+    {
+      "name": "Sandworm",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Sandworm"
+    },
+    {
+      "name": "desktopapluscom.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "desktopaplus.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "armyplus-desktop.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "aplusdesktop.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "armylpus.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "aplusmodgovua.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "wvtmsouaa2gt6jmcuxj5hkfrqdss5lhecoqijt5dl7gfruueu3i5mkad.onion",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "wvtmsouaa2gt6jmcuxj5hkfrqdss5lhecoqijt5dl7gfruueu3i5mkad.onion"
+    },
+    {
+      "name": "ArmyPlusInstaller-v.0.10.23672.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Армія+"
+    },
+    {
+      "name": "ArmyPlusInstaller-v.0.10.23722.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Армія+"
+    },
+    {
+      "name": "init.ps1",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "init.ps1"
+    },
+    {
+      "name": "guid.txt",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "guid.txt"
+    },
+    {
+      "name": "ArmyPlus.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Армія+"
+    },
+    {
+      "name": "NSIS (Nullsoft Scriptable Install System)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "NSIS"
+    },
+    {
+      "name": "PowerShell",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PowerShell"
+    },
+    {
+      "name": "OpenSSH server",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "OpenSSH"
+    },
+    {
+      "name": "Python interpreter",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Python"
+    },
+    {
+      "name": "Tor",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Tor"
+    },
+    {
+      "name": "curl",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "curl"
+    },
+    {
+      "name": "Office16.iso",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Microsoft Office 2016"
+    },
+    {
+      "name": "omas-x-none.msp",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "omas-x-none.msp"
+    },
+    {
+      "name": "CommunicatorContentBinApp.cmd",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CommunicatorContentBinApp.cmd"
+    },
+    {
+      "name": "Армія+",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Армія+"
+    }
+  ],
+  "metadata": {
+    "date": "18.12.2024",
+    "id": 6281701,
+    "title": "Кібератака UAC-0125 з використанням тематики \"Армія+\" (CERT-UA#12559)",
+    "llmProcessingTimeSeconds": 69.951
+  }
+}

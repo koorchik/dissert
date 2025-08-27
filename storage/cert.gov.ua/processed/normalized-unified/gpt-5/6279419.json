@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "name": "CSIRT-NBU",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "CSIRT-NBU"
+    },
+    {
+      "name": "UAC-0188",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0188"
+    },
+    {
+      "name": "SuperOps RMM",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SuperOps RMM"
+    },
+    {
+      "name": "PyInstaller",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PyInstaller"
+    },
+    {
+      "name": "Python",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Python"
+    },
+    {
+      "name": "Minesweeper",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Minesweeper"
+    },
+    {
+      "name": "Ukrainian organizations",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian organizations",
+      "embedding": []
+    },
+    {
+      "name": "Financial institutions",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Financial institutions",
+      "embedding": []
+    },
+    {
+      "name": "Insurance institutions",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Insurance institutions",
+      "embedding": []
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "USA",
+      "category": "Country",
+      "role": "Target",
+      "code": "US",
+      "normalizedName": "United States"
+    },
+    {
+      "name": "patient-docs-mail.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "patient-docs-mail.com"
+    },
+    {
+      "name": "yemmyusa.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "yemmyusa.com"
+    },
+    {
+      "name": "anotepad.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "anotepad.com"
+    },
+    {
+      "name": "www.dropbox.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "dropbox.com"
+    },
+    {
+      "name": "Dropbox",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Dropbox"
+    },
+    {
+      "name": "protonmail.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "protonmail.com"
+    },
+    {
+      "name": "superops.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "superops.com"
+    },
+    {
+      "name": "superops.ai",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "superops.ai"
+    },
+    {
+      "name": "Lexical Analysis Software Ltd",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Lexical Analysis Software Ltd"
+    }
+  ],
+  "metadata": {
+    "date": "23.05.2024",
+    "id": 6279419,
+    "title": "UAC-0188: Цільові кібератаки з використанням SuperOps RMM (CERT-UA#9797)",
+    "llmProcessingTimeSeconds": 118.974
+  }
+}

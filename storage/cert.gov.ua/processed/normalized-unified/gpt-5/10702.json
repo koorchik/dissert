@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "name": "Armageddon/Gamaredon",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Armageddon"
+    },
+    {
+      "name": "Pterodo",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Pterodo"
+    },
+    {
+      "name": "CVE-2017-0199",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2017-0199"
+    },
+    {
+      "name": "melitaeas.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "melitaeas.online"
+    },
+    {
+      "name": "melitaes.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "melitaes.online"
+    },
+    {
+      "name": "tridiuma.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tridiuma.ru"
+    },
+    {
+      "name": "barbatus.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "barbatus.online"
+    },
+    {
+      "name": "emterox.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "emterox.ru"
+    },
+    {
+      "name": "acteran.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "acteran.ru"
+    },
+    {
+      "name": "omyce.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "omyce.ru"
+    },
+    {
+      "name": "circulas.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "circulas.ru"
+    },
+    {
+      "name": "ryomy.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ryomy.ru"
+    },
+    {
+      "name": "erwini.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "erwini.ru"
+    },
+    {
+      "name": "candidar.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "candidar.ru"
+    },
+    {
+      "name": "mulleti.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "mulleti.ru"
+    },
+    {
+      "name": "sardanal.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "sardanal.online"
+    },
+    {
+      "name": "scorpiones.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "scorpiones.online"
+    },
+    {
+      "name": "graphiuma.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "graphiuma.online"
+    },
+    {
+      "name": "optica-rd.myftp.biz",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "myftp.biz"
+    },
+    {
+      "name": "apoxipodes.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "apoxipodes.ru"
+    },
+    {
+      "name": "dipteran.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "dipteran.online"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Ukrainian government bodies",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government bodies of Ukraine",
+      "embedding": []
+    },
+    {
+      "name": "Russia",
+      "category": "Country",
+      "role": "Attacker",
+      "code": "RU",
+      "normalizedName": "Russia"
+    },
+    {
+      "name": "Microsoft",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Microsoft"
+    }
+  ],
+  "metadata": {
+    "date": "03.03.2021",
+    "id": 10702,
+    "title": "Поновлення кібератак з використанням ШПЗ Pterodo хакерського угрупування Armageddon/Gamaredon",
+    "llmProcessingTimeSeconds": 125.79
+  }
+}

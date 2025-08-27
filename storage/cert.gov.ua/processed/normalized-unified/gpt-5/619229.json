@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0056",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0056"
+    },
+    {
+      "name": "skreatortemp.site",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "skreatortemp.site"
+    },
+    {
+      "name": "Інформація щодо наявності вакансій та їх укомплектування.xls",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Інформація щодо наявності вакансій та їх укомплектування.xls"
+    },
+    {
+      "name": "write.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "WordPad"
+    },
+    {
+      "name": "TRYxaEbX",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "TRYxaEbX"
+    },
+    {
+      "name": "TRYxaEbX.ps1",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "TRYxaEbX"
+    },
+    {
+      "name": "TRYxaEbX_2.ps1",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "TRYxaEbX"
+    },
+    {
+      "name": "shellcode.x86 (Cobalt Strike Beacon)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Cobalt Strike Beacon"
+    },
+    {
+      "name": "shellcode.x64 (Cobalt Strike Beacon)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Cobalt Strike Beacon"
+    },
+    {
+      "name": "Cobalt Strike Beacon",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Cobalt Strike Beacon"
+    },
+    {
+      "name": "Спеціалізованої прокуратури у військовій та оборонній сфері",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Спеціалізована прокуратура у військовій та оборонній сфері"
+    },
+    {
+      "name": "ESET",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "ESET"
+    }
+  ],
+  "metadata": {
+    "date": "06.07.2022",
+    "id": 619229,
+    "title": "Кібератака UAC-0056 на державні організації України з використанням Cobalt Strike Beacon (CERT-UA#4914)",
+    "llmProcessingTimeSeconds": 50.509
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "name": "GreyEnergy",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GreyEnergy"
+    },
+    {
+      "name": "GreyEnergy mini",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GreyEnergy mini"
+    },
+    {
+      "name": "Moonraker Petya",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Moonraker Petya"
+    },
+    {
+      "name": "Mimikatz",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Mimikatz"
+    },
+    {
+      "name": "WinExe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "WinExe"
+    },
+    {
+      "name": "pbank.co.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "pbank.co.ua"
+    },
+    {
+      "name": "об'єкти критичної інфраструктури в Центральній та Східній Європі",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Critical infrastructure in Central and Eastern Europe",
+      "embedding": []
+    },
+    {
+      "name": "ESET",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "ESET"
+    },
+    {
+      "name": "VirusTotal",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "VirusTotal"
+    }
+  ],
+  "metadata": {
+    "date": "22.10.2018",
+    "id": 2804,
+    "title": "Виявлено нове шкідливе програмне забезпечення GreyEnergy",
+    "llmProcessingTimeSeconds": 69.908
+  }
+}

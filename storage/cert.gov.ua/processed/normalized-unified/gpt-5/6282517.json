@@ -1,0 +1,265 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0133",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0133"
+    },
+    {
+      "name": "UAC-0002",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0002"
+    },
+    {
+      "name": "Sandworm",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Sandworm"
+    },
+    {
+      "name": "APT44",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Sandworm"
+    },
+    {
+      "name": "Seashell Blizzard",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Seashell Blizzard"
+    },
+    {
+      "name": "UAC-0212",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0212"
+    },
+    {
+      "name": "CVE-2024-38213",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2024-38213"
+    },
+    {
+      "name": "SECONDBEST",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SECONDBEST"
+    },
+    {
+      "name": "EMPIREPAST",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "EMPIREPAST"
+    },
+    {
+      "name": "SPARK",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SPARK"
+    },
+    {
+      "name": "CROOKBAG",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CROOKBAG"
+    },
+    {
+      "name": "PEAKLIGHT",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PEAKLIGHT"
+    },
+    {
+      "name": "RSYNC",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "rsync"
+    },
+    {
+      "name": "documents-reader.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "documents-reader.com"
+    },
+    {
+      "name": "femundengerdal.no",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "femundengerdal.no"
+    },
+    {
+      "name": "object-storage-service.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "object-storage-service.com"
+    },
+    {
+      "name": "cdnauthsoft.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "cdnauthsoft.com"
+    },
+    {
+      "name": "protectconnections.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "protectconnections.com"
+    },
+    {
+      "name": "furqaanenergy.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "furqaanenergy.com"
+    },
+    {
+      "name": "documentreader.net",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "documentreader.net"
+    },
+    {
+      "name": "afi-ukraine.org",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "afi-ukraine.org"
+    },
+    {
+      "name": "calendar.stib.com.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "stib.com.ua"
+    },
+    {
+      "name": "gieannualconferenceinmunich.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "gieannualconferenceinmunich.com"
+    },
+    {
+      "name": "annualgieconferenceinmunich2024.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "annualgieconferenceinmunich2024.com"
+    },
+    {
+      "name": "protectraid.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "protectraid.com"
+    },
+    {
+      "name": "adobeprotectcheck.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "adobeprotectcheck.com"
+    },
+    {
+      "name": "ertel-audit.com",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ertel-audit.com"
+    },
+    {
+      "name": "gurt.duna.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "duna.ua"
+    },
+    {
+      "name": "helpdesk.katolik.bydgoszcz.pl",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "bydgoszcz.pl"
+    },
+    {
+      "name": "agro-sk.com.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "agro-sk.com.ua"
+    },
+    {
+      "name": "Energy sector",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Energy sector",
+      "embedding": []
+    },
+    {
+      "name": "Water supply sector",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Water supply sector",
+      "embedding": []
+    },
+    {
+      "name": "Heat supply sector",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Heat supply sector",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian logistics companies",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian logistics companies",
+      "embedding": []
+    },
+    {
+      "name": "Industrial control systems integrators (АСУТП developers)",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Industrial control systems integrators (ASUTP developers)",
+      "embedding": []
+    },
+    {
+      "name": "Ukrainian grain handling equipment manufacturers",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Ukrainian grain handling equipment manufacturers",
+      "embedding": []
+    },
+    {
+      "name": "Serbia",
+      "category": "Country",
+      "role": "Target",
+      "code": "RS",
+      "normalizedName": "Serbia"
+    },
+    {
+      "name": "Czech Republic",
+      "category": "Country",
+      "role": "Target",
+      "code": "CZ",
+      "normalizedName": "Czech Republic"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Microsoft",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Microsoft"
+    },
+    {
+      "name": "Strike Ready",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "StrikeReady"
+    }
+  ],
+  "metadata": {
+    "date": "23.02.2025",
+    "id": 6282517,
+    "title": "Цільова активність UAC-0212 у відношенні розробників та постачальників рішень АСУТП з метою здійснення кібератак на об'єкти критичної інфраструктури України (CERT-UA#13702)",
+    "llmProcessingTimeSeconds": 136.119
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "name": "Служба безпеки України (СБУ)",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Служба безпеки України"
+    },
+    {
+      "name": "Національний координаційний центр кібербезпеки РНБО України (НКЦК)",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Національний координаційний центр кібербезпеки РНБО України"
+    },
+    {
+      "name": "Національний банк України (НБУ)",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Національний банк України"
+    },
+    {
+      "name": "Держспецзв'язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державна служба спеціального зв’язку та захисту інформації України"
+    },
+    {
+      "name": "Адміністрація Держспецзв'язку",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Адміністрація Держспецзв’язку"
+    },
+    {
+      "name": "КМУ",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Кабінет Міністрів України"
+    },
+    {
+      "name": "MISP",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "MISP"
+    },
+    {
+      "name": "OpenPGP",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "OpenPGP"
+    },
+    {
+      "name": "cert.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "cert.gov.ua"
+    },
+    {
+      "name": "misp.cert.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "cert.gov.ua"
+    },
+    {
+      "name": "dis.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "dis.gov.ua"
+    },
+    {
+      "name": "bank.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "bank.gov.ua"
+    },
+    {
+      "name": "ncscc.gov.ua",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "ncscc.gov.ua"
+    },
+    {
+      "name": "cisa.gov",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "cisa.gov"
+    },
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "29.04.2022",
+    "id": 39962,
+    "title": "Щодо обміну інформацією про кіберзагрози ",
+    "llmProcessingTimeSeconds": 102.769
+  }
+}

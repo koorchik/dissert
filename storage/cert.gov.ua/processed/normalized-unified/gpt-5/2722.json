@@ -1,0 +1,211 @@
+{
+  "entities": [
+    {
+      "name": "Ukraine",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "POODLE (CVE-2014-3566)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2014-3566"
+    },
+    {
+      "name": "Logjam (CVE-2015-4000)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2015-4000"
+    },
+    {
+      "name": "DROWN (CVE-2016-0800)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2016-0800"
+    },
+    {
+      "name": "FREAK (CVE-2015-0204)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2015-0204"
+    },
+    {
+      "name": "CVE-2017-14491",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2017-14491"
+    },
+    {
+      "name": "CVE-2017-0144",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2017-0144"
+    },
+    {
+      "name": "Heartbleed (CVE-2014-0160)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "CVE-2014-0160"
+    },
+    {
+      "name": "SSL 3.0",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "SSL 3.0"
+    },
+    {
+      "name": "OpenSSL",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "OpenSSL"
+    },
+    {
+      "name": "dnsmasq",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "dnsmasq"
+    },
+    {
+      "name": "Windows SMBv1",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "SMBv1"
+    },
+    {
+      "name": "Microsoft Windows",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Microsoft Windows"
+    },
+    {
+      "name": "Apache",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Apache HTTP Server"
+    },
+    {
+      "name": "nginx",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "nginx"
+    },
+    {
+      "name": "Internet Explorer",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Internet Explorer"
+    },
+    {
+      "name": "Chrome",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Google Chrome"
+    },
+    {
+      "name": "Safari",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Safari"
+    },
+    {
+      "name": "Mozilla",
+      "category": "Software",
+      "role": "Target",
+      "normalizedName": "Mozilla"
+    },
+    {
+      "name": "Unify OpenStage Xpert 6010p",
+      "category": "Device",
+      "role": "Target",
+      "normalizedName": "Unify OpenStage Xpert 6010p",
+      "embedding": []
+    },
+    {
+      "name": "DigiCert",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "DigiCert"
+    },
+    {
+      "name": "DigiCert Certificate Inspector",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "DigiCert Certificate Inspector"
+    },
+    {
+      "name": "Qualys",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Qualys"
+    },
+    {
+      "name": "Qualys SSL Client Test",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Qualys SSL Client Test"
+    },
+    {
+      "name": "Rapid7",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Rapid7"
+    },
+    {
+      "name": "Cloudflare",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Cloudflare"
+    },
+    {
+      "name": "NIST",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "National Institute of Standards and Technology (NIST)"
+    },
+    {
+      "name": "US-CERT",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "United States Computer Emergency Readiness Team (US-CERT)"
+    },
+    {
+      "name": "USA",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "US",
+      "normalizedName": "United States"
+    },
+    {
+      "name": "needrestart",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "needrestart"
+    },
+    {
+      "name": "Habr",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Habr"
+    },
+    {
+      "name": "Wikipedia",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Wikipedia"
+    },
+    {
+      "name": "HostIQ",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "HostIQ"
+    }
+  ],
+  "metadata": {
+    "date": "15.05.2018",
+    "id": 2722,
+    "title": "Популярні вразливості в українському сегменті мережі Інтернет",
+    "llmProcessingTimeSeconds": 96.839
+  }
+}

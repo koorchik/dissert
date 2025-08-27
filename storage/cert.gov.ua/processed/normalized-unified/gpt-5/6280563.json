@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0210",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "UAC-0210"
+    },
+    {
+      "name": "HYDRA",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Hydra"
+    },
+    {
+      "name": "griselda-edu.com.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "griselda-edu.com.ua"
+    },
+    {
+      "name": "griselda.biz.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "griselda.biz.ua"
+    },
+    {
+      "name": "griselda.co.ua",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "griselda.co.ua"
+    },
+    {
+      "name": "bitter-hall-1c0c.ochiplus.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "falling-rice-4afa.ochiplus.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "ochiplus.workers.dev",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "workers.dev"
+    },
+    {
+      "name": "військовослужбовці",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Service members",
+      "embedding": []
+    },
+    {
+      "name": "Google Cloud",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Google Cloud"
+    },
+    {
+      "name": "Cloudflare",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Cloudflare"
+    },
+    {
+      "name": "Signal",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Signal"
+    },
+    {
+      "name": "Google Drive",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Google Drive"
+    },
+    {
+      "name": "GRISELDA",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "GRISELDA"
+    },
+    {
+      "name": "Очі",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Очі"
+    },
+    {
+      "name": "в/ч A0334",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Центр кібернетичної безпеки інформаційно-телекомунікаційних систем (в/ч А0334)"
+    },
+    {
+      "name": "Міністерство оборони України",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Міністерство оборони України"
+    },
+    {
+      "name": "Збройні сили України",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Збройні Сили України"
+    },
+    {
+      "name": "MILCERT",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "MILCERT"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "04.09.2024",
+    "id": 6280563,
+    "title": "Спроби кібератак на військові системи за допомогою шкідливих програм для мобільних пристроїв",
+    "llmProcessingTimeSeconds": 146.875
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "name": "Глобальна комісія зі стабільності кіберпростору (GCSC)",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Global Commission on the Stability of Cyberspace (GCSC)"
+    },
+    {
+      "name": "Паризький форум миру",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Paris Peace Forum"
+    },
+    {
+      "name": "ООН",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "United Nations"
+    },
+    {
+      "name": "Група урядових експертів (GGE)",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "UN Group of Governmental Experts (GGE)"
+    },
+    {
+      "name": "Робоча група відкритого складу (OEWG)",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "UN Open-Ended Working Group (OEWG)"
+    },
+    {
+      "name": "Група високого рівня",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Група високого рівня"
+    },
+    {
+      "name": "Голландський уряд",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Уряд Нідерландів"
+    },
+    {
+      "name": "Естонія",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "EE",
+      "normalizedName": "Estonia"
+    },
+    {
+      "name": "Індія",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "IN",
+      "normalizedName": "India"
+    },
+    {
+      "name": "США",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "US",
+      "normalizedName": "United States"
+    },
+    {
+      "name": "Росія",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "RU",
+      "normalizedName": "Russia"
+    },
+    {
+      "name": "Антоніу Гутерреш",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Антоніу Гутерреш"
+    },
+    {
+      "name": "Майкл Чертофф",
+      "category": "Individual",
+      "role": "Neutral",
+      "normalizedName": "Майкл Чертофф"
+    }
+  ],
+  "metadata": {
+    "date": "06.12.2019",
+    "id": 2681,
+    "title": "Вісім правил кібербезпеки. Що пропонують в ООН",
+    "llmProcessingTimeSeconds": 133.842
+  }
+}

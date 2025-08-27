@@ -1,0 +1,280 @@
+{
+  "entities": [
+    {
+      "name": "UAC-0010 (Armageddon)",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Armageddon"
+    },
+    {
+      "name": "GammaLoad.PS1",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GammaLoad"
+    },
+    {
+      "name": "GammaSteel.PS1",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GammaSteel"
+    },
+    {
+      "name": "GammaSteel.NET",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GammaSteel"
+    },
+    {
+      "name": "HarvesterX",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "HarvesterX"
+    },
+    {
+      "name": "PowerShell (powershell.exe)",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "PowerShell"
+    },
+    {
+      "name": "wscript.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "Windows Script Host"
+    },
+    {
+      "name": "mshta.exe",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "MSHTA"
+    },
+    {
+      "name": "lover.printing82.detroito.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "detroito.ru"
+    },
+    {
+      "name": "atlantar.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "atlantar.ru"
+    },
+    {
+      "name": "motoristo.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "motoristo.ru"
+    },
+    {
+      "name": "moolin.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "moolin.ru"
+    },
+    {
+      "name": "bubenci.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "bubenci.ru"
+    },
+    {
+      "name": "callsol.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "callsol.ru"
+    },
+    {
+      "name": "clipperso.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "clipperso.ru"
+    },
+    {
+      "name": "cooperi.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "cooperi.ru"
+    },
+    {
+      "name": "detroito.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "detroito.ru"
+    },
+    {
+      "name": "farafauler.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "farafauler.ru"
+    },
+    {
+      "name": "fishitor.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "fishitor.ru"
+    },
+    {
+      "name": "flayga.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "flayga.ru"
+    },
+    {
+      "name": "ganara.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "ganara.ru"
+    },
+    {
+      "name": "hawksi.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "hawksi.ru"
+    },
+    {
+      "name": "hofsteder.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "hofsteder.ru"
+    },
+    {
+      "name": "kilitro.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "kilitro.ru"
+    },
+    {
+      "name": "kurapat.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "kurapat.ru"
+    },
+    {
+      "name": "leonardis.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "leonardis.ru"
+    },
+    {
+      "name": "lnasfe.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "lnasfe.ru"
+    },
+    {
+      "name": "lopasts.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "lopasts.ru"
+    },
+    {
+      "name": "mafirti.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "mafirti.ru"
+    },
+    {
+      "name": "metanat.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "metanat.ru"
+    },
+    {
+      "name": "mitlubald.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "mitlubald.ru"
+    },
+    {
+      "name": "paparat.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "paparat.ru"
+    },
+    {
+      "name": "pasamart.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "pasamart.ru"
+    },
+    {
+      "name": "qkcew.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "qkcew.ru"
+    },
+    {
+      "name": "rncsq.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "rncsq.ru"
+    },
+    {
+      "name": "tarlit.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tarlit.ru"
+    },
+    {
+      "name": "tbwelo.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tbwelo.ru"
+    },
+    {
+      "name": "wicksl.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "wicksl.ru"
+    },
+    {
+      "name": "xcqef.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "xcqef.ru"
+    },
+    {
+      "name": "nxkad.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "nxkad.ru"
+    },
+    {
+      "name": "dnslookup.seowebchecker.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "seowebchecker.com"
+    },
+    {
+      "name": "ip-api.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "ip-api.com"
+    },
+    {
+      "name": "tools.nexcess.net",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "nexcess.net"
+    },
+    {
+      "name": "viewdns.info",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "viewdns.info"
+    },
+    {
+      "name": "www.portcheckers.com",
+      "category": "Domain",
+      "role": "Neutral",
+      "normalizedName": "portcheckers.com"
+    }
+  ],
+  "metadata": {
+    "date": "10.08.2022",
+    "id": 1229152,
+    "title": "Кібератаки групи UAC-0010 (Armageddon): шкідливі програми GammaLoad, GammaSteel (CERT-UA#5134)",
+    "llmProcessingTimeSeconds": 116.918
+  }
+}

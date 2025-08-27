@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "Державний центр кіберзахисту",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Державний центр кіберзахисту Держспецзв’язку"
+    },
+    {
+      "name": "державні інформаційні ресурси",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government information resources",
+      "embedding": []
+    },
+    {
+      "name": "інформаційні та телекомунікаційні системи органів державної влади та місцевого самоврядування",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Information and telecommunication systems of government and local self-government bodies",
+      "embedding": []
+    },
+    {
+      "name": "державні та приватні установи, організації та підприємства",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Public and private institutions, organizations, and enterprises",
+      "embedding": []
+    },
+    {
+      "name": "оператори телекомунікацій",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Telecommunications operators",
+      "embedding": []
+    }
+  ],
+  "metadata": {
+    "date": "20.08.2021",
+    "id": 14958,
+    "title": "Рекомендації для попередження та зменшення наслідків впливу від можливих кібератак",
+    "llmProcessingTimeSeconds": 48.323
+  }
+}

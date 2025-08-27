@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "name": "Armageddon",
+      "category": "HackerGroup",
+      "role": "Attacker",
+      "normalizedName": "Armageddon"
+    },
+    {
+      "name": "GammaLoad",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "GammaLoad"
+    },
+    {
+      "name": "surname192.temp.swtest.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "swtest.ru"
+    },
+    {
+      "name": "coagula.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "coagula.online"
+    },
+    {
+      "name": "tortunas.ru",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "tortunas.ru"
+    },
+    {
+      "name": "phymateus.online",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "phymateus.online"
+    },
+    {
+      "name": "email.cz",
+      "category": "Domain",
+      "role": "Attacker",
+      "normalizedName": "email.cz"
+    },
+    {
+      "name": "ДП «Адміністрація морських портів України»",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "Адміністрація морських портів України"
+    },
+    {
+      "name": "Кіберцентр Державної прикордонної служби України",
+      "category": "Government Body",
+      "role": "Neutral",
+      "normalizedName": "Кіберцентр Державної прикордонної служби України"
+    },
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Neutral",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    }
+  ],
+  "metadata": {
+    "date": "01.02.2022",
+    "id": 18365,
+    "title": "Кібератака групи UAC-0010 (Armageddon) на державні організації України   (CERT-UA#3787) ",
+    "llmProcessingTimeSeconds": 60.086
+  }
+}

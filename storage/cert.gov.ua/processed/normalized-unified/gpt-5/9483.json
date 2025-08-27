@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "name": "FireEye",
+      "category": "Organization",
+      "role": "Target",
+      "normalizedName": "FireEye"
+    },
+    {
+      "name": "FireEye red team tools",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "FireEye Red Team Tools"
+    },
+    {
+      "name": "Snort",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "Snort"
+    },
+    {
+      "name": "YARA",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "YARA"
+    },
+    {
+      "name": "ClamAV",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "ClamAV"
+    },
+    {
+      "name": "HXIOC",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "HXIOC"
+    },
+    {
+      "name": "OpenIOC",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "OpenIOC"
+    },
+    {
+      "name": "STIX",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "STIX"
+    },
+    {
+      "name": "CyBOX",
+      "category": "Software",
+      "role": "Neutral",
+      "normalizedName": "CyBOX"
+    },
+    {
+      "name": "OASIS",
+      "category": "Organization",
+      "role": "Neutral",
+      "normalizedName": "OASIS"
+    },
+    {
+      "name": "державні установи США",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Government institutions of the United States",
+      "embedding": []
+    },
+    {
+      "name": "об’єкти критичної інфраструктури",
+      "category": "Sector",
+      "role": "Target",
+      "normalizedName": "Critical infrastructure",
+      "embedding": []
+    },
+    {
+      "name": "SolarWinds Orion",
+      "category": "Software",
+      "role": "Attacker",
+      "normalizedName": "SolarWinds Orion"
+    },
+    {
+      "name": "USA",
+      "category": "Country",
+      "role": "Target",
+      "code": "US",
+      "normalizedName": "United States"
+    }
+  ],
+  "metadata": {
+    "date": "14.12.2020",
+    "id": 9483,
+    "title": "Хакери отримали доступ до спеціалізованого програмного забезпечення, що може бути використано для реалізації кібератак в Україні",
+    "llmProcessingTimeSeconds": 74.484
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "entities": [
+    {
+      "name": "Україна",
+      "category": "Country",
+      "role": "Target",
+      "code": "UA",
+      "normalizedName": "Ukraine"
+    },
+    {
+      "name": "Інтернет сервіс провайдери України",
+      "category": "Sector",
+      "role": "Neutral",
+      "normalizedName": "Ukrainian telecommunications operators and providers"
+    }
+  ],
+  "metadata": {
+    "date": "17.02.2022",
+    "id": 37121,
+    "title": "Довідкова інформація з питань діяльності CERT-UA за фактами впливу на стан кібербезпеки у 2022 році",
+    "llmProcessingTimeSeconds": 32.932
+  }
+}
