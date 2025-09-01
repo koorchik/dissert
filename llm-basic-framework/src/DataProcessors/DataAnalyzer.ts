@@ -50,7 +50,7 @@ export class DataAnalyzer {
     } = {
       attacker: {},
       target: {},
-      neutral: {}
+      neutral: {},
     };
 
     for (const item of data) {
@@ -83,13 +83,13 @@ export class DataAnalyzer {
       earlyExaggeration: 4.0,
       learningRate: 100,
       nIter: 500,
-      metric: "euclidean"
+      metric: "euclidean",
     });
 
     // Initialize with your embedding vectors (dense format)
     tsne.init({
       data: vectors,
-      type: "dense"
+      type: "dense",
     });
 
     // Run the optimization
@@ -100,7 +100,7 @@ export class DataAnalyzer {
     const tsneData = data.map((d, i) => ({
       name: d!.name,
       x: tsneResults[i][0],
-      y: tsneResults[i][1]
+      y: tsneResults[i][1],
     }));
 
     const htmlContent = `

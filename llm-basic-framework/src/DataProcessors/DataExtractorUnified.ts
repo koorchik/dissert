@@ -1,11 +1,11 @@
-import fs from "fs/promises";
-import { existsSync } from "fs";
-import type { LlmClient } from "../LlmClient/LlmClient";
+import type { LlmClient } from '../LlmClient/LlmClient';
 import {
   extractAndParseJson,
   normalizeRawData,
-  UnifiedData
-} from "../utils/validationUtilsUnified";
+  UnifiedData,
+} from '../utils/validationUtilsUnified';
+import { existsSync } from 'fs';
+import fs from 'fs/promises';
 
 type Preprocessor = (
   content: string
@@ -26,7 +26,7 @@ export class DataExtractorUnified {
   #preprocessor: Preprocessor = (content: string) =>
     Promise.resolve({
       text: content,
-      metadata: {}
+      metadata: {},
     });
 
   constructor(params: Params) {
@@ -54,7 +54,7 @@ export class DataExtractorUnified {
       console.log(`IN FILE=${this.inputDir}/${file}`);
       const content = await fs.readFile(`${this.inputDir}/${file}`);
       const data = await this.#preprocessor(content.toString());
-      
+
       const started = Date.now();
       const response = await this.#sendToLlm(data.text);
       const spent = (Date.now() - started) / 1000;
@@ -64,7 +64,7 @@ export class DataExtractorUnified {
         JSON.stringify(
           {
             ...response,
-            metadata: {...data.metadata, llmProcessingTimeSeconds: spent}
+            metadata: { ...data.metadata, llmProcessingTimeSeconds: spent },
           },
           undefined,
           2
@@ -75,7 +75,7 @@ export class DataExtractorUnified {
   }
 
   async #sendToLlm(text: string): Promise<UnifiedData | {}> {
-const instructions = `### ROLE ###
+    const instructions = `### ROLE ###
 You are a specialized AI model functioning as a high-precision data extraction engine. Your purpose is to parse unstructured text about cyber incidents and convert it into a structured JSON object according to the strict schema and rules provided.
 
 ### OBJECTIVE ###
@@ -199,20 +199,20 @@ Your final output MUST be a single, raw JSON object and nothing else. Do not wra
 
 Apply these instructions to the text provided in the user's next message.`;
 
-    console.time("LLM PROCESSING");
+    console.time('LLM PROCESSING');
     const result = await this.#llmClient.send(instructions, text);
-    console.timeEnd("LLM PROCESSING");
-    console.time("EXTRACT_JSON");
-    console.log({result});
+    console.timeEnd('LLM PROCESSING');
+    console.time('EXTRACT_JSON');
+    console.log({ result });
     // TODO: check if result contains JSON
     const rawData = extractAndParseJson(result);
-    console.timeEnd("EXTRACT_JSON");
+    console.timeEnd('EXTRACT_JSON');
 
     if (!rawData) return {};
 
-    console.time("NORMALIZE_DATA");
+    console.time('NORMALIZE_DATA');
     const normalizedData = normalizeRawData(rawData);
-    console.timeEnd("NORMALIZE_DATA");
+    console.timeEnd('NORMALIZE_DATA');
     if (!normalizedData) {
     }
     return normalizedData || {};

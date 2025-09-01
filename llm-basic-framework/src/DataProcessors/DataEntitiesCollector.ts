@@ -1,13 +1,8 @@
-import fs from "fs/promises";
-import { existsSync } from "fs";
-import { jsonrepair } from "jsonrepair";
-
-import type { LlmClient } from "../LlmClient/LlmClient";
-import {
-  extractAndParseJson,
-  normalizeRawData,
-  NormalizedData
-} from "../utils/validationUtils";
+import type { LlmClient } from '../LlmClient/LlmClient';
+import { extractAndParseJson, normalizeRawData, NormalizedData } from '../utils/validationUtils';
+import { existsSync } from 'fs';
+import fs from 'fs/promises';
+import { jsonrepair } from 'jsonrepair';
 
 interface Params {
   inputDir: string;
@@ -39,37 +34,22 @@ export class DataEntitiesCollector {
 
     const entities = await this.#gatherEntities();
 
-    const attackTargets = await this.#sendToLlm(
-      "Attack targets",
-      entities.attackTargets
-    );
+    const attackTargets = await this.#sendToLlm('Attack targets', entities.attackTargets);
     await this.#saveResponse({ attackTargets });
 
-    const hackerGroups = await this.#sendToLlm(
-      "Hacker groups",
-      entities.hackerGroups
-    );
+    const hackerGroups = await this.#sendToLlm('Hacker groups', entities.hackerGroups);
     await this.#saveResponse({ hackerGroups });
 
-    const applications = await this.#sendToLlm(
-      "Applications",
-      entities.applications
-    );
+    const applications = await this.#sendToLlm('Applications', entities.applications);
     await this.#saveResponse({ applications });
 
-    const organizations = await this.#sendToLlm(
-      "Organizations",
-      entities.organizations
-    );
+    const organizations = await this.#sendToLlm('Organizations', entities.organizations);
     await this.#saveResponse({ organizations });
 
-    const individuals = await this.#sendToLlm(
-      "Individuals",
-      entities.individuals
-    );
+    const individuals = await this.#sendToLlm('Individuals', entities.individuals);
     await this.#saveResponse({ individuals });
 
-    const domains = await this.#sendToLlm("Web domain", entities.domains);
+    const domains = await this.#sendToLlm('Web domain', entities.domains);
     await this.#saveResponse({ domains });
   }
 
@@ -82,7 +62,7 @@ export class DataEntitiesCollector {
       applications: [] as string[],
       organizations: [] as string[],
       individuals: [] as string[],
-      domains: [] as string[]
+      domains: [] as string[],
     };
 
     for (const file of files) {
@@ -92,22 +72,15 @@ export class DataEntitiesCollector {
       entities.attackTargets.push(...content.attackTargets);
       entities.hackerGroups.push(...content.hackerGroups);
       entities.applications.push(...content.applications);
-      entities.organizations.push(
-        ...content.organizations.map((org) => org.name)
-      );
-      entities.individuals.push(
-        ...content.individuals.map((individual) => individual.name)
-      );
+      entities.organizations.push(...content.organizations.map((org) => org.name));
+      entities.individuals.push(...content.individuals.map((individual) => individual.name));
       entities.domains.push(...content.domains.map((domain) => domain.name));
     }
 
     return entities;
   }
 
-  async #sendToLlm(
-    entityName: string,
-    items: string[]
-  ): Promise<Record<string, string>> {
+  async #sendToLlm(entityName: string, items: string[]): Promise<Record<string, string>> {
     const uniqueInputItems = [...new Set(items)];
     const text = JSON.stringify(uniqueInputItems, undefined, 2);
 
@@ -156,9 +129,7 @@ export class DataEntitiesCollector {
             `⚠️  Missing ${missingItems.length} items in LLM response for ${entityName}. Added with identity mapping.`
           );
           console.warn(
-            `   Missing items: ${missingItems.slice(0, 5).join(", ")}${
-              missingItems.length > 5 ? "..." : ""
-            }`
+            `   Missing items: ${missingItems.slice(0, 5).join(', ')}${missingItems.length > 5 ? '...' : ''}`
           );
         }
 
@@ -166,14 +137,9 @@ export class DataEntitiesCollector {
         const uniqueOutputValues = new Set(Object.values(unifiedList));
         console.log(`✅ ${entityName} normalization complete:`);
         console.log(`   Input: ${uniqueInputItems.length} unique entities`);
+        console.log(`   Output: ${uniqueOutputValues.size} unique normalized entities`);
         console.log(
-          `   Output: ${uniqueOutputValues.size} unique normalized entities`
-        );
-        console.log(
-          `   Reduction: ${(
-            (1 - uniqueOutputValues.size / uniqueInputItems.length) *
-            100
-          ).toFixed(1)}%`
+          `   Reduction: ${((1 - uniqueOutputValues.size / uniqueInputItems.length) * 100).toFixed(1)}%`
         );
 
         return unifiedList;
@@ -182,9 +148,7 @@ export class DataEntitiesCollector {
         console.log({ lastResult });
 
         console.error(
-          `Failed to parse LLM response for ${entityName} (attempt ${attempt}/${
-            this.#maxRetries
-          }):`,
+          `Failed to parse LLM response for ${entityName} (attempt ${attempt}/${this.#maxRetries}):`,
           error
         );
 
@@ -195,9 +159,7 @@ export class DataEntitiesCollector {
       }
     }
 
-    console.error(
-      `All retry attempts failed for ${entityName}. Returning identity mappings.`
-    );
+    console.error(`All retry attempts failed for ${entityName}. Returning identity mappings.`);
     console.error(`Last error:`, lastError);
 
     // Return identity mappings if all attempts fail
@@ -218,12 +180,12 @@ export class DataEntitiesCollector {
         applications: {},
         organizations: {},
         individuals: {},
-        domains: {}
+        domains: {},
       };
     }
 
     try {
-      const content = await fs.readFile(file, "utf-8");
+      const content = await fs.readFile(file, 'utf-8');
       return JSON.parse(content);
     } catch (error) {
       console.error(`Error reading existing entities file:`, error);
@@ -233,7 +195,7 @@ export class DataEntitiesCollector {
         applications: {},
         organizations: {},
         individuals: {},
-        domains: {}
+        domains: {},
       };
     }
   }
@@ -245,7 +207,7 @@ export class DataEntitiesCollector {
 
     const mergedData = {
       ...existingData,
-      ...newData
+      ...newData,
     };
 
     const text = JSON.stringify(mergedData, undefined, 2);

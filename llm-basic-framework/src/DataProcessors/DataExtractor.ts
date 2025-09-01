@@ -1,15 +1,9 @@
-import fs from "fs/promises";
-import { existsSync } from "fs";
-import type { LlmClient } from "../LlmClient/LlmClient";
-import {
-  extractAndParseJson,
-  normalizeRawData,
-  NormalizedData
-} from "../utils/validationUtils";
+import type { LlmClient } from '../LlmClient/LlmClient';
+import { extractAndParseJson, normalizeRawData, NormalizedData } from '../utils/validationUtils';
+import { existsSync } from 'fs';
+import fs from 'fs/promises';
 
-type Preprocessor = (
-  content: string
-) => Promise<{ text: string; metadata: Record<string, string | number> }>;
+type Preprocessor = (content: string) => Promise<{ text: string; metadata: Record<string, string | number> }>;
 
 interface Params {
   inputDir: string;
@@ -26,7 +20,7 @@ export class DataExtractor {
   #preprocessor: Preprocessor = (content: string) =>
     Promise.resolve({
       text: content,
-      metadata: {}
+      metadata: {},
     });
 
   constructor(params: Params) {
@@ -47,10 +41,9 @@ export class DataExtractor {
     const files = await fs.readdir(this.inputDir);
 
     for (const file of files) {
-      if (file !== "6280129.json") {
+      if (file !== '6280129.json') {
         continue;
       }
-
 
       console.log(`IN FILE=${this.inputDir}/${file}`);
       const content = await fs.readFile(`${this.inputDir}/${file}`);
@@ -62,7 +55,7 @@ export class DataExtractor {
         JSON.stringify(
           {
             ...response,
-            metadata: data.metadata
+            metadata: data.metadata,
           },
           undefined,
           2
@@ -122,20 +115,20 @@ export class DataExtractor {
 
     Start extracting information:
     `;
-    console.time("LLM PROCESSING");
+    console.time('LLM PROCESSING');
     const result = await this.#llmClient.send(instructions, text);
-    console.timeEnd("LLM PROCESSING");
-    console.time("EXTRACT_JSON");
-    console.log({result});
+    console.timeEnd('LLM PROCESSING');
+    console.time('EXTRACT_JSON');
+    console.log({ result });
     // TODO: check if result contains JSON
     const rawData = extractAndParseJson(result);
-    console.timeEnd("EXTRACT_JSON");
+    console.timeEnd('EXTRACT_JSON');
 
     if (!rawData) return {};
 
-    console.time("NORMALIZE_DATA");
+    console.time('NORMALIZE_DATA');
     const normalizedData = normalizeRawData(rawData);
-    console.timeEnd("NORMALIZE_DATA");
+    console.timeEnd('NORMALIZE_DATA');
     if (!normalizedData) {
     }
     return normalizedData || {};

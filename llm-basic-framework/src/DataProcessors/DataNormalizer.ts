@@ -1,8 +1,8 @@
-import fs from "fs/promises";
-import { existsSync } from "fs";
-import { CountryNameNormalizer } from "../CountryNameNormalizer/CountryNameNormalizer";
-import { NormalizedData, Relation } from "../utils/validationUtils";
-import { EmbeddingsClient } from "../EmbeddingsClient/EmbeddingsClient";
+import { CountryNameNormalizer } from '../CountryNameNormalizer/CountryNameNormalizer';
+import { EmbeddingsClient } from '../EmbeddingsClient/EmbeddingsClient';
+import { NormalizedData, Relation } from '../utils/validationUtils';
+import { existsSync } from 'fs';
+import fs from 'fs/promises';
 
 interface Params {
   inputDir: string;
@@ -76,17 +76,12 @@ export class DataNormalizer {
 
     for (const country of data.countries) {
       if (!country.name) continue;
-      const countryCode = await this.#countryNameNormalizer.normalizeCountry(
-        country.name
-      );
+      const countryCode = await this.#countryNameNormalizer.normalizeCountry(country.name);
       country.code = countryCode;
     }
   }
 
-  async #normalizeAttackTargets(
-    data: NormalizedData,
-    entities: Entities
-  ): Promise<void> {
+  async #normalizeAttackTargets(data: NormalizedData, entities: Entities): Promise<void> {
     const enrichedAttackTargets: {
       name: string;
       embedding: number[];
@@ -96,17 +91,14 @@ export class DataNormalizer {
     for (const target of data.attackTargets) {
       enrichedAttackTargets.push({
         name: this.#doLookup(lookupTable, target) || target, // TODO fallback should be done via LLM
-        embedding: [] //await this.#embeddingsClient.embed(target)
+        embedding: [], //await this.#embeddingsClient.embed(target)
       });
     }
 
     data.enrichedAttackTargets = enrichedAttackTargets;
   }
 
-  async #normalizeHackerGroups(
-    data: NormalizedData,
-    entities: Entities
-  ): Promise<void> {
+  async #normalizeHackerGroups(data: NormalizedData, entities: Entities): Promise<void> {
     const normalizedHackerGroups: string[] = [];
 
     const lookupTable = this.#makeLookupTable(entities.hackerGroups);
@@ -118,10 +110,7 @@ export class DataNormalizer {
     data.normalizedHackerGroups = normalizedHackerGroups;
   }
 
-  async #normalizeApplications(
-    data: NormalizedData,
-    entities: Entities
-  ): Promise<void> {
+  async #normalizeApplications(data: NormalizedData, entities: Entities): Promise<void> {
     const normalizedApplications: string[] = [];
 
     const lookupTable = this.#makeLookupTable(entities.applications);
@@ -133,10 +122,7 @@ export class DataNormalizer {
     data.normalizedApplications = normalizedApplications;
   }
 
-  async #normalizeOrganizations(
-    data: NormalizedData,
-    entities: Entities
-  ): Promise<void> {
+  async #normalizeOrganizations(data: NormalizedData, entities: Entities): Promise<void> {
     if (!data.organizations) return;
 
     const normalizedOrganizations: Array<{
@@ -149,17 +135,14 @@ export class DataNormalizer {
     for (const org of data.organizations) {
       normalizedOrganizations.push({
         name: this.#doLookup(lookupTable, org.name) || org.name,
-        relation: org.relation
+        relation: org.relation,
       });
     }
 
     data.normalizedOrganizations = normalizedOrganizations;
   }
 
-  async #normalizeIndividuals(
-    data: NormalizedData,
-    entities: Entities
-  ): Promise<void> {
+  async #normalizeIndividuals(data: NormalizedData, entities: Entities): Promise<void> {
     if (!data.individuals) return;
 
     const normalizedIndividuals: Array<{
@@ -172,17 +155,14 @@ export class DataNormalizer {
     for (const individual of data.individuals) {
       normalizedIndividuals.push({
         name: this.#doLookup(lookupTable, individual.name) || individual.name,
-        relation: individual.relation
+        relation: individual.relation,
       });
     }
 
     data.normalizedIndividuals = normalizedIndividuals;
   }
 
-  async #normalizeDomains(
-    data: NormalizedData,
-    entities: Entities
-  ): Promise<void> {
+  async #normalizeDomains(data: NormalizedData, entities: Entities): Promise<void> {
     if (!data.domains) return;
 
     const normalizedDomains: Array<{
@@ -195,7 +175,7 @@ export class DataNormalizer {
     for (const domain of data.domains) {
       normalizedDomains.push({
         name: this.#doLookup(lookupTable, domain.name) || domain.name,
-        relation: domain.relation
+        relation: domain.relation,
       });
     }
 
@@ -210,10 +190,7 @@ export class DataNormalizer {
 
   #makeLookupTable(object: Record<string, string>): Record<string, string> {
     return Object.fromEntries(
-      Object.entries(object).map(([key, value]) => [
-        this.#makeLookupKey(key),
-        value
-      ])
+      Object.entries(object).map(([key, value]) => [this.#makeLookupKey(key), value])
     );
   }
 

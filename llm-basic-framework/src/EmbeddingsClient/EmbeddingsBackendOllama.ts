@@ -1,5 +1,5 @@
+import { EmbeddingsBackendBase } from './EmbeddingsBackendBase';
 import ollama from 'ollama';
-import { EmbeddingsBackendBase } from "./EmbeddingsBackendBase";
 
 export class EmbeddingsBackendOllama implements EmbeddingsBackendBase {
   model: string;
@@ -10,7 +10,7 @@ export class EmbeddingsBackendOllama implements EmbeddingsBackendBase {
   async embed(text: string): Promise<number[]> {
     const response = await ollama.embed({
       model: this.model,
-      input: text
+      input: text,
     });
 
     return response.embeddings[0];

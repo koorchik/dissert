@@ -1,15 +1,14 @@
-import fs from "fs/promises";
-import { existsSync } from "fs";
-import { jsonrepair } from "jsonrepair";
-
-import type { LlmClient } from "../LlmClient/LlmClient";
+import type { LlmClient } from '../LlmClient/LlmClient';
 import {
   extractAndParseJson,
   normalizeRawData,
   UnifiedData,
   Entity,
-  Category
-} from "../utils/validationUtilsUnified";
+  Category,
+} from '../utils/validationUtilsUnified';
+import { existsSync } from 'fs';
+import fs from 'fs/promises';
+import { jsonrepair } from 'jsonrepair';
 
 interface Params {
   inputDir: string;
@@ -47,64 +46,83 @@ export class DataEntitiesCollectorUnified {
     // Process each category
     for (const [category, entities] of Object.entries(entitiesByCategory)) {
       if (entities.length === 0) continue;
-      
+
       const categoryKey = category as Category;
-      
+
       // Skip already processed categories
-      if (existingData.entities[categoryKey] && Object.keys(existingData.entities[categoryKey]).length > 0) {
-        console.log(`Skipping already processed category: ${category} (${Object.keys(existingData.entities[categoryKey]).length} entities already normalized)`);
+      if (
+        existingData.entities[categoryKey] &&
+        Object.keys(existingData.entities[categoryKey]).length > 0
+      ) {
+        console.log(
+          `Skipping already processed category: ${category} (${
+            Object.keys(existingData.entities[categoryKey]).length
+          } entities already normalized)`
+        );
         continue;
       }
-      
+
       console.log(`Processing category: ${category} (${entities.length} entities)`);
       const normalized = await this.#sendToLlm(category, entities);
-      
+
       // Update the data structure with normalized entities for this category
       existingData.entities[categoryKey] = normalized;
 
       // Save incrementally after processing each category
       await this.#saveResponse(existingData);
-      
-      console.log(`Saved progress for category: ${category} (${Object.keys(normalized).length} entities normalized)`);
+
+      console.log(
+        `Saved progress for category: ${category} (${Object.keys(normalized).length} entities normalized)`
+      );
     }
 
     console.log('All categories processed successfully');
-    
+
     // Display statistics
     this.#displayStatistics(existingData.entities);
   }
 
   #displayStatistics(entities: Record<Category, Record<string, string>>) {
     console.log('\n========== ENTITY NORMALIZATION STATISTICS ==========');
-    
+
     let totalOriginal = 0;
     let totalNormalized = 0;
-    
+
     for (const [category, categoryEntities] of Object.entries(entities)) {
       const originalCount = Object.keys(categoryEntities).length;
       const normalizedNames = new Set(Object.values(categoryEntities));
       const normalizedCount = normalizedNames.size;
-      
+
       if (originalCount > 0) {
-        const reductionPercent = ((originalCount - normalizedCount) / originalCount * 100).toFixed(1);
+        const reductionPercent = (
+          ((originalCount - normalizedCount) / originalCount) *
+          100
+        ).toFixed(1);
         console.log(`\n${category}:`);
         console.log(`  Original entities: ${originalCount}`);
         console.log(`  Normalized to: ${normalizedCount}`);
-        console.log(`  Reduction: ${reductionPercent}% (${originalCount - normalizedCount} duplicates merged)`);
-        
+        console.log(
+          `  Reduction: ${reductionPercent}% (${originalCount - normalizedCount} duplicates merged)`
+        );
+
         totalOriginal += originalCount;
         totalNormalized += normalizedCount;
       }
     }
-    
+
     if (totalOriginal > 0) {
-      const totalReductionPercent = ((totalOriginal - totalNormalized) / totalOriginal * 100).toFixed(1);
+      const totalReductionPercent = (
+        ((totalOriginal - totalNormalized) / totalOriginal) *
+        100
+      ).toFixed(1);
       console.log('\n---------- TOTAL ----------');
       console.log(`Total original entities: ${totalOriginal}`);
       console.log(`Total normalized entities: ${totalNormalized}`);
-      console.log(`Overall reduction: ${totalReductionPercent}% (${totalOriginal - totalNormalized} duplicates merged)`);
+      console.log(
+        `Overall reduction: ${totalReductionPercent}% (${totalOriginal - totalNormalized} duplicates merged)`
+      );
     }
-    
+
     console.log('\n====================================================\n');
   }
 
@@ -112,16 +130,16 @@ export class DataEntitiesCollectorUnified {
     const files = await fs.readdir(this.inputDir);
 
     const entitiesByCategory: Record<Category, string[]> = {
-      'Organization': [],
-      'HackerGroup': [],
-      'Software': [],
-      'Country': [],
-      'Individual': [],
-      'Domain': [],
-      'Sector': [],
+      Organization: [],
+      HackerGroup: [],
+      Software: [],
+      Country: [],
+      Individual: [],
+      Domain: [],
+      Sector: [],
       'Government Body': [],
-      'Infrastructure': [],
-      'Device': []
+      Infrastructure: [],
+      Device: [],
     };
 
     for (const file of files) {
@@ -140,10 +158,7 @@ export class DataEntitiesCollectorUnified {
     return entitiesByCategory;
   }
 
-  async #sendToLlm(
-    entityType: string,
-    entities: string[]
-  ): Promise<Record<string, string>> {
+  async #sendToLlm(entityType: string, entities: string[]): Promise<Record<string, string>> {
     const uniqueEntities = [...new Set(entities)];
 
     const instructions = `
@@ -171,7 +186,7 @@ export class DataEntitiesCollectorUnified {
     while (attempts < this.#maxRetries) {
       try {
         console.time(`LLM NORMALIZATION - ${entityType}`);
-        const result = await this.#llmClient.send(instructions, "");
+        const result = await this.#llmClient.send(instructions, '');
         console.timeEnd(`LLM NORMALIZATION - ${entityType}`);
 
         const parsed = extractAndParseJson(result);
@@ -187,7 +202,7 @@ export class DataEntitiesCollectorUnified {
         console.error(`Attempt ${attempts + 1} failed for ${entityType}:`, error);
         attempts++;
         if (attempts < this.#maxRetries) {
-          await new Promise(resolve => setTimeout(resolve, this.#retryDelay));
+          await new Promise((resolve) => setTimeout(resolve, this.#retryDelay));
         }
       }
     }
@@ -200,25 +215,27 @@ export class DataEntitiesCollectorUnified {
     return fallback;
   }
 
-  async #loadExistingData(): Promise<{ entities: Record<Category, Record<string, string>> }> {
+  async #loadExistingData(): Promise<{
+    entities: Record<Category, Record<string, string>>;
+  }> {
     const entitiesFile = `${this.outputDir}/entities.json`;
-    
+
     // Initialize with empty categories
     const defaultData: { entities: Record<Category, Record<string, string>> } = {
       entities: {
-        'Organization': {},
-        'HackerGroup': {},
-        'Software': {},
-        'Country': {},
-        'Individual': {},
-        'Domain': {},
-        'Sector': {},
+        Organization: {},
+        HackerGroup: {},
+        Software: {},
+        Country: {},
+        Individual: {},
+        Domain: {},
+        Sector: {},
         'Government Body': {},
-        'Infrastructure': {},
-        'Device': {}
-      }
+        Infrastructure: {},
+        Device: {},
+      },
     };
-    
+
     if (!existsSync(entitiesFile)) {
       return defaultData;
     }
@@ -226,14 +243,14 @@ export class DataEntitiesCollectorUnified {
     try {
       const data = await fs.readFile(entitiesFile, 'utf-8');
       const parsed = JSON.parse(data);
-      
+
       // Merge parsed data with default structure to ensure all categories exist
       if (parsed && parsed.entities) {
         return {
-          entities: { ...defaultData.entities, ...parsed.entities }
+          entities: { ...defaultData.entities, ...parsed.entities },
         };
       }
-      
+
       return defaultData;
     } catch (error) {
       console.warn('Failed to load existing entities file, starting fresh:', error);

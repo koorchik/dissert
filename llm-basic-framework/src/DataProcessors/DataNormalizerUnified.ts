@@ -1,8 +1,8 @@
-import fs from "fs/promises";
-import { existsSync } from "fs";
-import { CountryNameNormalizer } from "../CountryNameNormalizer/CountryNameNormalizer";
-import { UnifiedData, Entity } from "../utils/validationUtilsUnified";
-import { EmbeddingsClient } from "../EmbeddingsClient/EmbeddingsClient";
+import { CountryNameNormalizer } from '../CountryNameNormalizer/CountryNameNormalizer';
+import { EmbeddingsClient } from '../EmbeddingsClient/EmbeddingsClient';
+import { UnifiedData, Entity } from '../utils/validationUtilsUnified';
+import { existsSync } from 'fs';
+import fs from 'fs/promises';
 
 interface Params {
   inputDir: string;
@@ -52,26 +52,23 @@ export class DataNormalizerUnified {
     }
   }
 
-  async #normalizeAndEnrich(
-    data: UnifiedData,
-    entities: UnifiedEntities
-  ): Promise<UnifiedData> {
+  async #normalizeAndEnrich(data: UnifiedData, entities: UnifiedEntities): Promise<UnifiedData> {
     if (!data.entities) return data;
 
     for (const entity of data.entities) {
       // Normalize countries
       if (entity.category === 'Country') {
-        const countryCode = await this.#countryNameNormalizer.normalizeCountry(
-          entity.name
-        );
+        const countryCode = await this.#countryNameNormalizer.normalizeCountry(entity.name);
         entity.code = countryCode;
       }
 
       // Look up normalized names from entities file
       // The entities file structure is: { entities: { Category: { originalName: normalizedName } } }
-      if (entities.entities && 
-          entities.entities[entity.category] && 
-          entities.entities[entity.category][entity.name]) {
+      if (
+        entities.entities &&
+        entities.entities[entity.category] &&
+        entities.entities[entity.category][entity.name]
+      ) {
         entity.normalizedName = entities.entities[entity.category][entity.name];
       } else {
         // If no normalized name is found, use the original name
@@ -79,8 +76,10 @@ export class DataNormalizerUnified {
       }
 
       // Generate embeddings for certain categories
-      if (['Infrastructure', 'Sector', 'Device'].includes(entity.category) && 
-          entity.role === 'Target') {
+      if (
+        ['Infrastructure', 'Sector', 'Device'].includes(entity.category) &&
+        entity.role === 'Target'
+      ) {
         // Uncomment when ready to generate embeddings
         // entity.embedding = await this.#embeddingsClient.embed(entity.name);
         entity.embedding = [];

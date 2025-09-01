@@ -1,7 +1,7 @@
-import type { EmbeddingsBackendBase } from "./EmbeddingsBackendBase";
+import type { EmbeddingsBackendBase } from './EmbeddingsBackendBase';
 
 interface Args {
-  backend: EmbeddingsBackendBase,
+  backend: EmbeddingsBackendBase;
 }
 
 export class EmbeddingsClient {
@@ -16,6 +16,6 @@ export class EmbeddingsClient {
   }
 
   get modelName() {
-    return this.#backend.model
+    return this.#backend.model;
   }
 }
