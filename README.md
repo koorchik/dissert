@@ -18,6 +18,12 @@
 
 </div>
 
+### Tools Used by Hacker Groups
+
+*Red nodes are hacker groups, blue nodes are tools. Edge thickness represents usage frequency*
+
+![Tools Used by Hacker Groups](gephi-results/tools-used-by-hacker-groups.png)
+
 # Top Incoming Attacks Analysis
 
 Identifies the top 10 most attacked nodes for each entity type based on incoming attack relationships
