@@ -84,7 +84,7 @@ export class TableFormatter {
         ...summary.metrics.map(metric => [metric.label, String(metric.value)])
       ];
       
-      const markdown = `## ${summary.title}\n\n${markdownTable(tableData)}\n\n`;
+      const markdown = `### ${summary.title}\n\n${markdownTable(tableData)}\n\n`;
       return markdown;
     } else {
       console.log(`\n${summary.title}:`);
@@ -104,7 +104,7 @@ export class TableFormatter {
 
   static renderSection(section: TableSection, format: OutputFormat = 'console'): string {
     if (format === 'markdown') {
-      let markdown = `## ${section.title}\n\n`;
+      let markdown = `### ${section.title}\n\n`;
       
       if (section.showCount) {
         markdown += `*(showing ${section.showCount.showing} of ${section.showCount.total})*\n\n`;

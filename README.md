@@ -23,18 +23,14 @@ My dissert experiments
 | Infrastructure | 15 | 13 | 2 | 13.3% | 31.372s |
 
 
-
-
-
-
 # Top Incoming Attacks Analysis
 
 Identifies the top 10 most attacked nodes for each entity type based on incoming attack relationships
 
 **Execution Time:** 0.004s  
-**Timestamp:** 2025-09-04T18:30:38.629Z
+**Timestamp:** 2025-09-04T18:40:26.986Z
 
-## KEY METRICS
+### KEY METRICS
 
 | Metric                 | Value |
 | ---------------------- | ----- |
@@ -43,7 +39,7 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 | totalNodesAnalyzed     | 2674  |
 | attackEdgesFound       | 4528  |
 
-## RESULTS BY ENTITY TYPE - Sector
+### RESULTS BY ENTITY TYPE - Sector
 
 *(showing 10 of 81)*
 
@@ -60,7 +56,7 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 | 9    | Defense-industrial complex e | 58      | 58.0   | 58        | 7.5  |
 | 10   | Enterprise accountants       | 52      | 54.0   | 52        | 7.5  |
 
-## RESULTS BY ENTITY TYPE - Government Body
+### RESULTS BY ENTITY TYPE - Government Body
 
 *(showing 10 of 11)*
 
@@ -77,7 +73,7 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 | 9    | Поліція Польщі               | 6       | 6.0    | 6         | 9.0  |
 | 10   | Міністерство оборони України | 6       | 6.0    | 6         | 9.0  |
 
-## RESULTS BY ENTITY TYPE - Domain
+### RESULTS BY ENTITY TYPE - Domain
 
 *(showing 1 of 1)*
 
@@ -85,7 +81,7 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 | ---- | ------ | ------- | ------ | --------- | ---- |
 | 1    | gov.ua | 1       | 1.0    | 1         | 8.0  |
 
-## RESULTS BY ENTITY TYPE - Organization
+### RESULTS BY ENTITY TYPE - Organization
 
 *(showing 10 of 11)*
 
@@ -102,7 +98,7 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 | 9    | inq. Nigeria (AS16284)       | 3       | 3.0    | 3         | 8.0  |
 | 10   | PrivatBank (AS15742)         | 3       | 3.0    | 3         | 8.0  |
 
-## RESULTS BY ENTITY TYPE - Country
+### RESULTS BY ENTITY TYPE - Country
 
 *(showing 10 of 14)*
 
@@ -119,7 +115,7 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 | 9    | Kyrgyzstan     | 17      | 17.0   | 17        | 8.0  |
 | 10   | Israel         | 17      | 17.0   | 17        | 8.0  |
 
-## RESULTS BY ENTITY TYPE - Software
+### RESULTS BY ENTITY TYPE - Software
 
 *(showing 10 of 111)*
 
@@ -136,7 +132,7 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 | 9    | Microsoft Exchange Server | 28      | 28.0   | 28        | 6.0  |
 | 10   | Google Chrome             | 26      | 26.0   | 26        | 6.0  |
 
-## RESULTS BY ENTITY TYPE - Infrastructure
+### RESULTS BY ENTITY TYPE - Infrastructure
 
 *(showing 7 of 7)*
 
@@ -150,7 +146,7 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 | 6    | DNS-сервери для зони gov.ua  | 3       | 3.0    | 3         | 8.5  |
 | 7    | Єдиний державний реєстр декл | 1       | 1.0    | 1         | 8.5  |
 
-## RESULTS BY ENTITY TYPE - Device
+### RESULTS BY ENTITY TYPE - Device
 
 *(showing 5 of 5)*
 
@@ -169,10 +165,10 @@ Identifies the top 10 most attacked nodes for each entity type based on incoming
 
 Identifies the top 10 edges with highest weights, both overall and grouped by edge type
 
-**Execution Time:** 0.024s  
-**Timestamp:** 2025-09-04T18:30:38.654Z
+**Execution Time:** 0.027s  
+**Timestamp:** 2025-09-04T18:40:27.014Z
 
-## KEY METRICS
+### KEY METRICS
 
 | Metric             | Value |
 | ------------------ | ----- |
@@ -183,7 +179,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | edgesAboveWeight10 | 2     |
 | edgesAboveWeight50 | 0     |
 
-## TOP EDGES (OVERALL)
+### TOP EDGES (OVERALL)
 
 *(showing 10 of 81755)*
 
@@ -200,7 +196,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | 9    | Government bodies of Ukraine   | Ukraine                        | 6      | co_targeted         | 2019-01-29 |
 | 10   | Armageddon                     | GammaLoad                      | 5      | uses_infrastructure | 2022-02-01 |
 
-## EDGES BY TYPE - collaborates_with
+### EDGES BY TYPE - collaborates_with
 
 *(showing 10 of 61326)*
 
@@ -217,7 +213,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | 9    | MSHTA               | PowerShell          | 3      | Software | Software |
 | 10   | MSHTA               | Windows Script Host | 3      | Software | Software |
 
-## EDGES BY TYPE - mentioned_in_context_of
+### EDGES BY TYPE - mentioned_in_context_of
 
 *(showing 10 of 9056)*
 
@@ -234,7 +230,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | 9    | Ukraine                        | yolasite.com       | 3      | Country         | Domain      |
 | 10   | Ukraine                        | UAC-0050           | 3      | Country         | HackerGroup |
 
-## EDGES BY TYPE - attacks
+### EDGES BY TYPE - attacks
 
 *(showing 10 of 4528)*
 
@@ -251,7 +247,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | 9    | PowerShell | Government organizations       | 3      | Software    | Sector          |
 | 10   | PowerShell | Сили оборони України           | 3      | Software    | Government Body |
 
-## EDGES BY TYPE - related_to
+### EDGES BY TYPE - related_to
 
 *(showing 10 of 2472)*
 
@@ -268,7 +264,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | 9    | Оперативний центр реагування н | Державний центр кіберзахисту Д | 4      | Government Body | Government Body |
 | 10   | Ukraine                        | Департамент кіберполіції Націо | 3      | Country         | Government Body |
 
-## EDGES BY TYPE - uses_infrastructure
+### EDGES BY TYPE - uses_infrastructure
 
 *(showing 10 of 2193)*
 
@@ -285,7 +281,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | 9    | Russia     | PowerShell           | 3      | Country     | Software |
 | 10   | Armageddon | PowerShell           | 3      | HackerGroup | Software |
 
-## EDGES BY TYPE - co_targeted
+### EDGES BY TYPE - co_targeted
 
 *(showing 10 of 1897)*
 
@@ -302,7 +298,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | 9    | Adobe Illustrator              | RWC 3 for Windows              | 2      | Software        | Software |
 | 10   | Adobe Illustrator              | Processor Graphics             | 2      | Software        | Software |
 
-## EDGES BY TYPE - belongs_to_sector
+### EDGES BY TYPE - belongs_to_sector
 
 *(showing 10 of 262)*
 
@@ -319,7 +315,7 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 | 9    | Адміністрація Держспецзв’язку  | Government institutions of Ukr | 1      | Government Body | Sector |
 | 10   | VimpelCom                      | Government institutions of Ukr | 1      | Organization    | Sector |
 
-## EDGES BY TYPE - is_attributed_to
+### EDGES BY TYPE - is_attributed_to
 
 *(showing 10 of 21)*
 
@@ -344,9 +340,9 @@ Identifies the top 10 edges with highest weights, both overall and grouped by ed
 Analyzes the top 10 most active hacker groups based on their attack patterns, showing targets, country associations, tools used, and partnerships
 
 **Execution Time:** 0.004s  
-**Timestamp:** 2025-09-04T18:30:38.659Z
+**Timestamp:** 2025-09-04T18:40:27.018Z
 
-## KEY METRICS
+### KEY METRICS
 
 | Metric                 | Value |
 | ---------------------- | ----- |
@@ -357,7 +353,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | groupsWithCountryLinks | 6     |
 | groupsWithTools        | 10    |
 
-## 1. APT28 - Attack Weight: 31, Targets: 26, Risk: 9
+### 1. APT28 - Attack Weight: 31, Targets: 26, Risk: 9
 
 | Category    | Entity     | Type             | Weight |
 | ----------- | ---------- | ---------------- | ------ |
@@ -367,7 +363,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | Main Tool   | PowerShell | Software         | 4      |
 | Partner     | Armageddon | HackerGroup      | 1      |
 
-## 2. Sandworm - Attack Weight: 25, Targets: 22, Risk: 9
+### 2. Sandworm - Attack Weight: 25, Targets: 22, Risk: 9
 
 | Category    | Entity                  | Type             | Weight |
 | ----------- | ----------------------- | ---------------- | ------ |
@@ -377,7 +373,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | Main Tool   | PowerShell              | Software         | 2      |
 | Partner     | UAC-0113                | HackerGroup      | 1      |
 
-## 3. Armageddon - Attack Weight: 17, Targets: 13, Risk: 9
+### 3. Armageddon - Attack Weight: 17, Targets: 13, Risk: 9
 
 | Category    | Entity                       | Type             | Weight |
 | ----------- | ---------------------------- | ---------------- | ------ |
@@ -387,7 +383,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | Main Tool   | GammaLoad                    | Software         | 5      |
 | Partner     | Sandworm                     | HackerGroup      | 1      |
 
-## 4. UAC-0050 - Attack Weight: 15, Targets: 13, Risk: 9
+### 4. UAC-0050 - Attack Weight: 15, Targets: 13, Risk: 9
 
 | Category    | Entity                       | Type             | Weight |
 | ----------- | ---------------------------- | ---------------- | ------ |
@@ -397,7 +393,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | Main Tool   | Remcos                       | Software         | 8      |
 | Partner     | Armageddon                   | HackerGroup      | 1      |
 
-## 5. UAC-0133 - Attack Weight: 14, Targets: 13, Risk: 9
+### 5. UAC-0133 - Attack Weight: 14, Targets: 13, Risk: 9
 
 | Category   | Entity                  | Type        | Weight |
 | ---------- | ----------------------- | ----------- | ------ |
@@ -406,7 +402,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | Main Tool  | online.ua               | Domain      | 1      |
 | Partner    | Sandworm                | HackerGroup | 1      |
 
-## 6. UAC-0002 - Attack Weight: 14, Targets: 13, Risk: 9
+### 6. UAC-0002 - Attack Weight: 14, Targets: 13, Risk: 9
 
 | Category   | Entity                  | Type        | Weight |
 | ---------- | ----------------------- | ----------- | ------ |
@@ -415,7 +411,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | Main Tool  | PowerShell              | Software    | 1      |
 | Partner    | Sandworm                | HackerGroup | 2      |
 
-## 7. UAC-0063 - Attack Weight: 10, Targets: 10, Risk: 9
+### 7. UAC-0063 - Attack Weight: 10, Targets: 10, Risk: 9
 
 | Category    | Entity                       | Type             | Weight |
 | ----------- | ---------------------------- | ---------------- | ------ |
@@ -425,7 +421,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | Main Tool   | MSHTA                        | Software         | 2      |
 | Partner     | APT28                        | HackerGroup      | 1      |
 
-## 8. Turla - Attack Weight: 9, Targets: 9, Risk: 9
+### 8. Turla - Attack Weight: 9, Targets: 9, Risk: 9
 
 | Category    | Entity                  | Type             | Weight |
 | ----------- | ----------------------- | ---------------- | ------ |
@@ -435,7 +431,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 | Main Tool   | KAZUAR                  | Software         | 2      |
 | Partner     | Armageddon              | HackerGroup      | 1      |
 
-## 9. UNC4221 - Attack Weight: 9, Targets: 9, Risk: 9
+### 9. UNC4221 - Attack Weight: 9, Targets: 9, Risk: 9
 
 | Category   | Entity     | Type     | Weight |
 | ---------- | ---------- | -------- | ------ |
@@ -443,7 +439,7 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 |            | Telegram   | Software | 1      |
 | Main Tool  | PowerShell | Software | 1      |
 
-## 10. Seashell Blizzard - Attack Weight: 9, Targets: 9, Risk: 9
+### 10. Seashell Blizzard - Attack Weight: 9, Targets: 9, Risk: 9
 
 | Category   | Entity         | Type        | Weight |
 | ---------- | -------------- | ----------- | ------ |
@@ -459,10 +455,10 @@ Analyzes the top 10 most active hacker groups based on their attack patterns, sh
 
 Analyzes software and tools used by hacker groups, showing usage patterns and which groups use which tools
 
-**Execution Time:** 0.008s  
-**Timestamp:** 2025-09-04T18:30:38.667Z
+**Execution Time:** 0.006s  
+**Timestamp:** 2025-09-04T18:40:27.024Z
 
-## KEY METRICS
+### KEY METRICS
 
 | Metric                 | Value |
 | ---------------------- | ----- |
@@ -473,7 +469,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | softwareTools          | 469   |
 | domainTools            | 1276  |
 
-## 1. PowerShell (Software) - Usage: 38, Users: 29, Direct Attack Tool
+### 1. PowerShell (Software) - Usage: 38, Users: 29, Direct Attack Tool
 
 *(showing 5 of 29)*
 
@@ -485,7 +481,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | Sandworm     | 2     |
 | UAC-0173     | 2     |
 
-## 2. Remcos (Software) - Usage: 18, Users: 10, Direct Attack Tool
+### 2. Remcos (Software) - Usage: 18, Users: 10, Direct Attack Tool
 
 *(showing 5 of 10)*
 
@@ -497,7 +493,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | Sandworm     | 1     |
 | UAC-0096     | 1     |
 
-## 3. MSHTA (Software) - Usage: 17, Users: 12, Direct Attack Tool
+### 3. MSHTA (Software) - Usage: 17, Users: 12, Direct Attack Tool
 
 *(showing 5 of 12)*
 
@@ -509,7 +505,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | APT28        | 1     |
 | UNC1151      | 1     |
 
-## 4. Windows Script Host (Software) - Usage: 14, Users: 11, Direct Attack Tool
+### 4. Windows Script Host (Software) - Usage: 14, Users: 11, Direct Attack Tool
 
 *(showing 5 of 11)*
 
@@ -521,7 +517,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | FRwL         | 1     |
 | APT28        | 1     |
 
-## 5. Cobalt Strike Beacon (Software) - Usage: 14, Users: 8, Direct Attack Tool
+### 5. Cobalt Strike Beacon (Software) - Usage: 14, Users: 8, Direct Attack Tool
 
 *(showing 5 of 8)*
 
@@ -533,7 +529,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | FRwL         | 1     |
 | Z-Team       | 1     |
 
-## 6. Remote Utilities (Software) - Usage: 13, Users: 7, Direct Attack Tool
+### 6. Remote Utilities (Software) - Usage: 13, Users: 7, Direct Attack Tool
 
 *(showing 5 of 7)*
 
@@ -545,7 +541,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | Sandworm     | 1     |
 | APT28        | 1     |
 
-## 7. Lumma Stealer (Software) - Usage: 10, Users: 8, Direct Attack Tool
+### 7. Lumma Stealer (Software) - Usage: 10, Users: 8, Direct Attack Tool
 
 *(showing 5 of 8)*
 
@@ -557,7 +553,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | Sandworm     | 1     |
 | APT28        | 1     |
 
-## 8. Python (Software) - Usage: 9, Users: 7, Direct Attack Tool
+### 8. Python (Software) - Usage: 9, Users: 7, Direct Attack Tool
 
 *(showing 5 of 7)*
 
@@ -569,7 +565,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | UAC-0145     | 1     |
 | UAC-0002     | 1     |
 
-## 9. ngrok (Software) - Usage: 7, Users: 7, Direct Attack Tool
+### 9. ngrok (Software) - Usage: 7, Users: 7, Direct Attack Tool
 
 *(showing 5 of 7)*
 
@@ -581,7 +577,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | UAC-0118     | 1     |
 | Buhtrap      | 1     |
 
-## 10. KAZUAR (Software) - Usage: 7, Users: 6, Direct Attack Tool
+### 10. KAZUAR (Software) - Usage: 7, Users: 6, Direct Attack Tool
 
 *(showing 5 of 6)*
 
@@ -593,7 +589,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | APT28        | 1     |
 | UAC-0050     | 1     |
 
-## 11. Quasar RAT (Software) - Usage: 7, Users: 6, Direct Attack Tool
+### 11. Quasar RAT (Software) - Usage: 7, Users: 6, Direct Attack Tool
 
 *(showing 5 of 6)*
 
@@ -605,7 +601,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | APT28        | 1     |
 | Turla        | 1     |
 
-## 12. SmokeLoader (Software) - Usage: 7, Users: 1, Direct Attack Tool
+### 12. SmokeLoader (Software) - Usage: 7, Users: 1, Direct Attack Tool
 
 *(showing 1 of 1)*
 
@@ -613,7 +609,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | ------------ | ----- |
 | UAC-0006     | 7     |
 
-## 13. Venom RAT (Software) - Usage: 6, Users: 6, Direct Attack Tool
+### 13. Venom RAT (Software) - Usage: 6, Users: 6, Direct Attack Tool
 
 *(showing 5 of 6)*
 
@@ -625,7 +621,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | UAC-0050     | 1     |
 | Turla        | 1     |
 
-## 14. PEAKLIGHT (Software) - Usage: 6, Users: 6, Direct Attack Tool
+### 14. PEAKLIGHT (Software) - Usage: 6, Users: 6, Direct Attack Tool
 
 *(showing 5 of 6)*
 
@@ -637,7 +633,7 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 | UAC-0002          | 1     |
 | Seashell Blizzard | 1     |
 
-## 15. DarkCrystal RAT (Software) - Usage: 6, Users: 5, Direct Attack Tool
+### 15. DarkCrystal RAT (Software) - Usage: 6, Users: 5, Direct Attack Tool
 
 *(showing 5 of 5)*
 
@@ -656,10 +652,10 @@ Analyzes software and tools used by hacker groups, showing usage patterns and wh
 
 Analyzes software that are targets of attacks, showing which groups and tools are attacking them
 
-**Execution Time:** 0.006s  
-**Timestamp:** 2025-09-04T18:30:38.673Z
+**Execution Time:** 0.005s  
+**Timestamp:** 2025-09-04T18:40:27.030Z
 
-## KEY METRICS
+### KEY METRICS
 
 | Metric                      | Value |
 | --------------------------- | ----- |
@@ -670,7 +666,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | softwareWithGroupAttacks    | 24    |
 | softwareWithToolAttacks     | 107   |
 
-## 1. Telegram - Attacking Groups (110 attack relations from 2 groups + 108 tools/methods)
+### 1. Telegram - Attacking Groups (110 attack relations from 2 groups + 108 tools/methods)
 
 *(showing 2 of 2)*
 
@@ -679,7 +675,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | UAC-0094     | 1                | 1            | 2022-04-05   |
 | UNC4221      | 1                | 1            | 2024-12-07   |
 
-## Telegram - Attack Methods/Tools
+### Telegram - Attack Methods/Tools
 
 *(showing 8 of 108)*
 
@@ -694,7 +690,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | me-cloud.link      | Domain   | 1      |
 | account.associates | Domain   | 1      |
 
-## Telegram - Associated With
+### Telegram - Associated With
 
 | Entity     | Type    | Weight |
 | ---------- | ------- | ------ |
@@ -702,7 +698,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | Kazakhstan | Country | 1      |
 | Montenegro | Country | 1      |
 
-## 2. WhatsApp - Attacking Groups (87 attack relations from 1 groups + 86 tools/methods)
+### 2. WhatsApp - Attacking Groups (87 attack relations from 1 groups + 86 tools/methods)
 
 *(showing 1 of 1)*
 
@@ -710,7 +706,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ------------ | ---------------- | ------------ | ------------ |
 | UNC4221      | 1                | 1            | 2024-12-07   |
 
-## WhatsApp - Attack Methods/Tools
+### WhatsApp - Attack Methods/Tools
 
 *(showing 8 of 86)*
 
@@ -725,14 +721,14 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | president-petition9034.best | Domain   | 1      |
 | president-petitions.click   | Domain   | 1      |
 
-## WhatsApp - Associated With
+### WhatsApp - Associated With
 
 | Entity     | Type    | Weight |
 | ---------- | ------- | ------ |
 | Kazakhstan | Country | 1      |
 | Montenegro | Country | 1      |
 
-## 3. Signal - Attacking Groups (65 attack relations from 1 groups + 64 tools/methods)
+### 3. Signal - Attacking Groups (65 attack relations from 1 groups + 64 tools/methods)
 
 *(showing 1 of 1)*
 
@@ -740,7 +736,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ------------ | ---------------- | ------------ | ------------ |
 | UNC4221      | 1                | 1            | 2024-12-07   |
 
-## Signal - Attack Methods/Tools
+### Signal - Attack Methods/Tools
 
 *(showing 8 of 64)*
 
@@ -755,7 +751,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | XWorm           | Software | 1      |
 | SIGTOP          | Software | 1      |
 
-## Signal - Associated With
+### Signal - Associated With
 
 | Entity     | Type    | Weight |
 | ---------- | ------- | ------ |
@@ -763,7 +759,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | Israel     | Country | 1      |
 | Montenegro | Country | 1      |
 
-## 4. DELTA - Attacking Groups (54 attack relations from 1 groups + 53 tools/methods)
+### 4. DELTA - Attacking Groups (54 attack relations from 1 groups + 53 tools/methods)
 
 *(showing 1 of 1)*
 
@@ -771,7 +767,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ------------ | ---------------- | ------------ | ------------ |
 | UNC4221      | 1                | 1            | 2024-12-07   |
 
-## DELTA - Attack Methods/Tools
+### DELTA - Attack Methods/Tools
 
 *(showing 8 of 53)*
 
@@ -786,14 +782,14 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | odwebp.com       | Domain   | 1      |
 | derzhposluhy.com | Domain   | 1      |
 
-## DELTA - Associated With
+### DELTA - Associated With
 
 | Entity   | Type        | Weight |
 | -------- | ----------- | ------ |
 | Ukraine  | Country     | 1      |
 | UAC-0132 | HackerGroup | 1      |
 
-## 5. ТЕНЕТА - Attacking Groups (54 attack relations from 1 groups + 53 tools/methods)
+### 5. ТЕНЕТА - Attacking Groups (54 attack relations from 1 groups + 53 tools/methods)
 
 *(showing 1 of 1)*
 
@@ -801,7 +797,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ------------ | ---------------- | ------------ | ------------ |
 | UNC4221      | 1                | 1            | 2024-12-07   |
 
-## ТЕНЕТА - Attack Methods/Tools
+### ТЕНЕТА - Attack Methods/Tools
 
 *(showing 8 of 53)*
 
@@ -816,7 +812,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | odwebp.com       | Domain   | 1      |
 | derzhposluhy.com | Domain   | 1      |
 
-## 6. Кропива - Attacking Groups (54 attack relations from 1 groups + 53 tools/methods)
+### 6. Кропива - Attacking Groups (54 attack relations from 1 groups + 53 tools/methods)
 
 *(showing 1 of 1)*
 
@@ -824,7 +820,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ------------ | ---------------- | ------------ | ------------ |
 | UNC4221      | 1                | 1            | 2024-12-07   |
 
-## Кропива - Attack Methods/Tools
+### Кропива - Attack Methods/Tools
 
 *(showing 8 of 53)*
 
@@ -839,7 +835,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | odwebp.com       | Domain   | 1      |
 | derzhposluhy.com | Domain   | 1      |
 
-## 7. Microsoft Outlook - Attacking Groups (33 attack relations from 2 groups + 31 tools/methods)
+### 7. Microsoft Outlook - Attacking Groups (33 attack relations from 2 groups + 31 tools/methods)
 
 *(showing 2 of 2)*
 
@@ -848,7 +844,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | JokerDPR     | 1                | 1            | 2023-12-19   |
 | UAC-0177     | 1                | 1            | 2023-12-19   |
 
-## Microsoft Outlook - Attack Methods/Tools
+### Microsoft Outlook - Attack Methods/Tools
 
 *(showing 8 of 31)*
 
@@ -863,7 +859,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ssl2.link     | Domain   | 1      |
 | authcheck.in  | Domain   | 1      |
 
-## 8. Roundcube - Attacking Groups (28 attack relations from 1 groups + 27 tools/methods)
+### 8. Roundcube - Attacking Groups (28 attack relations from 1 groups + 27 tools/methods)
 
 *(showing 1 of 1)*
 
@@ -871,7 +867,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ------------ | ---------------- | ------------ | ------------ |
 | APT28        | 1                | 2            | 2023-06-20   |
 
-## Roundcube - Attack Methods/Tools
+### Roundcube - Attack Methods/Tools
 
 *(showing 8 of 27)*
 
@@ -886,13 +882,13 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | q.js           | Software | 1      |
 | c.js           | Software | 1      |
 
-## Roundcube - Associated With
+### Roundcube - Associated With
 
 | Entity         | Type    | Weight |
 | -------------- | ------- | ------ |
 | United Kingdom | Country | 1      |
 
-## 9. Microsoft Exchange Server - Attacking Groups (28 attack relations from 6 groups + 22 tools/methods)
+### 9. Microsoft Exchange Server - Attacking Groups (28 attack relations from 6 groups + 22 tools/methods)
 
 *(showing 3 of 6)*
 
@@ -902,7 +898,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | FRwL                     | 1                | 1            | 2023-08-09   |
 | CyberArmyofRussia_Reborn | 1                | 1            | 2023-08-09   |
 
-## Microsoft Exchange Server - Attack Methods/Tools
+### Microsoft Exchange Server - Attack Methods/Tools
 
 *(showing 8 of 22)*
 
@@ -917,13 +913,13 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ProxyLogon          | Software | 1      |
 | CVE-2018-13379      | Software | 1      |
 
-## Microsoft Exchange Server - Associated With
+### Microsoft Exchange Server - Associated With
 
 | Entity  | Type    | Weight |
 | ------- | ------- | ------ |
 | Ukraine | Country | 1      |
 
-## 10. Google Chrome - Attacking Groups (26 attack relations from 1 groups + 25 tools/methods)
+### 10. Google Chrome - Attacking Groups (26 attack relations from 1 groups + 25 tools/methods)
 
 *(showing 1 of 1)*
 
@@ -931,7 +927,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | ------------ | ---------------- | ------------ | ------------ |
 | APT28        | 1                | 1            | 2023-12-28   |
 
-## Google Chrome - Attack Methods/Tools
+### Google Chrome - Attack Methods/Tools
 
 *(showing 8 of 25)*
 
@@ -946,13 +942,13 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | CVE-2016-0800 | Software | 1      |
 | CVE-2015-0204 | Software | 1      |
 
-## Google Chrome - Associated With
+### Google Chrome - Associated With
 
 | Entity        | Type    | Weight |
 | ------------- | ------- | ------ |
 | United States | Country | 1      |
 
-## Internet Explorer - Attack Methods/Tools
+### Internet Explorer - Attack Methods/Tools
 
 *(showing 8 of 26)*
 
@@ -967,13 +963,13 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | CVE-2017-0144  | Software | 1      |
 | CVE-2014-0160  | Software | 1      |
 
-## Internet Explorer - Associated With
+### Internet Explorer - Associated With
 
 | Entity        | Type    | Weight |
 | ------------- | ------- | ------ |
 | United States | Country | 1      |
 
-## Microsoft Edge - Attack Methods/Tools
+### Microsoft Edge - Attack Methods/Tools
 
 *(showing 8 of 25)*
 
@@ -988,7 +984,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | CVE-2018-0958 | Software | 1      |
 | CVE-2018-8124 | Software | 1      |
 
-## Microsoft Windows - Attack Methods/Tools
+### Microsoft Windows - Attack Methods/Tools
 
 *(showing 8 of 24)*
 
@@ -1003,13 +999,13 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | CVE-2016-0800 | Software | 1      |
 | CVE-2015-0204 | Software | 1      |
 
-## Microsoft Windows - Associated With
+### Microsoft Windows - Associated With
 
 | Entity        | Type    | Weight |
 | ------------- | ------- | ------ |
 | United States | Country | 1      |
 
-## Microsoft Office - Attack Methods/Tools
+### Microsoft Office - Attack Methods/Tools
 
 *(showing 8 of 16)*
 
@@ -1024,7 +1020,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | CVE-2018-0958               | Software | 1      |
 | CVE-2018-8124               | Software | 1      |
 
-## Windows 7 - Attack Methods/Tools
+### Windows 7 - Attack Methods/Tools
 
 *(showing 8 of 15)*
 
@@ -1039,7 +1035,7 @@ Analyzes software that are targets of attacks, showing which groups and tools ar
 | CVE-2018-8124 | Software | 1      |
 | CVE-2018-8127 | Software | 1      |
 
-## Windows 7 - Associated With
+### Windows 7 - Associated With
 
 | Entity        | Type    | Weight |
 | ------------- | ------- | ------ |
