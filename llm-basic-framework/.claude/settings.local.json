@@ -3,7 +3,11 @@
     "allow": [
       "Bash(find:*)",
       "Bash(npx tsc:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(cat:*)",
+      "Read(/workspaces/dissert/storage/cert.gov.ua/processed/analyzed-unified/gpt-5/**)",
+      "Read(/workspaces/dissert/storage/cert.gov.ua/processed/analyzed-unified/gpt-5/**)",
+      "Read(/workspaces/dissert/storage/cert.gov.ua/processed/analyzed-unified/gpt-5/**)"
     ],
     "deny": []
   }

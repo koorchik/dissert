@@ -1,6 +1,7 @@
 import { existsSync } from 'fs';
 import fs from 'fs/promises';
 
+// --- Interfaces (unchanged) ---
 interface GraphNode {
   id: number;
   label: string;
@@ -15,7 +16,7 @@ interface GraphEdge {
   weight: number;
   edgeType: string;
   date: string;
-  incidentIds: Set<number>; // Track which incidents support this edge
+  incidentIds: Set<number>;
 }
 
 interface Entity {
@@ -65,24 +66,6 @@ export class DataGraphBuilder {
     await this.#buildGraph(allData);
   }
 
-  // Map category to entity type for graph visualization
-  private mapCategoryToEntityType(category: string, role: string): string {
-    const categoryMap: Record<string, string> = {
-      HackerGroup: 'Hacker Group',
-      Software: role === 'Attacker' ? 'Malware' : 'Tool',
-      Domain: 'Domain',
-      Organization: 'Organization',
-      Country: 'Country',
-      Individual: 'Individual',
-      Sector: 'Sector',
-      'Government Body': 'Government Body',
-      Infrastructure: 'Infrastructure',
-      Device: 'Device',
-    };
-    return categoryMap[category] || category;
-  }
-
-  // Calculate risk score based on category and role
   private calculateRiskScore(category: string, role: string): number {
     if (role === 'Attacker') {
       switch (category) {
@@ -109,7 +92,7 @@ export class DataGraphBuilder {
         default:
           return 7.0;
       }
-    } else if (role === 'Victim' || role === 'Target') {
+    } else if (role === 'Target') {
       switch (category) {
         case 'Organization':
           return 8.0;
@@ -138,73 +121,150 @@ export class DataGraphBuilder {
     }
   }
 
-  // Builds graph as two files: nodes.csv, edges.csv
-  // Format example for nodes.csv
-  // Id;Label;EntityType;RiskScore;Date
-  // 1;Sandworm;Hacker Group;9.8;2023-01-10
-  // 2;APT28;Hacker Group;9.5;2023-01-11
-  // 3;Gamaredon;Hacker Group;8.8;2023-02-15
-  // 4;UNC1151;Hacker Group;8.5;2023-03-30
-  // 5;Turla;Hacker Group;9.1;2023-08-09
-  // 6;Укренерго;Target;10.0;2023-10-20
-  // 7;Міністерство оборони;Target;9.8;2023-01-25
-  // 8;ПриватБанк;Target;9.2;2023-04-12
-  // 9;Київстар;Target;9.7;2023-12-12
-  // 10;CERT-UA;Organization;7.5;2023-01-15
-  // 11;ГРУ РФ;State Actor;10.0;2023-01-01
-  // 12;ФСБ РФ;State Actor;10.0;2023-01-01
-  // 13;Industroyer2;Malware;9.6;2023-10-21
-  // 14;CaddyWiper;Malware;8.2;2023-12-11
-  // 15;Pterodo;Malware;7.8;2024-02-19
-  // 16;WhisperGate;Malware;8.9;2023-01-25
-  // 17;Cobalt Strike;Tool;8.0;2023-05-17
-  // 18;Росія;Country;10.0;2023-01-01
-  //
-  // Format example for edges.csv
-  // Source;Target;Weight;EdgeType;Date
-  // 1;11;52;attributed_to;2023-01-10
-  // 2;11;45;attributed_to;2023-01-11
-  // 3;12;38;attributed_to;2023-02-15
-  // 1;6;35;attacks;2023-10-22
-  // 1;13;18;uses_tool;2023-10-21
-  // 13;6;15;used_on;2023-10-22
-  // 2;7;28;attacks;2023-05-18
-  // 3;7;41;attacks;2024-02-20
-  // 4;7;22;attacks;2023-03-30
-  // 9;1;3;victim_of;2023-12-12
-  // 1;14;11;uses_tool;2023-12-11
-  // 14;9;9;used_on;2023-12-12
-  // 11;18;150;part_of;2023-01-01
-  // 12;18;145;part_of;2023-01-01
-  // 10;6;8;warned_about;2023-10-20
-  // 10;7;12;warned_about;2024-01-15
-  // 5;7;7;attacks;2023-08-09
-  // 2;17;25;uses_tool;2023-05-17
-  // 3;15;31;uses_tool;2024-02-19
-  // 16;7;10;used_on;2023-01-25
+  #inferRelationship(
+    entity1: Entity,
+    entity2: Entity
+  ): { source: Entity; target: Entity; edgeType: string } | null {
+    const roles = [entity1.role, entity2.role].sort().join('-');
+    const categories = [entity1.category, entity2.category].sort().join('-');
 
+    // --- Pre-switch special handling for hierarchical relationships ---
+    // This creates structural links regardless of roles.
+    if (
+      categories.includes('Sector') &&
+      (categories.includes('Organization') || categories.includes('Government Body'))
+    ) {
+      const org = entity1.category === 'Sector' ? entity2 : entity1;
+      const sector = entity1.category === 'Sector' ? entity1 : entity2;
+      return { source: org, target: sector, edgeType: 'belongs_to_sector' };
+    }
+
+    switch (roles) {
+      case 'Attacker-Target': {
+        const source = entity1.role === 'Attacker' ? entity1 : entity2;
+        const target = entity1.role === 'Target' ? entity1 : entity2;
+        return { source, target, edgeType: 'attacks' };
+      }
+
+      case 'Attacker-Attacker': {
+        // Priority handling for Sector: Semantically, a Sector is a target,
+        // even if mislabeled as an Attacker. This relationship should be 'attacks'.
+        if (entity1.category === 'Sector' || entity2.category === 'Sector') {
+          const attacker = entity1.category === 'Sector' ? entity2 : entity1;
+          const target = entity1.category === 'Sector' ? entity1 : entity2;
+          return { source: attacker, target: target, edgeType: 'attacks' };
+        }
+
+        // First, handle the special case of collaboration between equal actors
+        if (entity1.category === 'HackerGroup' && entity2.category === 'HackerGroup') {
+          return { source: entity1, target: entity2, edgeType: 'collaborates_with' };
+        }
+
+        // Hierarchical logic to determine the "actor" and the "asset"
+        const categoryPriority: Record<string, number> = {
+          HackerGroup: 1,
+          Individual: 2,
+          Country: 3,
+          'Government Body': 3,
+          Organization: 4, // Attacker organizations
+          Software: 5,
+          Domain: 6,
+          Infrastructure: 6,
+          Device: 6,
+        };
+
+        const priority1 = categoryPriority[entity1.category] || 99;
+        const priority2 = categoryPriority[entity2.category] || 99;
+
+        const actor = priority1 <= priority2 ? entity1 : entity2;
+        const asset = priority1 <= priority2 ? entity2 : entity1;
+
+        // Rule 1: Attribution (who is behind whom)
+        if (
+          ['HackerGroup', 'Individual', 'Organization'].includes(actor.category) &&
+          ['Country', 'Government Body'].includes(asset.category)
+        ) {
+          return { source: actor, target: asset, edgeType: 'is_attributed_to' };
+        }
+
+        // Rule 2: Infrastructure Usage (who uses what)
+        if (
+          ['HackerGroup', 'Individual', 'Country', 'Government Body', 'Organization'].includes(
+            actor.category
+          ) &&
+          ['Software', 'Domain', 'Infrastructure', 'Device'].includes(asset.category)
+        ) {
+          return { source: actor, target: asset, edgeType: 'uses_infrastructure' };
+        }
+
+        // Fallback for other Attacker-Attacker pairs (e.g., two state actors)
+        return { source: actor, target: asset, edgeType: 'collaborates_with' };
+      }
+
+      case 'Attacker-Neutral': {
+        const source = entity1.role === 'Neutral' ? entity1 : entity2;
+        const target = entity1.role === 'Attacker' ? entity1 : entity2;
+        return { source, target, edgeType: 'mentioned_in_context_of' };
+      }
+
+      case 'Neutral-Target': {
+        const source = entity1.role === 'Neutral' ? entity1 : entity2;
+        const target = entity1.role === 'Target' ? entity1 : entity2;
+        return { source, target, edgeType: 'mentioned_in_context_of' };
+      }
+
+      default: {
+        // Covers Neutral-Neutral, Target-Target
+        if (roles === 'Target-Target') {
+          return { source: entity1, target: entity2, edgeType: 'co_targeted' };
+        }
+        // General fallback for any other combination (e.g., Neutral-Neutral)
+        return { source: entity1, target: entity2, edgeType: 'related_to' };
+      }
+    }
+  }
+
+  // nodes.csv
+  // Id;Label;EntityType;RiskScore;Date
+  // 101;Sandworm;Hacker Group;9.8;2024-01-15
+  // 102;APT28;Hacker Group;9.5;2024-02-20
+  // 201;Russian Federation;Country;10.0;2024-01-01
+  // 301;Ukrenergo;Organization;9.9;2024-03-10
+  // 302;Energy Sector;Sector;10.0;2024-01-01
+  // 401;Industroyer2;Malware;9.6;2024-03-05
+  // 501;SBU;Government Body;7.5;2024-01-20
+  // 303;Ministry of Defence of Ukraine;Government Body;9.8;2024-02-21
+  //
+  // edges.csv
+  // Source;Target;Weight;EdgeType;Date
+  // 101;201;55;associated_with;2024-01-15
+  // 102;201;48;associated_with;2024-02-20
+  // 101;401;25;uses_tool;2024-03-05
+  // 101;301;40;attacks;2024-03-10
+  // 401;301;38;attacks;2024-03-11
+  // 301;302;150;belongs_to_sector;2024-01-01
+  // 501;101;12;mentioned_in_context_of;2024-04-05
+  // 102;303;29;attacks;2024-02-22
   async #buildGraph(data: ProcessedIncident[]): Promise<void> {
     const nodeMap = new Map<string, GraphNode>();
-    const edges: GraphEdge[] = [];
+    const edges: Omit<GraphEdge, 'weight'>[] = [];
     let nodeIdCounter = 1;
 
-    // Helper function to get or create node using normalizedName
     const getOrCreateNode = (entity: Entity, date: string): GraphNode => {
-      const entityType = this.mapCategoryToEntityType(entity.category, entity.role);
+      const entityType = entity.category;
       const riskScore = this.calculateRiskScore(entity.category, entity.role);
       const key = `${entityType}:${entity.normalizedName}`;
 
       if (!nodeMap.has(key)) {
         const node: GraphNode = {
           id: nodeIdCounter++,
-          label: entity.name, // Use original name as label
+          label: entity.normalizedName,
           entityType,
           riskScore,
           firstSeenDate: date,
         };
         nodeMap.set(key, node);
       } else {
-        // Update firstSeenDate if this occurrence is earlier
         const existingNode = nodeMap.get(key)!;
         if (
           date !== 'unknown' &&
@@ -216,315 +276,93 @@ export class DataGraphBuilder {
       return nodeMap.get(key)!;
     };
 
-    // Helper function to convert dd.mm.yyyy to ISO 8601 format (yyyy-mm-dd)
     const convertToISO8601 = (dateStr: string): string => {
       if (!dateStr || dateStr === 'unknown') return 'unknown';
-
-      // Check if date is already in ISO format (yyyy-mm-dd or yyyy-mm-ddTHH:MM:SS)
       if (/^\d{4}-\d{2}-\d{2}/.test(dateStr)) {
-        return dateStr.split('T')[0]; // Return just the date part if it includes time
+        return dateStr.split('T')[0];
       }
-
-      // Convert dd.mm.yyyy to yyyy-mm-dd
       const ddmmyyyyPattern = /^(\d{2})\.(\d{2})\.(\d{4})$/;
       const match = dateStr.match(ddmmyyyyPattern);
-
       if (match) {
         const [, day, month, year] = match;
-        // Validate date components
-        const dayNum = parseInt(day, 10);
-        const monthNum = parseInt(month, 10);
-        const yearNum = parseInt(year, 10);
-
-        if (
-          dayNum < 1 ||
-          dayNum > 31 ||
-          monthNum < 1 ||
-          monthNum > 12 ||
-          yearNum < 1900 ||
-          yearNum > 2100
-        ) {
-          throw new Error(
-            `Invalid date components in '${dateStr}': day=${dayNum}, month=${monthNum}, year=${yearNum}`
-          );
-        }
-
         return `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')}`;
       }
-
-      // If format doesn't match expected patterns, throw an error
-      throw new Error(
-        `Unexpected date format: '${dateStr}'. Expected dd.mm.yyyy or yyyy-mm-dd format.`
-      );
+      // Return 'unknown' instead of error for robustness
+      console.warn(`Unexpected date format: '${dateStr}'. Treating as unknown.`);
+      return 'unknown';
     };
 
-    // Process all incidents to extract nodes and edges
+    console.log('Building graph using rule-based relationship inference...');
     for (const incident of data) {
       const date = convertToISO8601(incident.metadata.date || 'unknown');
       const incidentId = incident.metadata.id || 0;
+      const { entities } = incident;
 
-      // Separate entities by role and category
-      const attackers = incident.entities.filter((e) => e.role === 'Attacker');
-      const victims = incident.entities.filter((e) => e.role === 'Victim' || e.role === 'Target');
-      const neutrals = incident.entities.filter((e) => e.role === 'Neutral');
+      // 1. Create all nodes mentioned in the incident
+      entities.forEach((entity) => getOrCreateNode(entity, date));
 
-      // Create nodes for all entities
-      incident.entities.forEach((entity) => {
-        getOrCreateNode(entity, date);
-      });
+      // 2. Generate edges for all unique entity pairs in the incident
+      if (entities.length < 2) continue;
 
-      // Create edges based on relationships
-      const hackerGroups = attackers.filter((e) => e.category === 'HackerGroup');
-      const attackerSoftware = attackers.filter((e) => e.category === 'Software');
-      const attackerDomains = attackers.filter((e) => e.category === 'Domain');
-      const attackerOrgs = attackers.filter((e) => e.category === 'Organization');
-      const attackerCountries = attackers.filter((e) => e.category === 'Country');
-      const attackerGovBodies = attackers.filter((e) => e.category === 'Government Body');
-      const attackerInfrastructure = attackers.filter((e) => e.category === 'Infrastructure');
-      const attackerDevices = attackers.filter((e) => e.category === 'Device');
+      for (let i = 0; i < entities.length; i++) {
+        for (let j = i + 1; j < entities.length; j++) {
+          const entity1 = entities[i];
+          const entity2 = entities[j];
 
-      const targetOrgs = victims.filter((e) => e.category === 'Organization');
-      const targetCountries = victims.filter((e) => e.category === 'Country');
-      const targetDomains = victims.filter((e) => e.category === 'Domain');
-      const targetSoftware = victims.filter((e) => e.category === 'Software');
-      const targetGovBodies = victims.filter((e) => e.category === 'Government Body');
-      const targetSectors = victims.filter((e) => e.category === 'Sector');
-      const targetInfrastructure = victims.filter((e) => e.category === 'Infrastructure');
-      const targetDevices = victims.filter((e) => e.category === 'Device');
-      const targetIndividuals = victims.filter((e) => e.category === 'Individual');
+          const relationship = this.#inferRelationship(entity1, entity2);
 
-      // Combine all target entities for attack relationships
-      const allTargets = [
-        ...targetOrgs,
-        ...targetGovBodies,
-        ...targetSectors,
-        ...targetInfrastructure,
-        ...targetDevices,
-        ...targetIndividuals,
-      ];
+          if (relationship) {
+            const sourceNode = getOrCreateNode(relationship.source, date);
+            const targetNode = getOrCreateNode(relationship.target, date);
 
-      // Hacker groups attack all types of targets
-      for (const group of hackerGroups) {
-        const groupNode = getOrCreateNode(group, date);
-
-        // Attack all target entities
-        for (const target of allTargets) {
-          const targetNode = getOrCreateNode(target, date);
-          edges.push({
-            source: groupNode.id,
-            target: targetNode.id,
-            weight: 1,
-            edgeType: 'attacks',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-
-        // Use attacker software/tools
-        for (const software of attackerSoftware) {
-          const softwareNode = getOrCreateNode(software, date);
-          edges.push({
-            source: groupNode.id,
-            target: softwareNode.id,
-            weight: 1,
-            edgeType: 'uses_tool',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-
-        // Use attacker infrastructure (domains, infrastructure, devices)
-        for (const domain of attackerDomains) {
-          const domainNode = getOrCreateNode(domain, date);
-          edges.push({
-            source: groupNode.id,
-            target: domainNode.id,
-            weight: 1,
-            edgeType: 'uses_infrastructure',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-
-        for (const infra of attackerInfrastructure) {
-          const infraNode = getOrCreateNode(infra, date);
-          edges.push({
-            source: groupNode.id,
-            target: infraNode.id,
-            weight: 1,
-            edgeType: 'uses_infrastructure',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-
-        for (const device of attackerDevices) {
-          const deviceNode = getOrCreateNode(device, date);
-          edges.push({
-            source: groupNode.id,
-            target: deviceNode.id,
-            weight: 1,
-            edgeType: 'uses_device',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-
-        // Attribution to attacker countries
-        for (const country of attackerCountries) {
-          const countryNode = getOrCreateNode(country, date);
-          edges.push({
-            source: groupNode.id,
-            target: countryNode.id,
-            weight: 1,
-            edgeType: 'attributed_to',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-      }
-
-      // Attacker software used against all targets
-      for (const software of attackerSoftware) {
-        const softwareNode = getOrCreateNode(software, date);
-
-        for (const target of allTargets) {
-          const targetNode = getOrCreateNode(target, date);
-          edges.push({
-            source: softwareNode.id,
-            target: targetNode.id,
-            weight: 1,
-            edgeType: 'used_on',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-      }
-
-      // Attacker infrastructure used against targets
-      const attackerInfra = [...attackerDomains, ...attackerInfrastructure, ...attackerDevices];
-      for (const infra of attackerInfra) {
-        const infraNode = getOrCreateNode(infra, date);
-
-        for (const target of allTargets) {
-          const targetNode = getOrCreateNode(target, date);
-          edges.push({
-            source: infraNode.id,
-            target: targetNode.id,
-            weight: 1,
-            edgeType: 'used_against',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-      }
-
-      // All target entities located in/belonging to target countries
-      for (const target of [...targetOrgs, ...targetGovBodies, ...targetInfrastructure]) {
-        const targetNode = getOrCreateNode(target, date);
-
-        for (const country of targetCountries) {
-          const countryNode = getOrCreateNode(country, date);
-          edges.push({
-            source: targetNode.id,
-            target: countryNode.id,
-            weight: 1,
-            edgeType: 'located_in',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-      }
-
-      // Target entities belonging to sectors
-      for (const target of [...targetOrgs, ...targetGovBodies]) {
-        const targetNode = getOrCreateNode(target, date);
-
-        for (const sector of targetSectors) {
-          const sectorNode = getOrCreateNode(sector, date);
-          edges.push({
-            source: targetNode.id,
-            target: sectorNode.id,
-            weight: 1,
-            edgeType: 'belongs_to',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-      }
-
-      // Attacker organizations and government bodies attacking targets
-      const attackerEntities = [...attackerOrgs, ...attackerGovBodies];
-      for (const attacker of attackerEntities) {
-        const attackerNode = getOrCreateNode(attacker, date);
-
-        for (const target of allTargets) {
-          const targetNode = getOrCreateNode(target, date);
-          edges.push({
-            source: attackerNode.id,
-            target: targetNode.id,
-            weight: 1,
-            edgeType: 'attacks',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
-        }
-      }
-
-      // Government bodies related to countries (attribution)
-      for (const govBody of attackerGovBodies) {
-        const govBodyNode = getOrCreateNode(govBody, date);
-
-        for (const country of attackerCountries) {
-          const countryNode = getOrCreateNode(country, date);
-          edges.push({
-            source: govBodyNode.id,
-            target: countryNode.id,
-            weight: 1,
-            edgeType: 'part_of',
-            date,
-            incidentIds: new Set([incidentId]),
-          });
+            // Add edge to temporary list
+            edges.push({
+              source: sourceNode.id,
+              target: targetNode.id,
+              edgeType: relationship.edgeType,
+              date,
+              incidentIds: new Set([incidentId]),
+            });
+          }
         }
       }
     }
 
-    // Aggregate edges by merging incident IDs for duplicate connections
+    // --- Edge aggregation and file writing (logic mostly preserved) ---
+    console.log('Aggregating edges...');
     const edgeMap = new Map<string, GraphEdge>();
     for (const edge of edges) {
+      // Key now includes direction to avoid incorrect merging
       const key = `${edge.source}-${edge.target}-${edge.edgeType}`;
+
       if (edgeMap.has(key)) {
         const existing = edgeMap.get(key)!;
-        // Merge incident IDs
         edge.incidentIds.forEach((id) => existing.incidentIds.add(id));
-        // Update weight to be the count of supporting facts (incidents)
         existing.weight = existing.incidentIds.size;
-        // Keep the earliest date
-        if (edge.date < existing.date && edge.date !== 'unknown') {
+        if (edge.date !== 'unknown' && (existing.date === 'unknown' || edge.date < existing.date)) {
           existing.date = edge.date;
         }
       } else {
-        // Clone the edge with proper weight
         edgeMap.set(key, {
           ...edge,
+          weight: 1, // Initial weight 1
           incidentIds: new Set(edge.incidentIds),
-          weight: edge.incidentIds.size,
         });
       }
     }
 
-    // Write nodes.csv
+    // Write nodes to nodes.csv
     const nodesContent: string[] = ['Id;Label;EntityType;RiskScore;Date'];
     const nodes = Array.from(nodeMap.values()).sort((a, b) => a.id - b.id);
     for (const node of nodes) {
       const riskScore = node.riskScore?.toFixed(1) || '0.0';
       nodesContent.push(
-        `${node.id};${node.label};${node.entityType};${riskScore};${node.firstSeenDate}`
+        `${node.id};"${node.label.replace(/"/g, '""')}";"${node.entityType}";${riskScore};${node.firstSeenDate}`
       );
     }
     await fs.writeFile(`${this.outputDir}/nodes.csv`, nodesContent.join('\n'));
 
-    // Write edges.csv
+    // Write edges to edges.csv
     const edgesContent: string[] = ['Source;Target;Weight;EdgeType;Date'];
     const aggregatedEdges = Array.from(edgeMap.values()).sort((a, b) => {
       if (a.source !== b.source) return a.source - b.source;

@@ -1,6 +1,6 @@
-import type { LlmClient } from "../LlmClient/LlmClient";
-import { getCountryCode, countries } from "countries-list";
-import { extractAndParseJson } from "../utils/validationUtils";
+import type { LlmClient } from '../LlmClient/LlmClient';
+import { extractAndParseJson } from '../utils/validationUtils';
+import { getCountryCode, countries } from 'countries-list';
 
 interface Params {
   llmClient: LlmClient;
@@ -19,7 +19,7 @@ export class CountryNameNormalizer {
 
     const instructions = `
       You should normalize country name to country code from the following list:
-      ${Object.keys(countries).join(", ")}
+      ${Object.keys(countries).join(', ')}
       Please return the extracted information in the exact JSON format specified below and nothing else: 
       { "normalized": "CODE" }
     `;
