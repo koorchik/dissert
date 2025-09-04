@@ -315,6 +315,11 @@ export class DataGraphBuilder {
             const sourceNode = getOrCreateNode(relationship.source, date);
             const targetNode = getOrCreateNode(relationship.target, date);
 
+            // Skip self-referencing edges
+            if (sourceNode.id === targetNode.id) {
+              continue;
+            }
+
             // Add edge to temporary list
             edges.push({
               source: sourceNode.id,
