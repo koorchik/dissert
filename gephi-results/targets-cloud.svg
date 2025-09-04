@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="1554.0228"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css"
+     viewBox="-787.640137 -645.963135 1554.022827 1288.138428"
+     height="1288.1384" preserveAspectRatio="xMidYMid meet"
+     xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#6fcf00" r="1.8474951" cx="631.3034"
+                class="id_1" cy="-100.047264" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="5.1864767" cx="310.10123"
+                class="id_5" cy="-10.008597" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.9019959"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="92.0" cx="46.26801"
+                class="id_32" cy="-99.21076" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="16.0"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="23.921875" cx="147.37302"
+                class="id_33" cy="12.491067" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="4.160326"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="7.9689617" cx="-212.05836"
+                class="id_39" cy="-421.88773" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="1.3859063"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="15.017923" cx="103.63523"
+                class="id_52" cy="96.33933" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="2.6118126"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="5.9284725" cx="56.95265"
+                class="id_110" cy="633.2905" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="1.0310388"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="38.94729" cx="368.31677"
+                class="id_121" cy="306.98746" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="6.773442"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.7749898" cx="-117.884605"
+                class="id_169" cy="209.89867" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.48260692"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.7749898" cx="63.15239"
+                class="id_170" cy="466.42267" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.48260692"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="4.2589817" cx="519.3078"
+                class="id_192" cy="223.58037" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.74069244"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="5.1864767" cx="225.121"
+                class="id_194" cy="-12.462253" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.9019959"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="-221.19402"
+                class="id_213" cy="-510.10196" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="-425.5576"
+                class="id_215" cy="-356.55753" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="-569.7838"
+                class="id_216" cy="-280.71185" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="-293.5507"
+                class="id_217" cy="-465.19116" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="-282.7756"
+                class="id_218" cy="-570.3739" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="-349.0882"
+                class="id_219" cy="-321.33185" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="-361.838"
+                class="id_220" cy="-414.6362" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="-528.32495"
+                class="id_221" cy="-362.43512" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="20.582893" cx="-350.6806"
+                class="id_222" cy="-527.83264" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="3.5796335"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="1.4764969" cx="-122.82982"
+                class="id_227" cy="-630.80554" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="2.589491" cx="-63.78484"
+                class="id_228" cy="-576.48724" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.4503462"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="1.4764969" cx="21.212145"
+                class="id_229" cy="-560.55774" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="2.0329938" cx="154.10959"
+                class="id_230" cy="-615.8703" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.35356414"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="4.8154783" cx="-205.01048"
+                class="id_238" cy="-599.97406" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.8374745"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="12.977433" cx="59.273766"
+                class="id_269" cy="-313.89273" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="2.256945"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.8879838" cx="-486.5453"
+                class="id_287" cy="-292.9971" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.6761711"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.3314867" cx="-410.56952"
+                class="id_305" cy="-171.512" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.4764969" cx="-603.4231"
+                class="id_333" cy="-207.59026" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.403992" cx="-377.37076"
+                class="id_352" cy="396.45764" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.41808555"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-85.591644"
+                class="id_354" cy="291.17603" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="5.5574746" cx="-160.63258"
+                class="id_368" cy="141.53175" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.9665173"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="2.589491" cx="28.307335"
+                class="id_381" cy="-476.37265" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.4503462"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.7024846" cx="-628.82104"
+                class="id_391" cy="-118.043724" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.64391035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="5.3719754" cx="-266.79163"
+                class="id_404" cy="-193.46628" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.93425655"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.7024846" cx="-496.05362"
+                class="id_406" cy="-210.44977" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.64391035"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="4.0734825" cx="84.03745"
+                class="id_420" cy="-237.16798" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.70843166"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.589491" cx="44.455215"
+                class="id_459" cy="-391.3695" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.4503462"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.218493" cx="-255.64017"
+                class="id_565" cy="-91.01442" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.218493" cx="-107.75903"
+                class="id_566" cy="72.88377" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.218493" cx="-244.53749"
+                class="id_567" cy="106.76854" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.218493" cx="-262.0654"
+                class="id_568" cy="5.990432" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.218493" cx="-197.00075"
+                class="id_569" cy="-335.4863" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.218493" cx="-192.51447"
+                class="id_570" cy="-250.7194" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="5.5574746" cx="-473.73358"
+                class="id_571" cy="-116.46061" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.9665173"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.218493" cx="-186.56497"
+                class="id_572" cy="49.423523" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.218493" cx="-199.4964"
+                class="id_573" cy="-154.44075" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#c36277" r="2.218493" cx="-331.4013"
+                class="id_574" cy="-132.94173" stroke="#884453"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.4764969" cx="-256.34747"
+                class="id_586" cy="581.93616" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.4764969" cx="-527.938"
+                class="id_587" cy="361.38843" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.4764969" cx="-334.0656"
+                class="id_588" cy="545.99115" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.4764969" cx="-468.6219"
+                class="id_589" cy="432.28058" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.4764969" cx="-408.5023"
+                class="id_590" cy="490.07776" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="5.9284725" cx="-45.77193"
+                class="id_593" cy="-187.6138" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="1.0310388"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.3314867" cx="-270.66687"
+                class="id_594" cy="-286.05035" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.3314867" cx="-549.27893"
+                class="id_595" cy="-147.58804" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.3314867" cx="-339.38068"
+                class="id_596" cy="-226.93271" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.3314867" cx="-281.65512"
+                class="id_597" cy="-375.13898" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.3314867" cx="66.52078"
+                class="id_598" cy="7.1369267" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.3314867" cx="-413.68542"
+                class="id_599" cy="-259.28592" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="21.695887" cx="244.4485"
+                class="id_623" cy="65.65631" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="3.7731977"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.3314867" cx="569.0464"
+                class="id_658" cy="-39.343243" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.0329938" cx="-16.852867"
+                class="id_685" cy="-642.91766" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.35356414"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="6.855968" cx="-10.961466"
+                class="id_706" cy="549.06805" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="1.1923422"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-400.00266"
+                class="id_707" cy="-76.2834" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.403992" cx="-446.41083"
+                class="id_708" cy="350.57697" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.41808555"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-169.2828"
+                class="id_735" cy="523.05237" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-55.99465"
+                class="id_736" cy="376.74146" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-328.61084"
+                class="id_737" cy="-39.512756" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-222.95235"
+                class="id_738" cy="197.13786" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-265.40347"
+                class="id_739" cy="266.62784" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-389.5814"
+                class="id_740" cy="292.44513" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-172.75179"
+                class="id_741" cy="272.37646" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-634.75085"
+                class="id_742" cy="-32.66735" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-623.52515"
+                class="id_743" cy="131.47847" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-472.385"
+                class="id_744" cy="-27.65939" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-552.7945"
+                class="id_745" cy="-60.67451" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-322.11716"
+                class="id_746" cy="63.465576" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-102.70364"
+                class="id_747" cy="625.59174" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-546.005"
+                class="id_748" cy="109.2133" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-520.84106"
+                class="id_749" cy="197.2698" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-383.41345"
+                class="id_750" cy="119.76141" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-90.22617"
+                class="id_751" cy="540.11505" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-137.82352"
+                class="id_752" cy="362.39633" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-393.40732"
+                class="id_753" cy="20.737797" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-105.45802"
+                class="id_754" cy="452.57837" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-187.52388"
+                class="id_755" cy="433.4054" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-271.07553"
+                class="id_756" cy="406.12723" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-338.55258"
+                class="id_757" cy="227.81215" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-248.71887"
+                class="id_758" cy="497.43823" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="68.52506"
+                class="id_759" cy="548.5151" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-220.29463"
+                class="id_760" cy="341.8343" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-420.03024"
+                class="id_761" cy="207.0088" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-463.09586"
+                class="id_762" cy="136.58414" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-4.8832774"
+                class="id_763" cy="293.74963" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-317.05005"
+                class="id_764" cy="334.04523" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-329.00262"
+                class="id_765" cy="463.0007" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-23.967112"
+                class="id_766" cy="634.2933" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-467.94867"
+                class="id_767" cy="55.967968" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="23.464281"
+                class="id_768" cy="385.2563" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-22.620068"
+                class="id_769" cy="464.34586" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-551.8749"
+                class="id_770" cy="23.792833" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-633.24115"
+                class="id_771" cy="49.491398" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-481.17255"
+                class="id_772" cy="271.1427" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-306.80298"
+                class="id_773" cy="157.98286" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="1.8474951" cx="-179.89914"
+                class="id_774" cy="608.4274" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="3.1459877" cx="15.492657"
+                class="id_786" cy="77.58776" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.54712826"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.218493" cx="479.90027"
+                class="id_794" cy="-391.76297" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="10.936946" cx="173.95801"
+                class="id_798" cy="335.30408" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="1.9020774"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="5.1864767" cx="376.211"
+                class="id_814" cy="438.16318" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.9019959"/>
+        <circle fill-opacity="1.0" fill="#c36277" r="3.3314867" cx="325.38312"
+                class="id_818" cy="380.1627" stroke="#884453"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="1.4764969" cx="303.3755"
+                class="id_823" cy="261.26865" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="1.4764969" cx="292.18256"
+                class="id_824" cy="462.90836" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="1.4764969" cx="426.32855"
+                class="id_825" cy="362.97702" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="1.4764969" cx="371.96362"
+                class="id_826" cy="516.30023" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#77772c" r="1.4764969" cx="227.23587"
+                class="id_827" cy="408.07935" stroke="#53531e"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="1.4764969" cx="257.40738"
+                class="id_828" cy="329.67365" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="1.4764969" cx="450.7463"
+                class="id_829" cy="453.60898" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="0.25678205"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="4.6299796" cx="275.2855"
+                class="id_832" cy="-99.440025" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="0.8052138"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.8879838" cx="555.72754"
+                class="id_871" cy="48.192394" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.6761711"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.8879838" cx="460.5873"
+                class="id_872" cy="173.85413" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.6761711"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.218493" cx="612.53235"
+                class="id_887" cy="161.78574" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.218493" cx="463.17953"
+                class="id_888" cy="285.87866" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.218493" cx="594.1326"
+                class="id_889" cy="243.24115" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="2.0329938" cx="72.70515"
+                class="id_896" cy="-632.64355" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.35356414"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="2.0329938" cx="-142.67543"
+                class="id_897" cy="-537.7241" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.35356414"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="5.9284725" cx="130.86998"
+                class="id_900" cy="-353.2498" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="1.0310388"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="28.37385" cx="155.65358"
+                class="id_929" cy="455.6641" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="4.934582"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="1.661996" cx="101.12266"
+                class="id_959" cy="-541.8482" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.28904277"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.403992" cx="640.9139"
+                class="id_991" cy="-5.138271" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.41808555"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="2.403992" cx="631.72943"
+                class="id_992" cy="81.594284" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.41808555"/>
+        <circle fill-opacity="1.0" fill="#77772c" r="3.1459877" cx="183.53479"
+                class="id_1055" cy="-426.9353" stroke="#53531e"
+                stroke-opacity="1.0" stroke-width="0.54712826"/>
+        <circle fill-opacity="1.0" fill="#c36277" r="3.1459877" cx="306.96304"
+                class="id_1056" cy="-557.2679" stroke="#884453"
+                stroke-opacity="1.0" stroke-width="0.54712826"/>
+        <circle fill-opacity="1.0" fill="#c36277" r="3.1459877" cx="252.62039"
+                class="id_1057" cy="-492.4408" stroke="#884453"
+                stroke-opacity="1.0" stroke-width="0.54712826"/>
+        <circle fill-opacity="1.0" fill="#c36277" r="3.1459877" cx="177.3398"
+                class="id_1058" cy="-520.2372" stroke="#884453"
+                stroke-opacity="1.0" stroke-width="0.54712826"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="9.081956" cx="435.9376"
+                class="id_1059" cy="-134.72348" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.5794705"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="3.1459877" cx="-122.71063"
+                class="id_1062" cy="-369.32767" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.54712826"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="6.855968" cx="-601.17773"
+                class="id_1113" cy="210.70076" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="1.1923422"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="6.4849696" cx="-566.4231"
+                class="id_1246" cy="286.65326" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="1.1278208"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="1.8474951" cx="226.81175"
+                class="id_1261" cy="509.00372" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.3213035"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.516986" cx="481.12393"
+                class="id_1269" cy="3.4724095" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.6116497"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="10.936946" cx="419.59204"
+                class="id_1302" cy="-231.7458" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.9020774"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="4.0734825" cx="-56.91573"
+                class="id_1315" cy="-109.220924" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.70843166"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="4.0734825" cx="-7.880065"
+                class="id_1316" cy="-48.234463" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.70843166"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="4.0734825" cx="-36.965397"
+                class="id_1317" cy="20.383415" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.70843166"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="4.0734825" cx="123.17557"
+                class="id_1318" cy="-164.82375" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.70843166"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.7749898" cx="161.96687"
+                class="id_1414" cy="-259.2716" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.48260692"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="2.0329938" cx="-57.970387"
+                class="id_1419" cy="-495.75162" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="0.35356414"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="6.2994704" cx="-57.952545"
+                class="id_1420" cy="132.16223" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="22.994379" cx="111.5793"
+                class="id_1560" cy="390.9475" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="3.9990225"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="2.218493" cx="457.5771"
+                class="id_1581" cy="79.752556" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="2.218493" cx="353.66074"
+                class="id_1582" cy="-84.2046" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="17.42941" cx="193.73042"
+                class="id_1608" cy="-80.577965" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="3.0312016"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="14.275927" cx="138.86658"
+                class="id_1609" cy="173.24452" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="2.48277"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.3314867" cx="182.0757"
+                class="id_1612" cy="91.959404" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="5.0009775" cx="418.79608"
+                class="id_1633" cy="-44.28023" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.86973524"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.403992" cx="-136.05835"
+                class="id_1683" cy="-452.52118" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.41808555"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.403992" cx="-44.987656"
+                class="id_1684" cy="-417.23422" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.41808555"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.1459877" cx="301.045"
+                class="id_1710" cy="560.5619" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.54712826"/>
+        <circle fill-opacity="1.0" fill="#77772c" r="3.516986" cx="30.533241"
+                class="id_1714" cy="-178.96625" stroke="#53531e"
+                stroke-opacity="1.0" stroke-width="0.6116497"/>
+        <circle fill-opacity="1.0" fill="#77772c" r="4.8154783" cx="502.13165"
+                class="id_1721" cy="-86.17784" stroke="#53531e"
+                stroke-opacity="1.0" stroke-width="0.8374745"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="8.525457" cx="247.09929"
+                class="id_1806" cy="-261.66266" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.4826883"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="9.823951" cx="261.63663"
+                class="id_1807" cy="-400.6621" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.7085131"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.403992" cx="500.46628"
+                class="id_1813" cy="-205.9991" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.41808555"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="5.9284725" cx="223.4083"
+                class="id_1816" cy="597.4427" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="1.0310388"/>
+        <circle fill-opacity="1.0" fill="#ff79fd" r="5.9284725" cx="140.27048"
+                class="id_1817" cy="622.74677" stroke="#b254b1"
+                stroke-opacity="1.0" stroke-width="1.0310388"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="6.6704683" cx="-187.33455"
+                class="id_1857" cy="-35.98589" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.1600815"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.3314867" cx="-107.90035"
+                class="id_1858" cy="-284.6364" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="5.9284725" cx="41.659065"
+                class="id_1869" cy="153.4556" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.0310388"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="24.478373" cx="206.3527"
+                class="id_1893" cy="-169.57138" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="4.257108"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.3314867" cx="384.7914"
+                class="id_1894" cy="32.242134" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.3314867" cx="361.68402"
+                class="id_1895" cy="-167.40485" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.3314867" cx="284.53168"
+                class="id_1896" cy="-182.51752" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.3314867" cx="122.92253"
+                class="id_1897" cy="-73.71959" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="19.284399" cx="-413.95755"
+                class="id_1906" cy="-480.88168" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="3.3538084"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="4.444481" cx="311.31366"
+                class="id_1941" cy="-338.33145" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.77295315"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="4.444481" cx="378.03928"
+                class="id_1942" cy="-513.55347" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.77295315"/>
+        <circle fill-opacity="1.0" fill="#77772c" r="4.444481" cx="403.6572"
+                class="id_1943" cy="-320.62103" stroke="#53531e"
+                stroke-opacity="1.0" stroke-width="0.77295315"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="7.226965" cx="507.53986"
+                class="id_1944" cy="385.33856" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.2568635"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.218493" cx="210.22054"
+                class="id_1998" cy="-333.86038" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.8879838" cx="144.04834"
+                class="id_2267" cy="255.38806" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.6761711"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="2.9604888" cx="239.92505"
+                class="id_2295" cy="158.87323" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.7749898" cx="319.9331"
+                class="id_2298" cy="86.641525" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.48260692"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="2.9604888" cx="389.45032"
+                class="id_2299" cy="128.21658" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="2.9604888" cx="318.418"
+                class="id_2300" cy="173.84128" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.7749898" cx="108.71271"
+                class="id_2309" cy="-450.68137" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.48260692"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.516986" cx="147.89761"
+                class="id_2323" cy="538.6849" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.6116497"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.3314867" cx="231.80896"
+                class="id_2337" cy="-591.2944" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.0329938" cx="547.701"
+                class="id_2357" cy="316.0931" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.35356414"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="5.3719754" cx="335.47253"
+                class="id_2377" cy="-260.78116" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.93425655"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="19.284399" cx="-471.74966"
+                class="id_2383" cy="-425.5111" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="3.3538084"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.9604888" cx="-109.04163"
+                class="id_2499" cy="-18.8685" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.9604888" cx="-33.77512"
+                class="id_2500" cy="206.83705" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.5148676"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="10.936946" cx="222.20024"
+                class="id_2509" cy="241.76508" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="1.9020774"/>
+        <circle fill-opacity="1.0" fill="#00d7ff" r="10.936946" cx="77.92993"
+                class="id_2510" cy="314.70822" stroke="#0096b2"
+                stroke-opacity="1.0" stroke-width="1.9020774"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="12.049939" cx="60.277164"
+                class="id_2511" cy="230.62744" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="2.0956416"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.218493" cx="-35.479473"
+                class="id_2566" cy="-339.03992" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.218493" cx="-137.34555"
+                class="id_2567" cy="-106.54076" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="2.218493" cx="-15.308477"
+                class="id_2568" cy="-263.65036" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="6.2994704" cx="553.5179"
+                class="id_2604" cy="-144.25064" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="6.2994704" cx="481.3089"
+                class="id_2605" cy="-293.03577" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="6.2994704" cx="327.1872"
+                class="id_2606" cy="-450.5239" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="6.2994704" cx="443.3448"
+                class="id_2607" cy="-460.72928" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="6.2994704" cx="570.77167"
+                class="id_2608" cy="-264.3775" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="6.2994704" cx="385.6533"
+                class="id_2609" cy="-396.1912" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="6.2994704" cx="543.6164"
+                class="id_2610" cy="-345.01642" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#0548ff" r="6.2994704" cx="612.6161"
+                class="id_2611" cy="-193.93504" stroke="#0332b2"
+                stroke-opacity="1.0" stroke-width="1.0955601"/>
+        <circle fill-opacity="1.0" fill="#6fcf00" r="3.3314867" cx="394.74097"
+                class="id_2618" cy="226.77419" stroke="#4d9000"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#77772c" r="3.3314867" cx="536.4091"
+                class="id_2619" cy="129.53403" stroke="#53531e"
+                stroke-opacity="1.0" stroke-width="0.579389"/>
+        <circle fill-opacity="1.0" fill="#00c47f" r="2.218493" cx="-124.74465"
+                class="id_2646" cy="-201.19641" stroke="#008958"
+                stroke-opacity="1.0" stroke-width="0.38582483"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="5" x="631.3034" y="-99.12157" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1">
+            Government institutions of Ukr...
+        </text>
+        <text font-size="14" x="310.10123" y="-7.4622107" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_5">
+            Russia
+        </text>
+        <text font-size="240" x="46.26801" y="-55.519356" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_32">
+            Ukraine
+        </text>
+        <text font-size="62" x="147.37302" y="23.969746" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_33">
+            Government bodies of Ukraine
+        </text>
+        <text font-size="21" x="-212.05836" y="-416.959" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_39">
+            Microsoft Exchange Server
+        </text>
+        <text font-size="39" x="103.63523" y="105.37205" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_52">
+            Ukrainian organizations
+        </text>
+        <text font-size="15" x="56.95265" y="636.81104" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_110">
+            Google
+        </text>
+        <text font-size="102" x="368.31677" y="325.5563" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_121">
+            Ukrainian citizens
+        </text>
+        <text font-size="7" x="-117.884605" y="211.51993" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_169">
+            Austrian organizations
+        </text>
+        <text font-size="7" x="63.15239" y="468.06555" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_170">
+            German organizations
+        </text>
+        <text font-size="11" x="519.3078" y="226.12805" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_192">
+            Ukrainian media organizations
+        </text>
+        <text font-size="14" x="225.121" y="-9.200371" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_194">
+            Збройні Сили України
+        </text>
+        <text font-size="8" x="-221.19402" y="-508.24908" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_213">
+            Apache Log4j
+        </text>
+        <text font-size="8" x="-425.5576" y="-355.10245" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_215">
+            MikroTik
+        </text>
+        <text font-size="8" x="-569.7838" y="-279.25677" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_216">
+            Proxmox
+        </text>
+        <text font-size="8" x="-293.5507" y="-463.31354" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_217">
+            ISPmanager
+        </text>
+        <text font-size="8" x="-282.7756" y="-568.9188" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_218">
+            DirectAdmin
+        </text>
+        <text font-size="8" x="-349.0882" y="-319.87677" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_219">
+            Webmin
+        </text>
+        <text font-size="8" x="-361.838" y="-412.78333" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_220">
+            phpMyAdmin
+        </text>
+        <text font-size="8" x="-528.32495" y="-360.6441" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_221">
+            АСКОД
+        </text>
+        <text font-size="54" x="-350.6806" y="-517.8351" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_222">
+            Government bodies
+        </text>
+        <text font-size="4" x="-122.82982" y="-629.8667" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_227">
+            Web resources of government bo...
+        </text>
+        <text font-size="7" x="-63.78484" y="-574.8865" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_228">
+            Міністерство закордонних справ...
+        </text>
+        <text font-size="4" x="21.212145" y="-559.6313" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_229">
+            Міністерство освіти і науки Ук...
+        </text>
+        <text font-size="5" x="154.10959" y="-614.6907" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_230">
+            Служба безпеки України
+        </text>
+        <text font-size="13" x="-205.01048" y="-596.923" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_238">
+            Web resources of government or...
+        </text>
+        <text font-size="34" x="59.273766" y="-306.01807" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_269">
+            Ukrainian government organizat...
+        </text>
+        <text font-size="10" x="-486.5453" y="-291.1449" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_287">
+            Microsoft Office
+        </text>
+        <text font-size="9" x="-410.56952" y="-169.42752" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_305">
+            Adobe Flash Player
+        </text>
+        <text font-size="4" x="-603.4231" y="-206.66318" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_333">
+            Microsoft Equation Editor
+        </text>
+        <text font-size="6" x="-377.37076" y="397.54895" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_352">
+            Mozilla Thunderbird
+        </text>
+        <text font-size="5" x="-85.591644" y="292.10092" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_354">
+            Mozilla Firefox
+        </text>
+        <text font-size="14" x="-160.63258" y="144.81757" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_368">
+            Google Chrome
+        </text>
+        <text font-size="7" x="28.307335" y="-475.07666" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_381">
+            United States
+        </text>
+        <text font-size="10" x="-628.82104" y="-116.22488" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_391">
+            Windows 7
+        </text>
+        <text font-size="14" x="-266.79163" y="-190.8766" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_404">
+            Microsoft Windows
+        </text>
+        <text font-size="10" x="-496.05362" y="-208.59836" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_406">
+            Windows Server 2008
+        </text>
+        <text font-size="11" x="84.03745" y="-235.16725" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_420">
+            India
+        </text>
+        <text font-size="7" x="44.455215" y="-390.11682" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_459">
+            WinRAR
+        </text>
+        <text font-size="6" x="-255.64017" y="-89.90309" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_565">
+            SSL 3.0
+        </text>
+        <text font-size="6" x="-107.75903" y="74.27489" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_566">
+            OpenSSL
+        </text>
+        <text font-size="6" x="-244.53749" y="108.14061" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_567">
+            dnsmasq
+        </text>
+        <text font-size="6" x="-262.0654" y="7.1012716" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_568">
+            SMBv1
+        </text>
+        <text font-size="6" x="-197.00075" y="-334.09567" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_569">
+            Apache HTTP Server
+        </text>
+        <text font-size="6" x="-192.51447" y="-249.32976" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_570">
+            nginx
+        </text>
+        <text font-size="14" x="-473.73358" y="-113.25911" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_571">
+            Internet Explorer
+        </text>
+        <text font-size="6" x="-186.56497" y="50.534363" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_572">
+            Safari
+        </text>
+        <text font-size="6" x="-199.4964" y="-153.34944" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_573">
+            Mozilla
+        </text>
+        <text font-size="6" x="-331.4013" y="-131.53304" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_574">
+            Unify OpenStage Xpert 6010p
+        </text>
+        <text font-size="4" x="-256.34747" y="582.8509" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_586">
+            Apple Mail
+        </text>
+        <text font-size="4" x="-527.938" y="362.1293" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_587">
+            iOS Mail
+        </text>
+        <text font-size="4" x="-334.0656" y="546.7317" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_588">
+            PGP
+        </text>
+        <text font-size="4" x="-468.6219" y="433.02112" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_589">
+            S/MIME
+        </text>
+        <text font-size="4" x="-408.5023" y="491.00516" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_590">
+            OpenPGP
+        </text>
+        <text font-size="15" x="-45.77193" y="-184.09329" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_593">
+            Microsoft Edge
+        </text>
+        <text font-size="9" x="-270.66687" y="-284.38336" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_594">
+            Microsoft Office Services and ...
+        </text>
+        <text font-size="9" x="-549.27893" y="-145.92178" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_595">
+            ChakraCore
+        </text>
+        <text font-size="9" x="-339.38068" y="-225.29575" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_596">
+            .NET Framework
+        </text>
+        <text font-size="9" x="-281.65512" y="-373.05304" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_597">
+            Windows Host Compute Service S...
+        </text>
+        <text font-size="9" x="66.52078" y="9.222864" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_598">
+            VBScript
+        </text>
+        <text font-size="9" x="-413.68542" y="-257.64017" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_599">
+            Win32k
+        </text>
+        <text font-size="57" x="244.4485" y="78.85797" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_623">
+            Telegram
+        </text>
+        <text font-size="9" x="569.0464" y="-37.285137" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_658">
+            explorer.exe
+        </text>
+        <text font-size="5" x="-16.852867" y="-641.99194" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_685">
+            Critical infrastructure in Cen...
+        </text>
+        <text font-size="18" x="-10.961466" y="552.40204" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_706">
+            Microsoft Outlook
+        </text>
+        <text font-size="5" x="-400.00266" y="-75.37398" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_707">
+            FileZilla
+        </text>
+        <text font-size="6" x="-446.41083" y="351.6878" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_708">
+            WinSCP
+        </text>
+        <text font-size="5" x="-169.2828" y="524.2258" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_735">
+            Comodo IceDragon
+        </text>
+        <text font-size="5" x="-55.99465" y="377.65088" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_736">
+            Yandex Browser
+        </text>
+        <text font-size="5" x="-328.61084" y="-38.603333" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_737">
+            Iridium Browser
+        </text>
+        <text font-size="5" x="-222.95235" y="198.2959" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_738">
+            Epic Privacy Browser
+        </text>
+        <text font-size="5" x="-265.40347" y="267.55353" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_739">
+            Chromium
+        </text>
+        <text font-size="5" x="-389.5814" y="293.37085" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_740">
+            7Star Browser
+        </text>
+        <text font-size="5" x="-172.75179" y="273.2859" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_741">
+            Torch Browser
+        </text>
+        <text font-size="5" x="-634.75085" y="-31.741652" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_742">
+            ChromePlus
+        </text>
+        <text font-size="5" x="-623.52515" y="132.3879" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_743">
+            Kometa Browser
+        </text>
+        <text font-size="5" x="-472.385" y="-26.501348" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_744">
+            Amigo Browser
+        </text>
+        <text font-size="5" x="-552.7945" y="-59.765087" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_745">
+            Brave
+        </text>
+        <text font-size="5" x="-322.11716" y="64.39127" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_746">
+            CentBrowser
+        </text>
+        <text font-size="5" x="-102.70364" y="626.50116" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_747">
+            Liebao Browser
+        </text>
+        <text font-size="5" x="-546.005" y="110.12273" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_748">
+            Elements Browser
+        </text>
+        <text font-size="5" x="-520.84106" y="198.17923" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_749">
+            Vivaldi
+        </text>
+        <text font-size="5" x="-383.41345" y="120.68712" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_750">
+            Citrio
+        </text>
+        <text font-size="5" x="-90.22617" y="541.04114" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_751">
+            360 Chrome
+        </text>
+        <text font-size="5" x="-137.82352" y="363.30658" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_752">
+            Uran Browser
+        </text>
+        <text font-size="5" x="-393.40732" y="21.663498" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_753">
+            Chedot
+        </text>
+        <text font-size="5" x="-105.45802" y="453.5045" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_754">
+            Orbitum
+        </text>
+        <text font-size="5" x="-187.52388" y="434.56427" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_755">
+            Sputnik Browser
+        </text>
+        <text font-size="5" x="-271.07553" y="407.30072" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_756">
+            Comodo Dragon
+        </text>
+        <text font-size="5" x="-338.55258" y="228.73785" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_757">
+            CocCoc Browser
+        </text>
+        <text font-size="5" x="-248.71887" y="498.41846" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_758">
+            QIP Surf
+        </text>
+        <text font-size="5" x="68.52506" y="549.4408" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_759">
+            Coowon Browser
+        </text>
+        <text font-size="5" x="-220.29463" y="342.99356" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_760">
+            Opera
+        </text>
+        <text font-size="5" x="-420.03024" y="207.93451" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_761">
+            Claws Mail
+        </text>
+        <text font-size="5" x="-463.09586" y="137.49356" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_762">
+            Postbox
+        </text>
+        <text font-size="5" x="-4.8832774" y="294.65906" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_763">
+            Foxmail
+        </text>
+        <text font-size="5" x="-317.05005" y="335.2045" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_764">
+            Opera Mail
+        </text>
+        <text font-size="5" x="-329.00262" y="463.91013" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_765">
+            PocoMail
+        </text>
+        <text font-size="5" x="-23.967112" y="635.4513" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_766">
+            Becky! Internet Mail
+        </text>
+        <text font-size="5" x="-467.94867" y="57.127228" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_767">
+            OpenVPN
+        </text>
+        <text font-size="5" x="23.464281" y="386.1657" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_768">
+            Paltalk
+        </text>
+        <text font-size="5" x="-22.620068" y="465.2561" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_769">
+            JDownloader
+        </text>
+        <text font-size="5" x="-551.8749" y="24.718533" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_770">
+            SmartFTP
+        </text>
+        <text font-size="5" x="-633.24115" y="50.4171" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_771">
+            FTP Commander
+        </text>
+        <text font-size="5" x="-481.17255" y="272.30157" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_772">
+            WS_FTP
+        </text>
+        <text font-size="5" x="-306.80298" y="158.90857" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_773">
+            FTPGetter
+        </text>
+        <text font-size="5" x="-179.89914" y="609.33685" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_774">
+            Trillian
+        </text>
+        <text font-size="8" x="15.492657" y="79.47513" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_786">
+            Державна служба України з надз...
+        </text>
+        <text font-size="6" x="479.90027" y="-390.65213" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_794">
+            Ukrainian defense sector
+        </text>
+        <text font-size="29" x="173.95801" y="340.49377" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_798">
+            DELTA
+        </text>
+        <text font-size="14" x="376.211" y="440.71185" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_814">
+            Ukrainian telecommunications o...
+        </text>
+        <text font-size="9" x="325.38312" y="381.79965" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_818">
+            MikroTik devices
+        </text>
+        <text font-size="4" x="303.3755" y="262.00922" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_823">
+            Web resources of Ukrainian banks
+        </text>
+        <text font-size="4" x="292.18256" y="463.84717" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_824">
+            Web resources of Ukrainian gov...
+        </text>
+        <text font-size="4" x="426.32855" y="363.7176" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_825">
+            Financial institutions of Ukra...
+        </text>
+        <text font-size="4" x="371.96362" y="517.0408" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_826">
+            State financial institutions o...
+        </text>
+        <text font-size="4" x="227.23587" y="409.01813" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_827">
+            DNS-сервери для зони gov.ua
+        </text>
+        <text font-size="4" x="257.40738" y="330.61243" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_828">
+            inq. Nigeria (AS16284)
+        </text>
+        <text font-size="4" x="450.7463" y="454.5478" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_829">
+            PrivatBank (AS15742)
+        </text>
+        <text font-size="12" x="275.2855" y="-97.218346" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_832">
+            Ukrinform
+        </text>
+        <text font-size="10" x="555.72754" y="50.5394" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_871">
+            Financial organizations of Rus...
+        </text>
+        <text font-size="10" x="460.5873" y="176.17184" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_872">
+            Government bodies and enterpri...
+        </text>
+        <text font-size="6" x="612.53235" y="162.8956" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_887">
+            Russian scientific and technic...
+        </text>
+        <text font-size="6" x="463.17953" y="286.96997" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_888">
+            Russian aviation sector
+        </text>
+        <text font-size="6" x="594.1326" y="244.6308" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_889">
+            Russian government bodies
+        </text>
+        <text font-size="5" x="72.70515" y="-631.5649" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_896">
+            Поліція Польщі
+        </text>
+        <text font-size="5" x="-142.67543" y="-536.5592" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_897">
+            Міністерство оборони України
+        </text>
+        <text font-size="15" x="130.86998" y="-350.5215" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_900">
+            Poland
+        </text>
+        <text font-size="74" x="155.65358" y="469.13562" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_929">
+            UKR.NET
+        </text>
+        <text font-size="4" x="101.12266" y="-540.9094" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_959">
+            Information systems of Ukraini...
+        </text>
+        <text font-size="6" x="640.9139" y="-3.7476459" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_991">
+            Government bodies of European ...
+        </text>
+        <text font-size="6" x="631.72943" y="82.68559" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_992">
+            Latvia
+        </text>
+        <text font-size="8" x="183.53479" y="-425.10587" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1055">
+            високовольтні електричні підст...
+        </text>
+        <text font-size="8" x="306.96304" y="-555.8128" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1056">
+            Windows workstations and servers
+        </text>
+        <text font-size="8" x="252.62039" y="-490.98572" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1057">
+            Linux servers
+        </text>
+        <text font-size="8" x="177.3398" y="-518.4078" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1058">
+            Active network equipment
+        </text>
+        <text font-size="24" x="435.9376" y="-129.16489" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1059">
+            Ukrainian energy sector
+        </text>
+        <text font-size="8" x="-122.71063" y="-367.84656" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1062">
+            Zimbra Collaboration Suite
+        </text>
+        <text font-size="18" x="-601.17773" y="214.83748" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1113">
+            Україна 24
+        </text>
+        <text font-size="17" x="-566.4231" y="289.80066" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1246">
+            TSN
+        </text>
+        <text font-size="5" x="226.81175" y="510.14713" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1261">
+            Municipal enterprises
+        </text>
+        <text font-size="9" x="481.12393" y="5.138669" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1269">
+            Public sector of Ukraine
+        </text>
+        <text font-size="29" x="419.59204" y="-225.11414" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1302">
+            Enterprise accountants
+        </text>
+        <text font-size="11" x="-56.91573" y="-106.67323" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1315">
+            Mongolia
+        </text>
+        <text font-size="11" x="-7.880065" y="-46.23373" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1316">
+            Kazakhstan
+        </text>
+        <text font-size="11" x="-36.965397" y="22.931105" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1317">
+            Kyrgyzstan
+        </text>
+        <text font-size="11" x="123.17557" y="-162.82301" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1318">
+            Israel
+        </text>
+        <text font-size="7" x="161.96687" y="-257.67087" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1414">
+            Ukrainian media representative...
+        </text>
+        <text font-size="5" x="-57.970387" y="-494.57202" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1419">
+            Національний університет оборо...
+        </text>
+        <text font-size="16" x="-57.952545" y="135.07239" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1420">
+            Roundcube
+        </text>
+        <text font-size="60" x="111.5793" y="401.87036" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1560">
+            UKR.NET users
+        </text>
+        <text font-size="6" x="457.5771" y="81.16808" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1581">
+            Посольство Ісламської Республі...
+        </text>
+        <text font-size="6" x="353.66074" y="-83.11329" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1582">
+            Iran
+        </text>
+        <text font-size="45" x="193.73042" y="-70.28744" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1608">
+            WhatsApp
+        </text>
+        <text font-size="37" x="138.86658" y="181.92844" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1609">
+            Signal
+        </text>
+        <text font-size="9" x="182.0757" y="94.07171" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1612">
+            Security and Defense Forces of...
+        </text>
+        <text font-size="13" x="418.79608" y="-41.875526" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1633">
+            Defense forces
+        </text>
+        <text font-size="6" x="-136.05835" y="-451.44745" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1683">
+            PHP
+        </text>
+        <text font-size="6" x="-44.987656" y="-416.12338" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1684">
+            FortiGate
+        </text>
+        <text font-size="8" x="301.045" y="562.43945" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1710">
+            Justice and notary bodies of U...
+        </text>
+        <text font-size="9" x="30.533241" y="-176.86932" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1714">
+            об&apos;єкт критичної енергетичної ...
+        </text>
+        <text font-size="13" x="502.13165" y="-83.31717" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1721">
+            системи дистанційного банківсь...
+        </text>
+        <text font-size="22" x="247.09929" y="-256.63174" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1806">
+            Ukrainian enterprises
+        </text>
+        <text font-size="26" x="261.63663" y="-395.9331" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1807">
+            Financial institutions
+        </text>
+        <text font-size="6" x="500.46628" y="-204.88826" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1813">
+            Government bodies of Poland
+        </text>
+        <text font-size="15" x="223.4083" y="600.221" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1816">
+            EXMO
+        </text>
+        <text font-size="15" x="140.27048" y="625.47504" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1817">
+            Binance
+        </text>
+        <text font-size="17" x="-187.33455" y="-31.995981" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1857">
+            Government organizations
+        </text>
+        <text font-size="9" x="-107.90035" y="-282.55194" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1858">
+            Polish organizations
+        </text>
+        <text font-size="15" x="41.659065" y="156.92972" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1869">
+            Ukrainian military
+        </text>
+        <text font-size="64" x="206.3527" y="-154.65991" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1893">
+            Сили оборони України
+        </text>
+        <text font-size="9" x="384.7914" y="33.879097" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1894">
+            Financial sector
+        </text>
+        <text font-size="9" x="361.68402" y="-165.76788" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1895">
+            Healthcare sector
+        </text>
+        <text font-size="9" x="284.53168" y="-180.40521" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1896">
+            Information technology sector
+        </text>
+        <text font-size="9" x="122.92253" y="-71.66148" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1897">
+            Ukrainian providers
+        </text>
+        <text font-size="50" x="-413.95755" y="-469.14667" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1906">
+            Military formations
+        </text>
+        <text font-size="12" x="311.31366" y="-335.55215" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1941">
+            Ukrainian water supply sector
+        </text>
+        <text font-size="12" x="378.03928" y="-510.77417" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1942">
+            Ukrainian heat supply sector
+        </text>
+        <text font-size="12" x="403.6572" y="-318.4013" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1943">
+            Information and communication ...
+        </text>
+        <text font-size="19" x="507.53986" y="389.68344" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1944">
+            WhatsApp users
+        </text>
+        <text font-size="6" x="210.22054" y="-332.76907" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_1998">
+            Insurance institutions
+        </text>
+        <text font-size="10" x="144.04834" y="257.70578" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2267">
+            Ukrainian defense enterprises
+        </text>
+        <text font-size="8" x="239.92505" y="160.75082" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2295">
+            HFS (HTTP File Server)
+        </text>
+        <text font-size="7" x="319.9331" y="87.915855" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2298">
+            Ukrainian research institutions
+        </text>
+        <text font-size="8" x="389.45032" y="130.10396" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2299">
+            Міністерство оборони Республік...
+        </text>
+        <text font-size="8" x="318.418" y="175.29636" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2300">
+            Armenia
+        </text>
+        <text font-size="7" x="108.71271" y="-449.03845" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2309">
+            Local self-government bodies o...
+        </text>
+        <text font-size="9" x="147.89761" y="540.76935" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2323">
+            Ukrainian enterprises and orga...
+        </text>
+        <text font-size="9" x="231.80896" y="-589.18207" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2337">
+            Government and local self-gove...
+        </text>
+        <text font-size="5" x="547.701" y="317.0188" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2357">
+            Service members
+        </text>
+        <text font-size="14" x="335.47253" y="-257.57965" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2377">
+            Ukrainian enterprises and sole...
+        </text>
+        <text font-size="50" x="-471.74966" y="-413.77606" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2383">
+            Enterprises of key industries
+        </text>
+        <text font-size="8" x="-109.04163" y="-16.990894" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2499">
+            Local self-government bodies
+        </text>
+        <text font-size="8" x="-33.77512" y="208.69122" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2500">
+            Defense departments of other c...
+        </text>
+        <text font-size="29" x="222.20024" y="246.95477" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2509">
+            ТЕНЕТА
+        </text>
+        <text font-size="29" x="77.92993" y="321.3446" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2510">
+            Кропива
+        </text>
+        <text font-size="31" x="60.277164" y="237.81235" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2511">
+            Defense-industrial complex ent...
+        </text>
+        <text font-size="6" x="-35.479473" y="-337.9486" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2566">
+            Forestries
+        </text>
+        <text font-size="6" x="-137.34555" y="-105.44945" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2567">
+            Forensic medical institutions
+        </text>
+        <text font-size="6" x="-15.308477" y="-262.55905" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2568">
+            Factories
+        </text>
+        <text font-size="16" x="553.5179" y="-140.5449" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2604">
+            Energy sector
+        </text>
+        <text font-size="16" x="481.3089" y="-289.33005" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2605">
+            Water supply sector
+        </text>
+        <text font-size="16" x="327.1872" y="-446.81818" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2606">
+            Heat supply sector
+        </text>
+        <text font-size="16" x="443.3448" y="-457.02356" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2607">
+            Ukrainian logistics companies
+        </text>
+        <text font-size="16" x="570.77167" y="-260.67178" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2608">
+            Industrial control systems int...
+        </text>
+        <text font-size="16" x="385.6533" y="-392.48547" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2609">
+            Ukrainian grain handling equip...
+        </text>
+        <text font-size="16" x="543.6164" y="-342.0542" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2610">
+            Serbia
+        </text>
+        <text font-size="16" x="612.6161" y="-190.22672" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2611">
+            Czech Republic
+        </text>
+        <text font-size="9" x="394.74097" y="228.44044" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2618">
+            Notaries of Ukraine
+        </text>
+        <text font-size="9" x="536.4091" y="131.60239" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2619">
+            Державні реєстри України
+        </text>
+        <text font-size="6" x="-124.74465" y="-199.78772" fill="#1e4161"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="id_2646">
+            Оперативне командування «Півде...
+        </text>
+    </g>
+</svg>
