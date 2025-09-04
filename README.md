@@ -1,4 +1,36 @@
-# dissert
+# Constructing Sensitive Data Graphs from Cyber Reports using Large Language Models
+
+## Table of Contents
+
+- [Results](#results)
+  - [Attacks Landscape by Hacker Groups (Red) and Countries (Blue)](#attacks-landscape-by-hacker-groups-red-and-countries-blue)
+  - [Most often targets](#most-often-targets)
+  - [Tools Used by Hacker Groups](#tools-used-by-hacker-groups)
+- [Top Incoming Attacks Analysis](#top-incoming-attacks-analysis)
+  - [KEY METRICS](#key-metrics)
+  - [RESULTS BY ENTITY TYPE - Sector](#results-by-entity-type---sector)
+  - [RESULTS BY ENTITY TYPE - Government Body](#results-by-entity-type---government-body)
+  - [RESULTS BY ENTITY TYPE - Domain](#results-by-entity-type---domain)
+  - [RESULTS BY ENTITY TYPE - Organization](#results-by-entity-type---organization)
+  - [RESULTS BY ENTITY TYPE - Country](#results-by-entity-type---country)
+  - [RESULTS BY ENTITY TYPE - Software](#results-by-entity-type---software)
+  - [RESULTS BY ENTITY TYPE - Infrastructure](#results-by-entity-type---infrastructure)
+  - [RESULTS BY ENTITY TYPE - Device](#results-by-entity-type---device)
+- [Highest Weight Edges Analysis](#highest-weight-edges-analysis)
+  - [KEY METRICS](#key-metrics-1)
+  - [TOP EDGES (OVERALL)](#top-edges-overall)
+  - [EDGES BY TYPE](#edges-by-type)
+- [Active Hacker Groups Analysis](#active-hacker-groups-analysis)
+  - [KEY METRICS](#key-metrics-2)
+  - [Top 10 Most Active Hacker Groups](#top-10-most-active-hacker-groups)
+- [Attack Tools & Software Analysis](#attack-tools--software-analysis)
+  - [KEY METRICS](#key-metrics-3)
+  - [Top 15 Most Used Attack Tools](#top-15-most-used-attack-tools)
+- [Software Under Attack Analysis](#software-under-attack-analysis)
+  - [KEY METRICS](#key-metrics-4)
+  - [Top 10 Most Targeted Software](#top-10-most-targeted-software)
+- [GPT 5 Performance](#gpt-5-performance)
+  - [Entities Normalization Requests](#entities-normalization-requests)
 
 ## Results
 
