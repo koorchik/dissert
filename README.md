@@ -6,6 +6,7 @@
   - [Attacks Landscape by Hacker Groups (Red) and Countries (Blue)](#attacks-landscape-by-hacker-groups-red-and-countries-blue)
   - [Most often targets](#most-often-targets)
   - [Tools Used by Hacker Groups](#tools-used-by-hacker-groups)
+  - [APT-128 Hacker Group Connections](#apt-128-hacker-group-connections)
 - [Top Incoming Attacks Analysis](#top-incoming-attacks-analysis)
   - [KEY METRICS](#key-metrics)
   - [RESULTS BY ENTITY TYPE - Sector](#results-by-entity-type---sector)
@@ -55,6 +56,16 @@
 *Red nodes are hacker groups, blue nodes are tools. Edge thickness represents usage frequency*
 
 ![Tools Used by Hacker Groups](gephi-results/tools-used-by-hacker-groups.png)
+
+### APT-128 Hacker Group Connections
+
+*Network visualization showing APT-128 group connections, tools, and attack patterns*
+
+<div style="background-color: white; padding: 10px; text-align: center;">
+
+![APT-128 Hacker Group Connections](gephi-results/apt-128-hacker-group-connections.svg)
+
+</div>
 
 # Top Incoming Attacks Analysis
 
